@@ -1,0 +1,383 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000362_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000362 - Computacion Evolutiva 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Conocimientos previos recomendados.....................................................................................................................2 4. Competencias y resultados de aprendizaje..............................................................................................................2 5. Descripción de la asignatura y temario.....................................................................................................................3 6. Cronograma.............................................................................................................................................................5 7. Actividades y criterios de evaluación........................................................................................................................7 8. Recursos didácticos................................................................................................................................................10 9. Otra información......................................................................................................................................................10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000362 - Computacion Evolutiva 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Daniel Manrique Gamo (Coordinador/a) D-2109 daniel.manrique@upm.es X - 11:00 - 14:00 J - 11:00 - 14:00 Se puede concertar una tutoría en cualquier momento a través del correo electrónico. * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+> GA_10AJ_103000362 1S_2024-25 Computacion Evolutiva Master Universitario En Inteligencia Artificial Página 1 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 3. Conocimientos previos recomendados 
+
+3.1. Asignaturas previas que se recomienda haber cursado 
+
+El plan de estudios Master Universitario en Inteligencia Artificial no tiene definidas asignaturas previas recomendadas para esta asignatura. 
+
+3.2. Otros conocimientos previos recomendados para cursar la asignatura 
+
+- Funcionamiento básico de redes de neuronas artificiales - Idioma inglés. Aunque la asignatura se imparte en español, gran parte del material bibliográfico a utilizar está en inglés. - Lenguajes formales y gramáticas 
+
+## 4. Competencias y resultados de aprendizaje 
+
+4.1. Competencias 
+
+CEIA5 - Conocimiento las principales técnicas de computación natural, tanto a nivel simbólico como físico, e identificar su idoneidad para distintos tipos de problemas CG10 - Capacidad de pensamiento creativo con el objetivo de desarrollar enfoques y métodos nuevos y originales. CG15 - Capacidad para contribuir al desarrollo futuro de la informática. CG18 - Capacidad de trabajar y comunicarse también en contextos internacionales CG8 - Planteamiento y resolución de problemas también en áreas nuevas y emergentes de su disciplina 
+
+> GA_10AJ_103000362 1S_2024-25 Computacion Evolutiva Master Universitario En Inteligencia Artificial Página 2 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+CG9 - Aplicación de los métodos de resolución de problemas más recientes o innovadores y que puedan implicar el uso de otras disciplinas. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+4.2. Resultados del aprendizaje 
+
+RA12 - Ser capaz de aplicar técnicas de computación evolutiva para resolver problemas para los que no se conoce la solución. RA14 - Ser capaz de manejar fuentes bibliográficas y valorar su importancia para desarrollar trabajos escritos innovadores o que reflejen el estado del arte en computación evolutiva. RA15 - Ser capaz de aprender de forma autónoma y autodirigida. RA16 - Ser capaz de manejar bien los términos y realizar exposiciones en público sobre la temática de la asignatura. RA13 - Ser capaz de conocer las fronteras del conocimiento en computación evolutiva y los límites de aplicación a la construcción de sistemas inteligentes. 
+
+## 5. Descripción de la asignatura y temario 
+
+5.1. Descripción de la asignatura 
+
+La Computación Evolutiva se inspira en los procesos biológicos existentes en la Naturaleza encaminados a la mejora del grado de adaptación al medio de una población de individuos para lograr su prevalencia o subsistencia. La Computación Evolutiva se emplea principalmente en la resolución de problemas de búsqueda y optimización. Para ello, se simula en un computador la existencia de poblaciones de posibles soluciones a un problema (individuos), que evoluciona con el fin de mejorarlas. Esta asignatura presenta dos de las técnicas empleadas en Computación Evolutiva: los Algoritmos Genéticos y la Programación Genética ; las cuales proporcionan mecanismos para la construcción automática de sistemas inteligentes auto-adaptativos, tanto simbólicos (sistemas basados en el conocimiento) como sub-simbólicos (redes de neuronas artificiales). 
+
+> GA_10AJ_103000362 1S_2024-25 Computacion Evolutiva Master Universitario En Inteligencia Artificial Página 3 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+5.2. Temario de la asignatura 
+
+1. Algoritmos genéticos 1.1. Conceptos generales 1.2. Características particulares, codificación del problema y función de evaluación 1.3. Operadores: selección, cruce, mutación y reemplazo 2. Programación genética 2.1. Características 2.2. Programación genética guiada por gramáticas 2.3. Inicialización, cruce y mutación 3. Construcción de sistemas inteligentes mediante computación evolutiva 3.1. Construcción de sistemas inteligentes subsimbólicos (redes de neuronas) 3.2. Construcción de sistemas inteligentes simbólicos 
+
+> GA_10AJ_103000362 1S_2024-25 Computacion Evolutiva Master Universitario En Inteligencia Artificial Página 4 de 10
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 6. Cronograma 
+
+6.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Introducción a los contenidos de la asignatura, normas y formación de grupos de trabajo 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+2
+
+Introducción a los contenidos de la asignatura, normas y formación de grupos de trabajo 
+
+Duración: 02:00 AC: Actividad del tipo Acciones Cooperativas 
+
+3
+
+Exposición en grupo Tema 1 
+
+Duración: 02:00 AIV: Aula invertida 
+
+4
+
+Exposición en grupo Tema 1 
+
+Duración: 02:00 AIV: Aula invertida 
+
+5
+
+Exposición en grupo Tema 1 
+
+Duración: 02:00 AIV: Aula invertida 
+
+6
+
+Exposición en grupo Tema 2 
+
+Duración: 02:00 AIV: Aula invertida 
+
+7
+
+Exposición en grupo Tema 2 
+
+Duración: 02:00 AIV: Aula invertida 
+
+8
+
+Exposición en grupo Tema 2 
+
+Duración: 02:00 AIV: Aula invertida 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Exposiciones en grupo Temas 1 y 2. No recuperable la exposición oral. 
+
+PG: Técnica del tipo Presentación en Grupo Evaluación Progresiva Presencial Duración: 00:00 
+
+9
+
+Exposición en grupo Tema 3 
+
+Duración: 02:00 AIV: Aula invertida 
+
+10 
+
+Exposición en grupo Tema 3 
+
+Duración: 02:00 AIV: Aula invertida 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+GA_10AJ_103000362 1S_2024-25 Computacion Evolutiva Master Universitario En Inteligencia Artificial Página 5 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 11 
+
+Exposición en grupo Tema 3 
+
+Duración: 02:00 AIV: Aula invertida 
+
+12 
+
+Exposición en grupo Tema 3 
+
+Duración: 02:00 AIV: Aula invertida 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+13 
+
+Exposición en grupo Tema 3 
+
+Duración: 02:00 AIV: Aula invertida 
+
+Exposiciones en grupo Tema 3. No recuperable la exposición oral. 
+
+PG: Técnica del tipo Presentación en Grupo Evaluación Progresiva Presencial Duración: 00:00 
+
+14 
+
+Examen Temas 1-3 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Examen Temas 1-3 
+
+EX: Técnica del tipo Examen Escrito Evaluación Progresiva Presencial Duración: 02:00 
+
+15 
+
+Presentación trabajo escrito / práctica 
+
+Duración: 02:00 AC: Actividad del tipo Acciones Cooperativas 
+
+16 
+
+Entrega trabajo escrito / práctica. No recuperable en la evaluación global 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva No presencial Duración: 00:00 
+
+Examen Temas 1-3 
+
+EX: Técnica del tipo Examen Escrito Evaluación Global Presencial Duración: 02:00 
+
+Presentación individual Temas 1-3 
+
+PI: Técnica del tipo Presentación Individual Evaluación Global No presencial Duración: 00:15 
+
+17 
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000362 1S_2024-25 Computacion Evolutiva Master Universitario En Inteligencia Artificial Página 6 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 7. Actividades y criterios de evaluación 
+
+7.1. Actividades de evaluación de la asignatura 
+
+7.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+8
+
+Exposiciones en grupo Temas 1 y 2. No recuperable la exposición oral. 
+
+PG: Técnica del tipo Presentación en Grupo 
+
+Presencial 00:00 20% 4 / 10 CG9 CG18 
+
+13 Exposiciones en grupo Tema 3. No recuperable la exposición oral. 
+
+PG: Técnica del tipo Presentación en Grupo 
+
+Presencial 00:00 20% 4 / 10 CG9 CG18 
+
+14 Examen Temas 1-3 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 02:00 50% 4 / 10 CEIA5 
+
+16 
+
+Entrega trabajo escrito / práctica. No recuperable en la evaluación global 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 10% 4 / 10 
+
+CG15 CGI3 CGI4 CG8 CG10 
+
+7.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+16 Examen Temas 1-3 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 02:00 50% 4 / 10 CEIA5 
+
+16 Presentación individual Temas 1-3 
+
+PI: Técnica del tipo Presentación Individual 
+
+No Presencial 00:15 30% 4 / 10 CG9 CG18 
+
+7.1.3. Evaluación convocatoria extraordinaria 
+
+GA_10AJ_103000362 1S_2024-25 Computacion Evolutiva Master Universitario En Inteligencia Artificial Página 7 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informaticos Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas           
+
+> Entrega trabajo escrito / práctica individual (imprescindible entrega una semana antes del examen de la convocatoria extraordinaria).
+> TI: Técnica del tipo Trabajo Individual
+> Presencial 00:00 10% 4 / 10
+> CG15 CGI3 CGI4 CG8 CG10
+> Examen Temas 1-3
+> EX: Técnica del tipo Examen Escrito
+> Presencial 02:00 50% 4 / 10
+> CG9 CEIA5 CG18
+> Presentación individual Temas 1-3 (imprescindible entrega una semana antes de la celebración del examen escrito).
+> PI: Técnica del tipo Presentación Individual
+> Presencial 00:15 30% 4 / 10 CG9 CG18
+
+7.2. Criterios de evaluación 
+
+El sistema de evaluación progresiva de la asignatura incluye las siguientes actividades de evaluación: 1. Asistencia regular a clase (actividad presencial en aula). 2. Dado que la impartición de la asignatura emplea la técnica docente Aula Invertida, los alumnos, divididos en grupos de trabajo, realizan una o dos exposiciones orales en público de los temas 1, 2 y 3; con la posibilidad de ser preguntados por el resto de alumnos o el profesor. Esta actividad tiene una ponderación total del 40% sobre la calificación final de la asignatura, siendo necesario obtener una calificación igual o superior a 4 puntos sobre 10. Dado que las circunstancias que concurren en estas presentaciones (público y preguntas) solo pueden producirse durante la impartición de la asignatura, el 10% de la calificación de esta actividad evaluable no es recuperable en la evaluación global ni en la evaluación de la convocatoria extraordinaria. 3. Realizar un examen de los Temas 1-3. Esta actividad tiene una ponderación del 50% sobre la calificación final de la asignatura, siendo necesario obtener una calificación igual o superior a 4 puntos sobre 10. 4. Presentar en público y elaborar un trabajo escrito o práctica propuesto por los alumnos o el profesor que permita profundizar en algún tema relacionado con los contenidos de la asignatura. La realización de la práctica consiste en implementar alguno de los algoritmos estudiados en la asignatura u otros relacionados y aplicarlo a algún problema concreto. En este caso, además de la presentación, se debe entregar una memoria explicando el trabajo realizado y los resultados obtenidos en el problema concreto al que se haya aplicado. En el caso de realizar un trabajo escrito, además de la presentación, se debe entregar una memoria. Se valorará especialmente que el contenido resulte innovador o suponga un estado del arte en el tema del trabajo. Esta actividad tiene una ponderación del 10% sobre la calificación final de la asignatura, 
+
+GA_10AJ_103000362 1S_2024-25 Computacion Evolutiva Master Universitario En Inteligencia Artificial Página 8 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+siendo necesario obtener una calificación igual o superior a 4 puntos sobre 10. Dado que el trabajo escrito o la práctica se evalúa al final del semestre, no hay tiempo para rehacerlo una vez se publiquen las calificaciones, por lo que es no recuperable en la evaluación global. Evaluación global: En caso de no alcanzar la nota mínima de 4 puntos sobre 10 en la(s) exposición(es) oral(es) en grupo o examen de los temas 1-3 durante la evaluación progresiva, el alumno debe presentarse obligatoriamente en la evaluación global a aquella(s) prueba(s) en la(s) que no haya alcanzado dicha nota mínima. La(s) exposición(es) orales en grupo correspondientes a los temas 1-3 se sustituye(n), en la convocatoria ordinaria, por una presentación individual (vídeo o diapositivas), narrada por el alumno, con una duración de 15 minutos y sobre un tema de la asignatura a elegir por el profesor. En este caso, la actividad evaluable tiene una ponderación del 30%, dado que hay un 10% no recuperable. El examen de los temas 1-3 en la evaluación global mantiene su ponderación del 50%. El trabajo escrito o práctica no es recuperable en la evaluación global. Se mantiene la obligatoriedad de obtener una calificación mínima de 4 puntos sobre 10 en las actividades de la evaluación global como condición necesaria para poder aprobar la asignatura. Evaluación convocatoria extraordinaria: En caso de no aprobar la asignatura (calificación final inferior a 5 puntos sobre 10) en la evaluación progresiva o global, el alumno puede realizar cualquiera de las tres actividades evaluables en la evaluación de la convocatoria extraordinaria (exposición(es), examen de los temas 1-3 y trabajo escrito o práctica), siendo obligatorio, para poder aprobar la asignatura, realizar aquellas actividades en las que haya obtenido una calificación inferior a 4 puntos sobre 10 en su última evaluación. La(s) exposición(es) oral(es) en público se sustituye(n), en la convocatoria extraordinaria, por una presentación individual (vídeo o diapositivas), narrada por el alumno, con una duración de 15 minutos y sobre un tema de la asignatura a elegir por el profesor. En este caso, la actividad evaluable tiene una ponderación del 30%, dado que hay un 10% no recuperable. El trabajo escrito o práctica es, en este caso, individual, no requiere realizar su presentación y mantiene la ponderación del 10% en la calificación final de la asignatura. El examen de los temas 1-3 también mantiene su ponderación del 50% en la calificación final de la asignatura en la convocatoria extraordinaria. Es imprescindible entregar tanto la presentación individual como el trabajo escrito o práctica individual una semana antes de la celebración del examen correspondiente a la convocatoria extraordinaria. En cualquier convocatoria o sistema de evaluación, para poder aprobar la asignatura, es necesario obtener una calificación igual o superior a 5 puntos sobre un total de 10 como resultado de la media ponderada de la última calificación obtenida en cada una de las actividades evaluables (de acuerdo con las ponderaciones establecidas), 
+
+> GA_10AJ_103000362 1S_2024-25 Computacion Evolutiva Master Universitario En Inteligencia Artificial Página 9 de 10
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos siempre y cuando se haya obtenido una nota mínima de 4 puntos sobre 10 en cada una de ellas. Si no se supera alguna de las calificaciones mínimas establecidas en las actividades de evaluación, se obtendrá una puntuación máxima de 4 puntos sobre 10 (suspenso) en la asignatura, dentro de la convocatoria o sistema de evaluación que se trate. No se tendrán en cuenta calificaciones obtenidas en cursos anteriores. 
+
+## 8. Recursos didácticos 
+
+8.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+Plataforma de tele-enseñanza Moodle-UPM Recursos web Zoom o Microsoft Teams Recursos web Salas de trabajo en grupo Equipamiento 
+
+## 9. Otra información 
+
+9.1. Otra información sobre la asignatura 
+
+En esta asignatura se implementa la metodología docente innovadora Aula Invertida con el fin de motivar y reforzar el aprendizaje. En ella, los alumnos, divididos en grupos de trabajo, realizan una o dos exposiciones orales en público sobre los contenidos incluidos en el temario de la 
+
+asignatura. 
+
+La asignatura se relaciona con el ODS9 "Objetivo de Desarrollo Sostenible 9" (Industria, innovación e infraestructura) definido por el Programa de las Naciones Unidas para el Desarrollo (www.undp.org) en lo referente a innovación e investigación científica en tecnologías de la información. 
+
+La información recogida en esta guía de aprendizaje es preliminar, orientativa, por lo que está sujeta a posibles cambios que, en su caso, serán anunciados. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000362 1S_2024-25 Computacion Evolutiva Master Universitario En Inteligencia Artificial Página 10 de 10

@@ -1,0 +1,370 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000720_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informáticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000720 - Ciencia De La Web 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Conocimientos previos recomendados.....................................................................................................................2 4. Competencias y resultados de aprendizaje..............................................................................................................2 5. Descripción de la asignatura y temario.....................................................................................................................3 6. Cronograma.............................................................................................................................................................5 7. Actividades y criterios de evaluación........................................................................................................................8 8. Recursos didácticos................................................................................................................................................10 9. Otra información......................................................................................................................................................11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000720 - Ciencia de la Web 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - E.T.S. De Ingenieros Informáticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Oscar Corcho Garcia (Coordinador/a) 2209 oscar.corcho@upm.es L - 10:00 - 19:45 Javier Bajo Perez javier.bajo@upm.es Sin horario. Jacinto Gonzalez Pachon jacinto.gonzalez.pachon@up m.es Sin horario. 
+
+> GA_10AJ_103000720 1S_2024-25 Ciencia De La Web Master Universitario En Inteligencia Artificial Página 1 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+Pablo Calleja Ibañez p.calleja@upm.es Sin horario. * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+## 3. Conocimientos previos recomendados 
+
+3.1. Asignaturas previas que se recomienda haber cursado 
+
+El plan de estudios Master Universitario en Inteligencia Artificial no tiene definidas asignaturas previas recomendadas para esta asignatura. 
+
+3.2. Otros conocimientos previos recomendados para cursar la asignatura 
+
+- Tecnologías Web 
+
+## 4. Competencias y resultados de aprendizaje 
+
+4.1. Competencias 
+
+CG10 - Capacidad de pensamiento creativo con el objetivo de desarrollar enfoques y métodos nuevos y originales. CG12 - Comprensión amplia de las técnicas y métodos aplicables en una especialización concreta, así como de sus límites. CGI1 - Adquirir conocimientos científicos avanzados del campo de la informática que le permitan generar nuevas ideas dentro de una línea de investigación. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+> GA_10AJ_103000720 1S_2024-25 Ciencia De La Web Master Universitario En Inteligencia Artificial Página 2 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+4.2. Resultados del aprendizaje 
+
+RA89 - Ser capaz de analizar y diseñar sociedades artificiales en entornos web RA56 - Ser capaz de entender el comportamiento y auto-organización de sistemas complejos compuestos de múltiples agentes RA88 - Ser capaz de analizar y diseñar soluciones de recuperación de información, análisis de sentimientos y mecanismos de recomendación RA87 - Ser capaz de entender el paradigma de la Web Science 
+
+## 5. Descripción de la asignatura y temario 
+
+5.1. Descripción de la asignatura 
+
+El objetivo de esta asignatura es que el alumno sea capaz de entender el paradigma de la Ciencia de la Web (Web Science ), siendo capaz asimismo de analizar y diseñar soluciones de recuperación de información, análisis de sentimientos y mecanismos de recomendación, entender el comportamiento y auto-organización de sistemas complejos compuestos de múltiples agentes, y analizar y diseñar sociedades artificiales en entornos web 
+
+5.2. Temario de la asignatura 
+
+1. Introducción 1.1. Introducción a la Ciencia de la Web (Web Science) 2. Mecanismos de diseño de sistemas de Web Science 2.1. Fundamentos del procesamiento de contenidos Web a gran escala para el diseño de sistemas de Web Science 2.2. Aplicaciones: Sistemas de recomendación y análisis de sentimientos 2.3. Técnicas de procesamiento de lenguaje natural a gran escala para el diseño de sistemas de Web Science 3. Computación Social 3.1. Introducción a la computación social 3.2. Sociedades artificiales. Sistemas auto-organizativos. Interacción humano-máquina 3.3. Mecanismos de reputación y confianza 
+
+> GA_10AJ_103000720 1S_2024-25 Ciencia De La Web Master Universitario En Inteligencia Artificial Página 3 de 11
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informáticos 3.4. Ciencia ciudadana 4. Sociedades artificiales 4.1. Mecanismos de agregación de preferencias en sociedades artificiales 
+
+GA_10AJ_103000720 1S_2024-25 Ciencia De La Web Master Universitario En Inteligencia Artificial Página 4 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 6. Cronograma 
+
+6.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Tema 1.1. Introducción a la Ciencia de la Web (Web Science) 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Tema 2.1 Fundamentos de tratamiento de contenidos Web a gran escala 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+2
+
+Tema 2.2. Aplicaciones: Sistemas de recomendación y Análisis de sentimientos 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+Presentación sobre el trabajo realizado en grupos en relación con el bloque de introducción 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Presentación sobre el trabajo realizado en grupos en relación con el bloque de introducción 
+
+PG: Técnica del tipo Presentación en Grupo Evaluación Progresiva Presencial Duración: 02:00 
+
+3
+
+Tema 2.3. Técnicas de procesamiento de lenguaje natural a gran escala 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+Tema 2.3. Técnicas de procesamiento de lenguaje natural a gran escala 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+GA_10AJ_103000720 1S_2024-25 Ciencia De La Web Master Universitario En Inteligencia Artificial Página 5 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 4
+
+Tema 3.1. Introducción a la computación social 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Tema 2.3. Técnicas de procesamiento de lenguaje natural a gran escala 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+5
+
+Tema 3.2. Sociedades artificiales. Sistemas auto-organizativos. Interacción humano-máquina 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Entrega de trabajo relacionado con el tema 2 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva No presencial Duración: 00:00 
+
+6
+
+Tema 3.2. Sociedades artificiales. Sistemas auto-organizativos. Interacción humano-máquina 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Tema 3.3. Mecanismos de reputación y confianza 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+7
+
+Tema 3.3. Mecanismos de reputación y confianza 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Tema 3.4. Ciencia Ciudadana 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Entrega de trabajo relacionado con el tema 3 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva No presencial Duración: 00:00 
+
+8
+
+Tema 4.1. Mecanismos de agregación de preferencias en sociedades artificiales 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Tema 4.1. Mecanismos de agregación de preferencias en sociedades artificiales 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Tutorías en grupo / Group-based help sessions 
+
+Duración: 10:00 OT: Otras actividades formativas / Evaluación 
+
+Entrega de trabajo relacionado con el tema 4 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva No presencial Duración: 00:00 
+
+GA_10AJ_103000720 1S_2024-25 Ciencia De La Web Master Universitario En Inteligencia Artificial Página 6 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 9
+
+> 10
+> 11
+> 12
+> 13
+> 14
+> 15
+> 16
+> 17
+> Evaluación global
+> Duración: 02:00 OT: Otras actividades formativas / Evaluación
+> Evaluación final
+> EX: Técnica del tipo Examen Escrito Evaluación Global Presencial Duración: 00:00
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000720 1S_2024-25 Ciencia De La Web Master Universitario En Inteligencia Artificial Página 7 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 7. Actividades y criterios de evaluación 
+
+7.1. Actividades de evaluación de la asignatura 
+
+7.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+2
+
+Presentación sobre el trabajo realizado en grupos en relación con el bloque de introducción 
+
+PG: Técnica del tipo Presentación en Grupo 
+
+Presencial 02:00 10% 0 / 10 CGI3 CGI4 
+
+5 Entrega de trabajo relacionado con el tema 2 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 35% 0 / 10 
+
+CG10 CG12 CGI1 
+
+7 Entrega de trabajo relacionado con el tema 3 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 35% 0 / 10 
+
+CG10 CG12 CGI1 
+
+8 Entrega de trabajo relacionado con el tema 4 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 20% 0 / 10 
+
+CG10 CG12 CGI1 
+
+7.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+17 Evaluación final 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 00:00 100% 5 / 10 
+
+CG10 CG12 CGI1 CGI3 CGI4 
+
+7.1.3. Evaluación convocatoria extraordinaria 
+
+GA_10AJ_103000720 1S_2024-25 Ciencia De La Web Master Universitario En Inteligencia Artificial Página 8 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS          
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas
+> Evaluación final extraordinaria
+> TI: Técnica del tipo Trabajo Individual
+> Presencial 00:00 100% 5 / 10
+> CG10 CG12 CGI1 CGI3 CGI4
+
+7.2. Criterios de evaluación 
+
+La calificación final en este curso se obtendrá a partir de los resultados alcanzados en las actividades realizadas en clase y un conjunto de prácticas o trabajos teóricos sobre los distintos temas abordados, según los porcentajes indicados a continuación. 
+
+Actividades en clase 
+
+A lo largo del semestre, especialmente tras la presentación de nuevos temas, los alumnos deben prepararse el/los artículos seleccionados por los profesores con el objetivo de extraer los contenidos más relevantes y aportar su valoración personal sobre los mismos, así como otros aspectos a comentar o discutir. Durante la clase los profesores guiarán la discusión y evaluarán los comentarios de los alumnos. Se espera que todos los alumnos estén preparados para participar en la discusión, por lo que los profesores podrán interpelar directamente a los alumnos para que todos puedan ser evaluados. 
+
+Trabajos sobre temas de la asignatura 
+
+En grupos de 2 o 3 alumnos, los alumnos deben entregar (o presentar): Presentación oral de un trabajo sobre el paradigma de web science. Documentación escrita, o diseño e implementación, de un trabajo sobre mecanismos de diseño de sistemas de Web Science. Documentación escrita, o diseño e implementación, de un trabajo sobre computación social. Documentación escrita, o diseño e implementación, de un trabajo sobre mecanismos de agregación de preferencias. 
+
+> GA_10AJ_103000720 1S_2024-25 Ciencia De La Web Master Universitario En Inteligencia Artificial Página 9 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## 8. Recursos didácticos 
+
+8.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+Libro1 Bibliografía Robertson D. and Giunchiglia F. Programming the social computer. Phil. Trans. R. Soc. A 371, 20120379. Artículo1 Bibliografía Wang F.Y, Carley K.M., Zeng D. and Mao W. (2007). Social Computing: From Social Informatics to Social Intelligence. IEEE Intelligent Systems 22(2) pp. 79-83. Libro2 Bibliografía Subhasish Dasgupta. Social Computing: Concepts, Methodologies, Tools, and Applications. IGI Global. 2010. ISBN: 9781605669847. Artículo2 Bibliografía M Wooldridge, NR Jennings. Intelligent agents: Theory and practice. Knowledge engineering review 10 (2), 115-152 Libro3 Bibliografía M. Wooldridge. An Introduction to MultiAgent Systems. John Wiley & Sons. 2009. 978-0470519462. Libro4 Bibliografía Y. Shoham, K. Leyton-Brown. Multiagent Systems. Algorithmic, Game-Theoretic, and Logical Foundations. Cambridge University Press. 2009. ISBN: 978-0521899437 Libro5 Bibliografía G. Weiss. Multiagent Systems. MIT Press. 2013. ISBN 978-0-262-01889-0 Libro6 Bibliografía Hwang, C-H.; Lin, M-J. (1987). Group decision making under multiple criteria. Springer-Verlag, Berlín 
+
+> GA_10AJ_103000720 1S_2024-25 Ciencia De La Web Master Universitario En Inteligencia Artificial Página 10 de 11
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informáticos Artículo3 Bibliografía González-Pachón, J; Romero, C. (2009) Aggregation of Ordinal and Cardinal Preferences: A Framework Based on Distance Functions, Journal of Multi-criteria Decision Analysis 15: 79-85. Artículo4 Bibliografía Adomavicius, G.; Tuzhilin, A. (June 2005). "Toward the Next Generation of Recommender Systems: A Survey of the State-of-the-Art and Possible Extensions". IEEE Transactions on Knowledge and Data Engineering 17 (6): 734?749. doi:10.1109/TKDE.2005.99. 
+
+## 9. Otra información 
+
+9.1. Otra información sobre la asignatura 
+
+Esta asignatura no se trabaja con ningún ODS específico. Entre los profesores de la asignatura se encuentra Pablo Calleja Ibáñez, profesor ayudante doctor contratado por UPM con fecha de ingreso 1 de septiembre de 2023 (no aparece en el listado de profesores del departamento seleccionables en el apartado "Profesorado") 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000720 1S_2024-25 Ciencia De La Web Master Universitario En Inteligencia Artificial Página 11 de 11

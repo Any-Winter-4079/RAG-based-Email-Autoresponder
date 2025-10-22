@@ -1,0 +1,421 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000363_1S_2024-25.pdf
+
+Markdown Content:
+COORDINATION PROCESS OF LEARNING ACTIVITIES PR/CL/001 
+
+E.T.S. de Ingenieros Informáticos 
+
+# ANX-PR/CL/001-01 LEARNING GUIDE 
+
+SUBJECT 
+
+103000363 - Programmable Biology: Dna Computing Amd Biocircuits Engineering 
+
+DEGREE PROGRAMME 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+ACADEMIC YEAR & SEMESTER 
+
+2024/25 - Semester 1 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informáticos
+
+## Index 
+
+Learning guide 
+
+1. Description...............................................................................................................................................................1 2. Faculty.....................................................................................................................................................................1 3. Skills and learning outcomes ...................................................................................................................................2 4. Brief description of the subject and syllabus.............................................................................................................3 5. Schedule..................................................................................................................................................................6 6. Activities and assessment criteria............................................................................................................................8 7. Teaching resources.................................................................................................................................................11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informáticos
+
+## 1. Description 
+
+1.1. Subject details 
+
+Name of the subject 103000363 - Programmable Biology: Dna Computing Amd Biocircuits Engineering 
+
+No of credits 5 ECTS 
+
+Type Optional 
+
+Academic year ot the programme First year 
+
+Semester of tuition Semester 1 
+
+Tuition period September-January 
+
+Tuition languages English 
+
+Degree programme 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centre 10 - E.T.S. De Ingenieros Informáticos 
+
+Academic year 2024-25 
+
+## 2. Faculty 
+
+2.1. Faculty members with subject teaching role 
+
+Name and surname Office/Room Email Tutoring hours * 
+
+Alfonso Vicente Rodriguez-Paton Aradas (Subject coordinator) 2106 alfonso.rodriguez-paton@upm.es M - 17:00 - 19:00 * The tutoring schedule is indicative and subject to possible changes. Please check tutoring times with the faculty member in charge. 
+
+> GA_10AJ_103000363 1S_2024-25 Programmable Biology: Dna Computing Amd Biocircuits Engineering Master Universitario En Inteligencia Artificial Page 1 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informáticos
+
+## 3. Skills and learning outcomes * 
+
+3.1. Skills to be learned 
+
+CEIA1 - Capacidad de integrar tecnologías y sistemas propios de la Inteligencia Artificial, con carácter generalista, y en contextos más amplios y multidisciplinares CEIA2 - Capacidad de conectar la tecnología puntera en Inteligencia Artificial con las necesidades de los clientes CEIA5 - Conocimiento las principales técnicas de computación natural, tanto a nivel simbólico como físico, e identificar su idoneidad para distintos tipos de problemas CG15 - Capacidad para contribuir al desarrollo futuro de la informática. CG18 - Capacidad de trabajar y comunicarse también en contextos internacionales CG6 - Gestión de la información. CG8 - Planteamiento y resolución de problemas también en áreas nuevas y emergentes de su disciplina CG9 - Aplicación de los métodos de resolución de problemas más recientes o innovadores y que puedan implicar el uso de otras disciplinas. CGI1 - Adquirir conocimientos científicos avanzados del campo de la informática que le permitan generar nuevas ideas dentro de una línea de investigación. CGI2 - Comprender el procedimiento, valor y límites del método científico en el campo de la Informática, siendo capaz de identificar, localizar y obtener datos requeridos en un trabajo de investigación, de diseñar y guiar investigaciones analíticas, de modelado y experimentales, así como de evaluar datos de una manera crítica y extraer conclusiones. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+> GA_10AJ_103000363 1S_2024-25 Programmable Biology: Dna Computing Amd Biocircuits Engineering Master Universitario En Inteligencia Artificial Page 2 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informáticos
+
+3.2. Learning outcomes 
+
+RA90 - Comprender co?mo se pueden disen?ar e implementar bioalgoritmos que emplean mole?culas de ADN como sustrato (memoria). RA91 - Disen?ar circuitos lo?gicos biomoleculares sinte?ticos operando : (1) con ADN/ARN o (2) con protei?nas RA92 - Comprender co?mo las ce?lulas procesan informacio?n codificada en biomole?culas y toman decisiones. RA4 - Valorar la importancia de las fuentes documentales y seleccionar aquéllas que sean más interesantes para publicar sus trabajos RA3 - Abordar los aspectos formales del proyecto inicial de una investigación RA2 - Establecer un debate fundamentado sobre el conocimiento científico y las bases de la investigación * The Learning Guides should reflect the Skills and Learning Outcomes in the same way as indicated in the Degree Verification Memory. For this reason, they have not been translated into English and appear in Spanish. 
+
+## 4. Brief description of the subject and syllabus 
+
+4.1. Brief description of the subject 
+
+In this course we will study the basic concepts and topics of Biomolecular Computing, Synthetic Biology and Programmable Biology. 
+
+What is Synthetic Biology? It is the engineering of biology: the application of the engineering principles in biology to design and build biological systems.This field considers biology as a technology that can be programmed to manufacture new synthetic biological devices and systems. This field was born in 2000 in MIT Artificial Intelligence Lab where engineers, computer scientists, and physicists started to work jointly with biologists. Engineers asked this question: can we combine natural living hardware components (mainly genes) to build new synthetic biological systems? Can we design and write genetic programs in DNA (the software) to be run in a cellular processor (the hardware)? The answer was yes. The biotechnology and genetic engineering tools were already available. The first synthetic devices were developed in 2000: a genetic memory (Gardner, Cantor, & Collins, 2000), an oscillatory genetic circuit (Elowitz et al. 2000) and several genetic Boolean logic gates (Hasty, McMillen, & Collins, 2002; Weiss et al., 2003). 
+
+> GA_10AJ_103000363 1S_2024-25 Programmable Biology: Dna Computing Amd Biocircuits Engineering Master Universitario En Inteligencia Artificial Page 3 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informáticos
+
+From single cell biocircuits to multicell biocircuits: recent efforts in synthetic biology are moving into the engineering of distributed biocircuits encoded in multicell populations. Multicellular synthetic circuits exploit the ability of the single cells to communicate with its peers to achieve robust dynamics in engineered populations. 
+
+Quorum sensing circuits are the most noticeable example of this tendency, with great efforts going into the study of artificial pattern-formation, division of labour or bio-computation. We will also analyze software tools like 
+
+individual-based simulators able to model multicellular bacterial programmed populations and tissues. 
+
+RNA Synthetic Biology: traditionally, transcriptional and translational RNA regulators have performed worse than protein regulators in terms of ON/OFF switching range. But recently, the engineering of new robust RNA switches 
+
+have overcome this problem. These bio-switches can be flipped ON or OFF with high speed and high fidelity. Some of theses new synthetic RNA switches act transcriptionally (STARs and CRISPRi) and others act translationally (Toehold Switches). The results obtained in terms of dynamic range response and expression rates make them an interesting tool to reach robust and fast genetic circuits (Chappell, Takahashi, & Lucks, 2015; Green, Silver, Collins, & Yin, 2014) . On the other hand, RNA molecules can be used as effective and orthogonal wiring signals due to their size and to their high programmability. Moreover, RNA circuits are more compact than protein-based ones so that implies a reduced metabolic burden on the cell host and allow for faster propagation of signals. Finally, it is already known that CRISPR is not only a powerful gene-editing tool but it can also be used as a precise and programmable computing tool, so this open a new research line in the SynBio framework. 
+
+Biomolecular computing : is the term used for information processing encoded in biological macromolecules. A bio-molecular computer is a device made with these biomolecules that processes biological information, and use DNA, RNA, proteins, or their combination. We will describe only a few of the most relevant DNA and RNA-based computers developed so far and applied to in vivo diagnostic and drug delivery. The engineering of programmable biomolecular automata applied to the diagnosis/treatment in vitro of a disease is a promising application in the area of intelligent in situ drug delivery. This field started in 2001 with the first design of a DNA-based automaton operating in vitro (Benenson et al. 2001) applied to biomedical diagnosis in 2004 (Benenson et al. 2004). An automaton is a device that can operate in an autonomous way, sensing inputs, processing those inputs and emitting an output without external human interaction. Another important and widely used nucleic acid sensing technique is the so-called ?competitive hybridization? or ?DNA strand displacement? (Seelig et al., 2006). This technique is used in the design of DNA logic circuits for the intelligent sensing and processing of DNA and RNA molecules. 
+
+Programmable Biology and open-source portable biology labs: LIA group is developing code for programming portable biology labs run by Arduino cards. We want to make these biolabs easy to program and easy to engineer. This is why we are using BioBlocks language (a drag-and-drop visual language based on Scratch and Blockly). We 
+
+> GA_10AJ_103000363 1S_2024-25 Programmable Biology: Dna Computing Amd Biocircuits Engineering Master Universitario En Inteligencia Artificial Page 4 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informáticos
+
+want to develop open-source versions of Bento.bio and Amino.bio. More introductory info at: http://www.lia.upm.es Also: Alfonso?s talk in Valencia, Spain, in ISBBC Summer School, June 2017: ?Synthetic Biology for computer scientists in 2 hours?. Slides available at: https://drive.google.com/file/d/0B1K8p9umsfI4WWhUd1lMLTA0OVE/view Towards programmable antibiotics and in silico microbiota: https://www.youtube.com/watch?v=b4ECvhXD5kg Decrypting bacterial virulence networks: https://youtu.be/tPZ36vyzAUM ¿Cómo funcionan los fármacos programables? https://youtu.be/RwAUjSLwXOc 
+
+4.2. Syllabus 
+
+1. DNA Computing 1.1. DNA structure and DNA operations 1.2. DNA Strand displacement-based biocircuits 1.3. Molecular automata 2. Synthetic Biology: unicellular genetic circuits 2.1. Gene expression and regulation 2.2. Genetic Boolean logic gates 2.3. Basic genetic circuits: A toggle switch and an oscillator (repressilator) 2.4. CRISPR-based devices and gene drives 3. Synthetic Biology: multicellular genetic circuits 3.1. Bacterial cell-cell communication: quorum sensing 3.2. Bacterial cell-cell communication: conjugation 3.3. Morphogenesis: engineering multicellular motifs 4. Programmable Biology 4.1. Simulating bacterial colonies with IBM: Gro simulator 4.2. Engineering portable biolabs with Arduino cards and software blocks 4.3. Deep learning in SynBio 
+
+> GA_10AJ_103000363 1S_2024-25 Programmable Biology: Dna Computing Amd Biocircuits Engineering Master Universitario En Inteligencia Artificial Page 5 of 11
+
+PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informáticos 5. Schedule 
+
+5.1. Subject schedule* 
+
+Week Type 1 activities Type 2 activities Distant / On-line Assessment activities 
+
+1
+
+Tema 1: DNA Computing 1.1: DNA structure and DNA operations 
+
+Duration: 02:00 Lecture 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+2
+
+1.2 DNA Strand displacement-based biocircuits 
+
+Duration: 02:00 Lecture 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+3
+
+1.3 Molecular automata 
+
+Duration: 02:00 Lecture 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+4
+
+2. Synthetic Biology: unicellular genetic circuits. 2.1. Gene expression and regulation 
+
+Duration: 02:00 Lecture 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+5
+
+2.2. Genetic Boolean logic gates 
+
+Duration: 02:00 Lecture 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+6
+
+2.3. Basic genetic circuits: A toggle switch and an oscillator (repressilator) 
+
+Duration: 02:00 Lecture 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+7
+
+2.4 CRISPR-based devices and gene drives 
+
+Duration: 02:00 Lecture 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+8
+
+3.1 Bacterial cell-cell communication: quorum sensing based-circuits 
+
+Duration: 02:00 Lecture 
+
+Actividades Transversales 
+
+Duration: 02:00 Additional activities 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+9
+
+3.2. Bacterial cell-cell communication: conjugation and 3.3 Morphogenesis 
+
+Duration: 02:00 Lecture 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+GA_10AJ_103000363 1S_2024-25 Programmable Biology: Dna Computing Amd Biocircuits Engineering Master Universitario En Inteligencia Artificial Page 6 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informáticos 10 
+
+4.1: Gro. 4.2: Portable biolabs 
+
+Duration: 02:00 Lecture 
+
+Actividades Transversales 
+
+Duration: 02:00 Additional activities 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+11 
+
+4.4: Deep learning in SynBio 
+
+Duration: 02:00 Lecture 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+12 
+
+iGEM groups presentations 
+
+Duration: 02:00 Lecture 
+
+Actividades Transversales 
+
+Duration: 02:00 Additional activities 
+
+Reading papers 
+
+Other assessment Progressive assessment Not Presential Duration: 01:00 
+
+13 
+
+Oral presentations students 
+
+Duration: 02:00 Cooperative activities 
+
+14 
+
+Oral presentations of the students 
+
+Duration: 02:00 Lecture 
+
+Actividades Transversales 
+
+Duration: 02:00 Additional activities 
+
+15 
+
+Oral presentations of the students 
+
+Duration: 02:00 Lecture 
+
+Oral presentations 
+
+Group presentation Progressive assessment Presential Duration: 10:00 
+
+16 
+
+Review of general topics 
+
+Duration: 02:00 Problem-solving class 
+
+17 
+
+Written exam 
+
+Duration: 02:00 Additional activities 
+
+Written exam 
+
+Written test Progressive assessment Presential Duration: 14:00 
+
+Written exam (for only final evaluation) 
+
+Written test Global examination Not Presential Duration: 20:00 
+
+Oral presentation 
+
+Individual presentation Progressive assessment Not Presential Duration: 28:00 
+
+Individual Oral Presentation 
+
+Individual presentation Global examination Not Presential Duration: 36:00 
+
+Depending on the programme study plan, total values will be calculated according to the ECTS credit unit as 26/27 hours of student face-to-face contact and independent study time. 
+
+GA_10AJ_103000363 1S_2024-25 Programmable Biology: Dna Computing Amd Biocircuits Engineering Master Universitario En Inteligencia Artificial Page 7 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informáticos 6. Activities and assessment criteria 
+
+6.1. Assessment activities 
+
+6.1.1. Assessment 
+
+Week Description Modality Type Duration Weight Minimum grade Evaluated skills 
+
+1 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+2 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+3 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+4 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+5 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+6 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+7 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+8 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+9 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+10 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+11 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+12 Reading papers Other assessment No Presential 01:00 .1% 5 / 10 
+
+CGI1 CG15 CG9 CGI4 
+
+15 Oral presentations Group presentation Face-to-face 10:00 28.8% 4 / 10 
+
+17 Written exam Written test Face-to-face 14:00 30% 3 / 10 
+
+CG18 CEIA1 CGI1 CGI2 CEIA2 CEIA5 CG6 CG8 CG15 
+
+GA_10AJ_103000363 1S_2024-25 Programmable Biology: Dna Computing Amd Biocircuits Engineering Master Universitario En Inteligencia Artificial Page 8 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informáticos CG9 CGI4 CGI3 
+
+17 Oral presentation Individual presentation No Presential 28:00 40% 4 / 10 
+
+CGI2 CEIA5 CG18 CGI3 CGI1 
+
+6.1.2. Global examination 
+
+Week Description Modality Type Duration Weight Minimum grade Evaluated skills 
+
+17 Written exam (for only final evaluation) Written test No Presential 20:00 50% 5 / 10 
+
+CG9 CG15 CGI1 CGI2 CEIA1 CEIA2 CEIA5 CG18 CGI4 CG8 
+
+17 Individual Oral Presentation Individual presentation No Presential 36:00 50% 5 / 10 
+
+CGI1 CGI2 CEIA5 CG18 CGI3 CGI4 CG8 CG6 
+
+6.1.3. Referred (re-sit) examination 
+
+No se ha definido la evaluación extraordinaria. 
+
+GA_10AJ_103000363 1S_2024-25 Programmable Biology: Dna Computing Amd Biocircuits Engineering Master Universitario En Inteligencia Artificial Page 9 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informáticos
+
+6.2. Assessment criteria 
+
+Las presentaciones orales --la grupal (3 alumnos máximo por grupo) y la individual-- se valorarán y calificarán en función de la claridad y la profundidad a la hora de explicar los conceptos básicos del tema elegido, la extensión y adecuación de la bibliografía consultada, la concisión y el ajuste al tiempo asignado. Las dos presentaciones orales (la grupal y la individual) son obligatorias para aprobar la asignatura y suponen el 30% y el 40% de la nota final respectivamente. El examen de conocimientos básicos supone el 30% de la calificación final. Hay que obtener al menos 3 puntos sobre 10 en el examen. Para superar la asignatura hay que obtener al menos 5 puntos sobre un total de 10 al sumar las 3 calificaciones anteriores. Y obtener al menos 3 sobre 10 puntos en el examen de conocimientos básicos. Los alumnos que no realicen la evaluación continua (presentación oral grupal + examen parcial + presentación oral individual) se pueden presentar a la convocatoria extraordinaria de julio en la que tendrán que realizar/entregar una presentación oral individual y un examen de conocimientos sobre los contenidos y temas analizados a lo largo del curso. Para aprobar en la convocatoria de julio hay que aprobar tanto el trabajo escrito como la presentación oral. La metodología o modelo docente que se sigue en las clases es el denominado "Flipped Classroom" en el que los alumnos leen y consultan artículos y material docente previamente a la sesión presencial que se utiliza no de manera expositiva por parte del profesor sino interactiva para resolver dudas y analizar de manera conjunta los aspectos más relevantes o complejos que los alumnos se han encontrado al consultar el material docente (artículos de investigación). 
+
+> GA_10AJ_103000363 1S_2024-25 Programmable Biology: Dna Computing Amd Biocircuits Engineering Master Universitario En Inteligencia Artificial Page 10 of 11
+
+PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informáticos 7. Teaching resources 
+
+7.1. Teaching resources for the subject 
+
+Name Type Notes 
+
+Basic docs about synbio Web resource Consultar la web del grupo LIA (hay una sección con material introductorio a la Biología Sintética):<br /> http://www.lia.upm.es Reading papers Web resource At the beginning of the course a link to the reading papers described during each class will be given to the students GRO 2D bacterial simulator Web resource Software for simulating growing 2D bacterial colonies: https://github.com/liaupm/GRO-LIA<br /> Paper: https://pubs.acs.org/doi/abs/10.1021/a cssynbio.7b00003 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000363 1S_2024-25 Programmable Biology: Dna Computing Amd Biocircuits Engineering Master Universitario En Inteligencia Artificial Page 11 of 11

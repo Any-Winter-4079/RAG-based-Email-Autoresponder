@@ -1,0 +1,77 @@
+Title: Universidad Politécnica de Madrid
+
+URL Source: https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/?fmt=detail&id=CON06502
+
+Markdown Content:
+Másteres Universitarios Habilitantes o pertenecientes al Anexo I
+----------------------------------------------------------------
+
+Para poder acceder a cualquier **máster del Anexo** I es necesario acreditar un **nivel B2 en lengua inglesa** según el Marco Europeo de _Referencia para_ _las_ _Lenguas_ (MCER, o CEFR en inglés) ([certificados válidos](https://proyectos.crue.org/acreditacion/wp-content/uploads/sites/3/2024/11/Tabla-Equivalencia-Certificados-Ingles.pdf "certificados válidos") de acuerdo a la CRUE).
+
+Excepto para el **Máster Universitario en Formación del Profesorado** **de Educación Secundaria Obligatoria, Bachillerato y Formación Profesional**, en cualquier de sus especialidades, que será necesario acreditar un **nivel B1** en cualquier lengua extranjera.
+
+*   **Másteres Habilitantes**: Un máster habilitante es aquel que otorga al estudiante los conocimientos, habilidades y destrezas necesarios para ejercer una profesión regulada en España. Esta regulación se plasma en la publicación, por parte del Ministerio de Educación español, de distintas Órdenes Ministeriales en las que figuran los requisitos que deben tener los títulos oficiales españoles que otorguen atribuciones profesionales y establecen, en su caso, las competencias mínimas que deben tener los titulados para acceder a un máster de este tipo.Para poder acceder a un **MÁSTER HABILITANTE** desde una **titulación extranjera** es necesario **homologar** dicha titulación a un grado español que otorgue las atribuciones profesionales.
+    
+    Puede consultar el procedimiento de homologación que lleva a cabo el [Ministerio de Universidades](https://universidades.sede.gob.es/procedimientos/portada/ida/3513/idp/1029 "Ministerio de Universidades"):
+    
+    1.  [Máster Universitario en Arquitectura](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=3.16&fmt=detail "Máster Universitario en Arquitectura")  
+        Dado que el título de referencia para acceder a él no otorga atribución profesional y por tanto no cabría la homologación, habría que solicitar la **convalidación** del título obtenido al **Grado en Fundamentos de la Arquitectura por la Universidad Politécnica de Madrid** (300 créditos y 5 años de duración) y superar, en su caso, las asignaturas necesarias para obtenerlo.  
+        Más información sobre esta convalidación en la Subdirección de Relaciones Externas e Internacionales de la E.T.S. Arquitectura: [intercambio.arquitectura@upm.es](mailto:intercambio.arquitectura@upm.es "intercambio.arquitectura@upm.es").
+    2.  [Máster Universitario en Ingeniería Aeronáutica](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=14.1&fmt=detail "Máster Universitario en Ingeniería Aeronáutica")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico Aeronáutico_ (en la correspondiente especialidad): [Orden CIN/308/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2737 "Orden CIN/308/2009")
+    3.  [Máster Universitario en Ingeniería Agronómica](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=2.9&fmt=detail "Máster Universitario en Ingeniería Agronómica")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico Agrícola_ (en la correspondiente especialidad): [Orden CIN/323/2009](https://www.boe.es/buscar/doc.php?id=BOE-A-2009-2803 "Orden CIN/323/2009")
+    4.  [Doble Máster en Ingeniería Agronómica y Agricultura de Precisión](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=2.22&fmt=detail "Doble Máster en Ingeniería Agronómica y Agricultura de Precisión")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico Agrícola_ (en la correspondiente especialidad): [Orden CIN/323/2009](https://www.boe.es/buscar/doc.php?id=BOE-A-2009-2803 "Orden CIN/323/2009")
+    5.  [Doble Máster en Ingeniería Agronómica y en Economía Agraria](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=2.18&fmt=detail "Doble Máster en Ingeniería Agronómica y en Economía Agraria")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico Agrícola_ (en la correspondiente especialidad): [Orden CIN/323/2009](https://www.boe.es/buscar/doc.php?id=BOE-A-2009-2803 "Orden CIN/323/2009")
+    6.  [Máster Universitario en Ingeniería de Caminos, Canales y Puertos](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=4.3&fmt=detail "Máster Universitario en Ingeniería de Caminos, Canales y Puertos")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico de Obras Públicas_ (en la correspondiente especialidad): [Orden CIN/307/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2736 "Orden CIN/307/2009")
+    7.  [Doble Máster en Ingeniería Caminos, Canales y Puertos; y en Sistemas de Ingeniería Civil](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=4.6&fmt=detail "Doble Máster en Ingeniería Caminos, Canales y Puertos; y en Sistemas de Ingeniería Civil")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico de Obras Públicas_ (en la correspondiente especialidad): [Orden CIN/307/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2736 "Orden CIN/307/2009")
+    8.  [Máster Universitario en Ingeniería Industrial](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=5.11&fmt=detail "Máster Universitario en Ingeniería Industrial")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico Industrial_ (en la correspondiente especialidad): [Orden CIN/351/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2893 "Orden CIN/351/2009")
+    9.  [Doble Máster en Ingeniería Industrial y en Automática y Robótica](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=5.22&fmt=detail "Doble Máster en Ingeniería Industrial y en Automática y Robótica")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico Industrial_ (en la correspondiente especialidad): [Orden CIN/351/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2893 "Orden CIN/351/2009")
+    10.  [Doble Máster en Ingeniería Industrial y en Electrónica Industrial](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=5.23&fmt=detail "Doble Máster en Ingeniería Industrial y en Electrónica Industrial")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico Industrial_ (en la correspondiente especialidad): [Orden CIN/351/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2893 "Orden CIN/351/2009")
+    11.  [Doble Máster en Ingeniería Industrial y en Ingeniería Sísmica](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=5.24&fmt=detail "Doble Máster en Ingeniería Industrial y en Ingeniería Sísmica")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico Industrial_ (en la correspondiente especialidad): [Orden CIN/351/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2893 "Orden CIN/351/2009")
+    12.  [Doble Máster en Ingeniería Industrial y en Ciencia y Tecnología Nuclear](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=5.25&fmt=detail "Doble Máster en Ingeniería Industrial y en Ciencia y Tecnología Nuclear")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico Industrial_ (en la correspondiente especialidad): [Orden CIN/351/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2893 "Orden CIN/351/2009")
+    13.  [Máster Universitario en Ingeniería de Minas](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=6.7&fmt=detail "Máster Universitario en Ingeniería de Minas")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico de Minas_ (en la correspondiente especialidad): [Orden CIN/306/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2735 "Orden CIN/306/2009")  
+         
+    14.  [Máster Universitario en Ingeniería de Montes](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=13.1&fmt=detail "Máster Universitario en Ingeniería de Montes")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico Forestal_ (en la correspondiente especialidad): [Orden CIN/324/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2804 "Orden CIN/324/2009")
+    15.  [Máster Universitario en Ingeniería Naval y Oceánica](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=8.2&fmt=detail "Máster Universitario en Ingeniería Naval y Oceánica")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico Naval_ (en la correspondiente especialidad): [Orden CIN/350/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2892 "Orden CIN/350/2009")
+    16.  [Máster Universitario en Ingeniería de Telecomunicación](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=9.8&fmt=detail "Máster Universitario en Ingeniería de Telecomunicación")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico de Telecomunicación_ (en la correspondiente especialidad): [Orden CIN/352/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2894 "Orden CIN/352/2009")
+    17.  [Doble Máster en Ingeniería de Telecomunicación y en Ingeniería de Redes y Servicios Telemáticos](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=9.22&fmt=detail "Doble Máster en Ingeniería de Telecomunicación y en Ingeniería de Redes y Servicios Telemáticos")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico de Telecomunicación_ (en la correspondiente especialidad): [Orden CIN/352/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2894 "Orden CIN/352/2009")
+    18.  [Doble Máster en Ingeniería de Telecomunicación y en Ingeniería de Sistemas Electrónicos](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=9.23&fmt=detail "Doble Máster en Ingeniería de Telecomunicación y en Ingeniería de Sistemas Electrónicos")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico de Telecomunicación_ (en la correspondiente especialidad): [Orden CIN/352/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2894 "Orden CIN/352/2009")
+    19.  [Doble Máster en Ingeniería de Telecomunicación y en Teoría de la Señal y Comunicaciones](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=9.24&fmt=detail "Doble Máster en Ingeniería de Telecomunicación y en Teoría de la Señal y Comunicaciones")  
+        En caso de titulaciones extranjeras, **homologación** al título de _Ingeniero Técnico de Telecomunicación_ (en la correspondiente especialidad): [Orden CIN/352/2009](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-2894 "Orden CIN/352/2009")
+    20.  Máster Universitario en Formación del Profesorado en E.S.O. y Bachillerato:  [Especialidad en Educación Física](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=11.5&fmt=detail "Especialidad en Educación Física"), [Especialidad en Expresión Gráfica](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=30.3&fmt=detail "Especialidad en Expresión Gráfica"), [Especialidad en Física y Química](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=30.5&fmt=detail "Especialidad en Física y Química"), [Especialidad en Matemáticas](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=30.4&fmt=detail "Especialidad en Matemáticas") y [Especialidad en Tecnología](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=30.4&fmt=detail "Especialidad en Tecnología")No requiere homologación, _"…se establece como requisito de acceso la acreditación del dominio de las competencias relativas a la especialización que se desee cursar…"_: [Orden ECI/3858/2007](https://www.boe.es/boe/dias/2007/12/29/pdfs/A53751-53753.pdf "Orden CIN/308/2009")
+        
+*   **Másteres no Habilitantes:**
+    1.  [Máster Universitario en Ingeniería Alimentaria Aplicada a la Salud](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=2.15&fmt=detail "Máster Universitario en Ingeniería Alimentaria Aplicada a la Salud")
+    2.  [Máster Universitario en Ingeniería de Materiales](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=4.2&fmt=detail "Máster Universitario en Ingeniería de Materiales")
+    3.  [Máster Universitario en Ingeniería Informática](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=10.13&fmt=detail "Máster Universitario en Ingeniería Informática")
+    4.  [Máster Universitario en Ingeniería Química](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=5.20&fmt=detail "Máster Universitario en Ingeniería Química")
+
+**Para cualquier duda puede consultar el apartado de** [Preguntas Frecuentes (FAQ)](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Preguntas_frecuentes "Preguntas Frecuentes (FAQ)") **o dirigirse a** [tramitacion.master.oficial@upm.es](mailto:tramitacion.master.oficial@upm.es?subject=M%C3%A1steres%20Oficiales%20UPM)
+
+**¡¡¡Gracias por elegirnos!!!**
+
+*   [Estudios Oficiales de Máster (portada)](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master)
+*   [Requisitos y preinscripción](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision)
+*   [\---Estudiantes y Egresados de universidades españolas](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision/UniversidadesEspanolas)
+*   [\---Egresados en universidades de países miembros del Espacio Europeo de Educación Superior (EEES)](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision/UniversidadesEEES)
+*   [\---Egresados en universidades de países no pertenecientes al Espacio Europeo de Educación Superior (EEES)](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision/UniversidadesNoEEES)
+*   [Proceso de Matriculación](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Matricula)
+*   [Calendario de Másteres Universitarios](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Calendario)
+*   [Programas Oficiales de Máster](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas)
+*   [Preguntas Frecuentes sobre Másteres Oficiales](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Preguntas_frecuentes)

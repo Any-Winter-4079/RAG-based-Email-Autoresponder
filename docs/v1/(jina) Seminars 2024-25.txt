@@ -1,0 +1,751 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/2S/GA_10AJ_103000372_2S_2024-25.pdf
+
+Markdown Content:
+COORDINATION PROCESS OF LEARNING ACTIVITIES PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 LEARNING GUIDE 
+
+SUBJECT 
+
+103000372 - Seminars 
+
+DEGREE PROGRAMME 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+ACADEMIC YEAR & SEMESTER 
+
+2024/25 - Semester 2 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+# Index 
+
+Learning guide 
+
+1. Description...............................................................................................................................................................1 2. Faculty.....................................................................................................................................................................1 3. Skills and learning outcomes ...................................................................................................................................5 4. Brief description of the subject and syllabus.............................................................................................................7 5. Schedule.................................................................................................................................................................12 6. Activities and assessment criteria...........................................................................................................................15 7. Teaching resources.................................................................................................................................................20 8. Other information....................................................................................................................................................29 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+# 1. Description 
+
+1.1. Subject details 
+
+Name of the subject 103000372 - Seminars 
+
+No of credits 10 ECTS 
+
+Type Compulsory 
+
+Academic year ot the programme First year 
+
+Semester of tuition Semester 2 
+
+Tuition period February-June 
+
+Tuition languages English 
+
+Degree programme 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centre 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Academic year 2024-25 
+
+# 2. Faculty 
+
+2.1. Faculty members with subject teaching role 
+
+Name and surname Office/Room Email Tutoring hours * 
+
+Damiano Zanardini (Subject coordinator) 2205 damiano.zanardini@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Emilio Serrano Fernandez 2201 emilio.serrano@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 1 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Maria Poveda Villalon m.poveda@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Esteban Garcia Cuesta 2201 esteban.garcia@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Raul Garcia Castro r.garcia@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Nikolaus Guyon Swoboda 2205 nik.swoboda@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Victor Rodriguez Doncel 3205 victor.rodriguez@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Antonio Jimenez Martin 2110 antonio.jimenez@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Miguel Garcia Remesal 2206 miguel.garcia.remesal@upm. es Sin horario. http://www.dia.fi.up m.es/es/tutorias Pedro Maria Larrañaga Mugica 2208 pedro.larranaga@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Daniel Manrique Gamo 2109 daniel.manrique@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Javier Bajo Perez 2101 javier.bajo@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Maria Concepcion Bielza Lozoya 2210 c.bielza@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 2 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Oscar Corcho Garcia 2209 oscar.corcho@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Victor Manuel Maojo Garcia 2102 victormanuel.maojo@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Jacinto Gonzalez Pachon 2101 jacinto.gonzalez.pachon@up m.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Igor Boguslavskiy Margolin 2201 igor.boguslavskiy@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Asuncion De Maria Gomez Perez 2209 asunciondemaria.gomez@up m.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Alfonso Vicente Rodriguez-Paton Aradas 2106 alfonso.rodriguez-paton@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Alfonso Mateos Caballero 2110 alfonso.mateos@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Luis Baumela Molina 2204 luis.baumela@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Javier De Lope Asiain 4123 javier.delope@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Martin Molina Gonzalez 2111 martin.molina@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Josefa Zuleide Hernandez Diego 2205 josefaz.hernandez@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 3 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Manuel De Hermenegildo Salinas 2212 manuel.hermenegildo@upm. es Sin horario. http://www.dia.fi.up m.es/es/tutorias Juan Antonio Fdez Del Pozo De Salamanca 2101 juan.fdezpozo.salamanca@u pm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias M. Carmen Suarez De Figueroa Baonza 2101 mdelcarmen.suarezdefiguero a@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias David Perez Del Rey 2206 david.perez.rey@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Mariano Rico Almodovar mariano.rico@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Bojan Mihaljevic b.mihaljevic@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Jose Francisco Morales Caballero josefrancisco.morales@upm. es Sin horario. http://www.dia.fi.up m.es/es/tutorias Roberto Valle Fernandez 3205 roberto.valle@upm.es Sin horario. http://www.dia.fi.up m.es/es/tutorias Pablo Calleja Ibañez p.calleja@upm.es Sin horario. * The tutoring schedule is indicative and subject to possible changes. Please check tutoring times with the faculty member in charge. 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 4 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+2.2. Research assistants 
+
+Name and surname Email Faculty member in charge 
+
+Garijo Verdejo, Daniel daniel.garijo@upm.es Corcho Garcia, Oscar 
+
+2.3. External faculty 
+
+Name and surname Email Institution 
+
+Elena Montiel Ponsoda elena.montiel@upm.es Escuela Técnica Superior de Ingenieros Informáticos 
+
+# 3. Skills and learning outcomes * 
+
+3.1. Skills to be learned 
+
+CB10 - Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo. CB7 - Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio CB9 - Que los estudiantes sepan comunicar sus conclusiones y los conocimientos y razones últimas que las sustentan a públicos especializados y no especializados de un modo claro y sin ambigüedades CGI1 - Adquirir conocimientos científicos avanzados del campo de la informática que le permitan generar nuevas ideas dentro de una línea de investigación. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 5 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+3.2. Learning outcomes 
+
+RA8 - Conocer el tipo de problemas que se pueden resolver con las disciplinas de la Inteligencia Artificial involucradas en las materias de las que forman parte dichos seminarios RA2 - Establecer un debate fundamentado sobre el conocimiento científico y las bases de la investigación RA4 - Valorar la importancia de las fuentes documentales y seleccionar aquéllas que sean más interesantes para publicar sus trabajos RA9 - Conocer las distintas técnicas de solución asociadas a los tipos de problemas que se pueden resolver con las disciplinas de la IA y sus límites RA6 - Ser capaz de elaborar documentos para difundir los resultados de la investigación de acuerdos con unas características específicas y dentro del estilo científico RA7 - Capacidad de presentar en público los resultados de sus trabajos de investigación RA5 - Buscar y recuperar la información documental para el desarrollo de cualquier trabajo de investigación RA3 - Abordar los aspectos formales del proyecto inicial de una investigación * The Learning Guides should reflect the Skills and Learning Outcomes in the same way as indicated in the Degree Verification Memory. For this reason, they have not been translated into English and appear in Spanish. 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 6 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+# 4. Brief description of the subject and syllabus 
+
+4.1. Brief description of the subject 
+
+The student must attend six seminars . The seminars offered in the Master's degree course are all optional, except S1: Research Methodology, S2: Project Management and Risk Control and S3: Ethical and legal aspects of Artificial Intelligence, which are mandatory. All seminars are organised into three categories: 
+
+Mandatory seminars (S1 and S2, each with 2 ECTS ; S3, with 1.5 ECTS ). Seminars whose name match the subject to which they belong ( representative seminars) (S5, S6, S7, S8 and S11, all with 1.5 ECTS ). If the student decides not to be taught any module belonging to M2 to M6, then the student must take this seminar. In these seminars the student will acquire general knowledge about the respective subject. 
+
+Optional seminars that complement modules (S4, S9, S10, S12, S13, S14, S15 and S16, all with 1.5 ECTS ). These are aimed at covering some disciplines of Artificial Intelligence which are not studied in the modules. Seminars by visiting professors, in which the student acquires advanced or specialised knowledge about any of the subjects taught within the course. 
+
+Note : under duly justified circumstances, seminars can be attended as distance learning via videoconferencing, with the exception of S9: Fuzzy logic and S12: Principals of Robotic Locomotion. 
+
+SEMINAR DESCRIPTIONS 
+
+S1: Research Methodology (offered in English ). This seminar guides students about the most common methods, techniques and systems used for the practice of scientific research, what will be relevant for the development of their MSc theses, as well as for some of the courses covered in this Master. The topics that will be covered in this seminar are the following: The career of a researcher, where the different paths and stages of the career of a researcher in academia or industry will be reviewed and discussed. The Scientific Method and how it can be applied in the context of Artificial Intelligence. The role of scientific publications in research, including where and when to publish results, and how to 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 7 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+publish them. Methods and Techniques for generating a literature review. Intellectual property, including industrial property, copyright and software licenses. Open Science: principles, good practices and trends. 
+
+S2: Project Management and Risk Control (offered in English ). This seminar will cover fundamental aspects of project management and risk control. It will be possible for the student to understand the principles of project management, risk and change management, as well as to acquire the ability to apply methodologies and processes for project management and risk mitigation. 
+
+S3: Ethical and legal aspects of Artificial Intelligence (offered in English ). This seminar provides students an introduction to the legal framework regulating data and AI in Europe. The students will also learn how to evaluate in practice the ethical aspects of an AI project. 
+
+S4: Artificial Intelligence and Inclusion (offered in English ). This seminar will provide the student with general knowledge about Bias and Fairness in AI methods and techniques with respect to the disability dimension, since most of the research done so far on these aspects has focused on race and gender; Explicability, in general and with respect to the disability dimension (an essential aspect to minimize bias and ensure fairness refers to the creation of explanations associated with AI developments); and Cases of use and applications of AI methods and techniques to solve social inclusion problems. 
+
+S5: Decision Analysis (offered in English ). The seminar provides students with a general knowledge on the topic of Decision Analysis, being itself an introduction to the different modules that are part of the subject: Decision Support Systems, Participatory Decision-Making and Negotiation and Simulation Methods. 
+
+S6: Machine Learning (offered in English ). The seminar provides students with general knowledge about the topic of Machine Learning, being itself an introduction to the various modules and seminars that are part of the subject: Bayesian Networks, Machine Learning and Neural Networks. 
+
+S6: Natural Computing (offered in English ). The seminar provides students with general knowledge about the topic of Natural Computing, being itself an introduction to the different modules which are part of the subject: Intelligent Search based on Metaheuristics, Evolutionary Computation and Unconventional Computing (biomolecular computing and biocircuit engineering). 
+
+S8: Knowledge Representation and Reasoning (offered in English ). The seminar provides students with general knowledge on the topic of Knowledge Representation and Reasoning Models, being itself an introduction to the several modules and seminars that are part of the subject: Intelligent Agents and Multi- agent Systems, Ontology Engineering, Commonsense Reasoning and Fuzzy Logic. 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 8 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+S9: Fuzzy Logic (offered in Spanish ). This seminar aims to provide the theoretical and practical foundations of Fuzzy Logic, which permits to represent imprecise knowledge. Students will acquire knowledge of the design of fuzzy control systems and their inference process in current applications and real-world scenarios. This seminar is intended for students without previous experience in fuzzy logic. 
+
+S10: Cognitive Computing (offered in Spanish ). The aim of this seminar is to provide an introduction to Cognitive Science and Cognitive Systems, paying attention to architectures, key components, and revising the main systems and platforms that can be found in the literature. 
+
+S11: Cognitive Robotics and Perception (offered in Spanish ). The purpose of this seminar is to provide students with a brief introduction to some of the topics covered in the following courses: Computer Vision and Autonomous Robots. The seminar will include: Robotics: Introduction and Reactive navigation; Control of robotic systems; Planning. Computer Vision: Introduction; Deep models for computer vision 
+
+S12: Principles of Robotic Locomotion (offered in English ). Very few living organisms do not have the capacity of locomotion, being able to move is fundamental to survival in the real world. Likewise, locomotion is one of the basic capacities expected of an intelligent robotic system. In this seminar we will discuss issues related to robot locomotion with a focus on navigation and mapping. Participants in the seminar will build a simple robot controller and will test that controller in a real robot. 
+
+S13: Applications of Artificial Intelligence (offered in English ). The seminar is a compendium of Artificial Intelligence applications naturally taking full advantage of the research potential of professors at DIA and the experience of its members in numerous R&D projects undertaken in recent years. In order to do this, descriptions of all DIA modules (and particularly those who have an applied component and less than basic research) are considered and included in this seminar. In this seminar not only are the topics important to teach, but teaching the very development of Artificial Intelligence applications and projects in the area, exceeding the idea of mere exposition of a theoretical lectures without the applied aspect which is essential in Artificial Intelligence and particularly for industrial use. 
+
+S14: Natural Language Processing (offered in Spanish ). The purpose of this seminar derives from the need to fill a gap in the teaching of subjects that are, generally speaking, on Language Engineering. On the one hand, when we talk about Engineering, then we talk about design, methodologies, techniques, systems, and components; on the other hand, when we talk about language then we talk about grammars, corpora, dictionaries, etc. Usually, the teaching of these subjects often has a tendency, perhaps excessive, to one side or another. This seminar aims to provide a unified view of both sides, from the fundamentals to applications. The area of Linguistic Engineering is considered to be one of the areas where most research and development efforts will lie in the next few years, if we 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 9 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+are to achieve the goal of having machines that really make our lives easier in a simple way. The seminar is focused, in the first part, on the state of the art technologies, followed by a second part where we will explore in depth technologies that allow supporting applications on the market. For practical reasons, the practice work will be focused in word processing technologies. 
+
+S15: Automated Planning (offered in English ). Automated planning is a branch of Artificial intelligence aimed at obtaining plans (i.e. sequences of actions) for solving complex problems or for governing the behavior of intelligent agents, autonomous robots or unmanned vehicles. Planning techniques have been successfully applied in different domains, including industrial contexts, logistics, computer games, robotics or space exploration. In this seminar we will review the existing approaches for solving classical planning problems, such as state-space search, plan-space search, graph-based techniques or turning classical planning problems into propositional satisfiability problems. The course will then focus on the study of knowledge-based planning methods, such as control rule-based pruning or hierarchical task network-based planning techniques. These approaches exploit the domain knowledge provided by human experts to improve the performance of the planning algorithms. Finally, we will briefly introduce advanced planning algorithms, which are able to generate planning policies that take into account time constraints and/or partial observability conditions, which are common in real world applications. 
+
+S16: Generative AI and Prompt Engineering: Applications and Challenges (offered in Spanish ). Generative artificial intelligence (GenAI) includes systems capable of creating and generating content, such as text, images, or other media, in response to instructions or prompts. When these systems can process and integrate data from different modalities along with textual prompts (such as images, audio, and video), we refer to this as multimodal GenAI. These technologies have experienced exponential growth in popularity due to their ease of use and ability to address a wide variety of tasks, from generating creative and artistic content to solving complex problems in fields like engineering and medicine. This seminar will explore the field of multimodal GenAI, focusing on its practical application through methods such as prompt engineering, few-shot prompting, chain-of-thought prompting, and retrieval-augmented generation (RAG). A challenge-based learning methodology will be followed. Some challenges that can be addressed with GenAI include: generating videos from textual descriptions, answering questions about content in images, or automatic voice-to-text translation. Collaborative work, active experimentation, and the exchange of ideas among participants will be encouraged. 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 10 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+4.2. Syllabus 
+
+1. S1: Research methodology 2. S2: Project management and risk control 3. S3. Ethical and legal aspects of Artificial Intelligence 4. S4. Artificial Intelligence and Inclusion 5. S5: Decision analysis 6. S6: Machine learning 7. S7: Natural computing 8. S8: Knowledge representation and reasoning 9. S9: Fuzzy logic 10. S10: Cognitive computing 11. S12: Principles of robotic locomotion 12. S11: Cognitive robotics and perception 13. S13: Applications of Artificial Intelligence 14. S14: Natural language processing 15. S15: Automated planning 16. S16-18: Seminars by visiting professors 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 11 of 32
+
+PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 5. Schedule 
+
+5.1. Subject schedule* 
+
+Week Type 1 activities Type 2 activities Distant / On-line Assessment activities 
+
+1
+
+S1: Research methodology 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S1. Research methodology 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+2
+
+S2: Project management and risk control 
+
+Duration: 10:00 Lecture 
+
+Evaluation of Seminar S2. Project management and risk control 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+3
+
+S3: Ethical and legal aspects of Artificial Intelligence 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S3. Ethical and legal aspects of Artificial Intelligence 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+4
+
+S4: Artificial Intelligence and Inclusion 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S4. Artificial Intelligence and Inclusion 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+5
+
+S5: Decision analysis 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S5. Decision analysis 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+6
+
+S6: Machine learning 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S6. Machine learning 
+
+Other assessment Progressive assessment Presential Duration: 00:00 
+
+7
+
+S7: Natural computing 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S7. Natural computing 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 12 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 8
+
+S8: Knowledge representation and reasoning 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S8. Knowledge representation and reasoning 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+9
+
+S9: Fuzzy logic 
+
+Duration: 08:00 Lecture 
+
+Evaluation of seminar S9. Fuzzy Logic 
+
+Other assessment Progressive assessment Presential Duration: 02:00 
+
+10 
+
+S10: Cognitive Computing 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S10. Cognitive computing 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+11 
+
+S11: Cognitive robotics and perception 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S11. Cognitive robotics and perception 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+12 
+
+S12: Principles of robotic locomotion 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S12. Principles of robotic locomotion 
+
+Other assessment Progressive assessment Presential Duration: 00:00 
+
+13 
+
+S13: Applications of Artificial Intelligence 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S13. Applications of Artificial Intelligence 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+14 
+
+S14: Natural language processing 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S14. Natural language processing 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+15 
+
+S15: Automated planning 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S15. Automated planning 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+Evaluation of those seminars that the student hasn't passed during the semester 
+
+Other assessment Global examination Not Presential Duration: 02:00 
+
+GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 13 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 16 
+
+S16: Seminar by visiting professor 
+
+Duration: 10:00 Lecture 
+
+S17: Seminar by visiting professor 
+
+Duration: 10:00 Lecture 
+
+S18: Seminar by visiting professor 
+
+Duration: 10:00 Lecture 
+
+Evaluation of seminar S16. Generative AI and Prompt Engineering: Applications and Challenges 
+
+Other assessment Progressive assessment Not Presential Duration: 00:00 
+
+17 
+
+Depending on the programme study plan, total values will be calculated according to the ECTS credit unit as 26/27 hours of student face-to-face contact and independent study time. 
+
+GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 14 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 6. Activities and assessment criteria 
+
+6.1. Assessment activities 
+
+6.1.1. Assessment 
+
+Week Description Modality Type Duration Weight Minimum grade Evaluated skills 
+
+1 Evaluation of seminar S1. Research methodology 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 
+
+CB9 CGI3 CGI4 CB10 
+
+2 Evaluation of Seminar S2. Project management and risk control 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 CGI3 CGI4 
+
+3
+
+Evaluation of seminar S3. Ethical and legal aspects of Artificial Intelligence 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 CB9 CGI3 
+
+4 Evaluation of seminar S4. Artificial Intelligence and Inclusion 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 CB9 CGI3 
+
+5 Evaluation of seminar S5. Decision analysis 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 CGI3 CGI4 
+
+6 Evaluation of seminar S6. Machine learning 
+
+Other assessment Face-to-face 00:00 16.66% 5 / 10 
+
+CGI3 CB7 CB10 
+
+7 Evaluation of seminar S7. Natural computing 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 
+
+CGI3 CGI4 CB7 CB10 
+
+8
+
+Evaluation of seminar S8. Knowledge representation and reasoning 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 CB10 
+
+9 Evaluation of seminar S9. Fuzzy Logic 
+
+Other assessment Face-to-face 02:00 16.66% 5 / 10 
+
+CGI4 CB7 CB10 
+
+10 Evaluation of seminar S10. Cognitive computing 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 CGI4 CB10 
+
+11 Evaluation of seminar S11. Cognitive robotics and perception 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 CGI3 CB10 
+
+12 Evaluation of seminar S12. Principles of robotic locomotion 
+
+Other assessment Face-to-face 00:00 16.66% 5 / 10 
+
+CGI1 CB9 CGI3 CGI4 CB7 CB10 
+
+GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 15 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 13 Evaluation of seminar S13. Applications of Artificial Intelligence 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 
+
+CGI1 CGI3 CGI4 CB7 
+
+14 Evaluation of seminar S14. Natural language processing 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 
+
+CGI3 CGI4 CGI1 CB7 
+
+15 Evaluation of seminar S15. Automated planning 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 
+
+CGI1 CGI3 CGI4 CB7 
+
+16 
+
+Evaluation of seminar S16. Generative AI and Prompt Engineering: Applications and Challenges 
+
+Other assessment No Presential 00:00 16.66% 5 / 10 CGI1 CB7 
+
+6.1.2. Global examination 
+
+Week Description Modality Type Duration Weight Minimum grade Evaluated skills 
+
+15 
+
+Evaluation of those seminars that the student hasn't passed during the semester 
+
+Other assessment No Presential 02:00 100% 5 / 10 
+
+CGI1 CB9 CGI3 CGI4 CB7 CB10 
+
+6.1.3. Referred (re-sit) examination 
+
+Description Modality Type Duration Weight Minimum grade Evaluated skills 
+
+Evaluation of those seminars that the student hasn't passed neither during the semester nor in the global evaluation activity (prueba global) 
+
+Other assessment Face-to-face 02:00 100% 5 / 10 
+
+CGI3 CGI4 CGI1 CB9 CB7 CB10 
+
+GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 16 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+6.2. Assessment criteria 
+
+The final grade of this class is computed from the grades obtained in each of the six seminars taken. If all the grades are at least 5 out of 10 , then the final grade will be the average of the six. Otherwise, the final grade will be the minimum of the six. The student obtains his or her grades during the semester, as long as the seminars take place. In both the ordinary period (convocatoria ordinaria ) and the extraordinary period (convocatoria 
+
+extraordinaria ), the student who hasn't passed the class (because he or she did not obtain at least 5 out of 10 in six seminars during the teaching period) can take suitable evaluation activities of one or more seminars. Such activities will be decided by the teachers of each seminar and will allow the student to pass the class. The evaluation activities in each one of them vary, being those indicated below: 
+
+S1: Research methodology: Although the seminar is compulsory, attendance is not mandatory. The student will individually do a test and perform a work: Test related to the contents of the seminar, done at the end of the seminar (30%). Summarizing the most important points addressed in the seminar (70%). 
+
+S2: Project management and risk analysis: The final grade is obtained as follows: Grade of written summary of the most important points presented at the seminar (30%). Grade of written summary and presentation of one of the topics presented in class (30%). Grade of attendance and participation in class (40%). The student must attend at least the 80% of the classes. 
+
+S3: Ethical and legal aspects of Artificial Intelligence : The final grade is obtained as follows: The evaluation activity consists of one or more Moodle questionnaires, to be done during the sessions or as homework. They questionnaires may consist of multiple-choice questions or short reports or a certain topic. Attendance and participation during the sessions will also evaluated. 
+
+S4: Artificial Intelligence and Inclusion: 
+
+Students will have to deliver an individual report around a topic proposed during the seminar where all the skills acquired in this course are demonstrated. Attendance and participation during the sessions could be also considered. 
+
+S5: Decision Analysis: 
+
+Regular attendance to class will be an essential condition. 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 17 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Individual summary about the theoretical content of the course. It will be evaluated according to its completeness, clarity and coherence. Collective work on the state of the art of the discipline through a specific wiki associated to the seminar. It will be evaluated according to the participation index, the ability to interconnect ideas, clarity and originality. 
+
+S6: Machine Learning: 
+
+Attendance will be mandatory. The student will individually perform a practical work consisting of software management and oral presentation of an application case. 
+
+S7: Natural computing :Compulsory attendance at the seminars (35%). Individual work summary report (65%). 
+
+S8: Knowledge representation and reasoning : The final grade will be computed in the following way: Attendance to class (attendance is mandatory at a minimum of 80%) (40%). Summary of the most important points discussed in the seminar (30%). The clarity, coherence and correct use of the terminology will be evaluated. Individual work that delves into one of the topics covered in the seminar (30%). The presentation, clarity and adequacy of the bibliographic references used will be evaluated. 
+
+S9: Fuzzy logic: 
+
+Attendance to the classes (40%). There will be a written exam on the last day of the seminar, without the possibility of consulting notes, bibliography or any other type of documentation (60%). 
+
+S10: Cognitive computing .Attendance to class (a minimum of 80% attendance is mandatory) (40%). Summary of the most important points discussed in the seminar. The clarity, coherence and correct use of the terminology will be evaluated (30%). Individual work that delves into one of the topics covered in the seminar. The presentation, clarity and adequacy of the bibliography will be evaluated (30%). 
+
+S11: Cognitive robotics and perception: 
+
+Students can choose to submit a project related to either robotics or computer vision (85%). In the case of a robotics project, the submission can be a written document (a survey, analysis, or the application of one of the topics discussed) or a programming project. In the case of projects related to computer vision, only programming projects will be accepted. Attendance and participation in classes during the seminar (15%). 
+
+S12: Principles of robotic locomotion: 
+
+Attendance and participation in classes during the seminar (25%). Practical project (75%). 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 18 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+S13: Application of Artificial Intelligence: 
+
+Attendance of the students to the seminar. The development of a practical work on one of the topics of the seminar. The workload necessary for this practice will be adequate and proportional to the idea of a seminar and the number of credits. 
+
+S14: Natural Language processing: 
+
+Attendance in at least 80% of the classes. A work done individually or in a group on a topic to be defined related to the exploration of information on some type of system in the market, its analysis and conclusions. It is not intended with this work more than to accustom the student to search existing solutions in the market and learn to develop an idea of how to solve them. The qualification in the extraordinary period will be governed by the same rules as in the ordinary one. Attendance 80% of the classes is required as well as to delivery an individual or group work. 
+
+S15: Automated planning: 
+
+Attendance to the classes and short practices carried out during the seminar (50%). A project that will be carried out by the students (50%). 
+
+S16: Generative AI: Applications ad Challenges: 
+
+Attendance of the students to the seminar. The development of a practical work on one of the topics of the seminar. The workload necessary for this practice will be adequate and proportional to the idea of a seminar and the number of credits. 
+
+Seminars by visiting professors: 
+
+The evaluation activities of these seminars will be established by the visiting teachers. 
+
+Attending one or more of these seminars may be awarded with a bonus of up to +1.0 points on the total grade of the whole subject (i.e., is the average grade of the six seminars is 7.7, the student could get a maximum of 8.7 as the final grade), with the condition that such total grade is already at least 5 out of 10 . The subject coordinator will decide how to apply the bonus, taking into account the specific circumstances (number of seminars, numbers of sessions in each seminar, etc.). The bonus is not meant to be taken for granted by the students, who will be informed in due time about if and how the bonus will be given. 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 19 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+# 7. Teaching resources 
+
+7.1. Teaching resources for the subject 
+
+Name Type Notes 
+
+Videoconference system Equipment Videoconference system based on Zoom, Blackboard Collaborate or Microsoft Teams Moodle Web resource Course available at UPM moodle including timetabling, documentation...<br /> https://moodle.upm.es/titulaciones/oficiales/c ourse/view.php?id=6732 K. Belhajjame, J. Zhao, D. Garijo, M. Gamble, K. Hettne, R. Palma, E. Mina, O. Corcho et al. (2015) Using a suite of ontologies for preserving workflow-centric research objects. Web Semantics: Science, Services and Agents on the World Wide Web 3,16-42 Bibliography Seminar S1. Research methodology Kitchenham, B.; Charters, S. Guidelines for Performing Systematic Literature Reviews in Software Engineering; Technical Report EBSE; School of Computer Science and Mathematics, Keele University: Keele, UK, 2007 Bibliography Seminar S1. Research Methodology Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18 Bibliography Seminar S1. Research Methodology 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 20 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+A Guide to the Project Management Body of Knowledge (Pmbok(r) Guide). Project Mgmt Inst; Edición: Sixth Edition. 2017. Bibliography Seminar S2. Project management and risk control A guide to the Project Management Body of Knowledge (PMBOK guide) & Agile practice guide bundle. Project Mgmt Inst. 2017 Bibliography Seminar S2. Project management and risk control Project Risk Management: Processes, Techniques and Insights, 2nd Edition. Chris Chapman, Stephen Ward. 2013. Bibliography Seminar S2. Project management and risk control Quinn, M. J. (2017). Ethics for the information age. Pearson. Bibliography Seminar S3. Ethical and legal aspects of Artificial Intelligence Anhong Guo, Ece Kamar, Jennifer Wortman Vaughan, Hanna Wallach, Meredith Ringel Morris (2019). Toward Fairness in AI for People with Disabilities: A Research Roadmap. Bibliography Seminar S4. Artificial Intelligence and Inclusion Clayton Lewis (2018). Implications of Developments in Machine Learning for People with Cognitive Disabilities. Bibliography Seminar S4. Artificial Intelligence and Inclusion Meredith Whittaker; Cynthia L. Bennett; Sara Hendren; Liz Kaziunas; Mara Mills; Meredith Ringel Morris; Joy Rankin; Emily Rogers; Marcel Salas; Sarah Myers West (2019) Disability, Bias, and AI. Bibliography Seminar S4. Artificial Intelligence and Inclusion Clemen, R.T. (1996) Making Hard Decisions, Duxbury Press Bibliography Seminar S5. Decision analysis French, S., Maule, J., Papamichail, N. (2009) Decision Behavior, Analysis and Support, Cambridge University Press Bibliography Seminar S5. Decision analysis 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 21 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Hwang, C-H.; Lin, M-J. (1987). Group decision making under multiple criteria. Springer-Verlag, Berlín Bibliography Seminar S5. Decision analysis Law, A. M. (2007) Simulation Modeling and Analysis, McGraw-Hill, New York. Bibliography Seminar S5. Decision analysis Raiffa, H.; Richardson, J.; Metcalfe, D. (2002). Negotiation Analysis. Belknap Harvard, Cambridge, MA. Bibliography Seminar S5. Decision analysis Ríos Insua, S., Bielza, C., Mateos, A. (2002). Fundamentos de los Sistemas de Ayuda a la Decisión. RA-MA, Madrid. Bibliography Seminar S5. Decision analysis Ríos Insua, D., Ríos Insua, S., Martín, J., Jiménez, A. (2008). Simulación: Métodos y Aplicaciones. RA-MA, Madrid. Bibliography Seminar S5. Decision analysis Romero, C. (1991). Handbook of Critical Issues in Goal Programming. Pergamon Press Bibliography Seminar S5. Decision analysis Koller, D, Friedman, N. (2009) Probabilistic Graphical Models. Principles and Techniques. The MIT Press. Bibliography Seminar S6. Machine learning C. Bielza, P. Larrañaga (2020). Data Driven Computational Neuroscience. Machine Learning and Statistical Models. Cambridge University Press Bibliography Seminar S6. Machine Learning Castillo, E., Gutiérrez, J.M., Hadi, A.S. (1997) Expert Systems and Probabilistic Network Models. Springer, New York. Versión en español, disponible en la red: Sistemas Expertos y Modelos de Redes Probabilísticas, Academia de Ingeniería, Madrid Bibliography Seminar S6. Machine learning 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 22 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Koski, T., Noble, J. (2009) Bayesian Networks: An Introduction, Wiley Bibliography Seminar S6. Machine learning Neapolitan, R., (2004) Learning Bayesian Networks, Prentice Hall Bibliography Seminar S6. Machine learning Pourret, O., Naïm, P., Marcot, B. (2008) Bayesian Networks: A Practical Guide to Applications, Wiley Bibliography Seminar S6. Machine learning Alpaydin, E. (2004) Introduction to Machine Learning. MIT Press Bibliography Seminar S6. Machine learning Duda, R., Hart, P.E., Stork, D.G. (2001) Pattern Classification. Wiley Bibliography Seminar S6. Machine learning I. Goodfellow, Y. Bengio, A. Courville (2016): Deep Learning. MIT Press. Available online: http://www.deeplearningbook.org Bibliography Seminar S6. Machine learning Hernández-Orallo, J., Ramírez, M.J., Ferri, C. (2004) Introducción a la Minería de Datos. Pearson Educación Bibliography Seminar S6. Machine learning P. Larrañaga, D. Atienza, J. Diaz-Rozo, A. Ogbechie, C. Puerto-Santana, C. Bielza (2019). Industrial Applications of Machine Learning. CRC Press. Bibliography Seminar S6. Machine learning Kuncheva, L. (2004) Combining Pattern Classifiers. Wiley Bibliography Seminar S6. Machine learning Webb, A. (2002) Statistical Pattern Recognition. Wiley Bibliography Seminar S6. Machine learning Witten, I., Frank, E. (2005) Data Mining. Morgan Kaufmann. 2ª ed Bibliography Seminar S6. Machine learning Armañanzas, R.; Inza, I.; Santana, R., Saeys, Y.; Flores, J.L.; Lozano, J.A., Larrañaga, P. (2008) A review of estimation of distribution algorithms in bioinformatics. BioData Mining 1 (1), 1-12 Bibliography Seminar S7. Natural Computing 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 23 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Deb, K. (2001), Multi-Objective Optimization using Evolutionary Algorithms. Wiley Bibliography Seminar S7. Natural Computing Inza, I.; Larrañaga, P.; Etxeberria, R.; Sierra, B. (2000) Feature subset selection by Bayesian network-based optimization. Artificial intelligence 123 (1-2), 157-184 Bibliography Seminar S7. Natural Computing Larrañaga, P.; Karshenas, H.; Bielza, C.; Santana, C. (2013) A review on evolutionary algorithms in Bayesian network learning and inference tasks. Information Sciences 233, 109-125 Bibliography Seminar S7. Natural Computing Karshenas, H.; Santana, R.; Bielza, C.; Larranaga, P. (2013) Multiobjective estimation of distribution algorithm based on joint modeling of objectives and variables. IEEE Transactions on Evolutionary Computation 18 (4), 519-542 Bibliography Seminar S7. Natural Computing Kokerogly, T., Sevinc, E., Kucukyilmaz, T., Cosar A. (2019), A Survey on New Generation Metaheuristic Algorithms, Computes & Industrial Engineering, 137. Bibliography Seminar S7. Natural Computing Larrañaga, P.; Lozano, J.A. (2001) Estimation of distribution algorithms: A new tool for evolutionary computation. Springer Science & Business Media Bibliography Seminar S7. Natural Computing Larrañaga, P.; Karshenas, H.; Bielza, C.; Santana, R. (2012) A review on probabilistic graphical models in evolutionary computation. Journal of Heuristics 18 (5), 795-819 Bibliography Seminar S7. Natural Computing 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 24 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Tello, F., Jiménez-Martín, A., Mateos, A., Lozano, P. (2019). A Comparative Analysis of Simulated Annealing and Variable Neighborhood Search in the ATCo Work-Shift Scheduling Problem, Mathematics, 7(7), 636. Bibliography Seminar S7. Natural Computing Urrutia-Zambrana, A., Tirado, G., Mateos, A. (2020), Variable Neighborhood Search to Solve the Generalized Orienteering Problem, International Transactions in Operational Research. Bibliography Seminar S7. Natural Computing https://www.youtube.com/watch?v=jp 7IF8uOxyE Web resource Seminar S7. Natural Computing Mueller, E. (2006) Commonsense Reasoning. Morgan Kaufmann Bibliography Seminar S8. Knowledge representation and reasoning Wooldridge, M. (2009) An Introduction to Multiagent Systems. 2nd edition, John Wiley and Son Bibliography Seminar S8. Knowledge representation and reasoning Gomez-Pérez, A., Fernández, M., Corcho, O. (2003) Ontological Engineering. Springer Bibliography Seminar S8. Knowledge representation and reasoning Stefan, M. (1995) Introduction to Knowledge Systems. Morgan Kaufmann. Bibliography Seminar S8. Knowledge representation and reasoning Davis, E. (1990) Representations of Commonsense Knowledge. Morgan Kaufmann. Bibliography Seminar S8. Knowledge representation and reasoning Daniel S. Weld, Johan de Kleer (1990) Qualitative Reasoning about Physical Systems. Morgan Kaufmann. Bibliography Seminar S8. Knowledge representation and reasoning 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 25 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Kolodner, J. (1993) Case-based Reasoning. Morgan Kaufmann series on Representation & Reasoning. Bibliography Seminar S8. Knowledge representation and reasoning Wang, X., Ruan, D., Kerre, E.E. (2009) Mathematics of Fuzziness-Basic Issues, Springer. Bibliography Seminar S9. Fuzzy logic Daniel Manrique, María del Carmen Suárez de Figueroa (2017). Razonamiento con imprecisión: lógica borrosa. Apuntes y ejercicios. Archivo Digital UPM. http://http://oa.upm.es/46795/. Bibliography Seminar S9. Fuzzy logic Smart Machines. IBM's Watson and the Era of Cognitive Computing. John E. Kelly III and Steve Hamm. Columbia University Press. 2013. Bibliography Seminar S10. Cognitive computing Learning IBM Watson Analytics. James Miller. Packt Publishing. 2016 Bibliography Seminar S10. Cognitive computing Bluemix: Deployment and Administration. Gerard Blokdyk. Createspace Independent Publishing Platform. 2017 Bibliography Seminar S10. Cognitive computing Learning IBM Bluemix. Sreelatha Sankaranarayanan. Packt Publishing. 2016. Bibliography Seminar S10. Cognitive computing De Lope, J. (2001) Robots Móviles: Evolución Histórica y Técnicas de Programación, Fundación General de la UPM. Bibliography Seminar S11. Cognitive robotics and perception Dudek, G., Jenkin, M. (2000) Computational principles of mobile robotics, Cambridge University Press. Bibliography Seminar S11. Cognitive robotics and perception 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 26 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Mataric, M. (2007) The Robotics Primer, MIT Press, Cambridge, Massachussetts. Bibliography Seminar S11. Cognitive robotics and perception Murphy, R. (2000) An Introduction to AI Robotics, MIT Press, Cambridge, Massachussetts. Bibliography Seminar S11. Cognitive robotics and perception Choset, H.; Lynch, K.; Hutchinson, S.; et al. (2005) Principles of Robot Motion Theory, Algorithms, and Implementations, MIT. Bibliography Seminar S12. Principals of robotic locomotion Molina, M., Blasco, G. (2003) A Multi-agent system for Emergency Decision Support. 4th International Conference of Intelligent Data Engineering and Automated Learning (IDEAL 2003) In "Intelligent Data Engineering and Automated Learning" LNCS, 2690 Bibliography Seminar S13. Applications of Artificial Intelligence Murphy, R. (2000) Introduction to AI Robotics, MIT. Bibliography Seminar S12. Principles of robotic locomotion Nourbakhsh, I; Siegwart, R. (2004) Introduction to Autonomous Mobile Robots, MIT. Bibliography Seminar S12. Principles of robotic locomotion Greenes, R.A. (ed.) (2014) Clinical Decision Support: The Road Ahead. Academic Press, 2nd edition Bibliography Seminar S13. Applications of Artificial Intelligence Mittal, A. (2007) Bayesian Network Technologies: Applications and Graphical Models. IGI Publishing Hershey, PA, USA. Bibliography Seminar S13. Applications of Artificial Intelligence Garrote, L. Molina, M., Medico. L. Probabilistic Forecasts Using Bayesian Networks Calibrated with Deterministic Rainfall-Runoff Models In Extreme Hydrological Events: New Concepts for Security. Springer Bibliography Seminar S13. Applications of Artificial Intelligence 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 27 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Molina, M., Flores, V. (2006) A Knowledge-based Approach for Automatic Generation of Summaries of Behavior. In Artificial Intelligence: Methodology, Systems, and Applications, 12th International Conference AIMSA, LNAI, Springer Verlag Bibliography Seminar S13. Applications of Artificial Intelligence Molina, M. (2005) An Intelligent Assistant for Public Transport Management. International Conference on Intelligent Computing, ICIC 05. Lecture Notes in Computer Science, nº 3645, Springer Verlag. Hefei, China. Bibliography Seminar S13. Applications of Artificial Intelligence Virile, G.B., Zampolli, A. Survey of the state of the art in Human Language Technology, in Linguistica Compaqzionale XII-XIII. Cambridge Univ. Press. ISBN 0-521-59277-1. Bibliography Seminar S13. Applications of Artificial Intelligence Jiménez, A., Ríos-Insua, S., Mateos, A. (2006) A Generic Multi-Attribute Analysis System, Computers & Operations Research 33 (4): 1081-1101 Bibliography Seminar S13. Applications of Artificial Intelligence Cole, R., Mariani, J., Uszkoreit, H., Battista Virile, G., Zaenen, A., Zampolli, A. (eds.) (2010) Survey of the State of the Art in Human Language Technology (Studies in Natural Language Processing). Cambridge University Press. Bibliography Seminar S14. Natural language processing Ghallab, M., Nau, D., Traverso, P. (2004) Automated Task Planning. Theory & Practice. Morgan Kaufmann Bibliography Seminar S15. Automated planning 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 28 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+Allen, J.F., Hendler, J., Tate, A. (eds.) (1990) Readings in planning. Morgan Kaufmann Bibliography Seminar S15. Automated planning Russell, S., Norvig, P. (1996) Inteligencia Artificial. Un enfoque moderno. Prentice Hall Bibliography Seminar S15. Automated planning 
+
+# 8. Other information 
+
+8.1. Other information about the subject 
+
+Although the Seminars subject is taught in the second semester, seminar S1: Research Methodology is also taught (exceptionally) in the first week of the first semester. Students can choose to attend this seminar in any of the two semesters. Seminars can be attended as distance learning via videoconferencing. (S9: Fuzzy logic and S12: Principals of Robotic Locomotion cannot be attended by videoconference). 
+
+Teaching staff: 
+
+S1: Research methodology 
+
+Óscar Corcho García, Asunción Gómez Pérez (coordinator), Mariano Rico Almodóvar, Víctor Rodríguez Doncel 
+
+S2: Project management and risk control 
+
+Javier Bajo Pérez (coordinator), Asunción Gómez Pérez 
+
+S3: Ethical and legal aspects of Artificial Intelligence 
+
+Asunción Gómez Pérez (coordinator), Laura Melgar García, Víctor Rodríguez Doncel 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 29 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+S4: Artificial Intelligence and Inclusion 
+
+Javier Bajo Pérez, Emilio Serrano Fernández, María del Carmen Suárez de Figueroa Baonza (coordinator) 
+
+S5: Decision analysis 
+
+Concha Bielza Lozoya, Jacinto González Pachón (coordinator), Antonio Jiménez Martín 
+
+S6: Machine learning 
+
+Concha Bielza Lozoya, Pedro Larrañaga Múgica (coordinator) 
+
+S7: Natural Computing 
+
+Pedro Larrañaga Múgica, Alfonso Mateos Caballero, Alfonso Rodríguez-Patón Aradas (coordinator) 
+
+S8: Knowledge representation and reasoning 
+
+Javier Bajo Pérez (coordinator), Óscar Corcho García, Asunción Gómez Pérez, Josefa Hernández Diego, Martín Molina González, Elena Montiel Ponsoda, Nik Swoboda 
+
+S9: Fuzzy logic 
+
+Daniel Manrique Gamo (coordinator) 
+
+S10: Cognitive computing 
+
+Javier Bajo Pérez (coordinator), Óscar Corcho García, Asunción Gómez Pérez, Josefa Hernández Diego, Laura Melgar García, Martín Molina González, Nik Swoboda 
+
+S11: Cognitive robotics and perception 
+
+Luis Baumela Molina, Javier de Lope Asiaín, Nik Swoboda (coordinator), Roberto Valle Fernández 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 30 of 32 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+S12: Principles of robotic locomotion 
+
+Nik Swoboda (coordinator) 
+
+S13: Applications of Artificial Intelligence 
+
+Juan Antonio Fernández del Pozo (coordinator), Víctor Maojo García, Alfonso Mateos Caballero, Mª del Carmen Suárez de Figureoa Baonza 
+
+S14: Natural language processing 
+
+Igor Boguslavski, Mariano Rico Almodóvar (coordinator) 
+
+S15: Automated planning 
+
+Miguel García Remesal (coordinator) 
+
+S16: Generative AI and Prompt Engineering: Applications and Challenges 
+
+Emilio Serrano Fernández (coordinator), Damiano Zanardini Although the Seminars subject is taught in the second semester, seminar S1: Research Methodology is also taught (exceptionally) in the first week of the first semester. Students can choose to attend this seminar in any of the two semesters. 
+
+# ODS: 
+
+In the Project Management and Risk Management seminar, all SDGs are addressed, as European calls for projects are explained and all of them assess the SDGs. The Artificial Intelligence and Inclusion seminar covers: SDG4 (Quality Education), SDG5 (Gender Equality), and SDG10 (Reducing Inequalities). The Automatic Planning seminar works on SDG 7: Affordable Energy. It explains how automated planning 
+
+> GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 31 of 32
+
+PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos techniques can optimise the movement of containers in port terminals, thus contributing to a more efficient use of the energy resources required by cranes and other container transport and exchange vehicles. The seminars Knowledge Representation and Reasoning and Cognitive Computing address SDG10: Reducing inequalities. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000372 2S_2024-25 Seminars Master Universitario En Inteligencia Artificial Page 32 of 32

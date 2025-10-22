@@ -1,0 +1,384 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000369_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000369 - Vision Por Computador 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Conocimientos previos recomendados.....................................................................................................................2 4. Competencias y resultados de aprendizaje..............................................................................................................2 5. Descripción de la asignatura y temario.....................................................................................................................3 6. Cronograma.............................................................................................................................................................5 7. Actividades y criterios de evaluación........................................................................................................................7 8. Recursos didácticos.................................................................................................................................................9 9. Otra información......................................................................................................................................................10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000369 - Vision por Computador 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Roberto Valle Fernandez D3205 roberto.valle@upm.es Sin horario. Publicadas en la página web del departamento. Luis Baumela Molina (Coordinador/a) D2112 luis.baumela@upm.es Sin horario. Publicadas en la página web del departamento * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías 
+
+> GA_10AJ_103000369 1S_2024-25 Vision Por Computador Master Universitario En Inteligencia Artificial Página 1 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+con el profesorado. 
+
+## 3. Conocimientos previos recomendados 
+
+3.1. Asignaturas previas que se recomienda haber cursado 
+
+El plan de estudios Master Universitario en Inteligencia Artificial no tiene definidas asignaturas previas recomendadas para esta asignatura. 
+
+3.2. Otros conocimientos previos recomendados para cursar la asignatura 
+
+- Optimización - Álgebra Lineal - Programación Python - Lectura y escritura técnica en inglés. 
+
+## 4. Competencias y resultados de aprendizaje 
+
+4.1. Competencias 
+
+CB10 - Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo. CB9 - Que los estudiantes sepan comunicar sus conclusiones y los conocimientos y razones últimas que las sustentan a públicos especializados y no especializados de un modo claro y sin ambigüedades CEIA8 - Capacidad de analizar un problema de percepción relacionado con el guiado de un robot y determinar qué técnica es la más adecuada para su resolución, así como determinar las características del equipo de adquisición y llevar a la práctica un prototipo de dicho sistema CG10 - Capacidad de pensamiento creativo con el objetivo de desarrollar enfoques y métodos nuevos y originales. CG13 - Apreciación de los límites del conocimiento actual y de la aplicación práctica de la tecnología más reciente. 
+
+> GA_10AJ_103000369 1S_2024-25 Vision Por Computador Master Universitario En Inteligencia Artificial Página 2 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+CG16 - Capacidad de trabajar de forma independiente en su campo profesional. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+4.2. Resultados del aprendizaje 
+
+RA79 - Ser capaz de procesar una imagen para mejorarla o resaltar algún elemento RA80 - Conocer algunas de las relaciones geométricas que se producen en la formación de imágenes multicámara RA76 - Ser capaz de construir un algoritmo para segmenar imágenes RA77 - Conocer el problema de la puesta en correspondencia de imágenes y las estrategias de resolución RA74 - Ser capaz de calibrar una cámara RA75 - Ser capaz de inferir propiedades tridimensionales del mundo a partir de imágenes RA78 - Conocer aplicaciones de visión por computador y sus limitaciones 
+
+## 5. Descripción de la asignatura y temario 
+
+5.1. Descripción de la asignatura 
+
+Las técnicas de visión por computador tienen como fin último extraer propiedades del mundo a partir de un conjunto de imágenes. La identificación y localización de los objetos que nos rodean, el reconocimiento de una persona o la inserción automática de un personaje gráfico en una película, son algunos ejemplos de aplicaciones actuales de la visión por computador. El objetivo del curso es introducir al alumno en la problemática de la visión por computador y estudiar las técnicas más usuales de análisis automático de imágenes, desde la perspectiva del aprendizaje profundo. Se estudiarán en detalle los modelos y arquitecturas más utilizados, así como algunas de sus aplicaciones. La asignatura tiene un enfoque en el que se pretende equilibrar los conocimientos teóricos de los últimos avances, con el uso práctico de técnicas más asentadas. 
+
+> GA_10AJ_103000369 1S_2024-25 Vision Por Computador Master Universitario En Inteligencia Artificial Página 3 de 10
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informaticos 5.2. Temario de la asignatura 
+
+1. Introducción 2. Procesamiento de imágenes digitales 3. Introducción a los modelos profundos 4. Arquitecturas profundas para visión por computador 5. Aplicaciones 6. Modelos avanzados 
+
+GA_10AJ_103000369 1S_2024-25 Vision Por Computador Master Universitario En Inteligencia Artificial Página 4 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 6. Cronograma 
+
+6.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Tema 1. 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+2
+
+Tema 2. 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+3
+
+Tema 2. 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+4
+
+Tema 3. 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+5
+
+Tema 3. 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+6
+
+Tema 3. 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Seminario 1 
+
+PI: Técnica del tipo Presentación Individual Evaluación Progresiva Presencial Duración: 02:00 
+
+7
+
+Tema 4. 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+8
+
+Tema 4 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+9
+
+Tema 4 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+10 
+
+Tema 4 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Seminario 2 
+
+PI: Técnica del tipo Presentación Individual Evaluación Progresiva Presencial Duración: 02:00 
+
+11 
+
+Tema 5 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+GA_10AJ_103000369 1S_2024-25 Vision Por Computador Master Universitario En Inteligencia Artificial Página 5 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 12 
+
+Tema 5 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+13 
+
+Tema 6. 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+14 
+
+Tema 6. 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+15 
+
+Tema 6. 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Seminario 3. 
+
+PI: Técnica del tipo Presentación Individual Evaluación Progresiva Presencial Duración: 02:00 
+
+16 
+
+17 
+
+Examen teoría 
+
+EX: Técnica del tipo Examen Escrito Evaluación Progresiva y Global Presencial Duración: 02:00 
+
+Proyecto práctico 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva y Global No presencial Duración: 00:00 
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000369 1S_2024-25 Vision Por Computador Master Universitario En Inteligencia Artificial Página 6 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 7. Actividades y criterios de evaluación 
+
+7.1. Actividades de evaluación de la asignatura 
+
+7.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+6 Seminario 1 
+
+PI: Técnica del tipo Presentación Individual 
+
+Presencial 02:00 7% 0 / 10 
+
+CB9 CB10 CGI4 CG13 CG16 
+
+10 Seminario 2 
+
+PI: Técnica del tipo Presentación Individual 
+
+Presencial 02:00 7% 0 / 10 
+
+CG13 CG16 CB9 CB10 CGI4 
+
+15 Seminario 3. 
+
+PI: Técnica del tipo Presentación Individual 
+
+Presencial 02:00 6% 0 / 10 
+
+CB10 CGI4 CB9 CG13 CG16 
+
+17 Examen teoría 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 02:00 40% 3 / 10 CB10 CG16 
+
+17 Proyecto práctico 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 40% 3 / 10 
+
+CB10 CB9 CG10 CG13 CEIA8 
+
+7.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+17 Examen teoría 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 02:00 40% 3 / 10 CB10 CG16 
+
+GA_10AJ_103000369 1S_2024-25 Vision Por Computador Master Universitario En Inteligencia Artificial Página 7 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informaticos 17 Proyecto práctico    
+
+> TG: Técnica del tipo Trabajo en Grupo
+> No Presencial 00:00 40% 3 / 10
+> CB10 CB9 CG10 CG13 CEIA8
+
+7.1.3. Evaluación convocatoria extraordinaria              
+
+> Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas
+> Examen teoría
+> EX: Técnica del tipo Examen Escrito
+> Presencial 02:00 40% 3 / 10 CG16 CB10
+> Proyecto práctico
+> TG: Técnica del tipo Trabajo en Grupo
+> Presencial 00:00 40% 3 / 10
+> CB10 CB9 CG10 CG13 CEIA8
+
+7.2. Criterios de evaluación 
+
+La asignatura se califica con tres actividades: examen de teoría (40%), proyecto práctico (40%) y participación en seminarios (20%). Según el sistema de evaluación progresiva de la UPM el procedimiento será el siguiente: 
+
+1. Examen de teoría . Se realizará en la convocatoria ordinaria de la asignatura durante el mes de enero. Dependiendo de la modalidad de examen es posible que esta evaluación se realice en lengua inglesa. 
+
+2. Proyecto práctico . A lo largo del curso, a medida que se vayan presentando los conocimientos de cada tema, se irá desarrollado en grupo un proyecto práctico, que se materializará en un programa y en la redacción de una memoria. La entrega de este trabajo se realizará coincidiendo con la convocatoria ordinaria durante el mes de enero. 
+
+3. Seminarios . A lo largo del curso, aproximadamente en las semanas indicadas en el conograma, se realizarán seminarios en los que cada estudiante tendrá que preparar una presentación sobre un artículo científico y explicarlo al grupo o participar en su discusión. Dada la naturaleza de esta actividad, no es posible su recuperación en la convocatoria ordinaria, así como tampoco es posible su calificación en la 
+
+GA_10AJ_103000369 1S_2024-25 Vision Por Computador Master Universitario En Inteligencia Artificial Página 8 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+modalidad de evaluación "solo prueba global/final". La nota final se obtiene sumando ponderadamente las calificaciones obtenidas en las actividades evaluables detalladas en la tabla anterior. Para aprobar la asignatura es necesario tener una nota final superior a 5 puntos y haber superado la nota mínima de cada actividad. La convocatoria extraordinaria se evalúa igual que la ordinaria. El estudiante deberá volver a realizar aquella actividad cuya calificación en la convocatoria ordinaria fuese inferior a 5 puntos, con la salvedad de los seminarios, que no son evaluables en esta convocatoria. En los trabajos prácticos se valorará la bondad de la solución propuesta, así como la profundidad de la discusión, la calidad y cantidad de referencias consultadas y la organización y redacción de la memoria. En las exposiciones de artículos científicos se valorará la capacidad de síntesis de las ideas esenciales, la discusión, la calidad de los medios audiovisuales y la presentación oral, si la hubiese. 
+
+## 8. Recursos didácticos 
+
+8.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+D. Forsyth, J. Ponce. Computer Vision. A modern approach. Pearson. 2012 Bibliografía Libro de texto R. Szeliski. Computer vision: Algorithms and applications. Springer, 2021. Bibliografía Libro de texto. 
+
+> GA_10AJ_103000369 1S_2024-25 Vision Por Computador Master Universitario En Inteligencia Artificial Página 9 de 10
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informaticos https://moodle.upm.es/titulaciones/ofi ciales/login Recursos web Documentación de la asignatura en el Aula Virtual de la UPM Ian Goodfellow, Yoshua Bengio, Aaron Courville. Deep Learning. MIT Press. 2016 Bibliografía Libro sobre aprendizaje profundo. 
+
+## 9. Otra información 
+
+9.1. Otra información sobre la asignatura 
+
+La asignatura se apoya en la herramienta Moodle para proporcionar información y documentación a los alumnos, así como para la asignación y entrega de las prácticas y la comunicación de las calificaciones. Esta asignatura está relacionada con otras del máster, concretamente, "Redes de Neuronas Artificiales y Deep Learning", en la cual se presentan los fundamentos del aprendizaje profundo, y "Deep Learning para el Procesamiento del Lenguaje Natural ". Ambas complementan lo que aquí se estudia y, dado que se pueden cursar independientemente, existirá cierto solapamiento de contenidos, especialmente con la primera. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000369 1S_2024-25 Vision Por Computador Master Universitario En Inteligencia Artificial Página 10 de 10

@@ -1,0 +1,45 @@
+Title: Corcho García, Óscar - Máster Universitario en Inteligencia Artificial
+
+URL Source: https://muia.dia.fi.upm.es/en/personal/corcho-garcia-oscar_en/
+
+Markdown Content:
+<
+
+![Image 1](https://muia.dia.fi.upm.es/wp-content/uploads/sites/6/2017/05/Corcho-Garcia-Oscar.png)
+
+*   ### Office: 2105
+    
+*   ### Web: [http://www.oeg-upm.net/index.php/es/teachers/11-ocorcho](http://www.oeg-upm.net/index.php/es/teachers/11-ocorcho)
+    
+*   ### Phone: +34-91-336-3755
+    
+*   ### ORCID: [https://orcid.org/0000-0002-9260-0753](https://orcid.org/0000-0002-9260-0753)
+    
+*   ### Email: [ocorcho@fi.upm.es](mailto:ocorcho@fi.upm.es)
+    
+*   ### ResearcherID: [http://www.researcherid.com/rid/C-4000-2011](http://www.researcherid.com/rid/C-4000-2011)
+    
+*   ### Research group: [Grupo de Ingeniería Ontológica](http://www.oeg-upm.net/)
+    
+*   ### Scopus Author ID: [https://www.scopus.com/authid/detail.uri?authorId=14010357000](https://www.scopus.com/authid/detail.uri?authorId=14010357000)
+    
+
+Prof. Dr. Oscar Corcho, PhD, es Catedrático de Universidad en el Departamento de Inteligencia Artificial de la Universidad Politécnica de Madrid (UPM), y codirige el Grupo de Ingeniería Ontológica (OEG) de la citada Escuela. Anteriormente trabajó como investigador Marie Curie en la Universidad de Manchester y como gestor de investigación en la empresa iSOCO.
+
+**Formación:**  Licenciado en Informática (2000) –Primer expediente de la Promoción, Tercer Premio Nacional Fin de Carrera (MEC) y Premio al Rendimiento Académico por la Fundación General de la UPM en su convocatoria 1997-1998-, Máster en Ingeniería del Software (2001) y Doctor en Informática (2004) por la UPM –Premio Extraordinario Doctorado UPM en su convocatoria de 2005-.
+
+**Premios:** Premio Juan López de Peñalver de la Real Academia de Ingeniería (edición 2016) a jóvenes investigadores en el área de ingeniería; Primer Premio _Semantic Web Challenge 2015_, Primer Permio _Fujitsu Laboratories of Europe Innovation Award 2015_; varios permios en posters y demos (ICBO2015, ISWC2015, KCAP2015), Premio al mejor paper en la ESWC2011 Conference,  Primer Premio _Open Track._ _Triplification Challenge_(I-SEMANTICS 2011), Mención honorífica _Open Government Data Track._ _Triplification Challenge_(I-SEMANTICS 2010) y Tercer Premio Nacional en Informática del Ministerio de Educación 2000.
+
+**Áreas de Investigación:**Sus actividades de investigación se centran en la Web Semántica y la Web de Datos Enlazados, en la Ingeniería Ontológica y en la aplicación de tecnologías semánticas en distintos dominios, como por ejemplo la e-Ciencia Semántica y Ciencia Abierta. En todas estas áreas combina la investigación básica con la aplicada. Ha coordinado dos acciones europeas Marie Curie (SemData y KOPAR) y un proyecto europeo H2020 (STARS4ALL). Ha participado como investigador principal por parte de la UPM en más de diez proyectos europeos con financiación pública, así como en proyectos nacionales. También ha liderado dos redes temáticas nacionales (la de Linked Data, y la de Open Data y Smart Cities). También ha dirigido contratos privados como el de la _International Classification of Patient Safety_, con la Organización Mundial de la Salud, y varios contratos relacionados con la apertura de datos de instituciones públicas (Consorcio Regional de Transportes de Madrid (CTRM), Centro Nacional de Información Geográfica, IASoft-Oesía para el Gobierno de Aragón).
+
+**Dirección de Investigación:**Es co-director del Ontology Engineering Group (OEG), que desde el año 2012 ocupa el 8º puesto en el ranking de los grupos de investigación de la UPM (primer grupo de investigación en la Facultad de Informática). El OEG está compuesto por 35 personas, de las cuales 19 son doctores. En él se han formado más de 150 estudiantes.
+
+**Publicaciones:**Ha publicado varios libros, entre los que destaca “Ontological Engineering”, utilizado como texto académico en varias universidades españolas y extranjeras, y “Data Bonanza”, así como más de 100 artículos en revistas, conferencias y _workshops_. Ha sido invitado a dar charlas en conferencias de prestigio (EKAW2014, SEMANTICS2015), así como en centros universitarios y de investigación internacionales (Estados Unidos, Reino Unido, Francia). Es miembro del comité editorial de varias revistas, y participa habitualmente en los comités de programa de las conferencias y _workshops_más relevantes del área, habiendo dirigido el comité de programa de algunas de ellas (K-CAP, ESWC, ISWC).
+
+**Tesis Doctorales:**Ha supervisado 16 tesis doctorales (tanto en la UPM como en distintas universidades internacionales). Algunos de sus principales estudiantes de PhD tienen destacadas posiciones  en el panorama de la investigación científica y académica, en instituciones como EPDL, la Universidad Southern California, Fujitsu, PUC Chile, etc.
+
+**Conferencias invitadas y eventos organizados:**Organiza con frecuencia _workshops_y conferencias nacionales e internacionales, y escuelas de verano. Ha sido co-fundador de las _spin-offs_LikeCube Ltd, adquirida por TimeOut en 2011, y LocaliData, creada en 2013.
+
+**Innovación**. Ha sido co-fundador de las _spin-offs_ LikeCube Ltd, adquirida por TimeOut en 2011, y LocaliData, creada en 2013.
+
+**Actividades para acercar la ciencia y la tecnología al ciudadano:** Sus actividades de investigación se centran en la Ciencia Abierta, la Integración de datos, la Web de Linked Data y la Ingeniería Ontológica. Ha participado en proyectos europeos y nacionales con financiaciónpública en todas estas áreas (STARS4ALL, Mobile-AGE, CLARITY, SlideWiki, 3cixty, DrInventor, SemData, Wf4Ever, PlanetData, LPS-Bigger, Ciudad2020, BuscaMedia, mIO!, SemsorGrid4Env, ADMIRE, OntoGrid, Esperonto, DIP, HOPS, SWWS, Knowledge Web, OntoWeb y MKBEEM), siendo investigador principal por la UPM en los 13 primeros, así como en proyectos privados (como el proyecto HALO, financiado por Vulcan Inc., o el de la _International Classification of Patient Safety_, financiado por la Organización Mundial de la Salud).

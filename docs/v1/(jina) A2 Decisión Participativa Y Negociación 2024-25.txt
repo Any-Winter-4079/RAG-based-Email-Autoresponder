@@ -1,0 +1,419 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000358_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000358 - Decisión Participativa Y Negociación 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Conocimientos previos recomendados.....................................................................................................................2 4. Competencias y resultados de aprendizaje..............................................................................................................2 5. Descripción de la asignatura y temario.....................................................................................................................3 6. Cronograma.............................................................................................................................................................5 7. Actividades y criterios de evaluación........................................................................................................................7 8. Recursos didácticos................................................................................................................................................10 9. Otra información......................................................................................................................................................12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000358 - Decisión Participativa y Negociación 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Jacinto Gonzalez Pachon (Coordinador/a) 2101 jacinto.gonzalez.pachon@up m.es Sin horario. Javier Bajo Perez 2101 javier.bajo@upm.es Sin horario. * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+> GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 1 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 3. Conocimientos previos recomendados 
+
+3.1. Asignaturas previas que se recomienda haber cursado 
+
+El plan de estudios Master Universitario en Inteligencia Artificial no tiene definidas asignaturas previas recomendadas para esta asignatura. 
+
+3.2. Otros conocimientos previos recomendados para cursar la asignatura 
+
+- Conocimientos de Algebra Lineal y de Cálculo Diferencial 
+
+## 4. Competencias y resultados de aprendizaje 
+
+4.1. Competencias 
+
+CB7 - Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio CEIA10 - Identificación de áreas de aplicación en las que se pueda utilizar las técnicas y métodos de la Inteligencia Artificial. CEIA3 - Conocimiento y aplicación de los modelos cuantitativos que dan soporte a los procesos de toma de decisiones en sus distintas variantes: determinístico-estocástico, individual-colectivo o estático-dinámico CG13 - Apreciación de los límites del conocimiento actual y de la aplicación práctica de la tecnología más reciente. CG16 - Capacidad de trabajar de forma independiente en su campo profesional. 
+
+> GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 2 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+CG17 - Habilidades de gestión y capacidad de liderar un equipo que puede estar integrado por disciplinas y niveles distintos. CG19 - Aproximación sistemática a la gestión de riesgos. CGI1 - Adquirir conocimientos científicos avanzados del campo de la informática que le permitan generar nuevas ideas dentro de una línea de investigación. CGI2 - Comprender el procedimiento, valor y límites del método científico en el campo de la Informática, siendo capaz de identificar, localizar y obtener datos requeridos en un trabajo de investigación, de diseñar y guiar investigaciones analíticas, de modelado y experimentales, así como de evaluar datos de una manera crítica y extraer conclusiones. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+4.2. Resultados del aprendizaje 
+
+RA73 - Ser capaz de aplicar modelos de negociación y de toma de decisión colectiva, bajo el paradigma "satisfaciente", a la resolución de conflictos y la mediación. RA72 - Ser capaz de expresar las ideas del estado del arte y las ideas nuevas aportadas, tanto de manera oral como escrita. 
+
+## 5. Descripción de la asignatura y temario 
+
+5.1. Descripción de la asignatura 
+
+En este curso , la lógica satisfaciente se presenta como el marco racional idóneo para el análisis de la negciación y la decisión participativa. Este marco pretende fortalecer el vínculo entre ambas disciplinas del análisis de decisiones. La forma de implementar una lógica satisfaciente, tanto en un problema de agregación de preferencias como en un problema de análisis de negociación, será mediante el uso de la Programación de Metas. 
+
+> GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 3 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+5.2. Temario de la asignatura 
+
+1. Estructura de un problema de negociación y de decisión participativa 1.1. Glosario de términos 1.2. Marco formal para la decisión participativa 1.3. Marco formal para el análisis de la negociación 2. Lógica Satisfaciente y Programación por Metas 2.1. Paradigma satisfaciente vs. paradigma optimizador 2.2. Lógica satisfaciente y Progrmación por Metas: conexiones básicas 2.3. Formas básicas y extensiones de la función de logro 3. Problemas de decisión participativa con información ordinal 3.1. Agregación de rankings completos bajo la lógica satisfaciente 3.2. Agregación de rankings parciales bajo la lógica satisfaciente 3.3. Un modelo unificado 4. Problemas de decisión participativa con información cardinal 4.1. Agregación de funciones de utilidad bajo la lógica satisfaciente 4.2. Agregación de matrices de comparación por pares bajo la lógica satisfaciente 4.3. Un modelo unificado 5. Regateo y arbitraje 5.1. Regateo axiomático 5.2. Problemas con la axiomática 5.3. Arbitraje 6. Una aplicación: Computación social 6.1. Organizaciones virtuales 6.2. Tecnologías del acuerdo 7. Una aplicación: Resolución de inconsistencias en Análisis de Decisiones 7.1. Intransitividades 7.2. Incoherencias 7.3. Problemas abiertos 
+
+> GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 4 de 12
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 6. Cronograma 
+
+6.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Presentación del curso 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+2
+
+Tema 1 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+3
+
+Tema 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Tutoria grupal 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+4
+
+Jornada de presentación: temas 1 y 2 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Temas 1 y 2 
+
+TI: Técnica del tipo Trabajo Individual Evaluación Progresiva No presencial Duración: 00:00 
+
+5
+
+Tema 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+6
+
+Tema 4 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Tutoria grupal 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+7
+
+Jornada de presentación: temas 3 y 4 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Temas 3 y 4 
+
+TI: Técnica del tipo Trabajo Individual Evaluación Progresiva No presencial Duración: 00:00 
+
+8
+
+Tutorial 1 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+9
+
+Tema 5 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+10 
+
+Tutorial 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 5 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 11 
+
+Tema 6 (1ª parte) 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+12 
+
+Tema 6 (2ª parte) 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+13 
+
+Tema 7 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Tutoria grupal 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+14 
+
+Jornada de presentación: Temas 5 y 6 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Temas 5 y 6 
+
+TI: Técnica del tipo Trabajo Individual Evaluación Progresiva No presencial Duración: 00:00 
+
+15 
+
+Jornada de presentación: artículo científico (I) 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Artículo científico (I) 
+
+TI: Técnica del tipo Trabajo Individual Evaluación Progresiva No presencial Duración: 00:00 
+
+16 
+
+Jornada de presentación: artículo científico (II) 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Artículo científico (II) 
+
+TI: Técnica del tipo Trabajo Individual Evaluación Progresiva No presencial Duración: 00:00 
+
+17 
+
+Examen final 
+
+ET: Técnica del tipo Prueba Telemática Evaluación Global No presencial Duración: 00:00 
+
+Artículo científico (I) 
+
+TI: Técnica del tipo Trabajo Individual Evaluación Global No presencial Duración: 00:00 
+
+Artículo científico (II) 
+
+TI: Técnica del tipo Trabajo Individual Evaluación Global No presencial Duración: 00:00 
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 6 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 7. Actividades y criterios de evaluación 
+
+7.1. Actividades de evaluación de la asignatura 
+
+7.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+4 Temas 1 y 2 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 00:00 20% 5 / 10 
+
+CGI1 CGI3 CGI4 CEIA10 CB7 CG13 CG19 CGI2 CEIA3 CG16 CG17 
+
+7 Temas 3 y 4 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 00:00 20% 5 / 10 
+
+CG16 CG17 CGI1 CGI3 CGI4 CEIA10 CB7 CG13 CG19 CGI2 CEIA3 
+
+14 Temas 5 y 6 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 00:00 20% 5 / 10 
+
+CG13 CG19 CGI2 CEIA3 CG16 CG17 CGI1 CGI3 CGI4 CEIA10 CB7 
+
+GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 7 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 15 Artículo científico (I) 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 00:00 20% 5 / 10 
+
+CGI4 CEIA10 CB7 CG13 CGI2 CEIA3 CGI1 CGI3 
+
+16 Artículo científico (II) 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 00:00 20% 5 / 10 
+
+CGI1 CGI3 CGI4 CEIA10 CB7 CG13 CGI2 CEIA3 
+
+7.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+17 Examen final 
+
+ET: Técnica del tipo Prueba Telemática 
+
+No Presencial 00:00 60% 5 / 10 
+
+CGI1 CGI3 CGI4 CEIA10 CB7 CG13 CG19 CGI2 CEIA3 CG16 CG17 
+
+17 Artículo científico (I) 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 00:00 20% 5 / 10 
+
+CGI4 CEIA10 CB7 CG13 CGI2 CEIA3 CGI1 CGI3 
+
+17 Artículo científico (II) 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 00:00 20% 5 / 10 
+
+CGI1 CGI3 CGI4 CEIA10 CB7 CG13 CGI2 CEIA3 
+
+GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 8 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+7.1.3. Evaluación convocatoria extraordinaria 
+
+No se ha definido la evaluación extraordinaria. 
+
+7.2. Criterios de evaluación 
+
+EVALUACIÓN CONTINUA Se requiere una asistencia regular a clase para aplicar la evaluación continua. Los apuntes de contenido teórico se evaluarán según su exahustividad, claridad, coherencia y originalidad, así como la capacidad para interconectar ideas. Los trabajos colectivos serán evaluados según el índice de participación, la capacidad de interconectar ideas, la claridad y la originalidad. La presentación individual se evaluará según su claridad y coherencia. El trabajo científico en grupo será evaluado según su claridad, coherencia y originalidad. EVALUACIÓN EXTRAORDINARIA La puntuación en examen extraordinario se obtendrá por los mismos conceptos detallados en la tabla de Evaluación Sumativa. Sin embargo, la presentación individual consistirá en un documento que incluye el contenido de la presentación; mientras que el artículo científico será un trabajo individual. 
+
+> GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 9 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 8. Recursos didácticos 
+
+8.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+French, S. (1989) Decision Theory. Ellis Horwood, Cichester Bibliografía Libro Hwang, C-H.; Lin, M-J. (1987). Group decision making under multiple criteria. Springer-Verlag, Berlín Bibliografía Libro Raiffa, H.; Richardson, J.; Metcalfe, D. (2002). Negotiation Analysis. Belknap Harvard, Cambridge, MA. Bibliografía Libro Romero, C. (1991). Handbook of Critical Issues in Goal Programming. Pergamon Press Bibliografía Libro González-Pachón J.; Romero, C. (1999) "Distance-based consensus methods: a goal programming approach", OMEGA 27: 341-347 Bibliografía Artículo González-Pachón J.; C. Romero (2001) "Aggregation of partial ordinal rankings: an interval goal programming approach", Computers & Operation Research, 28: 827-834 Bibliografía Artículo González-Pachón J.; Romero, C. (2004) "Satisficing logic and goal programming: Towards an axiomatic link", INFOR 42: 157-161 Bibliografía Artículo González-Pachón J; Romero C (2004) "A method for dealing with inconsistencies in pairwise comparisons", European Journal of Operational Research 158: 351-361. Bibliografía Artículo 
+
+> GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 10 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+González-Pachón, J; Romero, C (2006) "An analytical framework for aggregating multiattribute utility functions", Journal of the Operational Research Society 57: 1241-1247. Bibliografía Artículo González-Pachón, J; Romero, C. (2007) "Inferring consensus weights from pairwise comparison matrices without suitable properties", Annals of Operations Research 154: 123-132 Bibliografía Artículo González-Pachón J; Romero C (2008) "A method for obtaining transitive approximations of a binary relation", Annals of Operations Research 163: 197-208 Bibliografía Artículo Kersten,G. E. (2001) "Modelling distributive and integrative negotiations: review and revised characterization", Group Decision and Negotiation 10: 493-514. Bibliografía Artículo Nakayama, H., et al. (1979) "Methodology for group decision support with application to assessment of residential environment", IEEE Transactions on Systems, Man, and Cybernetics, Vol.SMC-9. Nº9: 447-485. Bibliografía Artículo Sebenius, J. K. (1992) "Negotiation Analysis: A Characterization and Review" Management Science 38:18-38. Bibliografía Artículo Ferber, O. Gutknecht, F. Michel. (2004) "From Agents to Organizations: an Organizational View of Multi-Agent Systems", LNCS 2935: 214?230. Bibliografía Artículo 
+
+> GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 11 de 12
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos Ossowski S. (2013). "Agreement Technologies", Law, Governance and Technology Series vol. 8. Bibliografía Libro Clases y tutorías virtuales Recursos web 
+
+## 9. Otra información 
+
+9.1. Otra información sobre la asignatura 
+
+CONSECUCIÓN ODS El vínculo formal entre el Análisis de la Negociación y los modelos de Decisión Colectiva que se ofrece en este curso proporciona un marco idóneo para incorporporar la participación ciudadana en la consecución de los ODS. En este curso, se muestran modelos que recogen la ponderación entre valores y principios sociales cuando estos entran en conflicto. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000358 1S_2024-25 Decisión Participativa Y Negociación Master Universitario En Inteligencia Artificial Página 12 de 12

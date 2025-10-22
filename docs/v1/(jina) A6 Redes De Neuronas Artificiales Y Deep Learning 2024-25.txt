@@ -1,0 +1,378 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000815_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000815 - Redes De Neuronas Artificiales Y Deep Learning 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Conocimientos previos recomendados.....................................................................................................................2 4. Competencias y resultados de aprendizaje..............................................................................................................2 5. Descripción de la asignatura y temario.....................................................................................................................3 6. Cronograma.............................................................................................................................................................5 7. Actividades y criterios de evaluación........................................................................................................................7 8. Recursos didácticos.................................................................................................................................................8 9. Otra información.......................................................................................................................................................9 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000815 - Redes de Neuronas Artificiales y Deep Learning 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Martin Molina Gonzalez (Coordinador/a) 2111 martin.molina@upm.es Sin horario. Daniel Manrique Gamo 2109 daniel.manrique@upm.es Sin horario. * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+> GA_10AJ_103000815 1S_2024-25 Redes De Neuronas Artificiales Y Deep Learning Master Universitario En Inteligencia Artificial Página 1 de 9 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 3. Conocimientos previos recomendados 
+
+3.1. Asignaturas previas que se recomienda haber cursado 
+
+El plan de estudios Master Universitario en Inteligencia Artificial no tiene definidas asignaturas previas recomendadas para esta asignatura. 
+
+3.2. Otros conocimientos previos recomendados para cursar la asignatura 
+
+- Conocimientos básicos de cálculo diferencial y álgebra lineal - Lenguajes de programación (por ejemplo, Python) 
+
+## 4. Competencias y resultados de aprendizaje 
+
+4.1. Competencias 
+
+CB10 - Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo. CB7 - Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio CEIA4 - Capacidad de interpretar los modelos de clasificación supervisada y no supervisada obtenidos al aplicar las técnicas de Aprendizaje Automático para un conjunto de datos. CG13 - Apreciación de los límites del conocimiento actual y de la aplicación práctica de la tecnología más reciente. 
+
+> GA_10AJ_103000815 1S_2024-25 Redes De Neuronas Artificiales Y Deep Learning Master Universitario En Inteligencia Artificial Página 2 de 9 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+4.2. Resultados del aprendizaje 
+
+RA101 - Construir una red de neuronas entrenada a partir de un conjunto de datos RA98 - Manejar la formalización matemática de las redes de neuronas artificiales RA102 - Elegir el modelo neuronal más adecuado para cada clase de problema RA100 - Seleccionar técnicas de aprendizaje profundo (deep learning) para entrenar redes de neuronas RA99 - Comparar las redes de neuronas artificiales con otros métodos de inteligencia artificial 
+
+## 5. Descripción de la asignatura y temario 
+
+5.1. Descripción de la asignatura 
+
+Esta asignatura presenta una visión teórica y práctica de las redes neuronales artificiales, un campo de estudio en inteligencia artificial con el que se han obtenido grandes logros en los últimos años, por ejemplo, en problemas de visión artificial, de reconocimiento y generación de lenguaje natural o de control en robots autónomos. La asignatura se inicia con el Tema 1 en donde se presentan los fundamentos teóricos de las redes neuronales artificiales y su entrenamiento basado en el algoritmo de retropropagación. El Tema 2 describe técnicas propias del aprendizaje profundo (deep learning en inglés) tales como aceleradores del proceso de optimización, regularización, inicialización, etc. Los contenidos de ambos temas se ilustran con ejemplos sobre los que se realiza aprendizaje supervisado. El Tema 3 describe aprendizaje por refuerzo con redes neuronales profundas. El aprendizaje por refuerzo permite a un agente aprender mediante la obtención de sucesivas recompensas durante la interacción con entornos dinámicos. En esta parte, se describen diversos algoritmos que hacen uso de redes neuronales basados en Q-learning y en policy gradient. 
+
+Finalmente, el Tema 4 se encuadra dentro del aprendizaje profundo generativo ( generative deep learning ). Se describen arquitecturas de redes neuronales que emplean el paradigma de aprendizaje no supervisado (por ejemplo, las redes generativas antagónicas o generative adversarial networks - GAN), las cuales sirven de base para el desarrollo de aplicaciones de inteligencia artificial generativa. Durante el desarrollo de la asignatura, los alumnos realizarán trabajos prácticos utilizando herramientas especializadas (lenguajes informáticos y bibliotecas software) para entrenar redes neuronales utilizando algoritmos 
+
+> GA_10AJ_103000815 1S_2024-25 Redes De Neuronas Artificiales Y Deep Learning Master Universitario En Inteligencia Artificial Página 3 de 9 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+estudiados en clase. NOTA: Las clases de esta asignatura se imparten en español, pero los materiales escritos utilizados están en inglés (por ejemplo, las diapositivas utilizadas en clase o la bibliografía recomendada). 
+
+5.2. Temario de la asignatura 
+
+1. Artificial neural networks 1.1. Foundations of artificial neural networks 1.2. Training artificial neural networks 1.3. Deep neural networks 1.4. Software tools for artificial neural networks 2. Training methods for deep neural networks 2.1. Performance evaluation 2.2. Normalization and initialization 2.3. Regularization 2.4. Optimization algorithms 3. Deep reinforcement learning 3.1. Foundations of reinforcement learning 3.2. Algorithms based on Q-Learning 3.3. Algorithms based on policy gradient 4. Deep generative models 4.1. Generative adversarial networks 4.2. Other architectures 
+
+> GA_10AJ_103000815 1S_2024-25 Redes De Neuronas Artificiales Y Deep Learning Master Universitario En Inteligencia Artificial Página 4 de 9
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 6. Cronograma 
+
+6.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Introducción 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+2
+
+Tema 1 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+3
+
+Tema 1 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+4
+
+Tema 1 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+5
+
+Tema 1 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+6
+
+Tema 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+7
+
+Tema 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+8
+
+Tema 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+9
+
+Tema 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+10 
+
+Tema 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+11 
+
+Tema 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+GA_10AJ_103000815 1S_2024-25 Redes De Neuronas Artificiales Y Deep Learning Master Universitario En Inteligencia Artificial Página 5 de 9 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 12 
+
+Tema 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+13 
+
+Tema 4 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Trabajo práctico sobre temas 1 y 2 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva No presencial Duración: 00:00 
+
+14 
+
+Tema 4 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+15 
+
+Tema 4 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+16 
+
+Trabajo práctico sobre temas 1 y 2 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Global No presencial Duración: 00:00 
+
+Trabajo práctico sobre tema 3 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva y Global No presencial Duración: 00:00 
+
+Examen escrito 
+
+EX: Técnica del tipo Examen Escrito Evaluación Progresiva y Global Presencial Duración: 02:00 
+
+17 
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000815 1S_2024-25 Redes De Neuronas Artificiales Y Deep Learning Master Universitario En Inteligencia Artificial Página 6 de 9 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 7. Actividades y criterios de evaluación 
+
+7.1. Actividades de evaluación de la asignatura 
+
+7.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+13 Trabajo práctico sobre temas 1 y 2 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 30% 4 / 10 
+
+CEIA4 CB7 CG13 CB10 
+
+16 Trabajo práctico sobre tema 3 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 20% / 10 
+
+CB10 CEIA4 CB7 CG13 
+
+16 Examen escrito 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 02:00 50% 5 / 10 
+
+CEIA4 CB7 CG13 
+
+7.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+16 Trabajo práctico sobre temas 1 y 2 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 30% 4 / 10 
+
+CB10 CEIA4 CB7 CG13 
+
+16 Trabajo práctico sobre tema 3 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 20% / 10 
+
+CB10 CEIA4 CB7 CG13 
+
+16 Examen escrito 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 02:00 50% 5 / 10 
+
+CEIA4 CB7 CG13 
+
+7.1.3. Evaluación convocatoria extraordinaria 
+
+GA_10AJ_103000815 1S_2024-25 Redes De Neuronas Artificiales Y Deep Learning Master Universitario En Inteligencia Artificial Página 7 de 9 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+Trabajo práctico sobre temas 1 y 2 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 00:00 30% 4 / 10 
+
+CB10 CEIA4 CB7 CG13 
+
+Trabajo práctico sobre tema 3 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 00:00 20% / 10 
+
+CB10 CEIA4 CB7 CG13 
+
+Examen escrito 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 02:00 50% 5 / 10 
+
+CEIA4 CB7 CG13 
+
+7.2. Criterios de evaluación 
+
+Las calificaciones parciales y finales se hacen en la escala de 0 a 10. Para aprobar el curso se requiere que la nota final G sea G >= 5. 
+
+## 8. Recursos didácticos 
+
+8.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+UPM Moodle Recursos web Bibliography Bibliografía Artículos y libros recomendados 
+
+GA_10AJ_103000815 1S_2024-25 Redes De Neuronas Artificiales Y Deep Learning Master Universitario En Inteligencia Artificial Página 8 de 9 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 9. Otra información 
+
+9.1. Otra información sobre la asignatura 
+
+Esta asignatura está relacionada con el "Objetivo de Desarrollo Sostenible 9" (Industria, innovación einfraestructura) definido por el Programa de las Naciones Unidas para el Desarrollo (www.undp.org) en lo referente a innovación e investigación científica en tecnologías de la información. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000815 1S_2024-25 Redes De Neuronas Artificiales Y Deep Learning Master Universitario En Inteligencia Artificial Página 9 de 9

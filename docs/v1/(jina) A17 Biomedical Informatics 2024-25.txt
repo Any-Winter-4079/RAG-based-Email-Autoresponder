@@ -1,0 +1,514 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000371_1S_2024-25.pdf
+
+Markdown Content:
+COORDINATION PROCESS OF LEARNING ACTIVITIES PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 LEARNING GUIDE 
+
+SUBJECT 
+
+103000371 - Biomedical Informatics 
+
+DEGREE PROGRAMME 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+ACADEMIC YEAR & SEMESTER 
+
+2024/25 - Semester 1 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+## Index 
+
+Learning guide 
+
+1. Description...............................................................................................................................................................1 2. Faculty.....................................................................................................................................................................1 3. Prior knowledge recommended to take the subject..................................................................................................2 4. Skills and learning outcomes ...................................................................................................................................2 5. Brief description of the subject and syllabus.............................................................................................................4 6. Schedule..................................................................................................................................................................6 7. Activities and assessment criteria............................................................................................................................9 8. Teaching resources.................................................................................................................................................11 9. Other information....................................................................................................................................................12 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+## 1. Description 
+
+1.1. Subject details 
+
+Name of the subject 103000371 - Biomedical Informatics 
+
+No of credits 5 ECTS 
+
+Type Optional 
+
+Academic year ot the programme First year 
+
+Semester of tuition Semester 1 
+
+Tuition period September-January 
+
+Tuition languages English 
+
+Degree programme 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centre 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Academic year 2024-25 
+
+## 2. Faculty 
+
+2.1. Faculty members with subject teaching role 
+
+Name and surname Office/Room Email Tutoring hours * 
+
+Victor Manuel Maojo Garcia (Subject coordinator) 2102 victormanuel.maojo@upm.es Tu - 12:30 - 15:30 W - 12:30 - 15:30 David Perez Del Rey 2104 david.perez.rey@upm.es Sin horario. Miguel Garcia Remesal 2206 miguel.garcia.remesal@upm. es Tu - 11:00 - 14:00 Th - 11:00 - 14:00 * The tutoring schedule is indicative and subject to possible changes. Please check tutoring times with the faculty member in charge. 
+
+> GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 1 of 12 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+## 3. Prior knowledge recommended to take the subject 
+
+3.1. Recommended (passed) subjects 
+
+The subject - recommended (passed), are not defined. 
+
+3.2. Other recommended learning outcomes 
+
+- Artificial Intelligence 
+
+## 4. Skills and learning outcomes * 
+
+4.1. Skills to be learned 
+
+CEIA1 - Capacidad de integrar tecnologías y sistemas propios de la Inteligencia Artificial, con carácter generalista, y en contextos más amplios y multidisciplinares CEIA2 - Capacidad de conectar la tecnología puntera en Inteligencia Artificial con las necesidades de los clientes CEIA9 - Comprensión del mercado, sus hábitos y necesidades de productos o servicios en el ámbito de la Inteligencia Artificial. CG11 - Integración del conocimiento a partir de disciplinas diferentes, así como el manejo de la complejidad. CG12 - Comprensión amplia de las técnicas y métodos aplicables en una especialización concreta, así como de sus límites. 
+
+> GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 2 of 12 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+CG8 - Planteamiento y resolución de problemas también en áreas nuevas y emergentes de su disciplina CG9 - Aplicación de los métodos de resolución de problemas más recientes o innovadores y que puedan implicar el uso de otras disciplinas. CGI1 - Adquirir conocimientos científicos avanzados del campo de la informática que le permitan generar nuevas ideas dentro de una línea de investigación. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. CGI5 - Que el estudiante adquiera el conocimiento necesario sobre los mecanismos de financiación de la investigación y transferencia de la tecnología, y sobre la legislación vigente sobre protección de resultados 
+
+4.2. Learning outcomes 
+
+RA84 - To be able to analyse the state of the art in a given subject, understanding what the main achievements and challenges are, and draw conclusions for one?s own work RA85 - Once the aforementioned points have been understood, students should be able to successfully apply them to the analysis and solution of problems with a complexity proportional to their level of experience RA86 - To be able to use the terminology appropriately and perform public presentations on the topics of the module RA83 - To be able to analyse and solve biomedical informatics problems * The Learning Guides should reflect the Skills and Learning Outcomes in the same way as indicated in the Degree Verification Memory. For this reason, they have not been translated into English and appear in Spanish. 
+
+> GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 3 of 12 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+## 5. Brief description of the subject and syllabus 
+
+5.1. Brief description of the subject 
+
+An often-cited definition of the area has been proposed by Ted Shortliffe: The rapidly developing scientific field that deals with the storage, retrieval, and optimal use of biomedical information, data, and knowledge for problem solving and decision making. It accordingly touches on all basic and applied fields in biomedical science and is closely tied to modern information technologies, notably in the areas of computing and communications. Many areas have been established, including topics such as decision support systems, electronic health records, hospital information systems, data and text mining, information retrieval, bibliographic systems, medical imaging, etc. Over the last 20 years, new areas have been introduced, such as merging medical informatics with bioinformatics, into what is called biomedical informatics. Then, areas such as translational bioinformatics have emerged. Fundamental new topics include precision medicine, Web-based applications, the introduction of social networks, biomedical ontologies, semantic interoperability, Big Data research and others. We emphasize topics of biomedical informatics related to artificial Intelligence, such as ontologies, machine learning, text mining or knowledge-based systems. Over the last years, particularly after the introduction of ChatGPT and other Large Language Models into the mainstream of AI, a strong need for ethical considerations of different aspects has appeared, enhanced by national and international organizations. We will analyze the limitations of those AI systems, their ethical considerations, and other related issues. 
+
+5.2. Syllabus 
+
+1. Introduction 1.1. Biomedical informatics: the concept. 1.2. Historical analysis of biomedical informatics development since the 50s. 1.3. Differences among areas (Medical Informatics, Bioinformatics, Biomedical Engineering and Biotechnology). 1.4. Future trends 2. Data Management in Biomedicine 2.1. Data, information and knowledge. 2.2. Types of data in biomedicine 2.3. Acquisition, storage and management of data 
+
+> GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 4 of 12 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+3. Artificial Intelligence in Biomedicine 3.1. Medical reasoning methods. 3.2. Information extraction. Data and text mining 3.2.1. Information retrieval 3.2.2. Database integration 3.3. Advanced decision support systems 4. Medical Information Systems 4.1. Electronic Health records; concept and clinical contents 4.2. Electronic Health Records: models and tools. 5. Vocabularies and Standards 5.1. Medical vocabularies and terminologies. 5.2. Models and standards. 5.3. Ontologies 6. Large Language Models in medicine 6.1. ChatGPT in medicine: limitations and challenges 6.2. Ethical aspects of LLMs and AI in medicine 
+
+> GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 5 of 12
+
+PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 6. Schedule 
+
+6.1. Subject schedule* 
+
+Week Type 1 activities Type 2 activities Distant / On-line Assessment activities 
+
+1
+
+Introduction to biomedical informatics 
+
+Duration: 02:00 Lecture 
+
+In principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+2
+
+Data, information and knowledge in biomedicine 
+
+Duration: 02:00 Lecture 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+3
+
+Artificial Intelligence in medicine: medical reasoning and diagnosis 
+
+Duration: 02:00 Lecture 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+4
+
+Artificial Intelligence in medicine: expert systems 
+
+Duration: 02:00 Lecture 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Presential Duration: 00:00 
+
+5
+
+Artificial intelligence in medicine: text mining and Natural Language Processing 
+
+Duration: 02:00 Lecture 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+6
+
+Artificial intelligence in medicine: text mining and Natural Language Processing (II) 
+
+Duration: 02:00 Lecture 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Presential Duration: 00:00 
+
+7
+
+Biomedical Vocabularies and ontologies (I) 
+
+Duration: 02:00 Lecture 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 6 of 12 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 8
+
+Biomedical vocabularies and ontologies (II) 
+
+Duration: 02:00 Additional activities 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Presentation of assignment 
+
+Individual presentation Progressive assessment Not Presential Duration: 00:00 
+
+9
+
+Electronic Health Records and Real World Data 
+
+Duration: 02:00 Lecture 
+
+Actividades transversales 
+
+Duration: 02:00 Additional activities 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+10 
+
+Database integration and semantic interoperability 
+
+Duration: 02:00 Lecture 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+11 
+
+Artificial Intelligence in medicine: Big data and machine learning (I) 
+
+Duration: 02:00 Lecture 
+
+Actividades transversales 
+
+Duration: 02:00 Additional activities 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+12 
+
+Artificial Intelligence in Medicine: Big data and machine learning (II). Large Language Models and ethical issue 
+
+Duration: 02:00 Lecture 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+13 
+
+Biomedical standards (I) 
+
+Duration: 02:00 Lecture 
+
+Actividades transversales 
+
+Duration: 02:00 Additional activities 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+14 
+
+Biomedical standards (II) 
+
+Duration: 02:00 Lecture 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Participation in teaching activities, in class and on-line 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+15 
+
+Artificial Intelligence: applications 
+
+Duration: 02:00 Additional activities 
+
+Actividades transversales 
+
+Duration: 02:00 Additional activities 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Lecture 
+
+Presentation of a classwork assignment 
+
+Individual presentation Progressive assessment Not Presential Duration: 00:00 
+
+16 
+
+Final Summary 
+
+Duration: 02:00 Lecture 
+
+IN principle, no classes will be virtual, unless there is an indication of the UPM about it 
+
+Duration: 00:00 Additional activities 
+
+Review of concepts from the course 
+
+Problem-solving test Progressive assessment Presential Duration: 00:00 
+
+GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 7 of 12 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 17 
+
+> Final examination (if the student was not able to complete the course assignments due to some justified reason).
+> Written test Global examination Not Presential Duration: 02:00
+
+Depending on the programme study plan, total values will be calculated according to the ECTS credit unit as 26/27 hours of student face-to-face contact and independent study time. 
+
+GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 8 of 12 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 7. Activities and assessment criteria 
+
+7.1. Assessment activities 
+
+7.1.1. Assessment 
+
+Week Description Modality Type Duration Weight Minimum grade Evaluated skills 
+
+1 Participation in teaching activities, in class and on-line 
+
+Individual work No Presential 00:00 % / 10 CG11 
+
+2 Participation in teaching activities, in class and on-line 
+
+Individual work No Presential 00:00 % / 10 
+
+3 Participation in teaching activities, in class and on-line 
+
+Individual work No Presential 00:00 % / 10 
+
+4 Participation in teaching activities, in class and on-line 
+
+Individual work Face-to-face 00:00 % / 10 
+
+5 Participation in teaching activities, in class and on-line 
+
+Individual work No Presential 00:00 % / 10 
+
+6 Participation in teaching activities, in class and on-line 
+
+Individual work Face-to-face 00:00 % / 10 
+
+7 Participation in teaching activities, in class and on-line 
+
+Individual work No Presential 00:00 % / 10 
+
+8 Presentation of assignment Individual presentation No Presential 00:00 50% 5 / 10 
+
+CG11 CGI1 CGI3 CGI4 CG8 CG9 CEIA2 CEIA9 CG12 CGI5 CEIA1 
+
+9 Participation in teaching activities, in class and on-line 
+
+Individual work No Presential 00:00 % / 10 
+
+10 Participation in teaching activities, in class and on-line 
+
+Individual work No Presential 00:00 % / 10 
+
+11 Participation in teaching activities, in class and on-line 
+
+Individual work No Presential 00:00 % / 10 
+
+12 Participation in teaching activities, in class and on-line 
+
+Individual work No Presential 00:00 % / 10 
+
+GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 9 of 12 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 13 Participation in teaching activities, in class and on-line 
+
+Individual work No Presential 00:00 % / 10 
+
+14 Participation in teaching activities, in class and on-line 
+
+Individual work No Presential 00:00 % / 10 
+
+15 Presentation of a classwork assignment 
+
+Individual presentation No Presential 00:00 50% 5 / 10 
+
+CG11 CGI1 CGI3 CGI4 CG8 CG9 CEIA2 CEIA9 CG12 CGI5 CEIA1 
+
+16 Review of concepts from the course 
+
+Problem-solving test Face-to-face 00:00 % / 10 CGI1 
+
+7.1.2. Global examination 
+
+Week Description Modality Type Duration Weight Minimum grade Evaluated skills 
+
+17 
+
+Final examination (if the student was not able to complete the course assignments due to some justified reason). 
+
+Written test No Presential 02:00 100% 5 / 10 
+
+CG11 CGI1 CGI3 CGI4 CG8 CG9 CEIA2 CEIA9 CG12 CGI5 CEIA1 
+
+7.1.3. Referred (re-sit) examination 
+
+No se ha definido la evaluación extraordinaria. 
+
+GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 10 of 12 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+7.2. Assessment criteria 
+
+Two assignments will be presented during the length of the course. There is a possibility of a third assignment, which will be considered during the first five weeks of the course, depending on the needs of the students, as considered by the professors. 
+
+## 8. Teaching resources 
+
+8.1. Teaching resources for the subject 
+
+Name Type Notes 
+
+de la Calle, G., García-Remesal, M., Chiesa, S., de la Iglesia, D., and Maojo, V. ?BIRI: a new approach for automatically discovering and indexing available public bioinformatics resources from the literature?. BMC Bioinformatics. 2009 Oct 7; 10:320. Bibliography Bernstam, E.V., Smith, J.W., and Johnson, T.R. ?What is biomedical informatics?? J Biomed Inform. 2010 Feb;43 (1):104-10. Bibliography Open papers and journals in Internet and Pubmed (JAMIA, JBI, JMIR, Nature and Lancet groups, etc) Bibliography Devices for online teaching, Equipment If they are necessary, depending on the course of the pandemic Aliferis et al. Biomedical Informatics textbook Bibliography Free book<br /> <br /> https://link.springer.com/book/10.1007/978-3-031-39355-6 
+
+> GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 11 of 12
+
+PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 9. Other information 
+
+9.1. Other information about the subject 
+
+The attendance to the course is required and the student will be required to sign and participate everyday. This is a course that requires the participation of students. We recommend students to take a different course if they cannot attend it 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000371 1S_2024-25 Biomedical Informatics Master Universitario En Inteligencia Artificial Page 12 of 12

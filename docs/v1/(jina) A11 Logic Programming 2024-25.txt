@@ -1,0 +1,368 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000364_1S_2024-25.pdf
+
+Markdown Content:
+COORDINATION PROCESS OF LEARNING ACTIVITIES PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 LEARNING GUIDE 
+
+SUBJECT 
+
+103000364 - Logic Programming 
+
+DEGREE PROGRAMME 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+ACADEMIC YEAR & SEMESTER 
+
+2024/25 - Semester 1 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+## Index 
+
+Learning guide 
+
+1. Description...............................................................................................................................................................1 2. Faculty.....................................................................................................................................................................1 3. Skills and learning outcomes ...................................................................................................................................2 4. Brief description of the subject and syllabus.............................................................................................................3 5. Schedule..................................................................................................................................................................5 6. Activities and assessment criteria............................................................................................................................7 7. Teaching resources..................................................................................................................................................9 8. Other information....................................................................................................................................................11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+## 1. Description 
+
+1.1. Subject details 
+
+Name of the subject 103000364 - Logic Programming 
+
+No of credits 5 ECTS 
+
+Type Optional 
+
+Academic year ot the programme First year 
+
+Semester of tuition Semester 1 
+
+Tuition period September-January 
+
+Tuition languages English 
+
+Degree programme 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centre 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Academic year 2024-25 
+
+## 2. Faculty 
+
+2.1. Faculty members with subject teaching role 
+
+Name and surname Office/Room Email Tutoring hours * 
+
+Jose Francisco Morales Caballero 2101 josefrancisco.morales@upm. es Sin horario. Manuel De Hermenegildo Salinas (Subject coordinator) 2212 manuel.hermenegildo@upm. es Sin horario. M. Carmen Suarez De Figueroa Baonza 2201 mdelcarmen.suarezdefiguero a@upm.es Sin horario. * The tutoring schedule is indicative and subject to possible changes. Please check tutoring times with the faculty member in charge. 
+
+> GA_10AJ_103000364 1S_2024-25 Logic Programming Master Universitario En Inteligencia Artificial Page 1 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+## 3. Skills and learning outcomes * 
+
+3.1. Skills to be learned 
+
+CEIA6 - Formalización de especificaciones, demostración de propiedades de los programas y diseño de programas con razonamiento o la utilización de la lógica misma como lenguaje de programación CG18 - Capacidad de trabajar y comunicarse también en contextos internacionales CG7 - Especificación y realización de tareas informáticas complejas, poco definidas o no familiares. CGI1 - Adquirir conocimientos científicos avanzados del campo de la informática que le permitan generar nuevas ideas dentro de una línea de investigación. 
+
+3.2. Learning outcomes 
+
+RA41 - Desarrollar un programa lógico a partir de especificaciones y mejorar la eficiencia del mismo y manejar con soltura sistemas de P y sus extensiones. RA39 - Identificar áreas de utilización y fronteras de la programación lógica, en especial dentro del campo de la Inteligencia Artificial RA40 - Identificar características de la programación lógica (PL) y sus extensiones que puedan resultar beneficiosas o perjudiciales para la resolución de un problema. RA44 - Saber manejar fuentes bibliográficas y valorar su importancia para desarrollar trabajos escritos innovadores o que reflejen el estado del arte en programación ló- gica RA43 - Diseñar extensiones de la PL de cuño propio para la resolución de ciertos problemas, originando distintas tareas de investigación RA47 - Ser capaz de manejar los términos y realizar exposiciones en público en lengua inglesa sobre la temática de la materia. * The Learning Guides should reflect the Skills and Learning Outcomes in the same way as indicated in the Degree Verification Memory. For this reason, they have not been translated into English and appear in Spanish. 
+
+> GA_10AJ_103000364 1S_2024-25 Logic Programming Master Universitario En Inteligencia Artificial Page 2 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+## 4. Brief description of the subject and syllabus 
+
+4.1. Brief description of the subject 
+
+This course presents logic programming , one of the fundamental programming paradigms (together with functional, imperative, and object-oriented programming). It is based on the use of logic as a practical language for programming applications. The course starts by presenting techniques for problem representation and problem solving using pure logic programming. The next step is programming with contemporary versions of Prolog, as well as efficient programming in this language, with special emphasis on applications in artificial intelligence. The course also presents an introduction to constraint logic programming , and some advanced topics. It is fundamentally a practical, programming-oriented course in which the students will complete a number of programming assignments using an advanced programming system which allows programming with pure logic programming, Prolog, functions, higher-order, constraints, and several other extensions. 
+
+4.2. Syllabus 
+
+1. Introduction 1.1. Problem solving and automated theorem proving 1.2. What is (C)LP? 2. Pure Logic (relational) Programming 2.1. Syntax and semantics 2.2. Resolution, unification, controlling search 2.3. Data structures 2.4. Recursive programming 2.5. Graphs, automata 3. Prolog 3.1. Execution model 3.2. Arithmetic 3.3. Data structures 
+
+> GA_10AJ_103000364 1S_2024-25 Logic Programming Master Universitario En Inteligencia Artificial Page 3 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+3.4. Meta-programming, higher order, aggregation predicates 3.5. Program inspection and modification 3.6. Cut and negation 3.7. Incomplete data structures, grammars 3.8. [Optional] Techniques for efficient Prolog programming 4. Introduction to Constraint Logic Programming (CLP) 4.1. Constraint satisfaction 4.2. Basic constraint programming techniques (Q/R and finite domains) 5. [Optional] (C)LP theory 5.1. Review of first-order predicate logic 5.2. Resolution 5.3. Fundamental results 5.4. Semantics of (constraint) logic programs 
+
+> GA_10AJ_103000364 1S_2024-25 Logic Programming Master Universitario En Inteligencia Artificial Page 4 of 11
+
+PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 5. Schedule 
+
+5.1. Subject schedule* 
+
+Week Type 1 activities Type 2 activities Distant / On-line Assessment activities 
+
+1
+
+1.1 y 1.2 
+
+Duration: 02:00 Lecture 
+
+2
+
+2.1 y 2.2 
+
+Duration: 02:00 Lecture 
+
+3
+
+2.3 
+
+Duration: 01:00 Lecture 
+
+2.1-2.3 
+
+Duration: 01:00 Problem-solving class 
+
+4
+
+2.4 
+
+Duration: 02:00 Lecture 
+
+Practical programming exercises 1 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+5
+
+2.5 
+
+Duration: 02:00 Lecture 
+
+6
+
+2.4-2.5 
+
+Duration: 01:00 Problem-solving class 
+
+3.1-3.2 
+
+Duration: 01:00 Lecture 
+
+Practical programming exercises 2 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+7
+
+3.3 
+
+Duration: 02:00 Lecture 
+
+8
+
+3.4 
+
+Duration: 02:00 Lecture 
+
+9
+
+3.5 
+
+Duration: 01:00 Lecture 
+
+3.1-3.5 
+
+Duration: 01:00 Problem-solving class 
+
+Actividades Transversales 
+
+Duration: 02:00 Additional activities 
+
+GA_10AJ_103000364 1S_2024-25 Logic Programming Master Universitario En Inteligencia Artificial Page 5 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 10 
+
+3.6-3.7 
+
+Duration: 02:00 Lecture 
+
+11 
+
+3.8 
+
+Duration: 01:00 Lecture 
+
+3.6-3.8 
+
+Duration: 01:00 Problem-solving class 
+
+Actividades Transversales 
+
+Duration: 02:00 Additional activities 
+
+12 
+
+4.1 
+
+Duration: 02:00 Lecture 
+
+Programming project 
+
+Individual work Progressive assessment Not Presential Duration: 00:00 
+
+13 
+
+4.2 
+
+Duration: 01:00 Lecture 
+
+4.1-4.2 
+
+Duration: 01:00 Problem-solving class 
+
+Actividades Transversales 
+
+Duration: 02:00 Additional activities 
+
+14 
+
+5.1-5.2 
+
+Duration: 02:00 Lecture 
+
+15 
+
+5.3-5.4 
+
+Duration: 02:00 Lecture 
+
+Actividades Transversales 
+
+Duration: 02:00 Additional activities 
+
+16 
+
+17 
+
+Global Test - Assignments Turn-In 
+
+Online test Progressive assessment and Global Examination Presential Duration: 02:00 
+
+Depending on the programme study plan, total values will be calculated according to the ECTS credit unit as 26/27 hours of student face-to-face contact and independent study time. 
+
+GA_10AJ_103000364 1S_2024-25 Logic Programming Master Universitario En Inteligencia Artificial Page 6 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 6. Activities and assessment criteria 
+
+6.1. Assessment activities 
+
+6.1.1. Assessment 
+
+Week Description Modality Type Duration Weight Minimum grade Evaluated skills 
+
+4 Practical programming exercises 1 Individual work No Presential 00:00 0% 5 / 10 
+
+CGI1 CG7 CG18 CEIA6 
+
+6 Practical programming exercises 2 Individual work No Presential 00:00 0% 5 / 10 
+
+CGI1 CG7 CG18 CEIA6 
+
+12 Programming project Individual work No Presential 00:00 0% 5 / 10 
+
+CG18 CEIA6 CGI1 CG7 
+
+17 Global Test - Assignments Turn-In Online test Face-to-face 02:00 100% 5 / 10 
+
+CGI1 CG7 CG18 CEIA6 
+
+6.1.2. Global examination 
+
+Week Description Modality Type Duration Weight Minimum grade Evaluated skills 
+
+17 Global Test - Assignments Turn-In Online test Face-to-face 02:00 100% 5 / 10 
+
+CGI1 CG7 CG18 CEIA6 
+
+6.1.3. Referred (re-sit) examination 
+
+Description Modality Type Duration Weight Minimum grade Evaluated skills 
+
+GA_10AJ_103000364 1S_2024-25 Logic Programming Master Universitario En Inteligencia Artificial Page 7 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES      
+
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos Global Test - Assignment Turn-In Online test Face-to-face 02:00 100% 5 / 10
+> CGI1 CG7 CG18 CEIA6
+
+6.2. Assessment criteria 
+
+> Course evaluation system:
+
+The normal evaluation system for the course, which is applied to all students, is by progressive evaluation. Being an eminently practical subject, in addition to various class exercises, evaluable practical assignments will be carried out during the course. These assignments must be carried out individually. The statements, instructions, information on the systems to be used, etc., will be sent by email and Moodle. The final grade of the course will be the average of the assignments. There is no minimum grade for each assignment and it is possible to carry out the second assignment even if the first one has not been delivered or approved. 
+
+Evaluation by global test: 
+
+The evaluation by global test will consist in the recovery of (turning in again) the assignments that had not been turned in or had been failed. Turning in the assignments at this time and getting a sufficient grade (>= 5) will allow passing the course. 
+
+Extraordinary evaluation: 
+
+Those students who have not passed the course may take the extraordinary evaluation. This will also include the recovery of (turning in again) the assignments (with a grade >= 5) that had not been turned in or had been failed. 
+
+> GA_10AJ_103000364 1S_2024-25 Logic Programming Master Universitario En Inteligencia Artificial Page 8 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos Sistema de evaluación de la asignatura:
+
+El sistema normal de evaluación de la asignatura, que se aplica a todos los alumnos, es por evaluación progresiva. Al ser una asignatura eminentemente práctica, además de diversos ejercicios de clase, se realizarán prácticas evaluables durante el curso. Dichas prácticas se realizarán de forma individual. Los enunciados, instrucciones, información sobre los sistemas a utilizar, etc., se enviarán por correo electrónico y Moodle. La nota final del curso será la media de las prácticas. No hay nota mínima para cada práctica y es posible realizar cada práctica aunque no se haya entregado o aprobado otras. 
+
+> Evaluación mediante prueba global:
+
+La evaluación mediante prueba global consistirá en la recuperación de las prácticas que no se hubieran entregado o se hubieran suspendido anteriormente. La presentación de las prácticas obteniendo suficiente puntuación (>= 5) permitirá superar la asignatura. 
+
+> Evaluación extraordinaria:
+
+Aquellos estudiantes que no hayan superado la asignatura podrán presentarse a la evaluación extraordinaria. Ésta consistirá también en la recuperación de las prácticas (con calificación >= 5) que no se hubieran entregado o se hubieran suspendido anteriormente. 
+
+## 7. Teaching resources 
+
+7.1. Teaching resources for the subject 
+
+Name Type Notes 
+
+``The Art of Prolog'' (Second edition), Sterling & Shapiro, MIT Press, 1994. Bibliography ``From Logic Programming to Prolog'', K. Apt, Prentice-Hall, 1997. Bibliography 
+
+> GA_10AJ_103000364 1S_2024-25 Logic Programming Master Universitario En Inteligencia Artificial Page 9 of 11 PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES
+> ANX-PR/CL/001-01 LEARNING GUIDE
+> E.T.S. de Ingenieros Informaticos
+
+``Prolog Programming for Artificial Intelligence'', I. Bratko, Addison-Wesley Ltd. 1990 (2nd edition); 2000 (3rd edition). Bibliography ``Programming in Prolog'', Clocksin & Mellish, 1981, Springer-Verlag. Bibliography ``Programming with Constraints: An Introduction'', Marriott & Stuckey, MIT Press, 1998. Bibliography ``Essentials of Logic Programming'', C. Hogger, 1990, Clarendon Press, Oxford. Bibliography Sitio Moodle de la asignatura Web resource Course web site Web resource http://www.clip.dia.fi.upm.es/prode Ciao Prolog Playground Web resource https://ciao-lang.org/playground Ciao Prolog programming system Web resource http://ciao-lang.org Emacs programming environment for Ciao Web resource https://ciao-lang.org/install.html Visual Studio Code programming environment for Ciao Web resource https://marketplace.visualstudio.com/items?it emName=ciao-lang.ciao-prolog-vsc Aula Equipment Sala de trabajo en grupo Equipment Laboratorio: Centro de Cálculo Equipment 
+
+> GA_10AJ_103000364 1S_2024-25 Logic Programming Master Universitario En Inteligencia Artificial Page 10 of 11
+
+PR/CL/001 COORDINATION PROCESS OF LEARNING ACTIVITIES 
+
+ANX-PR/CL/001-01 LEARNING GUIDE 
+
+E.T.S. de Ingenieros Informaticos 8. Other information 
+
+8.1. Other information about the subject 
+
+This course is relevant to "Sustainable Development Goal Number 9" (Industry, Innovation, and Infrastructure) defined by the United Nations Program for Sustainable Development (www.undp.org) as related to innovation and research in information technology. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000364 1S_2024-25 Logic Programming Master Universitario En Inteligencia Artificial Page 11 of 11

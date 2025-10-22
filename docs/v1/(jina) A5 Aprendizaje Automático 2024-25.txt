@@ -1,0 +1,395 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000360_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informáticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000360 - Aprendizaje Automatico 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Competencias y resultados de aprendizaje..............................................................................................................2 4. Descripción de la asignatura y temario.....................................................................................................................3 5. Cronograma.............................................................................................................................................................5 6. Actividades y criterios de evaluación........................................................................................................................7 7. Recursos didácticos................................................................................................................................................10 8. Otra información......................................................................................................................................................11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000360 - Aprendizaje Automatico 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - E.T.S. De Ingenieros Informáticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Pedro Maria Larrañaga Mugica (Coordinador/a) 2208 pedro.larranaga@upm.es M - 15:00 - 19:00 X - 15:00 - 17:00 Maria Concepcion Bielza Lozoya 2210 c.bielza@upm.es L - 15:00 - 17:00 M - 15:00 - 19:00 * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+> GA_10AJ_103000360 1S_2024-25 Aprendizaje Automatico Master Universitario En Inteligencia Artificial Página 1 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## 3. Competencias y resultados de aprendizaje 
+
+3.1. Competencias 
+
+CB10 - Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo. CB7 - Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio CB9 - Que los estudiantes sepan comunicar sus conclusiones y los conocimientos y razones últimas que las sustentan a públicos especializados y no especializados de un modo claro y sin ambigüedades CEIA4 - Capacidad de interpretar los modelos de clasificación supervisada y no supervisada obtenidos al aplicar las técnicas de Aprendizaje Automático para un conjunto de datos. CG12 - Comprensión amplia de las técnicas y métodos aplicables en una especialización concreta, así como de sus límites. CG13 - Apreciación de los límites del conocimiento actual y de la aplicación práctica de la tecnología más reciente. CG18 - Capacidad de trabajar y comunicarse también en contextos internacionales CGI1 - Adquirir conocimientos científicos avanzados del campo de la informática que le permitan generar nuevas ideas dentro de una línea de investigación. CGI2 - Comprender el procedimiento, valor y límites del método científico en el campo de la Informática, siendo capaz de identificar, localizar y obtener datos requeridos en un trabajo de investigación, de diseñar y guiar investigaciones analíticas, de modelado y experimentales, así como de evaluar datos de una manera crítica y extraer conclusiones. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+> GA_10AJ_103000360 1S_2024-25 Aprendizaje Automatico Master Universitario En Inteligencia Artificial Página 2 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+3.2. Resultados del aprendizaje 
+
+RA33 - Ser capaz de aportar nuevas ideas, tanto a nivel metodológico como de aplicación del aprendizaje automático, yendo más allá de la frontera del conocimiento, promoviendo la investigacion RA34 - Expresar las ideas del estado del arte y las ideas nuevas aportadas, tanto de manera oral como escrita. RA82 - Ser capaz de modelizar problemas reales de clasificación mediante paradigmas computacionales RA32 - Ser capaz de distinguir dónde está la frontera del conocimiento en aprendizaje automático, a partir de la lectura crítica de publicaciones científicas relevantes, habitualmente escritas en lengua inglesa. 
+
+## 4. Descripción de la asignatura y temario 
+
+4.1. Descripción de la asignatura 
+
+El Aprendizaje Automático trata de construir sistemas informáticos que optimicen un criterio de rendimiento utilizando datos o experiencia previa. Una situación en la que se requiere aprender es cuando no existe experiencia humana o cuando no es fácilmente explicable. Otra es cuando el problema a resolver cambia en el tiempo o depende del entorno particular. El Aprendizaje Automático transforma los datos en conocimiento y proporciona sistemas de propósito general que se adaptan a las circunstancias. Entre las muchas aplicaciones exitosas pueden citarse la neurociencia computacional, analítica deportiva, industria 4.0, reconocimiento del habla o de texto manuscrito, navegación autónoma de robots, recuperación de información documental, filtrado cooperativo, sistemas de diagnóstico, análisis de microarrays de ADN, etc. Este curso expone varios métodos que tienen su base en diferentes campos como la Estadística, Reconocimiento de Patrones, Inteligencia Artificial, Minería de Datos. El objetivo es conocer tales métodos desde una perspectiva unificada, teniendo claro los problemas que se resuelven así como las limitaciones y circunstancias de uso de cada uno de ellos. 
+
+> GA_10AJ_103000360 1S_2024-25 Aprendizaje Automatico Master Universitario En Inteligencia Artificial Página 3 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+4.2. Temario de la asignatura 
+
+1. Introducción 1.1. Reconocimiento de patrones 1.2. Ejemplos de clasificación supervisada 1.3. Ejemplos de clasificación no supervisada 2. Clasificación supervisada 2.1. Métodos de evaluación 2.2. Vecinos más cercanos 2.3. Clasificadores Bayesianos 2.4. Regresión logística 2.5. Árboles de clasificación 2.6. Inducción de reglas 2.7. Selección de variables 2.8. Metaclasificadores 2.9. Clasificación multi-etiqueta 3. Clasificación no supervisada 3.1. Métodos particionales 3.2. Clasificación ascendente jerárquica 3.3. Clustering probabilista 
+
+> GA_10AJ_103000360 1S_2024-25 Aprendizaje Automatico Master Universitario En Inteligencia Artificial Página 4 de 11
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 5. Cronograma 
+
+5.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Clases teóricas del tema 1 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+2
+
+Clases teóricas del tema 2.1 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+3
+
+Clases teóricas del tema 2.2 y 2.3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+4
+
+Clases teóricas del tema 2.3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+5
+
+Clases teóricas del tema 2.4 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+6
+
+Clases teóricas del tema 2.5 (y estado del arte 2.2-2.4) 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Estados del arte (I) 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva Presencial Duración: 01:00 
+
+7
+
+Clases teóricas del tema 2.6 y 2.7 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+8
+
+Clases teóricas del tema 2.8 (y estado del arte 2.5-2.7) 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Estados del arte (II) 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva Presencial Duración: 01:00 
+
+9
+
+Clases teóricas del tema 2.9 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+10 
+
+Clases teóricas del tema 2 (y estado del arte 2.8 y 2.9) 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Estados del arte (III) 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva Presencial Duración: 02:00 
+
+GA_10AJ_103000360 1S_2024-25 Aprendizaje Automatico Master Universitario En Inteligencia Artificial Página 5 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 11 
+
+Presentaciones orales Estados del arte 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Estados del arte (IV) 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva Presencial Duración: 02:00 
+
+12 
+
+Clases teóricas del tema 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+13 
+
+Clases teóricas del tema 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+14 
+
+Presentaciones orales Estados del arte 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Estados del arte (V) 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva Presencial Duración: 02:00 
+
+15 
+
+Presentaciones orales Estados del arte 
+
+Duración: 01:30 OT: Otras actividades formativas / Evaluación 
+
+Test de la asignatura 
+
+EX: Técnica del tipo Examen Escrito Evaluación Progresiva Presencial Duración: 00:30 
+
+Estados del arte (VI) 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva Presencial Duración: 01:30 
+
+16 
+
+17 
+
+Estados del arte 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Global Presencial Duración: 02:00 
+
+Test de la asignatura 
+
+EX: Técnica del tipo Examen Escrito Evaluación Global Presencial Duración: 00:30 
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000360 1S_2024-25 Aprendizaje Automatico Master Universitario En Inteligencia Artificial Página 6 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 6. Actividades y criterios de evaluación 
+
+6.1. Actividades de evaluación de la asignatura 
+
+6.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+6 Estados del arte (I) 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 01:00 8.33% 4 / 10 
+
+CG18 CG13 CGI4 CB9 CGI2 CGI3 CGI1 
+
+8 Estados del arte (II) 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 01:00 8.33% 4 / 10 
+
+CG18 CGI4 CG13 CB9 CGI2 CGI3 CGI1 
+
+10 Estados del arte (III) 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 02:00 8.33% 4 / 10 
+
+CG18 CG13 CGI4 CB9 CGI2 CGI3 CGI1 
+
+11 Estados del arte (IV) 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 02:00 8.33% 4 / 10 
+
+CG18 CG13 CGI4 CB9 CGI2 CGI3 CGI1 
+
+14 Estados del arte (V) 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 02:00 8.33% 4 / 10 
+
+CG18 CG13 CGI4 CB9 CGI2 CGI3 CGI1 
+
+GA_10AJ_103000360 1S_2024-25 Aprendizaje Automatico Master Universitario En Inteligencia Artificial Página 7 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 15 Test de la asignatura 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 00:30 50% 4 / 10 
+
+CB10 CG12 CEIA4 CB7 
+
+15 Estados del arte (VI) 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 01:30 8.33% 4 / 10 
+
+CG18 CG13 CGI4 CB9 CGI2 CGI3 CGI1 
+
+6.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+17 Estados del arte 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 02:00 50% 4 / 10 
+
+CGI4 CG18 CG13 CB7 CB9 CGI2 CGI3 CGI1 
+
+17 Test de la asignatura 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 00:30 50% 4 / 10 
+
+CB10 CG12 CEIA4 CB7 
+
+6.1.3. Evaluación convocatoria extraordinaria 
+
+No se ha definido la evaluación extraordinaria. 
+
+GA_10AJ_103000360 1S_2024-25 Aprendizaje Automatico Master Universitario En Inteligencia Artificial Página 8 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+6.2. Criterios de evaluación 
+
+La calificación vendrá dada a partir de la evaluación de dos partes, listadas a continuación, donde para poder realizar la ponderación indicada en la tabla de evaluación sumativa es necesario que el alumno obtenga una nota mínima de 4 sobre 10 en cada parte. Un trabajo en grupo propuesto por el profesor y su correspondiente exposición oral sobre el estado del arte en la temática de la asignatura (clasificación supervisada o no supervisada). Se valorará la claridad de la exposición, la amplitud de la revisión del estado del arte, la redacción de la memoria correspondiente y la contestación a las preguntas de los profesores. Un examen individual tipo test realizado a final del curso. Durante el curso se detallarán las instrucciones para la realización y entrega del estado del arte. Para la convocatoria extraordinaria de Julio, las evaluaciones serán análogas. Los derechos y deberes de los estudiantes universitarios están desarrollados en los Estatutos de la Universidad Politécnica de Madrid (BOCM de 15 de noviembre de 2010) y en el Estatuto del Estudiante Universitario (RD 1791/2010 de 30 de diciembre). El artículo 124 (a) de los EUPM fija como deber del estudiante ..."seguir con responsabilidad y aprovechamiento el proceso de formación, adquisición de conocimientos, y aprendizaje correspondiente a su condición de universitario"... y el artículo 13 del Estatuto del Estudiante Universitario, en el punto (d) especifica también como deber del estudiante universitario "abstenerse de la utilización o cooperación en procedimientos fraudulentos en las pruebas de evaluación, en los trabajos que se realicen o en documentos oficiales de la universidad". En el caso de que en el desarrollo de las pruebas de evaluación se aprecie el incumplimiento de los deberes como estudiante universitario, el coordinador de la asignatura podrá ponerlo en conocimiento del Director o Decano del Centro, que de acuerdo con lo establecido en el artículo 74 (n) de los Estatutos de la UPM tiene competencias para "Proponer la iniciación del procedimiento disciplinario a cualquier miembro de la Escuela o Facultad, por propia iniciativa o a instancia de la Comisión de Gobierno" al Rector, en los términos previstos en los estatutos y normas de aplicación. 
+
+> GA_10AJ_103000360 1S_2024-25 Aprendizaje Automatico Master Universitario En Inteligencia Artificial Página 9 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## 7. Recursos didácticos 
+
+7.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+Libro principal Bibliografía C. Bielza, P. Larrañaga (2021). Data-Driven Computational Neuroscience. Machine Learning and Statistical Models. Cambridge University Press Libro 1 Bibliografía E. Alpaydin. Introduction to Machine Learning. MIT Press Libro 2 Bibliografía R. Duda, P.E. Hart, D.G. Stork. Pattern Classification. Wiley. 2001. Libro 3 Bibliografía J. Hernández-Orallo, M.J. Ramírez, C. Ferri. Introducción a la Minería de Datos. Pearson Educación. 2004. Libro 4 Bibliografía L. Kuncheva. Combining Pattern Classifiers. Wiley. 2004 Libro 5 Bibliografía S. Sharma. Applied Multivariate Techniques. Wiley. 1996. Libro 6 Bibliografía A. Webb. Statistical Pattern Recognition. Wiley. 2002 Libro 7 Bibliografía I. Witten, E. Frank. Data Mining. Morgan Kaufmann. 2ª ed. 2005. 
+
+> GA_10AJ_103000360 1S_2024-25 Aprendizaje Automatico Master Universitario En Inteligencia Artificial Página 10 de 11
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 8. Otra información 
+
+8.1. Otra información sobre la asignatura 
+
+La asignatura se apoya en la herramienta Moodle para proporcionar información y documentación a los alumnos, así como para la asignación de enunciados y entregas de las prácticas y la comunicación de las calificaciones de los alumnos. La asignatura se imparte en español. a pesar de que la documentación aportada por los profesores estará en inglés, con el objetivo de familiarizar al alumno con la terminología habitual en la literatura. La asignatura se relaciona con el ODS4, ya que se enfoca hacia la apreciación de los límites del conocimiento actual y de la aplicación práctica de la tecnología más reciente, con pensamiento critico, creativo, rigor científico, y gestión del conocimiento. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000360 1S_2024-25 Aprendizaje Automatico Master Universitario En Inteligencia Artificial Página 11 de 11

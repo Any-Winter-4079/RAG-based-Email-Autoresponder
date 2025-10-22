@@ -1,0 +1,115 @@
+Title: INVESTIGACIÓN - Departamento de Inteligencia Artificial
+
+URL Source: https://dia.fi.upm.es/investigacion_dia/
+
+Markdown Content:
+El DIA destaca, a nivel nacional e internacional, por su productividad y calidad investigadora. Tiene una alta participación en proyectos de investigación financiados con fondos de la Comisión Europea, y coordina varios de ellos. Participa también en numerosos proyectos de financiación pública competitiva nacional y regional, y tiene establecidos contratos de investigación con empresas privadas, bien a través de programas de financiación oficial competitiva (CENIT, CIEN, etc.) o bien a través de contratos directos.
+
+La financiación externa obtenida por el personal docente e investigador del DIA en el período 2013-2020 supera los 27.000.000,00 € y ha sido obtenida a través de
+
+![Image 1](https://dia.fi.upm.es/wp-content/uploads/2023/11/comision-europea.svg)
+
+#### 0
+
+### proyectos con financiación procedente de convocatorias internacionales competitivas de la Comisión Europea. La participación en estos proyectos ha permitido la creación de consorcios con más de 400 entidades de 33 países de Europa, América y Asia.
+
+![Image 2](https://dia.fi.upm.es/wp-content/uploads/2023/11/logos-gov-y-sp.svg)
+
+#### 0
+
+### proyectos en convocatorias competitivas nacionales y regionales (Ministerio de Ciencia, Innovación y Universidades, Ministerio de Economía, Industria y Competitividad, Instituto de Salud Carlos III, Comunidad de Madrid, etc.).
+
+#### 0
+
+### proyectos en ámbito no competitivo vía contratos con empresas de prestigio públicas y privadas, nacionales e internacionales.
+
+Grupos de investigación
+-----------------------
+
+La investigación se realiza en el contexto de diversos grupos de investigación consolidados
+
+![Image 3](https://dia.fi.upm.es/wp-content/uploads/2023/11/Foto-grupo-de-investigacion-scaled.jpeg)
+
+engineers meeting technology research in laoratory, deep blue green colors, panoramatic photo
+
+Áreas
+-----
+
+*   Aprendizaje Automático
+*   Bioinformática
+*   Biología de Sistemas
+*   Computación Biomolecular y Biología Sintética
+*   Computación Evolutiva
+*   Grid Semántico
+*   Informática Biomédica
+*   Ingeniería del Conocimiento
+*   Ingeniería Lingüística
+*   Ingeniería Ontológica
+*   Interacción Hombre-Máquina Inteligente
+*   Internet del Futuro
+*   Lenguajes de Alto Nivel y Procesamiento Paralelo
+*   Minería de Datos
+*   Modelos de Elección Bajo Racionalidad Acotada
+*   Modelos de razonamiento
+*   Modelos Lógicos
+*   Nanoinformática
+*   Neurociencia
+*   Programación Lógica (PL) y PL con Restricciones
+*   Recuperación de Información
+*   Redes Bayesianas
+*   Redes Neuronales
+*   Sistemas de Ayuda a la Decisión
+*   Teoría de la Utilidad Multiatributo
+*   Toma de Decisiones en Grupo
+*   Visión por Computador y Robótica
+*   Web Semántica
+
+**🔵** Grupo de Computación Lógica, Lenguajes, Implementación y Paralelismo (CLIP)
+----------------------------------------------------------------------------------
+
+El **Grupo de Computación lógica, Lenguajes, Implementación [y Paralelismo](https://dia.fi.upm.es/es/grupos-investigacion#CLIP)** lleva más de quince años de actividad investigadora en temas relacionados con el avance en los fundamentos, el análisis y la implementación de lenguajes de programación declarativos, la verificación y depuración estática de programas, el aprovechamiento eficiente y sencillo de las arquitecturas paralelas y distribuidas, la extensión de dichos lenguajes a nuevos paradigmas de computación (p.ej., de restricciones, con agentes, móvil, etc.) y la aplicación industrial de la investigación realizada a diversos campos prácticos. El grupo desarrolla el sistema de programación multiparadigma Ciao, software libre bajo licencia LGPL, con numerosos usuarios industriales y académicos a nivel internacional.
+
+**🔵** Grupo de Análisis de Decisiones y Estadística
+----------------------------------------------------
+
+El **Grupo de Análisis de Decisiones y Estadística** se centra principalmente en la resolución de problemas complejos de decisión. Ejemplos de problemas estudiados en el campo de la medicina son los de la ictericia neonatal o la asistencia respiratoria extracorpórea en recién nacidos; en medio ambiente la restauración de ecosistemas acuáticos contaminados tales como el lago Svyatoye al suroeste de Kostyukovichy (Bielorrusia) o el lago Ovre Heimdalsvath cercano a la localidad de Oppland (Noruega); en predicción tales como la gestión de la reserva del agua almacenada en un pantano o la predicción del precio de la electricidad en el mercado español; en simulación la ocurrencia de daños en una línea de clasificación de frutas y en lo social la democracia electrónica.
+
+**🔵** Grupo de Informática Biomédica
+-------------------------------------
+
+El **Grupo de Informática Biomédica** ha estado trabajando durante más de 15 años en diversas áreas de la Informática Biomédica como toma de decisiones, procesamiento de imágenes, directrices y protocolos clínicos, ontologías biomédicas, integración de bases de datos, minería de datos, minería de texto, y otros. La experiencia en investigación, y la obtención de fondos para la misma, queda reflejada en el amplio número de publicaciones científicas de alta calidad que se han generado y en la participación en diferentes proyectos a cargo de la Comisión Europea.
+
+**🔵** Grupo de Ingeniería Ontológica
+-------------------------------------
+
+El **Grupo de Ingeniería Ontológica** realiza su investigación en los campos de **ontologías**, interrelación de **ontologías y lenguaje natural,Web Semántica y e-Ciencia Semántica.** En la línea de ontologías, el grupo investiga en aspectos metodológicos y tecnológicos relacionados con el proceso de desarrollo de las mismas, con resultados como la metodología METHONTOLOGY y la plataforma de desarrollo de ontologías WebODE. En la interrelación entre ontologías y lenguaje natural se está construyendo una plataforma de anotación híbrida (lingüística y ontológica), multinivel y multifuncional, con resultados como la base de datos ODELinger, el modelo de anotación OntoTag y la plataforma OntoTagger. En Web Semántica, la investigación gira en torno a cinco ejes: migrar contenidos a la Web Semántica y a la Web de Linked Data (R2O y ODEMapster), recuperación de información basada en semántica (EgoIR), portales Web semánticos (ODESeW), servicios Web Semánticos (ODESWS) y uso de ontologías en la Web (Oyster). Finalmente, en e-Ciencia Semántica, se pretende aportar métodos y técnicas que permitan acceder a ontologías y utilizarlas en aplicaciones de e-Ciencia, con resultados como la especificación WS-DAIOnt-RDF(S).
+
+**🔵** Grupo de Economía y Sostenibilidad del Medio Natural
+-----------------------------------------------------------
+
+El **grupo de Economía y Sostenibilidad del** Medio Natural [](https://ecsen.es/)pretende continuar la labor pluridisciplinar iniciada hace ya años por sus miembros, en la que a través de una síntesis de categorías analíticas de naturaleza ecológica y económica, se desarrollan y aplican métodos operativos para la gestión sostenible del medio natural. La necesidad de proteger el medio natural surge del reconocimiento de su “escasez”, respecto a las demandas que la sociedad ejerce sobre dicho medio natural. Por otra parte, la economía es la ciencia que establece pautas óptimas para la gestión de la “escasez”. De esta manera, la lógica económica se convierte en un instrumento importante para la protección racional del medio natural.
+
+**🔵** Grupo de Computación Lógica, Lenguajes, Implementación y Paralelismo (CLIP)
+----------------------------------------------------------------------------------
+
+**El Grupo de Inteligencia Computacional** de la UPM se presenta como un acercamiento de investigadores en tres campos diferentes: Análisis de Decisiones y Estadística, Percepción Computacional y Robótica, e Ingeniería en Minería de Datos, todos ellos de la Facultad de Informática. Los miembros investigadores del CIG, tanto teóricos como prácticos, se dedican a la modelización (a partir de una perspectiva estadística y del aprendizaje automático), la optimización heurística, la visión artificial, la computación de alto rendimiento y la neuroinformática. CIG ha participado en más de 70 proyectos de investigación, sobre todo en convocatorias competitivas públicas, y también para empresas privadas. Entre los actuales proyectos públicos se incluyen Cajal Blue Brain, Consolider, Cenit y varios proyectos nacionales del Ministerio español de Ciencia e Innovación. CIG ha colaborado con empresas como Telefónica I + D, Airbus, Arthur Andersen, Progenika Biopharma y Panda Security. Desarrollando aplicaciones que se extienden a una amplia gama de áreas: biomedicina, bioinformática, neurociencia, agricultura, industria, seguridad informática, visión artificial, finanzas, etc.
+
+**🔵** Grupo de Percepción Computacional y Robótica
+---------------------------------------------------
+
+El **Grupo de Percepción Computacional y Robótica** se centra en las áreas de **Visión por Computador y Robótica**. Resultados de este trabajo se han aplicado al problema de la detección y seguimiento de vehículos, aparcamiento automático, guiado de robots autónomos y robots modulares. En el área de visión por computador hemos trabajado en el análisis de imágenes en movimiento y en el desarrollo de modelos geométricos de visión para autocalibración de cámaras. Ahora los intereses del grupo se centran en el desarrollo de técnicas eficientes de detección y seguimiento de objetos deformables y en particular del rostro humano.
+
+**🔵** Grupo de Investigación en Nutrición, Ejercicio y Estilo de Vida Saludable (ImFINE)
+-----------------------------------------------------------------------------------------
+
+El **grupo de investigación ImFINE** liderado por la doctora María Marcela González Gross (INEF), está compuesto por expertos en diferentes campos científicos lo que le convierte en un grupo multidisciplinar con una amplia experiencia en la actividad investigadora. Entre los distintos perfiles del grupo se encuentran doctores en Ciencias del Deporte, doctores en Nutrición, doctores en Bioquímica, doctores en Farmacia, licenciados en Ciencias del Deporte, médicos deportivos, psicólogos, técnico de laboratorio, etc., y acoge regularmente a estudiantes de doctorado y máster, tanto españoles como extranjeros.
+
+**🔵** Grupo de Visión por Computador y Robótica Aérea
+------------------------------------------------------
+
+El grupo Visión por Computador y Robótica Aérea está formado por un equipo multidisciplinar del Departamento de Inteligencia Artificial de la la ETS de Ingenieros Informáticos y del Departamento de Automática, Ingeniería Eléctrica y Electrónica e Informática Industrial de la ETS de Ingenieros Industriales. Entre los objetivos de investigación del grupo se encuentra proporcionar mayor autonomía, mayor seguridad y facilidad de operación a sistemas robóticos aéreos. El grupo cuenta con importante experiencia el campo de visión artificial (procesamiento, reconocimiento o gestión automatizada de imágenes incluyendo estabilización, seguimiento de objetos, composición de mosaicos y ortomapas) así como en sistemas inteligentes, robótica cognitiva y control (métodos de planificación, arquitecturas cognitivas, guiado visual de robots, navegación en entornos pasivos sin GPS, creación de mapas tridimensiaonales, etc.). Los resultados de nuestro trabajo han sido galardonados en competiciones internacionales tales como IMAV (International Micro Aerial Vehicles) o IARC (International Aerial Robotic Competition). Nuestro equipo tiene un importante componente internacional, con miembros pertenecientes a diversas nacionalidades y con un flujo constante de investigadores y estudiantes en formación.
+
+**🔵** Laboratorio de Inteligencia Artificial
+---------------------------------------------
+
+El Laboratorio de Inteligencia Artificial trabaja en las áreas de **Computación Natural**, de la **Biología de Sistemas** y de la **Biología Sintética**. Para ello, trabaja: (1) con el modelo de computación distribuido inspirado en la célula denominado « Membrane Computing » y sus dispositivos asociados «Sistemas P» (computación celular con sistemas P), (2) en computación biomolecular y biología sintética diseñando nano-bio-dispositivos de procesamiento de información biológica, (3) en el estudio de la computación fluídica y en el diseño lógico de sistemas fluídicos eficientes y (4) en Computación Evolutiva desarrollando nuevas técnicas de búsqueda y optimización para la construcción de sistemas inteligentes robustos.

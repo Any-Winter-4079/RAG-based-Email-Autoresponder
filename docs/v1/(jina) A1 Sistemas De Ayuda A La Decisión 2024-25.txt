@@ -1,0 +1,352 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000357_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000357 - Sistemas De Ayuda A La Decision 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Competencias y resultados de aprendizaje..............................................................................................................2 4. Descripción de la asignatura y temario.....................................................................................................................3 5. Cronograma.............................................................................................................................................................5 6. Actividades y criterios de evaluación........................................................................................................................7 7. Recursos didácticos.................................................................................................................................................9 8. Otra información......................................................................................................................................................10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000357 - Sistemas de Ayuda a la Decision 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Maria Concepcion Bielza Lozoya 2210 c.bielza@upm.es M - 15:00 - 19:00 V - 15:00 - 17:00 Juan Antonio Fdez Del Pozo De Salamanca (Coordinador/a) 2101 juan.fdezpozo.salamanca@u pm.es M - 11:00 - 14:00 V - 11:00 - 14:00 * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+> GA_10AJ_103000357 1S_2024-25 Sistemas De Ayuda A La Decision Master Universitario En Inteligencia Artificial Página 1 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 3. Competencias y resultados de aprendizaje 
+
+3.1. Competencias 
+
+CB10 - Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo. CB7 - Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio CEIA3 - Conocimiento y aplicación de los modelos cuantitativos que dan soporte a los procesos de toma de decisiones en sus distintas variantes: determinístico-estocástico, individual-colectivo o estático-dinámico CG13 - Apreciación de los límites del conocimiento actual y de la aplicación práctica de la tecnología más reciente. CG16 - Capacidad de trabajar de forma independiente en su campo profesional. CG17 - Habilidades de gestión y capacidad de liderar un equipo que puede estar integrado por disciplinas y niveles distintos. CG19 - Aproximación sistemática a la gestión de riesgos. CGI1 - Adquirir conocimientos científicos avanzados del campo de la informática que le permitan generar nuevas ideas dentro de una línea de investigación. CGI2 - Comprender el procedimiento, valor y límites del método científico en el campo de la Informática, siendo capaz de identificar, localizar y obtener datos requeridos en un trabajo de investigación, de diseñar y guiar investigaciones analíticas, de modelado y experimentales, así como de evaluar datos de una manera crítica y extraer conclusiones. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+> GA_10AJ_103000357 1S_2024-25 Sistemas De Ayuda A La Decision Master Universitario En Inteligencia Artificial Página 2 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+3.2. Resultados del aprendizaje 
+
+RA11 - Ser capaz de distinguir dónde está la frontera del conocimiento en análisis de decisiones a partir de la lectura crítica de publicaciones científicas relevantes, habitualmente escritas en lengua inglesa RA81 - Ser capaz de modelizar problemas reales de análisis de decisiones mediante árboles de decisión y diagramas de influencia RA34 - Expresar las ideas del estado del arte y las ideas nuevas aportadas, tanto de manera oral como escrita. RA30 - Ser capaz de aportar nuevas ideas, tanto a nivel metodológico como de aplicación del análisis de decisiones, yendo más allá de la frontera del conocimiento 
+
+## 4. Descripción de la asignatura y temario 
+
+4.1. Descripción de la asignatura 
+
+Los SAD constituyen sistemas informáticos interactivos cuyo objetivo es ayudar a los decisores en la utilización de datos y modelos para resolver problemas no estructurados. Surgen en la década de los años setenta para resolver situaciones complejas en las que los individuos han de elegir entre varias alternativas posibles para seguir la óptima o una satisfactoria. Para esta toma de decisiones no basta la experiencia, sentido común o intuición de los expertos, ya que, frecuentemente intervienen múltiples criterios normalmente conflictivos, incertidumbre, varios decisores, diversas etapas. La versatilidad inagotable de los problemas reales de decisión humana ha hecho necesarios esfuerzos en múltiples áreas, para ir construyendo una sucesión de esquemas coherentes, cada vez más amplios para abordar correctamente los problemas de decisión. Este curso se dedicará a exponer los fundamentos y aplicaciones de las principales líneas de desarrollo actual del Análisis de Decisiones, estudiando diferentes herramientas y software que han surgido en estos años para la modelización y evaluación de los problemas de toma de decisiones en ambiente de incertidumbre. 
+
+> GA_10AJ_103000357 1S_2024-25 Sistemas De Ayuda A La Decision Master Universitario En Inteligencia Artificial Página 3 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+4.2. Temario de la asignatura 
+
+1. Tema 1: Introducción 1.1. Complejidad en la toma de decisiones 1.2. Ciclo del análisis de decisiones 1.3. Variables y objetivos 1.4. Generación de alternativas 2. Modelización de la incertidumbre 2.1. Repaso de conceptos básicos en probabilidad 2.2. Revisión de juicios y teorema de Bayes 2.3. Educción de probabilidades: discretas, continuas, sucesos muy raros, heurísticas y sesgos 3. Modelización de las preferencias 3.1. Preferencias sobre loterías 3.2. Axiomas de la función de utilidad 3.3. Asignación de la función de utilidad 3.4. Actitud frente al riesgo 3.5. Utilidad multiatributo 4. Modelos gráficos 4.1. Tablas de decisión 4.2. Árboles de decisión 4.3. Diagramas de influencia 5. Análisis de sensibilidad 5.1. Análisis de sensibilidad cualitativo 5.2. Medidas basadas en la distancia a un umbral 5.3. Medidas probabilísticas 5.4. Valor esperado de la información 5.5. Dominancia e imprecisión 6. Aplicaciones reales 7. Modelos temporales: procesos de decisión Markovianos 
+
+> GA_10AJ_103000357 1S_2024-25 Sistemas De Ayuda A La Decision Master Universitario En Inteligencia Artificial Página 4 de 10
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 5. Cronograma 
+
+5.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Clases teóricas del tema 1 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+2
+
+Clases teóricas del tema 1 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+3
+
+Clases teóricas del tema 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+4
+
+Clases teóricas del tema 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+5
+
+Clases teóricas del tema 2 
+
+Duración: 01:00 LM: Actividad del tipo Lección Magistral 
+
+Escenificación problema de decisión 
+
+Duración: 01:00 OT: Otras actividades formativas / Evaluación 
+
+Exposición oral escenificación problema de decisión -Acto 1- (tema 1) 
+
+PG: Técnica del tipo Presentación en Grupo Evaluación Progresiva Presencial Duración: 02:00 
+
+6
+
+Clases teóricas del tema 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+7
+
+Clases teóricas del tema 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+8
+
+Clases teóricas del tema 4 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+9
+
+Clases teóricas del tema 4 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+10 
+
+Clases teóricas del tema 5 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+GA_10AJ_103000357 1S_2024-25 Sistemas De Ayuda A La Decision Master Universitario En Inteligencia Artificial Página 5 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 11 
+
+Clases teóricas del tema 5 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+12 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Exposición oral escenificación problema de decisión -Acto 2- (temas 2-3) 
+
+PG: Técnica del tipo Presentación en Grupo Evaluación Progresiva Presencial Duración: 02:00 
+
+13 
+
+Clases teóricas Tema 6 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+14 
+
+Clases teóricas del tema 7 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+15 
+
+Escenificación problema de decisión 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Examen tipo test 
+
+EX: Técnica del tipo Examen Escrito Evaluación Progresiva Presencial Duración: 00:20 
+
+Exposición oral escenificación problema de decisión -Acto 3- (temas 4-7) 
+
+PG: Técnica del tipo Presentación en Grupo Evaluación Progresiva Presencial Duración: 02:00 
+
+16 
+
+17 
+
+Examen tipo test 
+
+EX: Técnica del tipo Examen Escrito Evaluación Global Presencial Duración: 00:20 
+
+Exposición oral escenificación problema de decisión 
+
+PG: Técnica del tipo Presentación en Grupo Evaluación Global Presencial Duración: 02:00 
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000357 1S_2024-25 Sistemas De Ayuda A La Decision Master Universitario En Inteligencia Artificial Página 6 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 6. Actividades y criterios de evaluación 
+
+6.1. Actividades de evaluación de la asignatura 
+
+6.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+5
+
+Exposición oral escenificación problema de decisión -Acto 1-(tema 1) 
+
+PG: Técnica del tipo Presentación en Grupo 
+
+Presencial 02:00 10% 4 / 10 
+
+CG17 CGI3 CGI4 CB7 CG13 CG19 CGI2 CEIA3 
+
+12 
+
+Exposición oral escenificación problema de decisión -Acto 2-(temas 2-3) 
+
+PG: Técnica del tipo Presentación en Grupo 
+
+Presencial 02:00 20% 4 / 10 
+
+CG17 CGI3 CGI4 CB7 CG13 CG19 CGI2 CEIA3 
+
+15 Examen tipo test 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 00:20 50% 4 / 10 
+
+CB7 CG16 CEIA3 CB10 
+
+15 
+
+Exposición oral escenificación problema de decisión -Acto 3-(temas 4-7) 
+
+PG: Técnica del tipo Presentación en Grupo 
+
+Presencial 02:00 20% 4 / 10 
+
+CG17 CGI3 CGI4 CB7 CG13 CG19 CGI2 CEIA3 
+
+6.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+17 Examen tipo test 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 00:20 50% 4 / 10 
+
+CG16 CB7 CB10 CEIA3 
+
+GA_10AJ_103000357 1S_2024-25 Sistemas De Ayuda A La Decision Master Universitario En Inteligencia Artificial Página 7 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS     
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos 17 Exposición oral escenificación problema de decisión
+> PG: Técnica del tipo Presentación en Grupo
+> Presencial 02:00 50% 4 / 10
+> CG17 CGI3 CGI4 CB7 CG13 CG19 CGI2 CEIA3
+
+6.1.3. Evaluación convocatoria extraordinaria 
+
+No se ha definido la evaluación extraordinaria. 
+
+6.2. Criterios de evaluación 
+
+La calificación vendrá dada a partir de la evaluación de las dos partes, listadas a continuación, donde para poder realizar la ponderación indicada es necesario que el alumno obtenga una nota mínima de 4 sobre 10 en cada parte. Las dos partes son obligatorias y son: Escenificación en 3 actos de un problema real de toma de decisiones. Se realizará en grupos de 4 personas. Dependiendo del número de alumnos se escenificarán en clase o se pre-grabarán en vídeo para posteriormente visualizarse y discutirse en el aula. Será evaluable la visión crítica de los estudiantes en el desempeño de cada alumno. Peso 50%. Un examen tipo test. Peso 50%. Durante el curso se detallarán las instrucciones para la realización de las entregas. Para la convocatoria extraordinaria de Julio, las evaluaciones serán análogas. Los derechos y deberes de los estudiantes universitarios están desarrollados en los Estatutos de la Universidad Politécnica de Madrid (BOCM de 15 de noviembre de 2010) y en el Estatuto del Estudiante Universitario (RD 1791/2010 de 30 de diciembre). 
+
+> GA_10AJ_103000357 1S_2024-25 Sistemas De Ayuda A La Decision Master Universitario En Inteligencia Artificial Página 8 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+El artículo 124 (a) de los EUPM fija como deber del estudiante ..."seguir con responsabilidad y aprovechamiento el proceso de formación, adquisición de conocimientos, y aprendizaje correspondiente a su condición de universitario"... y el artículo 13 del Estatuto del Estudiante Universitario, en el punto (d) especifica también como deber del estudiante universitario "abstenerse de la utilización o cooperación en procedimientos fraudulentos en las pruebas de evaluación, en los trabajos que se realicen o en documentos oficiales de la universidad". En el caso de que en el desarrollo de las pruebas de evaluación se aprecie el incumplimiento de los deberes como estudiante universitario, el coordinador de la asignatura podrá ponerlo en conocimiento del Director o Decano del Centro, que de acuerdo con lo establecido en el artículo 74 (n) de los Estatutos de la UPM tiene competencias para "Proponer la iniciación del procedimiento disciplinario a cualquier miembro de la Escuela o Facultad, por propia iniciativa o a instancia de la Comisión de Gobierno" al Rector, en los términos previstos en los estatutos y normas de aplicación. 
+
+## 7. Recursos didácticos 
+
+7.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+Libro principal Bibliografía Ríos Insua, S., Bielza, C., Mateos, A. (2002) Fundamentos de los Sistemas de Ayuda a la Decisión, Ed. RA-MA. Libro secundario Bibliografía Clemen, R.T. (1996) Making Hard Decisions, Duxbury Press. Libro de consulta Bibliografía French, S., Maule, J., Papamichail, N. (2009) Decision Behavior, Analysis and Support, Cambridge U.P. Equipamiento Equipamiento Aula asignada, biblioteca, sala de trabajo Libro de consulta 2 Bibliografía Howard, R., Abbas, A.E. (2016) Foundations of Decision Analysis. Pearson Education. LIbro Bibliografía Smith, J.Q. (2010). Bayesian Decision Analysis. Principles and Practices. Cambridge U.P. 
+
+> GA_10AJ_103000357 1S_2024-25 Sistemas De Ayuda A La Decision Master Universitario En Inteligencia Artificial Página 9 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 8. Otra información 
+
+8.1. Otra información sobre la asignatura 
+
+La asignatura se apoya en la herramienta Moodle para proporcionar información y documentación a los alumnos, así como para la asignación de enunciados y entregas de las prácticas y la comunicación de las calificaciones de los alumnos. La asignatura se relaciona con el ODS4, ya que mediante la actualización de temario, referencias y material didáctico, uso de las herramientas, tecnologías y metodologias en las clases, tutorías y la evaluación, se fomentan el autoaprendiazje, la autoevaluación, el trabajo colaborativo y en equipo; y se orienta hacia la eficiencia, pensamiento critico y lateral, la creatividad, el rigor cientifico, la gestion del conocmimiento y la evaluación del riesgo y de la incertidumbre. Además, el contenido de la asigntura se relaciona con ODs 9, 11 y 12, ya que potencia el conocimiento en el ámbito de gestión sostenible de recursos (ODS 11), planificación estratégica en los mercados (12 ) y la toma de decisiones en la industria y los servicios (9). Se construyen modelos de problemas de decisión que permiten mejorar la comprensión del problema, definir las consecuencias de las alternativas y discriminar las preferencias de los agentes sobre las consecuencias, poniendo en juego el conocimiento científico, el estado del arte y la metodología aplicada a la solución de los problemas.

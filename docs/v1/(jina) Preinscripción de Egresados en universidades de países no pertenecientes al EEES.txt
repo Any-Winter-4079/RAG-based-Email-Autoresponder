@@ -1,0 +1,72 @@
+Title: Universidad Politécnica de Madrid
+
+URL Source: https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision/UniversidadesNoEEES
+
+Markdown Content:
+Egresados en universidades de países no pertenecientes al Espacio Europeo de Educación Superior (EEES)
+------------------------------------------------------------------------------------------------------
+
+Aquí puedes comprobar si tu país pertenece o no al [Espacio Europeo de Educación Superior (EEES)](http://www.ehea.info/pid34250/members.html "Espacio Europeo de Educación Superior (EEES)").
+
+La preinscripción se realizará a través del [Portal UPM habilitado para la preinscripción](https://upm.es/helios/) pudiéndose solicitar un programa de máster por periodo de admisión. En caso de denegación podrá repetir la preinscripción para el siguiente plazo:
+
+*   **Pasaporte**, **DNI** (Documento Nacional de Identidad español), **NIE** (Número de Identidad de Extranjero para residentes en España).  
+    _También es válido el Documento de Identidad nacional para alumnos de la Unión Europea._
+*   **Curriculum Vitae.**
+*   La **documentación académica** a aportar depende del máster elegido, **cada [programa](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas "programa") puede tener además requisitos específicos de acceso**:
+
+_Nota 1_: **NO** se aceptarán documentos generados en páginas web que carezcan de validez académica.  
+_Nota 2_: Toda la documentación aportada debe estar [**debidamente traducida**](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/?fmt=detail&id=CON03092 "debidamente traducida") en caso de estar expedida en un idioma diferente a los oficiales en la UPM (castellano e inglés).
+
+1.  Si ha finalizado sus estudios de Grado:
+    1.  **Título universitario oficial** o justificante de haberlo solicitado
+    2.  **Expediente Académico Oficial** del título de acceso, indicando las asignaturas superadas y las calificaciones obtenidas
+2.  Si **NO** ha finalizado sus estudios de Grado:
+    1.  [**Declaración Responsable de Finalización de Estudios**](https://www.upm.es/gsfs/SFS04242 "Declaración Responsable de finalización de estudios")
+    2.  **Expediente Académico Oficial** del título de acceso, indicando los **créditos superados** y los **créditos necesarios** para la finalización del título.
+        
+        **NOTA IMPORTANTE:**
+        
+        Aquellos estudiantes que **NO** hayan finalizado su titulación de grado pueden preinscribirse, pagar su [Reserva de Plaza](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/?fmt=detail&id=CON03089 "Reserva de Plaza") y matricularse con su **admisión condicionada**, debiendo aportar **antes del 30 de septiembre** la siguiente documentación:
+        
+        1.  **Título universitario oficial** o justificante de haberlo solicitado.
+        2.  **Expediente Académico Oficial del título**, indicando los **créditos superados** y las **calificaciones obtenidas**.
+        
+        Debe enviar la documentación requerida a [tramitacion.master.oficial@upm.es](mailto:tramitacion.master.oficial@upm.es "tramitacion.master.oficial@upm.es"). **En caso contrario la admisión y la matrícula, si la hubiera, quedarán canceladas**.
+        
+3.  Si solicita un **Máster Universitario** del [**Anexo I**](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision?fmt=detail&id=CON06502 "Másteres Universitarios del Anexo I"):
+
+Es imprescindible aportar **Acreditación de nivel B2** en lengua inglesa, según el [Marco Común Europeo de Referencia para las Lenguas (CEFR)](https://proyectos.crue.org/acreditacion/wp-content/uploads/sites/3/2024/11/Tabla-Equivalencia-Certificados-Ingles.pdf "Marco Común Europeo de Referencia para las Lenguas (CEFR)").
+
+Si solicita el **Máster en Formación del Profesorado** la acreditación requerida es de **nivel B1** en lengua extranjera.
+
+4.  La documentación académica debe presentarse [**debidamente legalizada**](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/?fmt=detail&id=CON03093 "duly legalized") u [**homologada**](https://universidades.sede.gob.es/procedimientos/portada/ida/3513/idp/1029 "Resolución de Homologación") dependiendo del programa máster que solicite:
+
+*   *   Si solicita un [**Máster Habilitante**](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/?fmt=detail&id=CON06502 "Másteres del Anexo I"):  
+        _MU en Arquitectura_; _MU en_ _Ingeniería Aeronáutica_; _MU en_ _Ingeniería Agronómica_; _MU en_ _Ingeniería de Caminos, Canales y Puertos_; _MU en_ _Ingeniería de Minas_; _MU en_ _Ingeniería de Montes_; _MU en_ _Ingeniería Industrial_; _MU en_ _Ingeniería Naval y Oceánica_; _MU en_ _Ingeniería de Telecomunicación.  
+        _O cualquier doble título que los contenga.Es imprescindible aportar la [**Resolución de Homologación**](https://universidades.sede.gob.es/procedimientos/portada/ida/3513/idp/1029 "Resolución de Homologación") de la titulación universitaria aportada a la profesión que da acceso al Máster Habilitante correspondiente. La homologación se obtiene en el [Ministerio de Universidades](https://universidades.sede.gob.es/procedimientos/portada/ida/3513/idp/1029 "Homologación de títulos extranjeros de educación superior a títulos oficiales universitarios españoles de Grado o Máster que den acceso a profesión regulada en España").
+        
+    *   Para el **Resto de Másteres**:Es imprescindible aportar el **Título universitario oficial** o justificante de haberlo solicitado, y el **Expediente Académico Oficial** [**debidamente legalizados**](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/?fmt=detail&id=CON03093 "duly legalized").
+        
+        La **Legalización** se implementa habitualmente mediante la **[Apostilla de La Haya](https://ehea.info/page-full_members "Países miembros de la Apostilla de La Haya")**. Para los egresados de países no firmantes de este acuerdo, se puede hacer la [legalización por vía diplomática](https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Legalizacion-y-apostilla.aspx "diplomatic channels") mediante el sello de la [Embajada o Consulado de España](https://www.exteriores.gob.es/es/EmbajadasConsulados/Paginas/index.aspx "Embassies and Consulates of Spain") en el país de expedición de la documentación.
+        
+
+4.  Deberá formalizar su [**Reserva de plaza**](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/?fmt=detail&id=CON03089 "Reserva de plaza") en las fechas indicadas en el [Calendario](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Calendario "Calendario") en caso de ser admitidos en el **Primer o Segundo Plazo** (la reserva no será necesario para el resto de plazos). **En caso contrario, la admisión se anulará.**El importe de la Reserva de plaza es de **250 euros**, que posteriormente se descontará del [importe de la matrícula](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/?fmt=detail&id=CON07704 "importe de la matrícula"). **No habrá devolución en caso de no formalizar la matrícula.  
+    **  
+    Pasos para hacer la Reserva de plaza:  
+    a) Solicitar [cuenta de email UPM](https://cuentas.upm.es/solicitud "cuenta de email UPM")  
+    b) Acceder a la [Plataforma de pago](https://automatricula.upm.es/AC_gestionRecibos/ "Plataforma de pago") (_Gestión de Recibos_). El pago se realizará con tarjeta bancaria exclusivamente.
+
+**Para cualquier duda puede consultar el apartado de** [Preguntas Frecuentes (FAQ)](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Preguntas_frecuentes "Preguntas Frecuentes (FAQ)") **o dirigirse a** [tramitacion.master.oficial@upm.es](mailto:tramitacion.master.oficial@upm.es?subject=M%C3%A1steres%20Oficiales%20UPM)
+
+**¡¡¡Gracias por elegirnos!!!**
+
+*   [Estudios Oficiales de Máster (portada)](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master)
+*   [Requisitos y preinscripción](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision)
+*   [\---Estudiantes y Egresados de universidades españolas](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision/UniversidadesEspanolas)
+*   [\---Egresados en universidades de países miembros del Espacio Europeo de Educación Superior (EEES)](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision/UniversidadesEEES)
+*   [\---Egresados en universidades de países no pertenecientes al Espacio Europeo de Educación Superior (EEES)](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision/UniversidadesNoEEES)
+*   [Proceso de Matriculación](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Matricula)
+*   [Calendario de Másteres Universitarios](http://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Calendario)
+*   [Programas Oficiales de Máster](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas)
+*   [Preguntas Frecuentes sobre Másteres Oficiales](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Preguntas_frecuentes)

@@ -1,0 +1,374 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000743_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000743 - Deep Learning Para El Procesamiento Del Lenguaje Natural 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Conocimientos previos recomendados.....................................................................................................................2 4. Competencias y resultados de aprendizaje..............................................................................................................2 5. Descripción de la asignatura y temario.....................................................................................................................3 6. Cronograma.............................................................................................................................................................7 7. Actividades y criterios de evaluación........................................................................................................................9 8. Recursos didácticos................................................................................................................................................11 9. Otra información......................................................................................................................................................11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000743 - Deep Learning para el Procesamiento del Lenguaje Natural 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Emilio Serrano Fernandez (Coordinador/a) 2201 emilio.serrano@upm.es Sin horario. http://dia.fi.upm.es/ es/emilioserra Damiano Zanardini 2205 damiano.zanardini@upm.es Sin horario. http://dia.fi.upm.es/ masteria/?q=es/nod e/383 
+
+> GA_10AJ_103000743 1S_2024-25 Deep Learning Para El Procesamiento Del Lenguaje Natural Master Universitario En Inteligencia Artificial Página 1 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+Pablo Calleja Ibañez 3205 p.calleja@upm.es Sin horario. https://dia.fi.upm.es/ personaldia/pabloca lleja/ * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+## 3. Conocimientos previos recomendados 
+
+3.1. Asignaturas previas que se recomienda haber cursado 
+
+El plan de estudios Master Universitario en Inteligencia Artificial no tiene definidas asignaturas previas recomendadas para esta asignatura. 
+
+3.2. Otros conocimientos previos recomendados para cursar la asignatura 
+
+- Nociones de Python. - Idioma inglés. Aunque las presentaciones orales de esta asignatura se hacen en español, gran parte del material escrito utilizado están en inglés (por ejemplo, diapositivas utilizadas en clase o bibliografía recomendada). - Se recomienda cursar en paralelo con la asignatura de "A6: Redes de neuronas artificiales y Deep Learning" 
+
+## 4. Competencias y resultados de aprendizaje 
+
+4.1. Competencias 
+
+CB10 - Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo. CB7 - Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio CEIA4 - Capacidad de interpretar los modelos de clasificación supervisada y no supervisada obtenidos al aplicar las técnicas de Aprendizaje Automático para un conjunto de datos. 
+
+> GA_10AJ_103000743 1S_2024-25 Deep Learning Para El Procesamiento Del Lenguaje Natural Master Universitario En Inteligencia Artificial Página 2 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+CG9 - Aplicación de los métodos de resolución de problemas más recientes o innovadores y que puedan implicar el uso de otras disciplinas. 
+
+4.2. Resultados del aprendizaje 
+
+RA98 - Manejar la formalización matemática de las redes de neuronas artificiales RA99 - Comparar las redes de neuronas artificiales con otros métodos de inteligencia artificial RA102 - Elegir el modelo neuronal más adecuado para cada clase de problema RA100 - Seleccionar técnicas de aprendizaje profundo (deep learning) para entrenar redes de neuronas RA101 - Construir una red de neuronas entrenada a partir de un conjunto de datos 
+
+## 5. Descripción de la asignatura y temario 
+
+5.1. Descripción de la asignatura 
+
+El Aprendizaje Profundo o Deep Learning es un subcampo del aprendizaje automático que se basa en el uso de redes neuronales artificiales. A través de una jerarquía de capas con unidades de procesamiento no lineal, estas redes neuronales aprenden abstracciones de alto nivel para datos, lo que ha llevado a un rendimiento sobresaliente en diversos campos de la inteligencia artificial. En particular, el Deep Learning ha revolucionado áreas como la visión por computador, el aprendizaje por refuerzo y, por supuesto, el procesamiento del lenguaje natural (NLP) en el que se enfoca esta asignatura. El NLP es un campo crucial en la inteligencia artificial que se dedica al estudio de las interacciones entre las computadoras y el lenguaje humano. Su objetivo principal es capacitar a las máquinas para "entender" y procesar el lenguaje natural, en contraposición a los lenguajes de programación, para llevar a cabo diversas tareas de utilidad. Entre estas tareas se incluyen el análisis de sentimientos, la traducción automática, la generación de resúmenes y la búsqueda de respuestas a preguntas formuladas por humanos en lenguaje natural. En esta asignatura, se explorarán los principales métodos del Deep Learning aplicados al NLP y se analizará cómo se pueden emplear para resolver con éxito este tipo de desafíos. Entre las tecnologías más destacadas del Deep Learning aplicadas al NLP, encontramos: los Transformers y las arquitecturas basadas en ellos; y los modelos de lenguaje (LMs) como BERT y GPT, que han revolucionado la 
+
+> GA_10AJ_103000743 1S_2024-25 Deep Learning Para El Procesamiento Del Lenguaje Natural Master Universitario En Inteligencia Artificial Página 3 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+comprensión del texto y la generación de lenguaje natural. También destacan herramientas "listas para usar" sin ser ajustadas, como los Modelos de Lenguaje a Gran Escala (LLMs) y ChatGPT, que permiten desarrollar aplicaciones de manera rápida y sencilla. Además, dada la creciente atención tanto de la academia como de la industria hacia los grafos de conocimiento, también se explorará cómo aplicar Deep Learning a estos grafos por medio de arquitecturas como las Redes Neuronales de Grafos (GNNs). Con ello se proporciona una base sólida para resolver numerosas aplicaciones en el NLP apoyadas por estos grafos. En resumen, el Deep Learning aplicado al NLP ha transformado radicalmente la manera en que las máquinas comprenden y procesan el lenguaje humano. Esta asignatura ofrece una visión detallada de las tecnologías más avanzadas que están impulsando el progreso en el campo del NLP, incluyendo una comprensión profunda del funcionamiento de los Modelos de Lenguaje a Gran Escala (LLMs), considerados la inteligencia artificial más general que tenemos hoy en día. 
+
+> GA_10AJ_103000743 1S_2024-25 Deep Learning Para El Procesamiento Del Lenguaje Natural Master Universitario En Inteligencia Artificial Página 4 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+5.2. Temario de la asignatura 
+
+1. An introduction to NLP with Machine Learning 1.1. Text classification & sentiment analysis 2. Distributional semantics and Word embeddings 2.1. GloVe 2.2. Word2vec 3. Sequential Models with Recurrent Neural Networks 3.1. RNNs 3.2. LSTMs 3.3. GRUs 4. Sequence to Sequence models 4.1. Seq2seq Models With Attention 4.2. Transformers 5. (Large) Language Models 5.1. BERT 5.2. BERT variants and adaptations 5.3. GPT Series 6. Out of the box tools for NLP 6.1. Hugging Face 6.2. ChatGpt 6.3. Prompt engineering 6.4. Chain-of-Thought Prompting 6.5. Retrieval-Augmented Generation (RAG) 7. Advanced NLP problems with Deep Learning 7.1. Question answering 7.2. Named-entity recognition 7.3. Automatic Translation 7.4. Text Summarization 
+
+> GA_10AJ_103000743 1S_2024-25 Deep Learning Para El Procesamiento Del Lenguaje Natural Master Universitario En Inteligencia Artificial Página 5 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informaticos 7.5. Caption Generation 7.6. Text-to-image 8. Extending NLP methods for Graph Data 8.1. Graph embeddings: DeepWalk and Node2Vec 8.2. Graph Neural Networks 8.3. Knowledge graph embeddings 8.4. Knowledge Graphs in NLP 
+
+GA_10AJ_103000743 1S_2024-25 Deep Learning Para El Procesamiento Del Lenguaje Natural Master Universitario En Inteligencia Artificial Página 6 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 6. Cronograma 
+
+6.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Clases tema 1 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+2
+
+Clase tema 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+3
+
+Clase tema 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+4
+
+Clase tema 4 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+5
+
+Case tema 5 
+
+Duración: 00:00 LM: Actividad del tipo Lección Magistral 
+
+6
+
+Clase tema 6 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+7
+
+Clase tema 7 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+8
+
+Clase tema 7 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+9
+
+Clase tema 7 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+10 
+
+Clase tema 7 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+11 
+
+Clase tema 7 
+
+Duración: 01:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+Examen escrito teórico-práctico de evaluación progresiva, parcial temas 1-7 
+
+Duración: 01:00 OT: Otras actividades formativas / 
+
+Examen escrito teórico-práctico de evaluación progresiva, parcial temas 1-7 
+
+EX: Técnica del tipo Examen Escrito Evaluación Progresiva Presencial Duración: 01:00 
+
+GA_10AJ_103000743 1S_2024-25 Deep Learning Para El Procesamiento Del Lenguaje Natural Master Universitario En Inteligencia Artificial Página 7 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos Evaluación 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+12 
+
+Clase tema 8 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+13 
+
+Clase tema 8 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+14 
+
+Clase tema 8 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+Examen escrito teórico-práctico de evaluación progresiva, parcial tema 8 
+
+EX: Técnica del tipo Examen Escrito Evaluación Progresiva Presencial Duración: 01:00 
+
+15 
+
+Clase tema 8 
+
+Duración: 01:00 LM: Actividad del tipo Lección Magistral 
+
+Examen escrito teórico-práctico de evaluación progresiva, parcial tema 8 
+
+Duración: 01:00 OT: Otras actividades formativas / Evaluación 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+16 
+
+Examen escrito teórico-práctico de evaluación global, parcial temas 1-7 
+
+EX: Técnica del tipo Examen Escrito Evaluación Global Presencial Duración: 01:00 
+
+Examen escrito teórico-práctico de evaluación global, parcial tema 8 
+
+EX: Técnica del tipo Examen Escrito Evaluación Global Presencial Duración: 01:00 
+
+17 
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000743 1S_2024-25 Deep Learning Para El Procesamiento Del Lenguaje Natural Master Universitario En Inteligencia Artificial Página 8 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 7. Actividades y criterios de evaluación 
+
+7.1. Actividades de evaluación de la asignatura 
+
+7.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+11 
+
+Examen escrito teórico-práctico de evaluación progresiva, parcial temas 1-7 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 01:00 70% 5 / 10 
+
+CG9 CB7 CB10 CEIA4 
+
+14 
+
+Examen escrito teórico-práctico de evaluación progresiva, parcial tema 8
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 01:00 30% 5 / 10 
+
+CG9 CB7 CB10 CEIA4 
+
+7.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+16 
+
+Examen escrito teórico-práctico de evaluación global, parcial temas 1-7 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 01:00 70% 5 / 10 
+
+CG9 CEIA4 CB7 CB10 
+
+16 Examen escrito teórico-práctico de evaluación global, parcial tema 8 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 01:00 30% 5 / 10 
+
+CG9 CB7 CB10 CEIA4 
+
+7.1.3. Evaluación convocatoria extraordinaria 
+
+Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+Examen escrito teórico-práctico de evaluación extraordinaria 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 04:00 100% 5 / 10 
+
+CG9 CB7 CB10 CEIA4 
+
+GA_10AJ_103000743 1S_2024-25 Deep Learning Para El Procesamiento Del Lenguaje Natural Master Universitario En Inteligencia Artificial Página 9 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+7.2. Criterios de evaluación 
+
+Los enunciados de los proyectos prácticos, así como el tipo de examen escrito (test, respuesta corta, desarrollo) podrán variar en las distintas evaluaciones (progresiva, global, y extraordinaria). Las calificaciones de 5 o superiores en exámenes parciales y proyectos prácticos se conservan para la evaluación global y extraordinaria. Solo se puede optar a una segunda o tercera evaluación de exámenes parciales y proyectos prácticos si estos han recibido calificaciones inferiores a 5 o no se han presentado. En caso de que no se alcance la nota mínima para aprobar la asignatura en una de las partes evaluadas, la nota de la asignatura será la de la parte no aprobada. En caso de que un examen escrito se evalué mediante cuestionarios de la plataforma Moodle con preguntas aleatorias desde un banco de preguntas, no se publicarán la solución de las preguntas al no permitirlo la prueba. Igualmente, en esta modalidad de exámenes y para mejorar la protección contra la copia, el acceso al cuestionario será secuencial (sólo se podrá ver una pregunta por pantalla y no se podrá retroceder una vez se responda). Los derechos y deberes de los estudiantes universitarios están desarrollados en los Estatutos de la Universidad Politécnica de Madrid (BOCM de 15 de noviembre de 2010) y en el Estatuto del Estudiante Universitario (RD 1791/2010 de 30 de diciembre). El artículo 124 (a) de los EUPM fija como deber del estudiante ..."seguir con responsabilidad y aprovechamiento el proceso de formación, adquisición de conocimientos, y aprendizaje correspondiente a su condición de universitario"... y el artículo 13 del Estatuto del Estudiante Universitario, en el punto (d) especifica también como deber del estudiante universitario "abstenerse de la utilización o cooperación en procedimientos fraudulentos en las pruebas de evaluación, en los trabajos que se realicen o en documentos oficiales de la universidad". En el caso de que en el desarrollo de las pruebas de evaluación se aprecie el incumplimiento de los deberes como estudiante universitario, el coordinador de la asignatura podrá ponerlo en conocimiento del director del centro, que de acuerdo con lo establecido en el artículo 74 (n) de los Estatutos de la UPM tiene competencias para "Proponer la iniciación del procedimiento disciplinario a cualquier miembro de la Escuela o Facultad". 
+
+> GA_10AJ_103000743 1S_2024-25 Deep Learning Para El Procesamiento Del Lenguaje Natural Master Universitario En Inteligencia Artificial Página 10 de 11
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 8. Recursos didácticos 
+
+8.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+UPM Moodle Recursos web [Zhao, W. X., et al., 2023] Bibliografía Zhao, W. X., et al. (2023). A Survey of Large Language Models. arXiv. https://arxiv.org/abs/2303.18223 Bibliografía Bibliografía Selected bibliography (papers and text books) 
+
+## 9. Otra información 
+
+9.1. Otra información sobre la asignatura 
+
+La asignatura se apoya en la herramienta Moodle para proporcionar información y documentación a los alumnos, así como para informar de las convocatorias a las pruebas de evaluación y de sus calificaciones. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000743 1S_2024-25 Deep Learning Para El Procesamiento Del Lenguaje Natural Master Universitario En Inteligencia Artificial Página 11 de 11

@@ -1,0 +1,49 @@
+Title: Gómez Pérez, Asunción - Máster Universitario en Inteligencia Artificial
+
+URL Source: https://muia.dia.fi.upm.es/en/personal/gomez-perez-asuncion_en/
+
+Markdown Content:
+<
+
+![Image 1](https://muia.dia.fi.upm.es/wp-content/uploads/sites/6/2017/05/Gomez-Perez-Asuncion.png)
+
+*   ### Office: 2209
+    
+*   ### Web:
+    
+*   ### Phone: +34-91-336-74
+    
+*   ### ORCID: [https://orcid.org/0000-0002-3037-0331](https://orcid.org/0000-0002-3037-0331)
+    
+*   ### Email: [asun@fi.upm.es](mailto:asun@fi.upm.es)
+    
+*   ### ResearcherID: [http://www.researcherid.com/rid/I-9382-2012](http://www.researcherid.com/rid/I-9382-2012)
+    
+*   ### Research group: [Grupo de Ingeniería Ontológica](http://www.oeg-upm.net/)
+    
+*   ### Scopus Author ID: [https://www.scopus.com/authid/detail.uri?authorId=6603934482](https://www.scopus.com/authid/detail.uri?authorId=6603934482)
+    
+
+Prof. Dr. Asunción Gómez-Pérez es Vicerrectora de Investigación, Innovación y Doctorado y Catedrática en la [**Universidad Politécnica de Madrid (UPM)**](http://www.upm.es/). Fue la directora del Departamento de Inteligencia Artificial (2008), y es la directora del OEG en la UPM (desde 1995) y directora académica del Máster Universitario en Inteligencia Artificial (desde 2009) y del Doctorado en Inteligencia Artificial en la UPM (desde 2009).
+
+**Formación**:  Licenciada en Informática (1991), Doctora en Informática (1993) por la Facultad de Informática (FI) de la Universidad Politécnica de Madrid (UPM) y Máster en Administración y Dirección de Empresas (MBA) por la Universidad Pontificia de Comillas ICADE (1994). Realiza una estancia postdoctoral en el Knowledge Systems Laboratory de la Universidad de Stanford (1994-1995) en la temática de ontologías. Fue directora ejecutiva (1995-1998) del Laboratorio de Inteligencia Artificial de la FI.
+
+**Premios**: Es [**Premio ARITMEL**](http://www.scie.es/premios-nacionales-de-informatica/edicion-2015/) \-concedido en el área de los Premios Nacionales de Informática 2015-, ha recibido el [**Premio Anual de Investigación de la UPM**](http://www.upm.es/UPM/CanalUPM/Noticias?fmt=detail&prefmt=articulo&id=d09505d724682510VgnVCM10000009c7648a) (2015) y es Premio a las Mejores Ideas de Negocio XII actúaupm (2015). Ha recibito también el [**Premio Nacional Ada Byron**](http://www.ingenieria.deusto.es/cs/Satellite/ingenieria/es/ada-byron/edicion-2015) a la Mujer Tecnóloga en su segunda edición (2015). El software Opps! fue premiado en el III Curso de Comercialización de Tecnologías UPM por su potencial de negocio (2014).
+
+**Áreas de Investigación**: Entre sus áreas de investigación y visibilidad internacional se incluyen la ingeniería ontológica, la web semántica, los datos enlazados, el multilingüismo en datos y la gestión de conocimientos. Ha participado en la creación a nivel mundial del área de ontologías y Web semántica desde sus comienzos, en la década de los noventa. Una muestra de su proyección internacional se presenta en el estudio de T. Chambers, S. Mijojevic, Y. Ding. Female Semantic Web Researchers: Does Collaboration with Male Researchers Influence their Network Status, en donde se le identifica como una de las tres mujeres más exitosas e influyentes en temas de Web semántica a nivel mundial.
+
+**Dirección de Investigación**: A su regreso de Stanford crea el Ontology Engineering Group (OEG), que dirige desde 1995. Desde el año 2012, el OEG ocupa el 8º puesto en el ranking de los grupos de investigación de la UPM (primer grupo de investigación en la Facultad de Informática). El OEG está compuesto por un grupo de 35 personas, de las cuales 19 son doctores, y en él se han formado más de 150 estudiantes.
+
+**Publicaciones**: Cuenta con más de 300 publicaciones. El impacto de sus publicaciones es elevado. Tiene 15.700 citas acumuladas, índice h de 51, e índice i10 de 154.
+
+**Tesis Doctorales**: Ha dirigido 22 tesis doctorales (7 con premio extraordinario y 11 con mención europea). Aparte de los investigadores postdoctorales contratados por la UPM (más de 25), ha supervisado a 4 investigadores Juan de la Cierva, un investigador financiado por el  programa  MERG y CO-Fund de la UE. A todo ello se suman más de 70 Trabajos Fin de Máster y Grado, y la supervisión de más de 30 Doctores.
+
+**Proyectos**: Ha dirigido números proyectos de I+D+i  procedentes del Plan Nacional, proyectos europeos y contratos privados.  Ha coordinado 5 proyectos europeos (OntoGrid, SemSorGrid4Env, SEALS, Interactivex, LIDER) y ha participado como IP de la UPM en  22 proyectos europeos. Ahora participa en tres proyectos europeos H2020. Además, ha participado en 45 proyectos de investigación del Plan Nacional de investigación fundamental, redes, acciones especiales, y de transferencia tecnológica (CENIT, Cien, Avanza, Profit…) y ha dirigido más de 35 proyectos financiados de empresas nacionales e internacionales.
+
+Especial mención merecen, por su relevancia, los obtenidos recientemente como Investigadora principal del primer proyecto de investigación que utiliza IBM-Watson en una Universidad española, financiado por IBM USA (octubre de 2015) en el contexto del Shared University Research (SUR) Awards, para realizar el proyecto Application of the IBM Watson Ecosystem for providing intelligence technology services to small and medium enterprises, que da acceso a la infraestructura hardware y software de Watson; y la primera sede del Open Data Institute en España: ODI-Madrid (Octubre 2015).
+
+**Gestión de la investigación**: Su experiencia investigadora se aplica también a la mejora de los programas de investigación a nivel nacional e internacional. Desde el año 2005, colabora  habitualmente como revisora y evaluadora de proyectos europeos y de otras agencias en diferentes países europeos. Desde Noviembre de 2006 a Diciembre de 2008, fue Adjunta a la coordinación en el Área de Transferencia de Tecnología de la Agencia Nacional de Evaluación y prospectiva ANEP. Igualmente ha sido invitada numerosas veces para evaluar tesis en España y en Alemania, Austria, Inglaterra, Irlanda, y Noruega. Ha participado en procesos de selección de dos catedráticos en Irlanda.
+
+**Conferencias invitadas y eventos organizados**: Ha sido invitada a dar charlas en conferencias (39), así como en centros universitarios y de investigación internacionales (Estados Unidos, Reino Unido, Irlanda, Francia). Fue presidenta del comité de programa de EKAW’02, ESWC’05, ASWC’08. Ha sido organizadora local de conferencias de EKAW’02, ESWC’08 y ha organizado workshops y tutoriales asociados a dichas conferencias. Es revisora asidua de varias revistas y participa de manera habitual en los comités de programa de las conferencias y workshops más relevantes del área. Destacan la dirección y organización de diez ediciones de la escuela de verano sobre Ontology Engineering and the Semantic Web, que han atraído a la España a investigadores de diferentes universidades de ámbito internacional y se han formado más de 500 alumnos, y el lanzamiento del primer summer datathon en Linguistic Linked Data.
+
+**Actividades para acercar la ciencia y la tecnología al ciudadano**: En 2010 fue una de los 27 investigadores invitados por la Fundación madrid+d en la Comunidad de Madrid a participar en  “La esquina europea: ser un científico en Europa, 27 experiencias”. Ese mismo año, madri+d le invita a participar en “La Noche de los Investigadores” (24 de septiembre de 2010). Esta acción está enmarcada en el Programa PEOPLE del 7º Programa Marco de la UE. Entre sus trabajos más recientes cabe destacar el nuevo portal de datos abiertos de la Biblioteca Nacional de España (datos.bne.es), que permite nuevas formas de acceso a los catálogos y a los documentos de la BNE utilizando tecnologías semánticas.

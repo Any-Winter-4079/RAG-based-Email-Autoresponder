@@ -1,0 +1,363 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000367_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informáticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000367 - Ingenieria Ontologica 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Conocimientos previos recomendados.....................................................................................................................2 4. Competencias y resultados de aprendizaje..............................................................................................................2 5. Descripción de la asignatura y temario.....................................................................................................................4 6. Cronograma.............................................................................................................................................................6 7. Actividades y criterios de evaluación........................................................................................................................9 8. Recursos didácticos................................................................................................................................................11 9. Otra información......................................................................................................................................................12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000367 - Ingenieria Ontologica 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - E.T.S. De Ingenieros Informáticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Maria Poveda Villalon m.poveda@upm.es Sin horario. Oscar Corcho Garcia (Coordinador/a) 2209 oscar.corcho@upm.es M - 10:00 - 20:00 Asuncion De Maria Gomez Perez 2211 asunciondemaria.gomez@up m.es Sin horario. * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+> GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 1 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## 3. Conocimientos previos recomendados 
+
+3.1. Asignaturas previas que se recomienda haber cursado 
+
+El plan de estudios Master Universitario en Inteligencia Artificial no tiene definidas asignaturas previas recomendadas para esta asignatura. 
+
+3.2. Otros conocimientos previos recomendados para cursar la asignatura 
+
+- Web technologies - First order logic - Basic knowledge representation 
+
+## 4. Competencias y resultados de aprendizaje 
+
+4.1. Competencias 
+
+CB10 - Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo. CEIA1 - Capacidad de integrar tecnologías y sistemas propios de la Inteligencia Artificial, con carácter generalista, y en contextos más amplios y multidisciplinares CEIA2 - Capacidad de conectar la tecnología puntera en Inteligencia Artificial con las necesidades de los clientes CG13 - Apreciación de los límites del conocimiento actual y de la aplicación práctica de la tecnología más reciente. CG18 - Capacidad de trabajar y comunicarse también en contextos internacionales 
+
+> GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 2 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+CGI1 - Adquirir conocimientos científicos avanzados del campo de la informática que le permitan generar nuevas ideas dentro de una línea de investigación. CGI2 - Comprender el procedimiento, valor y límites del método científico en el campo de la Informática, siendo capaz de identificar, localizar y obtener datos requeridos en un trabajo de investigación, de diseñar y guiar investigaciones analíticas, de modelado y experimentales, así como de evaluar datos de una manera crítica y extraer conclusiones. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+4.2. Resultados del aprendizaje 
+
+RA60 - Ser capaz de construir ontologías consensuadas reutilizando recursos ontológicos y no ontológicos en entornos colaborativos RA64 - Ser capaz de manejar fuentes bibliográficas y valorar su importancia para desarrollar trabajos escritos innovadores o que reflejen el estado del arte en ontologías RA59 - Ser capaz de identificar y resolver tipos de problemas en el mundo real a los que se pueda aplicar con éxito las ontologías RA62 - Ser capaz de identificar las limitaciones de los lenguajes, técnicas, métodos y metodologías identificando posibles áreas de mejora RA63 - Ser capaz de integrar ontologías en otros sistemas software RA61 - Ser capaz de conocer los diferentes lenguajes, técnicas, métodos y metodologías que permiten la construcción de ontologías de forma colaborativa en entornos distribuidos 
+
+> GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 3 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## 5. Descripción de la asignatura y temario 
+
+5.1. Descripción de la asignatura 
+
+The aim of this course is to discuss on the scientific, methodological and technological foundations that need to be considered when building ontologies. In particular, sessions in this course will cover: The concepts of ontologies and ontology-based annotations in the context of the Semantic Web, the Web of Linked Data and Knowledge Graphs Theoretical foundations in ontology development Descriptions of some of the most widely-known ontologies and ontology catalogues Ontology languages, such as RDF Schema and OWL, as well as vocabularies to represent taxonomies, such as SKOS Methodologies, methods, techniques and tools used in ontology development, including requirements specification, planning, conceptualisation, reuse, reengineering, etc. Ontology governance processes inside and across organisations Relevant applications of ontologies. Throughout the entire course open research problems will be presented and discussed collaboratively for each subtopic. 
+
+5.2. Temario de la asignatura 
+
+1. Introducción a la ingeniería ontológica - Introduction to Ontological Engineering 1.1. Presentación de la asignatura - General introduction to the course 1.2. Fundamentos - Foundations 2. Lenguajes básicos de representación de ontologías y taxonomías - Basic ontology and taxonomy representation languages 2.1. RDF Schema 2.2. SKOS 3. Metodología de desarrollo y lenguajes más ricos de representación de ontologías - Ontology development methodologies and richer languages 3.1. Fundamentos teóricos - Theoretical foundations 3.2. Metodología y técnicas para el desarrollo de ontologías - Ontology development methods and techniques 
+
+> GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 4 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informáticos 3.3. Ontologías y lógica descriptiva: OWL - Ontologies and Description Logics: OWL 3.4. Herramientas para el desarrollo, documentación y evaluación de ontologías - Ontology development, documentation and evaluation tools 4. Gobernanza de Ontologías - Ontology Governance 
+
+GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 5 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 6. Cronograma 
+
+6.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Clases teóricas del tema 1 - Lectures lesson 1 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Clases teóricas del tema 2 - Lectures lesson 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+2
+
+Clases teóricas del tema 2 - Lectures lesson 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Clases teóricas del tema 2 - Lectures lesson 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+3
+
+Clases teóricas del tema 3 - Lectures lesson 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Clases prácticas del tema 3 - Hands-on session 3 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+Entrega del trabajo de RDF Schema y SKOS Submission of the RDF Schema and SKOS assignment 
+
+TI: Técnica del tipo Trabajo Individual Evaluación Progresiva No presencial Duración: 00:00 
+
+4
+
+Clases teóricas del tema 3 - Lectures lesson 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Clases prácticas del tema 3 - Hands-on session 3 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 6 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 5
+
+Clases teóricas del tema 3 - Lectures lesson 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Clases prácticas del tema 3 - Hands-on session 3 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+6
+
+Clases teóricas del tema 3 - Lectures lesson 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Clases prácticas del tema 3 - Hands-on session 3 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Entrega del trabajo sobre el estado del arte o trabajo de investigación. Submission on the state of the art or research work 
+
+TI: Técnica del tipo Trabajo Individual Evaluación Progresiva No presencial Duración: 00:00 
+
+7
+
+Clases teóricas del tema 3 - Lectures lesson 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Clases prácticas del tema 4 - Hands-on session 4 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+8
+
+Clases teóricas del tema 3 - Lectures lesson 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Oral presentation 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Entrega y presentación oral del trabajo de Ontologías. Submission and oral presentation of the Ontology Engineering assignment 
+
+PG: Técnica del tipo Presentación en Grupo Evaluación Progresiva Presencial Duración: 02:00 
+
+9
+
+10 
+
+11 
+
+12 
+
+13 
+
+GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 7 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 14 
+
+> 15
+> 16
+> 17
+> Trabajo individual: ontología (60% de la nota) y trabajo individual de estado del arte o de investigación (40%). Individual work: ontology (60%) and state-of-the-art or research work (40%)
+> TI: Técnica del tipo Trabajo Individual Evaluación Global No presencial Duración: 00:00
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 8 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 7. Actividades y criterios de evaluación 
+
+7.1. Actividades de evaluación de la asignatura 
+
+7.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+3
+
+Entrega del trabajo de RDF Schema y SKOS Submission of the RDF Schema and SKOS assignment 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 00:00 20% 5 / 10 CGI2 
+
+6
+
+Entrega del trabajo sobre el estado del arte o trabajo de investigación. Submission on the state of the art or research work 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 00:00 35% 0 / 10 
+
+CB10 CG13 CGI1 CGI3 CGI4 
+
+8
+
+Entrega y presentación oral del trabajo de Ontologías. Submission and oral presentation of the Ontology Engineering assignment 
+
+PG: Técnica del tipo Presentación en Grupo 
+
+Presencial 02:00 45% 5 / 10 
+
+CG18 CGI1 CEIA1 CEIA2 
+
+7.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+17 
+
+Trabajo individual: ontología (60% de la nota) y trabajo individual de estado del arte o de investigación (40%). Individual work: ontology (60%) and state-of-the-art or research work (40%) 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 00:00 100% 5 / 10 
+
+CG18 CB10 CG13 CGI1 CGI2 CEIA1 CEIA2 CGI3 CGI4 
+
+7.1.3. Evaluación convocatoria extraordinaria 
+
+GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 9 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informáticos Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas    
+
+> Trabajo individual: ontología (60% de la nota) y trabajo individual de estado del arte o de investigación (40%). Individual work: ontology (60%) and state-of-the-art or research work (40%)
+> TI: Técnica del tipo Trabajo Individual
+> Presencial 00:00 100% 5 / 10
+> CG18 CB10 CG13 CGI1 CGI2 CEIA1 CEIA2 CGI3 CGI4
+
+7.2. Criterios de evaluación 
+
+The final mark will be calculated as a weighted sum of the following items: The result of the assignment about RDF Schema and SKOS. This work will have a weight of 20%. The written documentation and oral presentation of the work on ontologies. This work will have a weight of 45%. The written documentation of the individual work on the state of the art or a research topic related to the topics of the course. Research and/or innovation aspects will be especially taken into account. This work will have a weight of 35%. If the student opts out the continuous evaluation, the mark will be calculated as a weighted sum of the written documentation on the work of ontologies (60%) and the state-of-the-art/research work (40%). La calificación vendrá dada a partir de la evaluación de: El resultado de la entrega del trabajo de RDF Schema y SKOS. Este trabajo tendrá un peso del 20%. La documentación escrita y presentación oral del trabajo de Ontologías. Este trabajo tendrá un peso del 45%. La documentación escrita, presentada de forma individual, sobre un estado del arte o algún tema de investigación relacionado con la asignatura. Se valorará especialmente el aspecto investigador o innovador. Este trabajo tendrá un peso del 35%. 
+
+GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 10 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+Si el estudiante opta por la evaluación final, la calificación vendrá determinada por la evaluación del trabajo escrito sobre ontologías (60%) y el trabajo sobre el estado del arte o tópico de investigación (40%) 
+
+## 8. Recursos didácticos 
+
+8.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+A.Gómez-Pérez, M. Fernández, O. Corcho. Ontological Engineering. Ed Springer, 2003 Bibliografía Allemang D, Hendler J. Semantic Web for the Working Ontologist: Effective Modeling in RDFS and OWL. Morgan Kaufmann. 2008 Bibliografía MC. Suarez-Figueroa, A. Gómez-Pérez, E. Motta, A. Gangemi. Ontology Engineering in a Networked World?. Springer 2012. Bibliografía http://moodle.upm.es/titulaciones/ofic iales/course/view.php?id=4897 Recursos web http://www.neon-project.org/ Recursos web NeOn EU project, which contains the NeOn book http://www.w3.org/TR/rdf-schema/ Bibliografía W3C RDF Schema Recommendation https://www.w3.org/TR/owl2-syntax/ Bibliografía W3C OWL2 Recommendation https://www.w3.org/TR/skos-reference/ Recursos web W3C SKOS Recommendation 
+
+> GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 11 de 12
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 9. Otra información 
+
+9.1. Otra información sobre la asignatura 
+
+The activities in the course will be organised on the moodle platform. All materials will be made available in this platform, and all assignments and other submissions will need to be done there. The topics in which ontologies will be developed vary from edition to edition of the course, depending on the interests of students, but the most common ones are related to open data and transparency for cities (ODS11 and ODS16) and open data and transparency for universities (ODS4 an ODS16). 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000367 1S_2024-25 Ingenieria Ontologica Master Universitario En Inteligencia Artificial Página 12 de 12

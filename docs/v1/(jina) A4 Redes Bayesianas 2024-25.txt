@@ -1,0 +1,336 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000359_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informáticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000359 - Redes Bayesianas 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Competencias y resultados de aprendizaje..............................................................................................................2 4. Descripción de la asignatura y temario.....................................................................................................................3 5. Cronograma.............................................................................................................................................................5 6. Actividades y criterios de evaluación........................................................................................................................7 7. Recursos didácticos.................................................................................................................................................9 8. Otra información......................................................................................................................................................10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000359 - Redes Bayesianas 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - E.T.S. De Ingenieros Informáticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Maria Concepcion Bielza Lozoya (Coordinador/a) 2210 c.bielza@upm.es L - 17:00 - 19:00 M - 15:00 - 19:00 Pedro Maria Larrañaga Mugica 2208 pedro.larranaga@upm.es M - 15:00 - 19:00 X - 15:00 - 17:00 * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+> GA_10AJ_103000359 1S_2024-25 Redes Bayesianas Master Universitario En Inteligencia Artificial Página 1 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+## 3. Competencias y resultados de aprendizaje 
+
+3.1. Competencias 
+
+CB10 - Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo. CB7 - Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio CB9 - Que los estudiantes sepan comunicar sus conclusiones y los conocimientos y razones últimas que las sustentan a públicos especializados y no especializados de un modo claro y sin ambigüedades CEIA4 - Capacidad de interpretar los modelos de clasificación supervisada y no supervisada obtenidos al aplicar las técnicas de Aprendizaje Automático para un conjunto de datos. CG12 - Comprensión amplia de las técnicas y métodos aplicables en una especialización concreta, así como de sus límites. CG13 - Apreciación de los límites del conocimiento actual y de la aplicación práctica de la tecnología más reciente. CG18 - Capacidad de trabajar y comunicarse también en contextos internacionales CGI1 - Adquirir conocimientos científicos avanzados del campo de la informática que le permitan generar nuevas ideas dentro de una línea de investigación. CGI2 - Comprender el procedimiento, valor y límites del método científico en el campo de la Informática, siendo capaz de identificar, localizar y obtener datos requeridos en un trabajo de investigación, de diseñar y guiar investigaciones analíticas, de modelado y experimentales, así como de evaluar datos de una manera crítica y extraer conclusiones. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+> GA_10AJ_103000359 1S_2024-25 Redes Bayesianas Master Universitario En Inteligencia Artificial Página 2 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+3.2. Resultados del aprendizaje 
+
+RA32 - Ser capaz de distinguir dónde está la frontera del conocimiento en aprendizaje automático, a partir de la lectura crítica de publicaciones científicas relevantes, habitualmente escritas en lengua inglesa. RA31 - Saber modelizar problemas reales donde la incertidumbre es un componente esencial mediante redes Bayesianas, redes de neuronas o de clasificación, mediante paradigmas computacionales RA30 - Ser capaz de aportar nuevas ideas, tanto a nivel metodológico como de aplicación del análisis de decisiones, yendo más allá de la frontera del conocimiento RA34 - Expresar las ideas del estado del arte y las ideas nuevas aportadas, tanto de manera oral como escrita. 
+
+## 4. Descripción de la asignatura y temario 
+
+4.1. Descripción de la asignatura 
+
+Esta asignatura expone las redes Bayesianas como herramientas gráficas bien consolidadas y de enorme aplicación en la actualidad para modelizar la incertidumbre y razonar con ella en sistemas inteligentes. La incertidumbre semodeliza con la probabilidad y el razonamiento se basa en la regla de Bayes.Se comienza explicando el significado de las redes para modelizar conocimiento con incertidumbre tanto causal como no causal, y tantodesde un punto de vista estructural (cualitativo) como paramétrico (cuantitativo). El siguiente paso es hacer preguntas a la red, es decir, inferir conocimiento a partir de observaciones o datos que se vayan recogiendo. Así, podemos preguntar por ejemplo por el diagnóstico de una enfermedad o por la explicación más probable de la evidencia observada. Los algoritmos pueden obtener la respuesta exacta o aproximada, en este último caso seguramente utilizando simulación Montecarlo. La red se construye analizando el problema con el experto, pero también puede inducirse de una base de datos. Éste es un tema actual: cómo obtener la estructura y los parámetros de la red, para lo que se expondrán métodos de aprendizaje automático. Finalmente, sabiendo cómo se construye la red y cómo se utiliza para realizar consultas, se verá su aplicación a diferentes aplicaciones de interés dentro de la Inteligencia Artificial. 
+
+> GA_10AJ_103000359 1S_2024-25 Redes Bayesianas Master Universitario En Inteligencia Artificial Página 3 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+4.2. Temario de la asignatura 
+
+1. Introducción 1.1. Razonamiento bajo incertidumbre 1.2. Independencia condicional 1.3. D-separación 1.4. Definición formal de red Bayesiana 2. Inferencia en redes Bayesianas 2.1. Tipos de razonamiento 2.2. Inferencia exacta 2.3. Inferencia aproximada 3. Aprendizaje a partir de datos 3.1. Introducción 3.2. Aprendizaje de la distribución de probabilidad conjunta 3.3. Clasificadores Bayesianos 3.4. Clasificación no supervisada 
+
+> GA_10AJ_103000359 1S_2024-25 Redes Bayesianas Master Universitario En Inteligencia Artificial Página 4 de 11
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 5. Cronograma 
+
+5.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Clases teóricas del tema 1 
+
+Duración: 04:00 LM: Actividad del tipo Lección Magistral 
+
+2
+
+Clases teóricas del tema 2 
+
+Duración: 04:00 LM: Actividad del tipo Lección Magistral 
+
+3
+
+Clases teóricas del tema 2 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Clases teóricas del tema 3 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+4
+
+Clases teóricas del tema 3 
+
+Duración: 04:00 LM: Actividad del tipo Lección Magistral 
+
+5
+
+Clases teóricas del tema 3 
+
+Duración: 04:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+6
+
+Estados del arte de temas 1-3 
+
+Duración: 04:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Estados del arte 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva Presencial Duración: 04:00 
+
+7
+
+Estados del arte de temas 1-3 
+
+Duración: 04:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Estados del arte 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva Presencial Duración: 04:00 
+
+8
+
+Estados del arte de temas 1-3 
+
+Duración: 03:30 LM: Actividad del tipo Lección Magistral 
+
+Test de la asignatura 
+
+Duración: 00:30 OT: Otras actividades formativas / Evaluación 
+
+Estados del arte 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva Presencial Duración: 04:00 
+
+Prueba escrita con preguntas tipo test de la asignatura 
+
+EX: Técnica del tipo Examen Escrito 
+
+GA_10AJ_103000359 1S_2024-25 Redes Bayesianas Master Universitario En Inteligencia Artificial Página 5 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación Evaluación Progresiva Presencial Duración: 00:30 
+
+9
+
+10 
+
+11 
+
+12 
+
+13 
+
+14 
+
+15 
+
+16 
+
+17 
+
+Estados del arte 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Global Presencial Duración: 01:30 
+
+Prueba escrita con preguntas tipo test de la asignatura 
+
+EX: Técnica del tipo Examen Escrito Evaluación Global Presencial Duración: 00:30 
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000359 1S_2024-25 Redes Bayesianas Master Universitario En Inteligencia Artificial Página 6 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos 6. Actividades y criterios de evaluación 
+
+6.1. Actividades de evaluación de la asignatura 
+
+6.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+6 Estados del arte 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 04:00 16.66% 4 / 10 
+
+CB9 CGI2 CGI3 CGI4 CG12 CGI1 CG13 CB10 
+
+7 Estados del arte 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 04:00 16.66% 4 / 10 
+
+CB9 CGI2 CGI3 CGI4 CG12 CGI1 CG13 CB10 
+
+8 Estados del arte 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 04:00 16.66% 4 / 10 
+
+CB9 CGI2 CGI3 CGI4 CG12 CGI1 CG13 CB10 
+
+8 Prueba escrita con preguntas tipo test de la asignatura 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 00:30 50% 4 / 10 
+
+CB10 CG12 CGI2 CEIA4 CB7 CG13 
+
+6.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+GA_10AJ_103000359 1S_2024-25 Redes Bayesianas Master Universitario En Inteligencia Artificial Página 7 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS         
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos 17 Estados del arte
+> TG: Técnica del tipo Trabajo en Grupo
+> Presencial 01:30 50% 4 / 10
+> CB9 CGI2 CGI3 CGI4 CG12 CGI1 CG13 CB10
+> 17 Prueba escrita con preguntas tipo test de la asignatura
+> EX: Técnica del tipo Examen Escrito
+> Presencial 00:30 50% 4 / 10
+> CB7 CGI2 CEIA4 CG12 CB10 CG13
+
+6.1.3. Evaluación convocatoria extraordinaria 
+
+No se ha definido la evaluación extraordinaria. 
+
+6.2. Criterios de evaluación 
+
+La calificación vendrá dada a partir de la evaluación de dos partes, listadas a continuación, donde para poder realizar la ponderación indicada en la tabla de evaluación sumativa es necesario que el alumno obtenga una nota mínima de 4 sobre 10 en cada parte. Un trabajo en grupo y su correspondiente exposición oral sobre un estado del arte en algún área de inferencia o aprendizaje (temas 1, 2 y 3) que propondrá el profesor. Se valorará la claridad de la exposición, la amplitud de la revisión del estado del arte, la redacción de la memoria correspondiente y la contestación a las preguntas de los profesores. Un examen tipo test realizado individualmente en el aula al finalizar los contenidos del curso. Durante el curso se detallarán las instrucciones para la realización y entrega del estado del arte. Para la convocatoria extraordinaria de Julio, las evaluaciones serán análogas. Los derechos y deberes de los estudiantes universitarios están desarrollados en los Estatutos de la Universidad 
+
+> GA_10AJ_103000359 1S_2024-25 Redes Bayesianas Master Universitario En Inteligencia Artificial Página 8 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+Politécnica de Madrid (BOCM de 15 de noviembre de 2010) y en el Estatuto del Estudiante Universitario (RD 1791/2010 de 30 de diciembre). El artículo 124 (a) de los EUPM fija como deber del estudiante ..."seguir con responsabilidad y aprovechamiento el proceso de formación, adquisición de conocimientos, y aprendizaje correspondiente a su condición de universitario"... y el artículo 13 del Estatuto del Estudiante Universitario, en el punto (d) especifica también como deber del estudiante universitario "abstenerse de la utilización o cooperación en procedimientos fraudulentos en las pruebas de evaluación, en los trabajos que se realicen o en documentos oficiales de la universidad". En el caso de que en el desarrollo de las pruebas de evaluación se aprecie el incumplimiento de los deberes como estudiante universitario, el coordinador de la asignatura podrá ponerlo en conocimiento del Director o Decano del Centro, que de acuerdo con lo establecido en el artículo 74 (n) de los Estatutos de la UPM tiene competencias para "Proponer la iniciación del procedimiento disciplinario a cualquier miembro de la Escuela o Facultad, por propia iniciativa o a instancia de la Comisión de Gobierno" al Rector, en los términos previstos en los estatutos y normas de aplicación. 
+
+## 7. Recursos didácticos 
+
+7.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+Libro 1 Bibliografía Castillo, E., Gutiérrez, J.M., Hadi, A.S. (1997) Expert Systems and Probabilistic Network Models. Springer, New York. Versión en español, disponible en la red: Sistemas Expertos y Modelos de Redes Probabilísticas, Academia de Ingeniería, Madrid Libro 2 Bibliografía Koller, D, Friedman, N. (2009) Probabilistic Graphical Models. Principles and Techniques. The MIT Press. Libro 3 Bibliografía Koski, T., Noble, J. (2009) Bayesian Networks: An Introduction, Wiley. 
+
+> GA_10AJ_103000359 1S_2024-25 Redes Bayesianas Master Universitario En Inteligencia Artificial Página 9 de 11 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informáticos
+
+Libro 4 Bibliografía Murphy, K.P. (2012) Machine Learning: A Probabilistic Perspective. The MIT Press. Libro 5 Bibliografía Neapolitan, R., (2004) Learning Bayesian Networks, Prentice Hall. Libro 6 Bibliografía Pourret, O., Naïm, P., Marcot, B. (2008) Bayesian Networks: A Practical Guide to Applications, Wiley. Libro 7 Bibliografía Sucar, E. (2015) Probabilistic Graphical Models. Principles and Applications. Springer. Libro 8 Bibliografía C. Bielza, P. Larrañaga (2021). Data-Driven Computational Neuroscience. Machine Learning and Statistical Models. Cambridge University Press Libro 9 Bibliografía Maathuis, M., Drton, M., Lauritzen, S., Wainwright, M. (eds.) (2019) Handbook of Graphical Models. CRC Press 
+
+## 8. Otra información 
+
+8.1. Otra información sobre la asignatura 
+
+La asignatura se apoya en la herramienta Moodle para proporcionar información y documentación a los alumnos, así como para la asignación de enunciados y entregas de las prácticas y la comunicación de las calificaciones de los alumnos. La asignatura se imparte de forma concentrada en 8 semanas lectivas con 4 horas de clase semanales. La asignatura se imparte en español. a pesar de que la documentación aportada por los profesores estará en inglés, con el objetivo de familiarizar al alumno con la terminología habitual en la literatura. 
+
+> GA_10AJ_103000359 1S_2024-25 Redes Bayesianas Master Universitario En Inteligencia Artificial Página 10 de 11
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informáticos La asignatura se relaciona con el ODS4, ya que se enfoca hacia la apreciación de los límites del conocimiento actual y de la aplicación práctica de la tecnología más reciente, con pensamiento critico, creativo, rigor científico, gestión del conocimiento y evaluación de la incertidumbre. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000359 1S_2024-25 Redes Bayesianas Master Universitario En Inteligencia Artificial Página 11 de 11

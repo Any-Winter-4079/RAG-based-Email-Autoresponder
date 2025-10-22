@@ -1,0 +1,54 @@
+Title: Bielza Lozoya, Concepción - Máster Universitario en Inteligencia Artificial
+
+URL Source: https://muia.dia.fi.upm.es/en/personal/bielza-lozoya-concepcion_en/
+
+Markdown Content:
+<
+
+![Image 1](https://muia.dia.fi.upm.es/wp-content/uploads/sites/6/2017/05/Bielza-Concepcion.png)
+
+*   ### Office: 2210
+    
+*   ### Web: [http://cig.fi.upm.es/CIGmembers/concha\_bielza](http://cig.fi.upm.es/CIGmembers/concha_bielza)
+    
+*   ### Phone: +34-91-336-7434
+    
+*   ### ORCID: [https://orcid.org/0000-0001-7109-2668](https://orcid.org/0000-0001-7109-2668)
+    
+*   ### Email: [mcbielza@fi.upm.es](mailto:mcbielza@fi.upm.es)
+    
+*   ### ResearcherID: [http://www.researcherid.com/rid/F-9277-2013](http://www.researcherid.com/rid/F-9277-2013)
+    
+*   ### Research group: [Grupo de Inteligencia Computacional](http://cig.fi.upm.es/)
+    
+*   ### Scopus Author ID: [https://www.scopus.com/authid/detail.uri?authorId=55897143900](https://www.scopus.com/authid/detail.uri?authorId=55897143900)
+    
+
+Concha Bielza se licenció en Ciencias Matemáticas en la Universidad Complutense de Madrid (UCM) en 1989 y se doctoró en Informática en la UPM en 1996. Actualmente es Catedrática de Estadística e Investigación Operativa en la UPM.
+
+Sus líneas de investigación de interés son principalmente los modelos gráficos probabilísticos, análisis de decisiones, metaheurísticos de optimización, minería de datos, modelos de clasificación y aplicaciones reales, especialmente biomedicina, bioinformática, neurociencia y deporte.
+
+Entre los datos a destacar:
+
+*   Ganadora del premio de investigación anual de la UPM, 2014.
+*   Más de 120 artículos en JCR en el periodo 1998-2019, 80 de ellas en primer cuartil. Índice h=21 (2059 citas en Web of Science) y h=30 (4407 citas en Google Scholar). Dos de sus artículos JCR son de la categoría “Highly Cited Papers” del Essential Science Indicators.
+*   Coautora de 6 libros, dos de ellos publicados en 2019: “Data-Driven Computational Neuroscience” (Cambridge University Press) y “Industrial Applications of Machine Learning” (CRC Press). Coautora de 42 capítulos de libro.
+*   13 tesis doctorales dirigidas (10 con Mención Europea/Internacional, teniendo 2 de ellas premio extraordinario de doctorado por la UPM, una premiada por la Real Sociedad Matemática Española y una premiada por la Real Academia de Doctores). Dirige actualmente 15 tesis doctorales.
+*   Participación en más de 50 proyectos de investigación en convocatorias competitivas, en 12 de ellos como investigadora principal. Entre los organismos financiadores: European Science Foundation, European Commission (IV, VI, VII y H2020 Framework Program), National Institutes of Health (USA), OTAN y diversos Ministerios españoles, CAM, UPM (desde 1995 hasta la actualidad).
+*   En la actualidad participa entre otros en el proyecto Human Brain Project (H2020, financiado por European Commission), así como en el plan estatal financiado por MINECO.
+*   Participación en 21 contratos de investigación con financiación privada proveniente de: Iberdrola, Coopers & Lybrand, Vodafone, Arthur Andersen, Fundación Gil Gayarre, Telefónica, European Computing Consultants, Panda Security, ATOS Origin, Produban, Abbott Products Operations AG, Fundación BBVA, Etxe-Tar S.A., GAINDU S.L., Aingura IIOT S.L.U., Olocip 11 y Repsol (desde 1995 hasta la actualidad). En 14 de ellos como investigadora principal.
+*   Presidenta del Comité Científico de la XV Conferencia de la Asociación Española para la Inteligencia Artificial (CAEPIA-2013).
+*   Conferencias plenarias en PGM’2012 (Granada), CBMS’2013 (Oporto), ECDM/ISA’2014 (Lisboa), WiDS-2017 (Madrid).
+*   Impartición de 3 tutoriales.
+*   21 conferencias invitadas en congresos y 163 contribuciones.
+*   Pertenencia a 70 comités de programa de conferencias.
+*   Organización de 12 congresos/talleres y eventos científicos: EURO XV-INFORMS XXXIV-1997, “Workshop on Graphical Modelling of Dependent Uncertainties for Decision Support in Public Policy, 2004”, jspTIN-2007, -2009, -2010, EURO XXIV-2010, EURO XXV-2012, SEMATICA-2013, ECML PKDD-2015.
+*   Más de 30 conferencias/seminarios invitados en prestigiosas universidades y centros de investigación: Duke, Kansas, Consiglio Nazionale delle Ricerche, UNED, Rey Juan Carlos, Sevilla, Harvard/MIT, Institut Supérieur de Gestion de Tunis, Essex, Radboud University Nijmegen, Aveiro, Aalborg, Seoul National University, Castilla-La Mancha, Málaga, País Vasco, Instituto de Estudios Fiscales, Instituto Cervantes de Berlín, Instituto de Salud Carlos III, Universidad de Patras.
+*   Entrevista en Radio-3 de RNE en 2011, Yodona en 2017, ABC en 2017, El País Retina en 2017, Investigación y Ciencia en 2019. Participación en 4 mesas redondas: CAEPIA-2015, PGM-2018, Computational Neuroscience USA-Spain en 2018, Galería CentroCentro Cibeles en 2018.
+*   18 premios: “Premio Extraordinario de Doctorado”, “Premio 1996 Student Paper Competition in Decision Analysis” (INFORMS de EEUU) (primera vez que se concedió a un investigador no estadounidense), Finalista en 2002 de “Decision Analysis Society Practice Award Competition” (INFORMS de EEUU), “Premio 2004 al Mejor Trabajo Realizado para la Difusión de las Aplicaciones de la Informática en la Salud” (X Edición de los Premios Nacionales de Informática y Salud, Sociedad Española de Informática de la Salud), “Best paper award” del Congreso MICAI 2009 (Sociedad Mexicana de Inteligencia Artificial), “Best paper award” del Congreso IEA-AIE 2010 (International Society of Applied Intelligence), “Best paper award” del Congreso AIME 2013 (European Society for Artificial Intelligence in MEdicine), primer premio de “Biomag Data Analysis Competition 2010” (International Conference on Biomagnetism), segunda posición en la competición “MEG Mind Reading” (International Conference on Artificial Neural Networks), “Best student paper” en  el congreso GECCO-2013 (15th Annual Genetic and Evolutionary Computation Conference). En 2009, premio al Mejor Revisor en el congreso CAEPIA-2009 otorgado por la Sociedad Española de Inteligencia Artificial.
+*   Impartiendo cursos de tercer ciclo (doctorado, Master) desde 1996 ininterrumpidamente.
+*   3 sexenios y 5 quinquenios.
+*   Secretaria del Departamento de Inteligencia Artificial desde Mayo-2007 a Diciembre-2008.
+*   Evaluadora de proyectos de investigación del Plan Nacional para la ANEP, la Agencia Nacional de Investigación de Francia, la Czech Science Foundation, y la Agencia Andaluza del Conocimiento. Miembro del panel de expertos en la Comisión de Evaluación de Proyectos de Investigación Fundamental del Plan Nacional en el Área Temática de Tecnologías Informáticas TIN (MICINN, 2009 y 2011), en la Comisión de Evaluación de contratos postdoctorales Juan de la Cierva (MINECO, 2015), en la Comisión de Evaluación de la Promoción de profesores investigadores de ICREA (Catalan Institution for Research and Advanced Studies) en 2015-2017, en la Comisión de Evaluación de Proyectos de Investigación de Jóvenes Investigadores (MINECO 2016), en la Comisión de Becas doctorales y de Master de la Fundación La Caixa (2016, 2019), en la Comisión de Seguimiento de Proyectos de Investigación Fundamental del Plan Nacional en el Área TIN (MICINN, 2011).
+*   Es coinventora de 1 patente tecnológica en colaboración con el CIEMAT sobre adenocarcinoma de pulmón y de 3 registros de software.
+*   Es codirectora y profesora de la escuela internacional de verano de la UPM “Advanced Statistics and Data Mining Summerschool”, que lleva ya 14 ediciones.

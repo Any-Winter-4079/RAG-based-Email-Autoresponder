@@ -1,0 +1,209 @@
+Title: IA&COVID19: Inteligencia Artificial para analizar los artículos científicos relacionados con el COVID-19 - Máster Universitario en Inteligencia Artificial
+
+URL Source: https://muia.dia.fi.upm.es/es/iacovid19-inteligencia-artificial-para-analizar-los-articulos-cientificos-relacionados-con-el-covid-19/
+
+Published Time: 2020-03-30T10:12:26+00:00
+
+Markdown Content:
+IA&COVID19: Inteligencia Artificial para analizar los artículos científicos relacionados con el COVID-19 - Máster Universitario en Inteligencia Artificial
+===============
+
+[Ir al contenido](https://muia.dia.fi.upm.es/es/iacovid19-inteligencia-artificial-para-analizar-los-articulos-cientificos-relacionados-con-el-covid-19/#content "Ir al contenido")
+
+[![Image 1: Máster Universitario en Inteligencia Artificial](https://muia.dia.fi.upm.es/wp-content/uploads/sites/6/2023/11/dia-etsii-upm-logo@96x.png)](https://muia.dia.fi.upm.es/es/)
+
+*   [Presentación](https://muia.dia.fi.upm.es/es/) Alternar menú
+    *   [Objetivos y competencias](https://muia.dia.fi.upm.es/es/objetivos_competencias/)
+    *   [Profesorado](https://muia.dia.fi.upm.es/es/profesorado_tutorias/)
+    *   [Preguntas frecuentes](https://muia.dia.fi.upm.es/es/#faq_generales)
+*   [Estructura](https://muia.dia.fi.upm.es/es/estructura/) Alternar menú
+    *   [Asignaturas y seminarios](https://muia.dia.fi.upm.es/es/estructura/#asignaturas_seminarios)
+    *   [Planificación de las enseñanzas](https://muia.dia.fi.upm.es/es/estructura/#planificacion_ense%C3%B1anzas)
+    *   [Trabajo Fin de Máster](https://muia.dia.fi.upm.es/es/estructura/#trabajo_fin_de_master)
+    *   [Solicitud del título](https://muia.dia.fi.upm.es/es/estructura/#solicitud_del_titulo)
+    *   [FAQs Estructura del MUIA](https://muia.dia.fi.upm.es/es/estructura/#faq_estructura)
+*   [Horarios](https://muia.dia.fi.upm.es/es/horarios/)
+*   [Admisión](https://muia.dia.fi.upm.es/es/admision_y_matricula/)
+*   [Calidad](https://muia.dia.fi.upm.es/es/calidad/) Alternar menú
+    *   [Sistema de garantía de calidad](https://muia.dia.fi.upm.es/es/calidad/#sistema-garantia-calidad)
+    *   [Acreditaciones y sello Euro-Inf](https://muia.dia.fi.upm.es/es/calidad/#acreditaciones-sello-euro-inf)
+*   [Noticias](https://muia.dia.fi.upm.es/es/category/noticias-es/) Alternar menú
+    *   [Noticias destacadas](https://muia.dia.fi.upm.es/es/category/noticias-es/noticias-destacadas/)
+    *   [Actualidad](https://muia.dia.fi.upm.es/es/category/noticias-es/actualidad-es/)
+*   [Contacto](https://muia.dia.fi.upm.es/es/gestion/)
+*   [![Image 2: English](blob:https://muia.dia.fi.upm.es/0801bdd2301ad3ea58ddfbf3e4e9b069)](https://muia.dia.fi.upm.es/en/)
+
+Máster Universitario en Inteligencia Artificial  
+
+==================================================
+
+[![Image 3: Máster Universitario en Inteligencia Artificial](https://muia.dia.fi.upm.es/wp-content/uploads/sites/6/2023/11/dia-etsii-upm-logo@96x.png)](https://muia.dia.fi.upm.es/es/)
+
+Main Menu
+
+[![Image 4: Máster Universitario en Inteligencia Artificial](https://muia.dia.fi.upm.es/wp-content/uploads/sites/6/2023/11/dia-etsii-upm-logo@96x.png)](https://muia.dia.fi.upm.es/es/)
+
+*   [Presentación](https://muia.dia.fi.upm.es/es/) Alternar menú
+    *   [Objetivos y competencias](https://muia.dia.fi.upm.es/es/objetivos_competencias/)
+    *   [Profesorado](https://muia.dia.fi.upm.es/es/profesorado_tutorias/)
+    *   [Preguntas frecuentes](https://muia.dia.fi.upm.es/es/#faq_generales)
+*   [Estructura](https://muia.dia.fi.upm.es/es/estructura/) Alternar menú
+    *   [Asignaturas y seminarios](https://muia.dia.fi.upm.es/es/estructura/#asignaturas_seminarios)
+    *   [Planificación de las enseñanzas](https://muia.dia.fi.upm.es/es/estructura/#planificacion_ense%C3%B1anzas)
+    *   [Trabajo Fin de Máster](https://muia.dia.fi.upm.es/es/estructura/#trabajo_fin_de_master)
+    *   [Solicitud del título](https://muia.dia.fi.upm.es/es/estructura/#solicitud_del_titulo)
+    *   [FAQs Estructura del MUIA](https://muia.dia.fi.upm.es/es/estructura/#faq_estructura)
+*   [Horarios](https://muia.dia.fi.upm.es/es/horarios/)
+*   [Admisión](https://muia.dia.fi.upm.es/es/admision_y_matricula/)
+*   [Calidad](https://muia.dia.fi.upm.es/es/calidad/) Alternar menú
+    *   [Sistema de garantía de calidad](https://muia.dia.fi.upm.es/es/calidad/#sistema-garantia-calidad)
+    *   [Acreditaciones y sello Euro-Inf](https://muia.dia.fi.upm.es/es/calidad/#acreditaciones-sello-euro-inf)
+*   [Noticias](https://muia.dia.fi.upm.es/es/category/noticias-es/) Alternar menú
+    *   [Noticias destacadas](https://muia.dia.fi.upm.es/es/category/noticias-es/noticias-destacadas/)
+    *   [Actualidad](https://muia.dia.fi.upm.es/es/category/noticias-es/actualidad-es/)
+*   [Contacto](https://muia.dia.fi.upm.es/es/gestion/)
+*   [![Image 5: English](blob:https://muia.dia.fi.upm.es/0801bdd2301ad3ea58ddfbf3e4e9b069)](https://muia.dia.fi.upm.es/en/)
+
+Máster Universitario en Inteligencia Artificial  
+
+==================================================
+
+[![Image 6: Máster Universitario en Inteligencia Artificial](https://muia.dia.fi.upm.es/wp-content/uploads/sites/6/2023/11/dia-etsii-upm-logo@96x.png)](https://muia.dia.fi.upm.es/es/)
+
+Main Menu
+
+IA&COVID19: Inteligencia Artificial para analizar los artículos científicos relacionados con el COVID-19
+========================================================================================================
+
+![Image 7: iainterior](https://muia.dia.fi.upm.es/wp-content/uploads/sites/6/2020/03/iainterior.jpg)
+
+Desde el Ontology Engineering Group de la Escuela Técnica Superior de Ingenieros Informáticos de la Universidad Politécnica de Madrid lanzan esta iniciativa abierta para intentar dar a la comunidad científica y médica respuestas a algunas de sus preguntas a partir del análisis de la literatura científica que se ha publicado sobre el COVID-19.
+
+Desde hace unas semanas, el Allen Institute for Artificial Intelligence mantiene [un corpus actualizado de artículos científicos sobre COVID-19](https://pages.semanticscholar.org/coronavirus-research). A fecha de 27 de marzo de 2020, este corpus contiene más de 44.000 artículos en inglés, con el texto completo de más de 29.000 artículos.
+
+Esta ingente cantidad de literatura científica que se ha generado en apenas unos meses desde la aparición del virus, demuestra la gran actividad científica para su estudio. Pero al mismo tiempo, este corpus es tan grande que se ha convertido en un problema para que científicos y médicos puedan encontrar información específica sobre algún tipo de tratamiento que se haya probado en algún grupo específico de la población, relaciones entre tratamientos, resultados obtenidos, etc. Esto es lo que normalmente se conoce como sobrecarga de información.
+
+El 16 de marzo del 2020, la Oficina de Política Científica y Tecnológica de la Casa Blanca realizó un [llamamiento](https://www.whitehouse.gov/briefings-statements/call-action-tech-community-new-machine-readable-covid-19-dataset/).) a la comunidad internacional de Inteligencia Artificial para el desarrollo de técnicas de procesamiento de lenguaje natural y minería de textos que ayudaran a resolver preguntas que la comunidad científica se está realizando sobre el COVID-19. Muchas de estas preguntas, formuladas por médicos y científicos, están recogidas en la plataforma [Kaggle](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks), bien conocida por la comunidad de Ciencia de Datos e Inteligencia Artificial. A fecha de 27 de marzo, hay ya más de 400 iniciativas y contribuciones registradas, donde se han hecho distintos tipos de tratamientos de los textos que han sido proporcionados para responder a distintos grupos de preguntas.
+
+En el [Ontology Engineering Group](http://www.oeg-upm.net/) de la [Escuela Técnica Superior de Ingenieros Informáticos](http://www.fi.upm.es/) de la [Universidad Politécnica de Madrid](https://www.upm.es/) llevan trabajando varios años en el procesamiento de grandes corpus de textos, así que desde la semana pasada se han puesto a trabajar para intentar aportar su grano de arena en la solución de estos problemas, desarrollando el core de una tecnología que permita a otros investigadores, estudiantes e informáticos trabajar sobre ella. En la siguiente página describen lo que han hecho hasta ahora, y los recursos que ponen a disposición del resto de la comunidad científica, por si pudieran resultar útiles: [https://oeg-upm.github.io/covid19/](https://oeg-upm.github.io/covid19/)
+
+Asimismo, hacen un llamamiento a todos aquellos que queráis colaborar en esta iniciativa abierta a toda la comunidad española en Inteligencia Artificial (investigadores, desarrolladores, estudiantes) con nuevas preguntas, con nuevos algoritmos que resuelvan algunas de las preguntas que la comunidad científica y médica se está realizando, con la validación de los resultados que han obtenido hasta ahora, con herramientas de visualización más amigable para los médicos, o con cualquier otra cosa que se os ocurra. Juntos podemos construir una plataforma con un conjunto de herramientas que puedan ser útiles para todos.
+
+No dudéis en contactarles a través del repositorio [https://github.com/librairy/covid19](https://github.com/librairy/covid19) (para desarrolladores) o directamente a su dirección de correo ([moeg-covid19@delicias.dia.fi.upm.es](mailto:moeg-covid19@delicias.dia.fi.upm.es)).
+
+*   [Pedro Larrañaga nuevo miembro de Jakiunde](https://muia.dia.fi.upm.es/es/pedro-larranaga-nuevo-miembro-jakiunde/)
+*   [Los profesores del Departamento de Inteligencia Artificial de la UPM, Concha Bielza y Pedro Larrañaga, liderarán la Unidad ELLIS Madrid recientemente creada](https://muia.dia.fi.upm.es/es/los-profesores-del-departamento-de-inteligencia-artificial-de-la-upm-concha-bielza-y-pedro-larranaga-lideraran-la-unidad-ellis-madrid-recientemente-creada/)
+*   [Concha Bielza imparte charla plenaria de inauguración del Workshop «Artificial Intelligence for the Fight Against COVID-19»](https://muia.dia.fi.upm.es/es/concha-bielza-imparte-charla-plenaria-de-inauguracion-del-workshop-artificial-intelligence-for-the-fight-against-covid-19/)
+*   [Concesión de Premios José Cuena para el curso 2022-2023](https://muia.dia.fi.upm.es/es/concesion-de-premios-jose-cuena-para-el-curso-2022-2023/)
+*   [Asunción Gómez-Pérez, elegida para ocupar la silla «q» de la RAE.](https://muia.dia.fi.upm.es/es/asuncion-gomez-perez-elegida-para-ocupar-la-silla-q-de-la-rae/)
+
+*   [Presentación](https://muia.dia.fi.upm.es/es/) Alternar menú
+    *   [Objetivos y competencias](https://muia.dia.fi.upm.es/es/objetivos_competencias/)
+    *   [Profesorado](https://muia.dia.fi.upm.es/es/profesorado_tutorias/)
+    *   [Preguntas frecuentes](https://muia.dia.fi.upm.es/es/#faq_generales)
+*   [Estructura](https://muia.dia.fi.upm.es/es/estructura/) Alternar menú
+    *   [Asignaturas y seminarios](https://muia.dia.fi.upm.es/es/estructura/#asignaturas_seminarios)
+    *   [Planificación de las enseñanzas](https://muia.dia.fi.upm.es/es/estructura/#planificacion_ense%C3%B1anzas)
+    *   [Trabajo Fin de Máster](https://muia.dia.fi.upm.es/es/estructura/#trabajo_fin_de_master)
+    *   [Solicitud del título](https://muia.dia.fi.upm.es/es/estructura/#solicitud_del_titulo)
+    *   [FAQs Estructura del MUIA](https://muia.dia.fi.upm.es/es/estructura/#faq_estructura)
+*   [Horarios](https://muia.dia.fi.upm.es/es/horarios/)
+*   [Admisión](https://muia.dia.fi.upm.es/es/admision_y_matricula/)
+*   [Calidad](https://muia.dia.fi.upm.es/es/calidad/) Alternar menú
+    *   [Sistema de garantía de calidad](https://muia.dia.fi.upm.es/es/calidad/#sistema-garantia-calidad)
+    *   [Acreditaciones y sello Euro-Inf](https://muia.dia.fi.upm.es/es/calidad/#acreditaciones-sello-euro-inf)
+*   [Noticias](https://muia.dia.fi.upm.es/es/category/noticias-es/) Alternar menú
+    *   [Noticias destacadas](https://muia.dia.fi.upm.es/es/category/noticias-es/noticias-destacadas/)
+    *   [Actualidad](https://muia.dia.fi.upm.es/es/category/noticias-es/actualidad-es/)
+*   [Contacto](https://muia.dia.fi.upm.es/es/gestion/)
+*   [![Image 8: English](blob:https://muia.dia.fi.upm.es/0801bdd2301ad3ea58ddfbf3e4e9b069)](https://muia.dia.fi.upm.es/en/)
+
+*   [Presentación](https://muia.dia.fi.upm.es/es/) Alternar menú
+    *   [Objetivos y competencias](https://muia.dia.fi.upm.es/es/objetivos_competencias/)
+    *   [Profesorado](https://muia.dia.fi.upm.es/es/profesorado_tutorias/)
+    *   [Preguntas frecuentes](https://muia.dia.fi.upm.es/es/#faq_generales)
+*   [Estructura](https://muia.dia.fi.upm.es/es/estructura/) Alternar menú
+    *   [Asignaturas y seminarios](https://muia.dia.fi.upm.es/es/estructura/#asignaturas_seminarios)
+    *   [Planificación de las enseñanzas](https://muia.dia.fi.upm.es/es/estructura/#planificacion_ense%C3%B1anzas)
+    *   [Trabajo Fin de Máster](https://muia.dia.fi.upm.es/es/estructura/#trabajo_fin_de_master)
+    *   [Solicitud del título](https://muia.dia.fi.upm.es/es/estructura/#solicitud_del_titulo)
+    *   [FAQs Estructura del MUIA](https://muia.dia.fi.upm.es/es/estructura/#faq_estructura)
+*   [Horarios](https://muia.dia.fi.upm.es/es/horarios/)
+*   [Admisión](https://muia.dia.fi.upm.es/es/admision_y_matricula/)
+*   [Calidad](https://muia.dia.fi.upm.es/es/calidad/) Alternar menú
+    *   [Sistema de garantía de calidad](https://muia.dia.fi.upm.es/es/calidad/#sistema-garantia-calidad)
+    *   [Acreditaciones y sello Euro-Inf](https://muia.dia.fi.upm.es/es/calidad/#acreditaciones-sello-euro-inf)
+*   [Noticias](https://muia.dia.fi.upm.es/es/category/noticias-es/) Alternar menú
+    *   [Noticias destacadas](https://muia.dia.fi.upm.es/es/category/noticias-es/noticias-destacadas/)
+    *   [Actualidad](https://muia.dia.fi.upm.es/es/category/noticias-es/actualidad-es/)
+*   [Contacto](https://muia.dia.fi.upm.es/es/gestion/)
+*   [![Image 9: English](blob:https://muia.dia.fi.upm.es/0801bdd2301ad3ea58ddfbf3e4e9b069)](https://muia.dia.fi.upm.es/en/)
+
+![Image 10](https://muia.dia.fi.upm.es/wp-content/uploads/sites/6/2023/11/dia-etsii-upm-logo@96x.png)
+
+![Image 11](https://mucd.dia.fi.upm.es/wp-content/uploads/sites/7/2023/10/foto-campus-1024x576.jpeg)
+
+### International Campus of Excellence in Innovation
+
+![Image 12: Campus Montegancedo](https://www.fi.upm.es/web/futuroalumno/wp-content/uploads/sites/15/2015/11/logo_i2tech.png)
+
+The School is located on the Montegancedo Campus,  
+which has been **designated by the Ministry of Education**  
+**as an International Campus of Excellence in Innovation**,  
+the only one in Spain with this recognition.
+
+![Image 13](https://www.fi.upm.es/web/futuroalumno/wp-content/uploads/sites/15/2015/11/logo_academic-ranking.jpg)
+
+**Shanghai Ranking**  
+The UPM is among the  
+top 200 in the world  
+in the field of Computer  
+Science (out of over  
+15,000 universities).
+
+![Image 14](https://www.fi.upm.es/web/futuroalumno/wp-content/uploads/sites/15/2015/11/logo_world-university1.jpg)
+
+**QS Ranking**  
+The UPM is among the  
+top 150 in the world  
+in the field of Computer  
+Science.
+
+![Image 15](https://www.fi.upm.es/web/futuroalumno/wp-content/uploads/sites/15/2015/11/logo-elmundo.jpg)
+
+**"El Mundo" Ranking**  
+Among the top 3 centres  
+for studying Computer  
+Engineering in Spain in  
+all editions of "El Mundo"  
+ranking.
+
+MENU
+----
+
+*   [Presentación](https://muia.dia.fi.upm.es/es/)
+    *   [Objetivos y competencias](https://muia.dia.fi.upm.es/es/objetivos_competencias/)
+    *   [Profesorado](https://muia.dia.fi.upm.es/es/profesorado_tutorias/)
+    *   [Preguntas frecuentes](https://muia.dia.fi.upm.es/es/#faq_generales)
+*   [Estructura](https://muia.dia.fi.upm.es/es/estructura/)
+    *   [Asignaturas y seminarios](https://muia.dia.fi.upm.es/es/estructura/#asignaturas_seminarios)
+    *   [Planificación de las enseñanzas](https://muia.dia.fi.upm.es/es/estructura/#planificacion_ense%C3%B1anzas)
+    *   [Trabajo Fin de Máster](https://muia.dia.fi.upm.es/es/estructura/#trabajo_fin_de_master)
+    *   [Solicitud del título](https://muia.dia.fi.upm.es/es/estructura/#solicitud_del_titulo)
+    *   [FAQs Estructura del MUIA](https://muia.dia.fi.upm.es/es/estructura/#faq_estructura)
+*   [Horarios](https://muia.dia.fi.upm.es/es/horarios/)
+*   [Admisión](https://muia.dia.fi.upm.es/es/admision_y_matricula/)
+*   [Calidad](https://muia.dia.fi.upm.es/es/calidad/)
+    *   [Sistema de garantía de calidad](https://muia.dia.fi.upm.es/es/calidad/#sistema-garantia-calidad)
+    *   [Acreditaciones y sello Euro-Inf](https://muia.dia.fi.upm.es/es/calidad/#acreditaciones-sello-euro-inf)
+*   [Noticias](https://muia.dia.fi.upm.es/es/category/noticias-es/)
+    *   [Noticias destacadas](https://muia.dia.fi.upm.es/es/category/noticias-es/noticias-destacadas/)
+    *   [Actualidad](https://muia.dia.fi.upm.es/es/category/noticias-es/actualidad-es/)
+*   [Contacto](https://muia.dia.fi.upm.es/es/gestion/)
+*   [![Image 16: English](blob:https://muia.dia.fi.upm.es/0801bdd2301ad3ea58ddfbf3e4e9b069)](https://muia.dia.fi.upm.es/en/)
+
+[![Image 17](https://mucd.dia.fi.upm.es/wp-content/uploads/sites/7/2023/10/Logo-politecnica.png)](https://www.upm.es/)
+
+#### Copyright © 2025 Máster Universitario en Inteligencia Artificial | Powered by [Sasover](http://sasover.com/)
+
+Scroll al inicio

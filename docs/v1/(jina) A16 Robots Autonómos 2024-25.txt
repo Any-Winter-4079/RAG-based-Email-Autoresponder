@@ -1,0 +1,374 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000370_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000370 - Robots Autonomos 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Competencias y resultados de aprendizaje..............................................................................................................2 4. Descripción de la asignatura y temario.....................................................................................................................3 5. Cronograma.............................................................................................................................................................5 6. Actividades y criterios de evaluación........................................................................................................................7 7. Recursos didácticos.................................................................................................................................................9 8. Otra información......................................................................................................................................................10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000370 - Robots Autonomos 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Javier De Lope Asiain (Coordinador/a) 2204 javier.delope@upm.es Sin horario. Consultar en la página web del DIA sus horarios de tutorías actualizados por semestres. 
+
+> GA_10AJ_103000370 1S_2024-25 Robots Autonomos Master Universitario En Inteligencia Artificial Página 1 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+Nikolaus Guyon Swoboda 2205 nik.swoboda@upm.es Sin horario. Consultar en la página web del DIA sus horarios de tutorías actualizados por semestres. * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+## 3. Competencias y resultados de aprendizaje 
+
+3.1. Competencias 
+
+CB10 - Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo. CB7 - Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio CG11 - Integración del conocimiento a partir de disciplinas diferentes, así como el manejo de la complejidad. CG14 - Conocimiento y comprensión de la informática necesaria para la creación de modelos de información, y de los sistemas y procesos complejos. 
+
+> GA_10AJ_103000370 1S_2024-25 Robots Autonomos Master Universitario En Inteligencia Artificial Página 2 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+3.2. Resultados del aprendizaje 
+
+RA48 - Saber manejar fuentes bibliográficas y valorar su importancia para desarrollar trabajos escritos innovadores o que reflejen el estado del arte. RA15 - Ser capaz de aprender de forma autónoma y autodirigida. RA10 - Saber modelizar y simular el comportamiento de sistemas como apoyo en la toma de decisiones RA28 - Presentar en público los resultados de sus trabajos de investigación RA26 - Ser capaz de abordar los aspectos formales del proyecto inicial de una investigación 
+
+## 4. Descripción de la asignatura y temario 
+
+4.1. Descripción de la asignatura 
+
+El objeto de esta asignatura es proporcionar los conocimientos y habilidades prácticas para el diseño, desarrollo y prueba de sistemas de navegación de robots, particularmente de robots móviles sobre ruedas en entornos de interiores. Se profundiza en diversos aspectos de la Robótica como disciplina, desarrollando soluciones mediante técnicas disponibles en el estado del arte orientadas a robots autónomos entre las que se priman técnicas avanzadas de inteligencia artificial. 
+
+> GA_10AJ_103000370 1S_2024-25 Robots Autonomos Master Universitario En Inteligencia Artificial Página 3 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+4.2. Temario de la asignatura 
+
+1. Introducción 1.1. Robótica industrial y robótica autónoma 1.2. Embodiment, sensores y actuadores 1.3. Teoría de control aplicada a la robótica 1.4. Navegación y planificación reactiva 2. Robot Operating System (ROS) 2.1. Conceptos básicos y arquitectura 2.2. Herramientas y paquetes comunes 3. Arquitecturas de control para navegación 3.1. Arquitecturas de descomposición funcional 3.2. Arquitecturas basadas en comportamientos 4. Representaciones del espacio 4.1. Mapas métricos y topológicos 4.2. Creación de mapas y localización 5. Planificación de caminos 5.1. Espacio de configuración y algoritmos básicos 5.2. Algoritmos de planificación avanzados 
+
+> GA_10AJ_103000370 1S_2024-25 Robots Autonomos Master Universitario En Inteligencia Artificial Página 4 de 10
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 5. Cronograma 
+
+5.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+1. Introducción 
+
+Duración: 01:00 LM: Actividad del tipo Lección Magistral 
+
+1.1 Robótica industrial y robótica autónoma 
+
+Duración: 01:00 LM: Actividad del tipo Lección Magistral 
+
+2
+
+1.2 Embodiment, sensores y actuadores 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+3
+
+Herramientas software para actividades 
+
+Duración: 02:00 PL: Actividad del tipo Prácticas de Laboratorio 
+
+4
+
+1.3 Teoría de control aplicada a la robótica 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+5
+
+1.4 Navegación y planificación reactiva 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+6
+
+2. Robot Operating System (ROS) 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+A1. Sistema básico de navegación 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva y Global No presencial Duración: 10:00 
+
+7
+
+2. Robot Operating System (ROS) 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+8
+
+3.1 Arquitecturas de descomposición funcional 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+9
+
+3.2 Arquitecturas basadas en comportamientos 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+GA_10AJ_103000370 1S_2024-25 Robots Autonomos Master Universitario En Inteligencia Artificial Página 5 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 10 
+
+4.1 Mapas métricos y topológicos 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+11 
+
+4.2 Creación de mapas y localización 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+12 
+
+Presentaciones Actividad 2 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+13 
+
+5.1 Espacio de configuración y algoritmos básicos 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+A0. Presentaciones 
+
+PG: Técnica del tipo Presentación en Grupo Evaluación Progresiva Presencial Duración: 16:00 
+
+14 
+
+5.2 Algoritmos de planificación avanzados 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+A2. Construcción de mapas 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva y Global No presencial Duración: 36:00 
+
+15 
+
+Presentaciones Actividad 3 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Actividades transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+A3. Planificación de caminos 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva y Global No presencial Duración: 36:00 
+
+16 
+
+17 
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000370 1S_2024-25 Robots Autonomos Master Universitario En Inteligencia Artificial Página 6 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 6. Actividades y criterios de evaluación 
+
+6.1. Actividades de evaluación de la asignatura 
+
+6.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+6 A1. Sistema básico de navegación 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 10:00 10% 0 / 10 
+
+CB10 CB7 CG11 CG14 
+
+13 A0. Presentaciones 
+
+PG: Técnica del tipo Presentación en Grupo 
+
+Presencial 16:00 10% 0 / 10 
+
+CB10 CB7 CG11 CG14 
+
+14 A2. Construcción de mapas 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 36:00 40% 0 / 10 
+
+CB10 CB7 CG11 CG14 
+
+15 A3. Planificación de caminos 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 36:00 40% 0 / 10 
+
+CB10 CB7 CG11 CG14 
+
+6.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+6 A1. Sistema básico de navegación 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 10:00 10% 0 / 10 
+
+CB10 CB7 CG11 CG14 
+
+14 A2. Construcción de mapas 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 36:00 40% 0 / 10 
+
+CB10 CB7 CG11 CG14 
+
+15 A3. Planificación de caminos 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 36:00 40% 0 / 10 
+
+CB10 CB7 CG11 CG14 
+
+6.1.3. Evaluación convocatoria extraordinaria 
+
+GA_10AJ_103000370 1S_2024-25 Robots Autonomos Master Universitario En Inteligencia Artificial Página 7 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informaticos Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas          
+
+> A1. Sistema básico de navegación
+> TG: Técnica del tipo Trabajo en Grupo
+> Presencial 10:00 10% 0 / 10
+> CB10 CB7 CG11 CG14
+> A2. Construcción de mapas
+> TG: Técnica del tipo Trabajo en Grupo
+> Presencial 36:00 40% 0 / 10
+> CB10 CB7 CG11 CG14
+> A3. Planificación de caminos
+> TG: Técnica del tipo Trabajo en Grupo
+> Presencial 36:00 40% 0 / 10
+> CB10 CG11 CB7 CG14
+
+6.2. Criterios de evaluación 
+
+La evaluación de la asignatura se realiza mediante una serie de actividades asociadas con cada una de las partes principales de la asignatura (sistema básico de navegación, construcción de mapas y planificación de caminos). Las actividades pueden realizarse en grupos y están orientadas al desarrollo de un proyecto global. Los grupos deben preparar una memoria resumen de cada parte cuya entrega se efectúa a través de un buzón en el espacio moodle de la asignatura en las semanas que se indican en el cronograma. Los grupos deben elegir una de las dos últimas actividades de la que realizarán una presentación en el aula. La presentación recogerá el estado de desarrollo del trabajo en ese momento y sirve como base para establecer una discusión acerca de los resultados del trabajo. Los comentarios e ideas que reciban pueden ser incluidos hasta la entrega final de la memoria. La nota de la asignatura se calcula como la suma pondera de cada uno de las actividades. Las actividades no requieren de una nota mínima. En las evaluaciones mediante prueba global y extraordinaria se sigue un mecanismo similar y se entregan los informes de las partes que no hayan sido evaluadas durante la evaluación progresiva. Dado el objetivo de las presentaciones, se entiende que esa parte de evaluación no es recuperable si se opta por prueba global y extraordinaria. 
+
+GA_10AJ_103000370 1S_2024-25 Robots Autonomos Master Universitario En Inteligencia Artificial Página 8 de 10 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 7. Recursos didácticos 
+
+7.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+M.J. Mataric (2007) The Robotics Primer. MIT Press, Cambridge, MA. Bibliografía R.R. Murphy (2000) Introduction to AI Robotics. MIT Press, Cambridge, MA. Bibliografía J. de Lope (2001) Robots Móviles: Evolución Histórica y Técnicas de Programación. Fundación General de la UPM. Bibliografía H. Choset et al. (2005) Principles of Robot Motion. MIT Press, Cambridge, MA. Bibliografía D. Fox, S. Thrun, W. Burgard (2005) Probabilistic Robotics. MIT Press, Cambridge, MA. Bibliografía B. Siciliano, O. Khatib (2016) Springer Handbook of Robotics. Springer, Cham. Bibliografía Simulador físico de robots CoppeliaSim Equipamiento https://www.coppeliarobotics.com/ Documentación y tutoriales de ROS Recursos web https://www.ros.org/ Documentación y tutoriales de Python Recursos web https://docs.python.org/ Espacio Moodle de la asignatura Recursos web https://moodle.upm.es/ Departamento de Inteligencia Artificial Recursos web http://www.dia.fi.upm.es/ 
+
+> GA_10AJ_103000370 1S_2024-25 Robots Autonomos Master Universitario En Inteligencia Artificial Página 9 de 10
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 8. Otra información 
+
+8.1. Otra información sobre la asignatura 
+
+La asignatura se relaciona con el ODS9 (Industria, Innovación e Infraestructuras). Los sistemas robóticos han estado siempre presentes en gran parte de la industria moderna y en la actualidad son fundamentales en muchas de las áreas donde la innovación es un elemento primordial y se establecen como básicos en muchas de las infraestructuras de futuro. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000370 1S_2024-25 Robots Autonomos Master Universitario En Inteligencia Artificial Página 10 de 10

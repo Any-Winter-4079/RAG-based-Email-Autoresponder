@@ -1,0 +1,414 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000345_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000345 - Metodos De Simulacion 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Competencias y resultados de aprendizaje..............................................................................................................2 4. Descripción de la asignatura y temario.....................................................................................................................3 5. Cronograma.............................................................................................................................................................5 6. Actividades y criterios de evaluación........................................................................................................................8 7. Recursos didácticos................................................................................................................................................11 8. Otra información......................................................................................................................................................12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000345 - Metodos de Simulacion 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Antonio Jimenez Martin (Coordinador/a) 2110 antonio.jimenez@upm.es Sin horario. * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+> GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 1 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 3. Competencias y resultados de aprendizaje 
+
+3.1. Competencias 
+
+CB7 - Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio CB9 - Que los estudiantes sepan comunicar sus conclusiones y los conocimientos y razones últimas que las sustentan a públicos especializados y no especializados de un modo claro y sin ambigüedades CEIA10 - Identificación de áreas de aplicación en las que se pueda utilizar las técnicas y métodos de la Inteligencia Artificial. CEIA3 - Conocimiento y aplicación de los modelos cuantitativos que dan soporte a los procesos de toma de decisiones en sus distintas variantes: determinístico-estocástico, individual-colectivo o estático-dinámico CG13 - Apreciación de los límites del conocimiento actual y de la aplicación práctica de la tecnología más reciente. CG16 - Capacidad de trabajar de forma independiente en su campo profesional. CG17 - Habilidades de gestión y capacidad de liderar un equipo que puede estar integrado por disciplinas y niveles distintos. CG19 - Aproximación sistemática a la gestión de riesgos. CGI2 - Comprender el procedimiento, valor y límites del método científico en el campo de la Informática, siendo capaz de identificar, localizar y obtener datos requeridos en un trabajo de investigación, de diseñar y guiar investigaciones analíticas, de modelado y experimentales, así como de evaluar datos de una manera crítica y extraer conclusiones. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+> GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 2 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+3.2. Resultados del aprendizaje 
+
+RA10 - Saber modelizar y simular el comportamiento de sistemas como apoyo en la toma de decisiones RA11 - Ser capaz de distinguir dónde está la frontera del conocimiento en análisis de decisiones a partir de la lectura crítica de publicaciones científicas relevantes, habitualmente escritas en lengua inglesa 
+
+## 4. Descripción de la asignatura y temario 
+
+4.1. Descripción de la asignatura 
+
+La Simulación consiste en construir modelos informáticos que describen la parte esencial del comportamiento de un sistema de interés, así como en diseñar y realizar experimentos con tales modelos con el fin de extraer conclusiones de sus resultados para apoyar la toma de decisiones. Típicamente, se utiliza en el análisis de sistemas tan complejos que no es posible su tratamiento analítico o mediante análisis numérico. La Simulación es hoy una metodología de experimentación fundamental en campos tan diversos como la Economía, la Estadística, la Informática, la Ingeniería Química, la Ecología y la Física, con enormes aplicaciones industriales y comerciales, que van desde los sistemas de manufacturación a los simuladores de vuelo, pasando por los juegos de ordenador, la predicción bursátil y la predicción meteorológica. En la asignatura se mostrarán múltiples aplicaciones en la Inteligencia Artificial, especialmente en la disciplina de Análisis de Decisiones. 
+
+4.2. Temario de la asignatura 
+
+1. Introducción 2. Generación de números aleatorios 2.1. Introducción 2.2. Generadores congruenciales 2.3. Otros generadores 2.4. Contrastes de aleatoriedad modernos 3. Generación de variables aleatorias 3.1. Generación de distribuciones continuas y discretas 3.2. Distribuciones multivariantes 
+
+> GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 3 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+3.3. Software 4. Simulación de sucesos discretos 4.1. Conceptos básicos de SSD 4.2. SSD de sistemas de espera complejos 4.3. SSD de modelos de inventario probabilísticos 4.4. Software de SSD 5. Simulación y optimización 5.1. Optimización global y local 5.2. Métodos clásicos de optimización 5.3. Métodos modernos de optimización: Metaheurísticas 6. Otras aplicaciones de la simulación 6.1. Simulación de cadenas de Markov y aplicaciones 6.2. Integración Montecarlo 6.3. Técnicas de remuestreo: jackknife y boostrap 6.4. Aplicaciones en proyectos de investigación 6.5. Simulación de una línea de flujo de trabajo 7. Análisis de los resultados 8. Reducción de la varianza 9. Planificación de experimentos 
+
+> GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 4 de 12
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 5. Cronograma 
+
+5.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Presentación de la asignatura y normativa de evaluación 
+
+Duración: 00:30 LM: Actividad del tipo Lección Magistral 
+
+Explicación de los contenidos del Tema 1. Introducción a la Simulación 
+
+Duración: 01:30 LM: Actividad del tipo Lección Magistral 
+
+2
+
+Explicación de los contenidos del Tema 2. Generación de números aleatorios 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+3
+
+Explicación de los contenidos del Tema 2. Generación de números aleatorios 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+4
+
+Explicación de los contenidos del Tema 3. Generación de variables aleatorias 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+5
+
+Explicación de los contenidos del Tema 3. Generación de variables aleatorias 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+6
+
+Explicación de los contenidos del Tema 4. Simulación de sucesos discretos 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+7
+
+Explicación de los contenidos del Tema 4. Simulación de sucesos discretos 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+8
+
+Explicación de los contenidos del Tema 5. Optimización y simulación 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 5 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 9
+
+Explicación de los contenidos del Tema 5. Optimización y simulación 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Entrega de la práctica (Ejercicio 1) 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva No presencial Duración: 00:00 
+
+10 
+
+Explicación de los contenidos del Tema 5. Optimización y simulación 
+
+Duración: 01:00 LM: Actividad del tipo Lección Magistral 
+
+Explicación de los contenidos del Tema 6. Otras aplicaciones 
+
+Duración: 01:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+11 
+
+Explicación de los contenidos del Tema 6. Otras aplicaciones 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+12 
+
+Explicación de los contenidos del Tema 6. Otras aplicaciones 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+13 
+
+Explicación de los contenidos del Tema 6. Otras aplicaciones 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Entrega de la práctica (Ejercicios 2 y 3) 
+
+TG: Técnica del tipo Trabajo en Grupo Evaluación Progresiva No presencial Duración: 00:00 
+
+14 
+
+Presentación oral de la práctica. Actividad no recuperable 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Presentación oral de la práctica. Actividad no recuperable 
+
+PG: Técnica del tipo Presentación en Grupo Evaluación Progresiva Presencial Duración: 02:00 
+
+15 
+
+Presentación oral de la práctica. Actividad no recuperable 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Presentación oral de la práctica. Actividad no recuperable 
+
+PG: Técnica del tipo Presentación en Grupo Evaluación Progresiva Presencial Duración: 02:00 
+
+16 
+
+Realización del test sobre los contenidos de la asignatura 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Realización de test sobre los contenidos de la asignatura 
+
+ET: Técnica del tipo Prueba Telemática Evaluación Progresiva Presencial Duración: 02:00 
+
+GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 6 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 17 
+
+> Entrega de la práctica
+> TG: Técnica del tipo Trabajo en Grupo Evaluación Global No presencial Duración: 00:00
+> Realización de test sobre los contenidos de la asignatura
+> EX: Técnica del tipo Examen Escrito Evaluación Global Presencial Duración: 02:00
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 7 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 6. Actividades y criterios de evaluación 
+
+6.1. Actividades de evaluación de la asignatura 
+
+6.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+9 Entrega de la práctica (Ejercicio 1) 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 20% 5 / 10 
+
+CG16 CG17 CGI3 CGI4 CEIA10 CB7 CG13 CG19 CGI2 CEIA3 
+
+13 Entrega de la práctica (Ejercicios 2 y 3) 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 40% 5 / 10 
+
+CB9 CG16 CG17 CGI4 CEIA10 CB7 CG13 CG19 CGI2 CEIA3 
+
+14 Presentación oral de la práctica. Actividad no recuperable 
+
+PG: Técnica del tipo Presentación en Grupo 
+
+Presencial 02:00 10% / 10 CB9 
+
+15 Presentación oral de la práctica. Actividad no recuperable 
+
+PG: Técnica del tipo Presentación en Grupo 
+
+Presencial 02:00 10% / 10 CB9 
+
+16 Realización de test sobre los contenidos de la asignatura 
+
+ET: Técnica del tipo Prueba Telemática 
+
+Presencial 02:00 30% 5 / 10 
+
+CGI3 CGI4 CEIA10 CG19 CG13 CGI2 CEIA3 
+
+6.1.2. Prueba evaluación global 
+
+GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 8 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+17 Entrega de la práctica 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+No Presencial 00:00 60% / 10 
+
+CB9 CG16 CG17 CGI3 CGI4 CEIA10 CB7 CG19 CG13 CGI2 CEIA3 
+
+17 Realización de test sobre los contenidos de la asignatura 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 02:00 30% 5 / 10 
+
+CGI3 CGI4 CEIA10 CG19 CG13 CGI2 CEIA3 
+
+6.1.3. Evaluación convocatoria extraordinaria 
+
+Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+Realización de test sobre los contenidos de la asignatura 
+
+EX: Técnica del tipo Examen Escrito 
+
+Presencial 01:00 30% 5 / 10 
+
+CGI3 CGI4 CEIA10 CG13 CG19 CGI2 CEIA3 
+
+Entrega de la práctica 
+
+TG: Técnica del tipo Trabajo en Grupo 
+
+Presencial 01:00 60% 5 / 10 
+
+CB9 CG16 CG17 CGI3 CGI4 CEIA10 CB7 CG13 CG19 CGI2 CEIA3 
+
+GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 9 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+6.2. Criterios de evaluación 
+
+Evaluación progresiva 
+
+Los alumnos formarán grupos de tres personas para la realización de las prácticas . Cada práctica constará de tres ejercicios, correspondientes a los contenidos de los temas 1 al 6 de la asignatura, es decir, generación de números y variables aleatorias, simulación de sucesos discretos, simulación y optimización, y aplicaciones de la simulación. En el cronograma se indica las semanas en las que se hará entrega de las memorias de las prácticas y en las que se presentará oralmente uno de los tres ejercicios entregados (seleccionado por el profesor). En la presentación oral de las prácticas el profesor podrá realizar preguntas a cualquiera de los integrantes del grupo de prácticas. La presentación oral 
+
+de las prácticas es una actividad no recuperable .
+
+Por otro lado, cada alumno, de manera individual, deberá realizar un test (de forma presencial) sobre los conceptos presentados por el profesor en las clases magistrales, correspondientes a los temas 1 al 6. Para superar la asignatura el alumno deberá aprobar tanto la parte correspondiente a las prácticas como el test en moodle. Si el alumno cumple las condiciones anteriores, entonces su nota final se obtendrá aplicando la evaluación sumativa. 
+
+Prueba de evaluación global 
+
+Los alumnos que no hayan superado la asignatura mediante evaluación progresiva podrán realizar la prueba de evaluación global, que consistirá en la entrega de los ejercicios de la práctica que no se hayan resuelto correctamente en la evaluación progresiva y/o en la realización de un test (de forma presencial) sobre los contenidos de la asignatura, para aquellos alumnos que lo suspendieron en la evaluación progresiva. 
+
+Convocatoria extraordinaria 
+
+En la convocatoria extraordinaria, los alumnos entregarán los ejercicios de la práctica que no se hayan resuelto correctamente en la evaluación progresiva y prueba de evaluación global; y/o realizarán un test (de forma presencial) sobre los contenidos de la asignatura aquellos alumnos que no lo hayan superado en las evaluaciones previas. 
+
+> GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 10 de 12 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 7. Recursos didácticos 
+
+7.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+Ríos Insua, D., Ríos Insua, S., Martín, J., Jiménez, A. (2008) Simulación: Métodos y Aplicaciones, RA-MA, Segunda Edición. Bibliografía Libro básico de referencia en castellano Asmussen, S. y Glynn, P.W. (2007), Stochastic Simulation: Algorithms and Analysis, Springer. Bibliografía Fishman, G.S. (1999) Monte Carlo: Concepts, Algorithms and Applications, Springer (3rd edition). Bibliografía Fishman, G.S. (2001) Discrete Event Simulation. Modeling, Programming and Analysis, Springer Series in Operations Research, Springer Bibliografía Law, A. M. (2007) Simulation Modeling and Analysis, McGraw-Hill (4th edition). Bibliografía Pidd, M. (2004) Computer Simulation in Management Science, Wiley. Bibliografía Press, W.H., Teulolsky, S.A., Vetterling, W.T., Flannery, B.P. (2002) Numerical Recipes in C++, Cambridge University Press. Bibliografía Ripley, B.D. (2006) Stochastic Simulation, Wiley Series in Probability and Statistics, Wiley. Bibliografía 
+
+> GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 11 de 12
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informaticos Ross, S. (1997) Simulation, Academic Press (2nd edition). Bibliografía http://moodle.upm.es/titulaciones/ofic iales/course/view.php?id=4909 Recursos web Asignatura disponible en el Aula Virtual de la UPM Zoom y Microsoft Teams Equipamiento Las tutorías podrán realizarse, además de las establecidas de forma presencial, mediante Zoom y Microsoft Teams 
+
+## 8. Otra información 
+
+8.1. Otra información sobre la asignatura 
+
+La asignatura se apoya en la herramienta Moodle para proporcionar información y documentación a los alumnos, así como para la asignación de enunciados y entregas de las prácticas, la realización del test de la asignatura y la comunicación de las calificaciones de los alumnos. La asignatura se relaciona con el ODS 9. Industria, Innovación e Infraestructura, optimizándose procesos industriales a través del uso de metaheurísticas y simulación de sucesos discretos. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000345 1S_2024-25 Metodos De Simulacion Master Universitario En Inteligencia Artificial Página 12 de 12

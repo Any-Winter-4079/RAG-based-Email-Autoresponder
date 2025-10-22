@@ -1,0 +1,529 @@
+Title: 
+
+URL Source: https://www.upm.es/comun_gauss/publico/guias/2024-25/1S/GA_10AJ_103000366_1S_2024-25.pdf
+
+Markdown Content:
+PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS PR/CL/001 
+
+E.T.S. de Ingenieros Informaticos 
+
+# ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+ASIGNATURA 
+
+103000366 - Sistemas Multiagente 
+
+PLAN DE ESTUDIOS 
+
+10AJ - Master Universitario En Inteligencia Artificial 
+
+CURSO ACADÉMICO Y SEMESTRE 
+
+2024/25 - Primer semestre PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## Índice 
+
+Guía de Aprendizaje 
+
+1. Datos descriptivos....................................................................................................................................................1 2. Profesorado.............................................................................................................................................................1 3. Competencias y resultados de aprendizaje..............................................................................................................2 4. Descripción de la asignatura y temario.....................................................................................................................3 5. Cronograma.............................................................................................................................................................5 6. Actividades y criterios de evaluación........................................................................................................................8 7. Recursos didácticos................................................................................................................................................12 8. Otra información......................................................................................................................................................13 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 1. Datos descriptivos 
+
+1.1. Datos de la asignatura 
+
+Nombre de la asignatura 103000366 - Sistemas Multiagente 
+
+No de créditos 5 ECTS 
+
+Carácter Optativa 
+
+Curso Primer curso 
+
+Semestre Primer semestre 
+
+Período de impartición Septiembre-Enero 
+
+Idioma de impartición Castellano 
+
+Titulación 10AJ - Master Universitario en Inteligencia Artificial 
+
+Centro responsable de la titulación 10 - Escuela Tecnica Superior De Ingenieros Informaticos 
+
+Curso académico 2024-25 
+
+## 2. Profesorado 
+
+2.1. Profesorado implicado en la docencia 
+
+Nombre Despacho Correo electrónico Horario de tutorías *
+
+Josefa Zuleide Hernandez Diego 2205 josefaz.hernandez@upm.es Sin horario. Ver http://www.dia.fi .upm.es/es/tutorias Nikolaus Guyon Swoboda (Coordinador/a) 2205 nik.swoboda@upm.es Sin horario. Ver http://www.dia.fi .upm.es/es/tutorias * Las horas de tutoría son orientativas y pueden sufrir modificaciones. Se deberá confirmar los horarios de tutorías con el profesorado. 
+
+> GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 1 de 13 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+## 3. Competencias y resultados de aprendizaje 
+
+3.1. Competencias 
+
+CB10 - Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo. CB7 - Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio CB9 - Que los estudiantes sepan comunicar sus conclusiones y los conocimientos y razones últimas que las sustentan a públicos especializados y no especializados de un modo claro y sin ambigüedades CG10 - Capacidad de pensamiento creativo con el objetivo de desarrollar enfoques y métodos nuevos y originales. CG11 - Integración del conocimiento a partir de disciplinas diferentes, así como el manejo de la complejidad. CG18 - Capacidad de trabajar y comunicarse también en contextos internacionales CG9 - Aplicación de los métodos de resolución de problemas más recientes o innovadores y que puedan implicar el uso de otras disciplinas. CGI1 - Adquirir conocimientos científicos avanzados del campo de la informática que le permitan generar nuevas ideas dentro de una línea de investigación. CGI2 - Comprender el procedimiento, valor y límites del método científico en el campo de la Informática, siendo capaz de identificar, localizar y obtener datos requeridos en un trabajo de investigación, de diseñar y guiar investigaciones analíticas, de modelado y experimentales, así como de evaluar datos de una manera crítica y extraer conclusiones. CGI3 - Capacidad para valorar la importancia de las fuentes documentales, manejarlas y buscar la información para el desarrollo de cualquier trabajo de investigación. CGI4 - Capacidad de leer y comprender publicaciones dentro de su ámbito de estudio/investigación, así como su catalogación y valor científico. 
+
+> GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 2 de 13 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+3.2. Resultados del aprendizaje 
+
+RA57 - Ser capaz de analizar y diseñar sociedades de agentes que simulen comportamientos inteligentes RA58 - Ser capaz de analizar y evaluar la aportación de publicaciones científicas. RA56 - Ser capaz de entender el comportamiento y auto-organización de sistemas complejos compuestos de múltiples agentes 
+
+## 4. Descripción de la asignatura y temario 
+
+4.1. Descripción de la asignatura 
+
+Esta asignatura tiene dos objetivos principales: (i) adquirir una familiaridad general con los sistemas multiagente desde la perspectiva de la inteligencia de enjambre al tiempo que se estudian con más profundidad algunas áreas de investigación concretas relacionadas con la inteligencia de enjambre. (ii) proporcionar a los alumnos alguna experiencia práctica sobre cómo investigar y comunicar los resultados de la actividad investigadora, empleando un formato habitualmente requerido en conferencias internacionales. 
+
+Nota: todos los materiales del curso se proporcionarán en inglés, pero las clases se ofrecerán en una combinación de español e inglés para garantizar los mejores resultados comunicativos. ------------------------------------------------------------------This course has two main objectives: (i) to acquire a general familiarity with multi-agent systems from the perspective of swarm intelligence (SI) and then to pursue a deeper understanding of a number of speci fic areas of research related to SI. (ii) to give each student some "hands-on" experience doing research and reporting the results of that research activity in the format normally required for submission to an international conference. 
+
+Note: all of the course materials will be provided in English, but lectures will be offered in a mixture of both Spanish and English to guarantee the best communicative results. 
+
+> GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 3 de 13 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+4.2. Temario de la asignatura 
+
+1. Introducción 1.1. ¿Qué es la inteligencia de enjambre? 1.2. Conceptos básicos de inteligencia de enjambre 2. Casos de estudio - Análisis y modelado de inteligencia de enjambre 2.1. Clasificación colaborativa 2.2. Asignación distribuida de tareas 2.3. Construcción colectiva 2.4. Buscada de elementos de hormigas 2.5. Formación en bandada 2.6. Transporte colectivo 2.7. Otros sistemas de inteligencia de enjambre 3. Puesta en practica 3.1. Implementación de un sistema de inteligencia de enjambre 
+
+> GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 4 de 13
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 5. Cronograma 
+
+5.1. Cronograma de la asignatura * 
+
+Sem Actividad tipo 1 Actividad tipo 2 Tele-enseñanza Actividades de evaluación 
+
+1
+
+Tema 1 - Descripción y resumen del curso 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+2
+
+Tema 1 - Introducción a la autoorganización y emergencia 
+
+Duración: 01:30 LM: Actividad del tipo Lección Magistral 
+
+Tema 1 - Introducción a la autoorganización y emergencia 
+
+Duración: 00:30 AC: Actividad del tipo Acciones Cooperativas 
+
+3
+
+Tema 2: Clasificación colaborativa y asignación distribuida de tareas 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+4
+
+Tema 2: Clasificación colaborativa y asignación distribuida de tareas 
+
+Duración: 01:30 OT: Otras actividades formativas / Evaluación 
+
+Tema 3 - Puesta en práctica 
+
+Duración: 00:30 AC: Actividad del tipo Acciones Cooperativas 
+
+Evaluación por pares (1) de las presentaciones 
+
+OT: Otras técnicas evaluativas Evaluación Progresiva No presencial Duración: 01:00 
+
+5
+
+Tema 2 - Buscada de elementos de hormigas 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+6
+
+Tema 2 - Buscada de elementos de hormigas 
+
+Duración: 01:30 OT: Otras actividades formativas / Evaluación 
+
+Tema 3 - Puesta en práctica 
+
+Duración: 00:30 AC: Actividad del tipo Acciones Cooperativas 
+
+Evaluación por pares (2) de las presentaciones 
+
+OT: Otras técnicas evaluativas Evaluación Progresiva No presencial Duración: 01:00 
+
+GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 5 de 13 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 7
+
+Tema 2 - Formación en bandada 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+8
+
+Tema 2 - Formación en bandada 
+
+Duración: 01:30 OT: Otras actividades formativas / Evaluación 
+
+Tema 3 - Puesta en práctica 
+
+Duración: 00:30 AC: Actividad del tipo Acciones Cooperativas 
+
+Evaluación por pares (3) de las presentaciones 
+
+OT: Otras técnicas evaluativas Evaluación Progresiva No presencial Duración: 01:00 
+
+9
+
+Tema 2 - Construcción colectiva 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+10 
+
+Tema 2 - Construcción colectiva 
+
+Duración: 01:30 OT: Otras actividades formativas / Evaluación 
+
+Tema 3 - Puesta en práctica 
+
+Duración: 00:30 AC: Actividad del tipo Acciones Cooperativas 
+
+Evaluación por pares (4) de las presentaciones 
+
+OT: Otras técnicas evaluativas Evaluación Progresiva No presencial Duración: 01:00 
+
+11 
+
+Tema 2 - Transporte colaborativo 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+12 
+
+Tema 2 - Transporte colaborativo 
+
+Duración: 01:30 OT: Otras actividades formativas / Evaluación 
+
+Tema 3 - Puesta en práctica 
+
+Duración: 00:30 AC: Actividad del tipo Acciones Cooperativas 
+
+Evaluación por pares (5) de las presentaciones 
+
+OT: Otras técnicas evaluativas Evaluación Progresiva No presencial Duración: 01:00 
+
+13 
+
+Tema 2 - Otros sistemas de inteligencia de enjambre 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+Entrega preliminar del informe final 
+
+TI: Técnica del tipo Trabajo Individual Evaluación Progresiva y Global No presencial Duración: 03:00 
+
+GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 6 de 13 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 14 
+
+Tema 2 - Otros sistemas de inteligencia de enjambre 
+
+Duración: 01:30 OT: Otras actividades formativas / Evaluación 
+
+Tema 3 - Puesta en práctica 
+
+Duración: 00:30 AC: Actividad del tipo Acciones Cooperativas 
+
+Evaluación por pares (6) de las presentaciones 
+
+OT: Otras técnicas evaluativas Evaluación Progresiva No presencial Duración: 01:00 
+
+15 
+
+Tema 2 - Otros sistemas de inteligencia de enjambre 
+
+Duración: 02:00 LM: Actividad del tipo Lección Magistral 
+
+Actividades Transversales 
+
+Duración: 02:00 OT: Otras actividades formativas / Evaluación 
+
+16 
+
+17 
+
+Demostración del sistema de inteligencia de enjambre implementado 
+
+Duración: 00:15 OT: Otras actividades formativas / Evaluación 
+
+Participación en clase 
+
+OT: Otras técnicas evaluativas Evaluación Progresiva Presencial Duración: 00:00 
+
+Discusión de un artículo científico 
+
+PI: Técnica del tipo Presentación Individual Evaluación Progresiva Presencial Duración: 00:00 
+
+Implementación de un sistema de inteligencia de enjambre e informe final 
+
+TI: Técnica del tipo Trabajo Individual Evaluación Progresiva y Global No presencial Duración: 40:00 
+
+Demostración del sistema de inteligencia de enjambre implementado 
+
+PI: Técnica del tipo Presentación Individual Evaluación Progresiva y Global Presencial Duración: 00:00 
+
+Para el cálculo de los valores totales, se estima que por cada crédito ECTS el alumno dedicará dependiendo del plan de estudios, entre 26 y 27 horas de trabajo presencial y no presencial. 
+
+GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 7 de 13 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos 6. Actividades y criterios de evaluación 
+
+6.1. Actividades de evaluación de la asignatura 
+
+6.1.1. Evaluación (progresiva) 
+
+Sem. Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+4 Evaluación por pares (1) de las presentaciones 
+
+OT: Otras técnicas evaluativas 
+
+No Presencial 01:00 3.33% 0 / 10 
+
+6 Evaluación por pares (2) de las presentaciones 
+
+OT: Otras técnicas evaluativas 
+
+No Presencial 01:00 3.33% 0 / 10 
+
+8 Evaluación por pares (3) de las presentaciones 
+
+OT: Otras técnicas evaluativas 
+
+No Presencial 01:00 3.33% 0 / 10 
+
+10 Evaluación por pares (4) de las presentaciones 
+
+OT: Otras técnicas evaluativas 
+
+No Presencial 01:00 3.33% 0 / 10 
+
+12 Evaluación por pares (5) de las presentaciones 
+
+OT: Otras técnicas evaluativas 
+
+No Presencial 01:00 3.34% 0 / 10 
+
+13 Entrega preliminar del informe final 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 03:00 5% 0 / 10 
+
+14 Evaluación por pares (6) de las presentaciones 
+
+OT: Otras técnicas evaluativas 
+
+No Presencial 01:00 3.34% 0 / 10 
+
+17 Participación en clase 
+
+OT: Otras técnicas evaluativas 
+
+Presencial 00:00 5% 0 / 10 
+
+17 Discusión de un artículo científico 
+
+PI: Técnica del tipo Presentación Individual 
+
+Presencial 00:00 15% 0 / 10 
+
+CG11 CB9 CG10 CG18 CGI4 CGI3 
+
+17 
+
+Implementación de un sistema de inteligencia de enjambre e informe final 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 40:00 50% 0 / 10 
+
+CG10 CG11 CB7 CG9 CGI1 CGI2 CGI4 
+
+GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 8 de 13 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE 
+
+E.T.S. de Ingenieros Informaticos CB10 CGI3 
+
+17 
+
+Demostración del sistema de inteligencia de enjambre implementado 
+
+PI: Técnica del tipo Presentación Individual 
+
+Presencial 00:00 5% 0 / 10 
+
+CG18 CB7 CB9 
+
+6.1.2. Prueba evaluación global 
+
+Sem Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+13 Entrega preliminar del informe final 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 03:00 5% 0 / 10 
+
+17 
+
+Implementación de un sistema de inteligencia de enjambre e informe final 
+
+TI: Técnica del tipo Trabajo Individual 
+
+No Presencial 40:00 50% 0 / 10 
+
+CG10 CG11 CB7 CG9 CGI1 CGI2 CGI4 CB10 CGI3 
+
+17 
+
+Demostración del sistema de inteligencia de enjambre implementado 
+
+PI: Técnica del tipo Presentación Individual 
+
+Presencial 00:00 5% 0 / 10 
+
+CG18 CB7 CB9 
+
+6.1.3. Evaluación convocatoria extraordinaria 
+
+Descripción Modalidad Tipo Duración Peso en la nota Nota mínima Competencias evaluadas 
+
+Implementación de un sistema de inteligencia de enjambre e informe final 
+
+TI: Técnica del tipo Trabajo Individual 
+
+Presencial 40:00 50% 0 / 10 
+
+CB7 CG9 CGI1 CGI2 CGI4 CB10 CGI3 CG10 CG11 
+
+Demostración del sistema de inteligencia de enjambre implementado 
+
+PI: Técnica del tipo Presentación Individual 
+
+Presencial 00:15 5% 0 / 10 
+
+CB9 CG18 CB7 
+
+GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 9 de 13 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS    
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos Entrega preliminar del informe final
+> TI: Técnica del tipo Trabajo Individual
+> Presencial 03:00 5% 0 / 10
+
+6.2. Criterios de evaluación 
+
+Todo el trabajo del curso se puede entregar en español o inglés. 
+
+Evaluación continua 
+
+La calificación final en este curso se obtendrá a partir de lo siguiente: 5% - Participación en clase (A lo largo del semestre, especialmente tras la presentación de nuevos temas, los alumnos deben prepararse el/los artículos seleccionados por los profesores con el objetivo de extraer los contenidos más relevantes y aportar su valoración personal sobre los mismos, así como otros aspectos a comentar o discutir. Se espera que todos los alumnos estén preparados para participar en la discusión, por lo que los profesores, u otros alumnos, podrán interpelar directamente a sus compañeros.) 15% - Presentación (Todos los alumnos deben hacer al menos una presentación/discusión de un artículo a lo largo del semestre.) 20% - Evaluaciones por pares (Después las clases de presentación de artículos por parte de los alumnos, se pedirá a los alumnos presentes que elaboren una breve evaluación de las presentaciones realizadas por sus compañeros.) 5%: Entrega preliminar del proyecto final (Hacia el final del semestre, cada alumno debe presentar un breve informe describiendo su trabajo inicial para el proyecto final.) 50% - Proyecto y informe (Al final del curso, cada alumno debe entregar un proyecto que implemente un modelo de inteligencia de enjambre. La entrega del proyecto irá acompañada de un informe sobre la misma.) 5% - Demostración (Cada alumno debe realizar una demo breve del sistema implementado.) 
+
+Evaluación global 
+
+La calificación en caso de evaluación global se obtendrá por los mismos conceptos y porcentajes detallados anteriormente. El alumno debe realizar una práctica que implemente un modelo de inteligencia de enjambre, así como un breve informe sobre la misma. Esta práctica, y el informe correspondiente, deberán entregarse en la fecha prevista para dicha evaluación, en la que además se realizarán una demo breve de la práctica desarrollada por el alumno. No será posible recuperar las siguientes actividades: participación en clase, la presentación y las evaluaciones por 
+
+> GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 10 de 13 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+pares. Uno de los principales objetivos de estas actividades es involucrar a todos los alumnos en una discusión crítica de los temas tratados. Por lo tanto, estas son actividades que no se pueden recuperar una vez finalizado el periodo de las clases y si no se ha realizado ninguna de ellas durante las clases la nota máxima que un alumno puede obtener en solamente evaluación global es un 6. 
+
+Evaluación extraordinaria 
+
+Idéntica a la evaluación global. 
+
+---------------------------------------------------------------------------------------
+
+All course work can be submitted in either English or Spanish. 
+
+Continuous evaluation 
+
+Each student's final grade will be calculated using the following items and weights: 5% - Class participation (Prior to class meetings, assigned readings for that day will be announced and all students are expected to come to class prepared to actively participate in the discussion of those articles.) 15% - In class presentation (During the semester, each student will be expected to make one in class presentation/discussion.) 20% - Peer evaluations of the presentations (In the week following a paper presentation class, each student is required to submit a brief commentary on each of the presentations made by the other students.) 5% - Preliminary submission of the final report (Towards the end of the semester students will be expected to submit a short report outlining their progress with the final project.) 50% - Project implementation and final report ( At the end of the semester each student will be expected to submit the implementation of a simulation of a SI system along with a short report describing this project.) 5% - Demonstration of the implemented system 
+
+Global evaluation 
+
+In this case, the final grade will be obtained using the same items and weights described above. The student has to submit the implementation of a simulation of a SI system along with a short report describing this project, in the date officially assigned for this evaluation. Shortly after the submission of the report, the student must algo give a short demo of the implemented system. 
+
+> GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 11 de 13 PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+> E.T.S. de Ingenieros Informaticos
+
+The following activities can not be recovered: class participation, in class presentation and the peer evaluations of the student presentations. One of the principal goals of these activities is to engage all of the students of the class in a critical discussion of the topics covered by the course. Thus, these activities can not be recovered after the end of class and if none of them were realized in class the maximum grade that a student can receive in only global evaluation is a 6. 
+
+Evaluation in the extraordinary period 
+
+Identical to global evaluation. 
+
+## 7. Recursos didácticos 
+
+7.1. Recursos didácticos de la asignatura 
+
+Nombre Tipo Observaciones 
+
+Bonabeau, E., Dorigo, M. and Theraulaz, G., Swarm Intelligence: From Natural to Artificial Systems, 1999. Bibliografía Camazine, S. et al., Self-organization in Biological Systems, 2001. Bibliografía Floreano, D. and Mattiussi, C., Bio-Inspired Artificial Intelligence: Theories, Methods and Technologies, 2008. Bibliografía Artículos relevantes y otra documentación on-line se proporcionarán a lo largo del curso Otros Asignatura disponible en la plataforma institucional de teleenseñanza de la UPM Recursos web 
+
+> GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 12 de 13
+
+PR/CL/001 PROCESO DE COORDINACIÓN DE LAS ENSEÑANZAS 
+
+> ANX-PR/CL/001-01 GUÍA DE APRENDIZAJE
+
+E.T.S. de Ingenieros Informaticos 8. Otra información 
+
+8.1. Otra información sobre la asignatura 
+
+La asignatura se apoya en la herramienta Moodle para proporcionar información y documentación a los alumnos, así como para la asignación de enunciados y entregas de las prácticas, y la comunicación de las calificaciones de los alumnos. Nota: todos los materiales del curso se proporcionarán en inglés, pero las clases se ofrecerán en una combinación de español e inglés para garantizar los mejores resultados comunicativos. --This course will use Moodle to distribute information and documentation, to announce and submit assignments, and to publish grades. Note: all of the course materials will be provided in English, but lectures will be offered in a mixture of both Spanish and English to guarantee the best communicative results. 
+
+> Powered by TCPDF (www.tcpdf.org)
+
+GA_10AJ_103000366 1S_2024-25 Sistemas Multiagente Master Universitario En Inteligencia Artificial Página 13 de 13

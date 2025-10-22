@@ -1,0 +1,249 @@
+Title: Admisión y matrícula - Máster Universitario en Inteligencia Artificial
+
+URL Source: https://muia.dia.fi.upm.es/es/admision_y_matricula/
+
+Markdown Content:
+Bienvenido el talento
+---------------------
+
+Admisión y Matrícula
+
+Sigue estos pasos para ser estudiante del  
+Máster Universitario en Inteligencia Artificial:
+
+Admisión
+
+Por parte del Máster solicitado
+
+Email de admisión o denegación cuando resuelva tu solicitud  
+Esta situación aparecerá en la Lista de Admitidos
+
+Reserva de plaza
+
+Estudiantes sin estudios previos en la UPM
+
+Formalizar en el plazo indicado, en caso contrario la admisión será cancelada
+
+Admisión
+
+Por parte del Máster solicitado
+
+Email de admisión o denegación cuando resuelva tu solicitud  
+Esta situación aparecerá en la Lista de Admitidos
+
+Reserva de plaza
+
+Estudiantes sin estudios previos en la UPM
+
+Formalizar en el plazo indicado, en caso contrario la admisión será cancelada
+
+Requerimientos académicos  
+Fechas y plazos  
+Legalización de documentos
+
+Email de confirmación y seguimiento a través de [**Hellios**](https://www.upm.es/helios/)  
+Email de acceso al verificar la documentación (para ello puede requerirse correcciones o información adicional)
+
+Admisión
+
+Por parte del Máster solicitado
+
+Email de admisión o denegación cuando resuelva tu solicitud  
+Esta situación aparecerá en la Lista de Admitidos
+
+Reserva de plaza
+
+Estudiantes sin estudios previos en la UPM
+
+Formalizar en el plazo indicado, en caso contrario la admisión será cancelada
+
+*   ###### Requisitos
+    
+*   ###### Acceso
+    
+*   ###### Admisión
+    
+*   ###### Reserva de plaza
+    
+*   ###### Complementos  
+    Formativos
+    
+*   ###### Matriculación
+    
+*   ###### Transferencia y  
+    reconocimiento  
+    de créditos
+    
+*   ###### Normativa de  
+    permanencia
+    
+
+Antes de iniciar el proceso de preinscripción, se recomienda comprobar los requisitos de Acceso y Admisión ya que varían dependiendo del país donde se obtuvo la titulación universitaria, el idioma en que se cursó, el programa máster que se solicita, etc. Es importante revisar atentamente la información relativa a su caso ya que gestionar la documentación necesaria puede implicar tiempo. Toda la información al respecto se puede consultar [aquí](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Admision).
+
+Adicionalmente, se requiere que el título que ostenten los alumnos interesados en cursar el Máster Universitario en Inteligencia Artificial sea del ámbito de la informática:
+
+*   Grado en Ingeniería Informática,
+*   Grado en Matemáticas e Informática,
+*   Grado en Ciencia de Datos e Inteligencia Artificial,
+*   Grado en Ingeniería del Software,
+*   Grado en Sistemas de Información
+*   Grado en Ingeniería de Computadores,
+*   Grado en Tecnologías para la Sociedad de la Información
+*   o equivalente
+
+o en su defecto, una titulación afín:
+
+*   Grado en Matemáticas o Física con especialidad en Computación
+*   Cualquier grado desarrollado en el ámbito de la ingeniería con un perfil tecnológico predominante (biomédica, telecomunicaciones…)
+
+Para aquellas titulaciones anteriores a la implantación del EEES se requerirá la titulación académica de licenciado o ingeniero técnico o superior que equivalga a los títulos mencionados anteriormente.
+
+La **preinscripción** para solicitar el acceso y admisión al Máster Universitario en Inteligencia Artificial (MUIA) se realiza on-line a través de la aplicación [**HELIOS**](https://www.upm.es/helios/). Los alumnos solicitantes entregan, a través de dicha plataforma, toda la información requerida para que se pueda evaluar si se cumplen las condiciones de acceso; y, en su caso, ser admitido como alumno del programa.
+
+Para acceder al MUIA es necesario estar en posesión de un título universitario oficial, con el perfil descrito anteriormente, que faculte para el acceso a enseñanzas de Máster.
+
+En caso de que un solicitante **NO** haya finalizado su titulación de grado, la [Normativa de Admisión de la UPM](https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Alumnos/Informacion/Normativa/2022_23_Normativa%20Admision%20UPM%20CG_05_22_y_01_23.pdf) le permite preinscribirse si se cumplen los siguientes requisitos:
+
+*   **Solo resta el Trabajo Fin de Grado (TFG) y un máximo de 9 créditos** para la obtención del título de grado, lo que deberá acreditarse con un **expediente académico oficial** en el que se constate fehacientemente dicha situación y donde consten los créditos superados y los créditos requeridos por su titulación.
+*   **Estudiantes de la UPM** en **Programas Académicos de Recorrido Sucesivo (PARS)** a los que les reste un **máximo de 30 créditos incluido el TFG**.
+
+Los solicitantes que en el momento de hacer la preinscripción todavía no cumplan este requisito, podrán ser admitidos de manera condicionada, debiendo acreditar su cumplimiento antes del **30 de septiembre**. **En caso contrario quedaría anulada la admisión.**
+
+En ningún caso se podrá obtener el título de Máster sin haber finalizado previamente el título de Grado.
+
+El proceso de admisión adjudica las plazas ofertadas por la universidad entre los solicitantes que han realizado la preinscripción, aportando toda la documentación necesaria.
+
+La Comisión Académica del Máster Universitario de Inteligencia Artificial (CAMIA) es la responsable de la admisión de sus alumnos, publicando las listas de admitidos en tres periodos, según el [calendario](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Calendario) fijado por la UPM.
+
+Los criterios de admisión aplicados por la CAMIA se atienen a lo establecido en el [Sistema de Garantía Interna de Calidad](http://www.fi.upm.es/?id=politicacalidad) de la ETSIINF y la [Normativa de Admisión de la UPM](https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Alumnos/Informacion/Normativa/2022_23_Normativa%20Admision%20UPM%20CG_05_22_y_01_23.pdf), pero tienen en cuenta también los siguientes aspectos:
+
+*   Para los solicitantes de nuevo ingreso con una **titulación que no sea del ámbito de la informática sino afín**, se establecerán los **complementos formativos** que se estimen necesarios (hasta un máximo de 12 ECTS). 
+*   Si el número de solicitantes es muy superior a las plazas ofertadas, se realizará un **proceso de selección** **de alumnos** para su admisión. Los elementos de referencia que considerará la CAMIA en el proceso de selección de los alumnos podrán incluir: la titulación cursada, la universidad de procedencia, el curriculum vitae y/o expediente académico, el conocimiento de idiomas, y que el alumno pueda matricularse a tiempo completo.
+
+Todos aquellos estudiantes que hayan sido admitidos al MUIA, en el primer o segundo periodo de admisión, y **NO** hayan cursado estudios previos en la UPM deben formalizar su reserva de plaza dentro del plazo establecido en el [Calendario](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Calendario) de la UPM. **En caso contrario la admisión se anulará.**El importe de la reserva de plaza es de **250 euros**, que posteriormente se descontarán del importe de la matrícula. No habrá devolución en caso de no formalizar la matrícula.
+
+Pasos para hacer la reserva de plaza:  
+a) Solicitar [cuenta de email UPM](https://cuentas.upm.es/solicitud)b) Acceder a la [plataforma de pago](https://automatricula.upm.es/AC_gestionRecibos/) (_Gestión de Recibos_). El pago se realizará con tarjeta bancaria exclusivamente.
+
+El sello internacional de calidad Euro-Inf, que ostenta el MUIA, requiere que los resultados de aprendizaje establecidos por EQANIE para nivel de máster en Informática sean alcanzados por todos los alumnos que cursen el título. La Comisión Académica del MUIA (CAMIA), con el fin de asegurar que todos los alumnos cuyo perfil de ingreso no sea del ámbito de la Informática sino afín puedan alcanzar dichos objetivos, establecerá para estos alumnos hasta un máximo de 12 ECTS de complementos formativos a cursar mediante asignaturas del Grado en Ingeniería Informática (GII) o del Grado en Matemáticas e Informática (GMI) impartidos en la ETS de Ingenieros Informáticos de la UPM.
+
+**Las asignaturas que se** utilizarán como complementos formativos son:
+
+*   Del ámbito de Programación:
+    
+    *   Programación I
+    
+    *   Sistemas digitales
+    
+    *   Lenguajes formales, autómatas y computabilidad
+*   Del ámbito de Ingeniería del Software, Sistemas de la Información y Sistemas Inteligentes:
+    
+    *   Bases de Datos
+    
+    *   Interacción persona ordenador 
+*   Del ámbito de Ingeniería de Computadores:
+    
+    *   Estructura de Computadores 
+    
+    *   Proyecto de Instalación Informática 
+*   Del ámbito de Sistemas Operativos, Sistemas Distribuidos y Redes:
+    
+    *   Redes de Computadores
+    
+    *   Seguridad de las Tecnologías de la Computación
+
+La asignación de complementos formativos se hace de forma individualizada para cada alumno, para lo que se solicitará a todos los alumnos que proporcionen información sobre las asignaturas de informática que hayan estudiado en sus titulaciones afines y los contenidos de las mismas. Tras analizar esta información, se identificarán los complementos formativos a cursar, con un máximo de 12 ECTS, y las asignaturas que corresponden.
+
+**Propuestas de secuenciación del máster para alumnos con complementos formativos:**
+
+*   [Alumnos con 12 ECTS de complementos formativos](https://dia.fi.upm.es/masteria/sites/default/files/master/Complementos-formativos/12%20ECTS%20CF.pdf)
+*   [Alumnos con 6 ECTS de complementos formativos](https://dia.fi.upm.es/masteria/sites/default/files/master/Complementos-formativos/6%20ECTS%20CF.pdf)
+
+Una vez admitido, el estudiante deberá formalizar on-line la matrícula mediante un **sistema de automatrícula**. en el que el estudiante puede realizar por sí mismo la selección y gestión de su propia matrícula así como la impresión de la/s carta/s de pago. El acceso al sistema, así como amplia información sobre el mismo, está disponible [aquí](https://www.upm.es/UPM/ServiciosTecnologicos/Automatricula).
+
+El periodo ordinario de matriculación en el Máster Universitario en Inteligencia Artificial, así como el periodo de desmatriculación para asignaturas del segundo semestre (Seminarios) y el periodo de ampliación de matrícula (solo para el Trabajo Fin de Máster) se encuentran en el [calendario académico](https://muia.dia.fi.upm.es/es/horarios/)**.**
+
+Más información sobre la matriculación [aquí](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Matricula).
+
+**Notas importantes:**
+
+1.  Todos los estudiantes que deseen cursar estudios oficiales de Máster realizarán **matrícula anual.**
+2.  Se establece un mínimo de 12 créditos a matricular anualmente, salvo aquellos estudiantes a los que les reste para terminar sus estudios un número menor de créditos. No se establece ningún límite al número máximo de créditos a matricular.
+3.  El estudiante podrá optar entre el pago único o el pago fraccionado. En este último caso se establecerán ocho plazos para el pago de la matrícula.
+4.  Los **complementos formativos** deben matricularse en el periodo ordinario (anual) de matrícula.
+5.  Los **seminarios** del máster se matriculan como una única asignatura de 10 ECTS y se cursan en el segundo semestre. También debe matricularse en el periodo ordinario (anual) de matrícula. **NO** se especifican los seminarios concretos que se van a cursar a la hora de matricularse: estos se elegirán a lo largo del primer semestre (la coordinación del Máster se pondrá en contacto con los alumnos).
+6.  El **Trabajo Fin de Máster** (TFM) puede matricularse en el periodo ordinario o de ampliación de matrícula, pudiéndose defender en cualquier momento a lo largo del año o semestre correspondiente.
+7.  En atención a la singularidad del TFM, en caso de que el estudiante no haya podido superarlo en un curso académico, los precios a pagar en el siguiente curso académico serán los correspondientes al 25% del precio en la primera matrícula del Decreto de Precios Públicos, lo que le dará derecho a una única convocatoria de examen sin perjuicio del resto de derechos que se adquieren al matricularse de dicha asignatura. 
+8.  El alumno debe tener en cuenta que si no está matriculado de ninguna asignatura en el MUIA pierde su vinculación oficial con la UPM y no puede optar a becas oficiales y no oficiales, movilidad, etc. Por ello, se recomienda a los alumnos que únicamente tengan pendiente el TFM lo matriculen al principio del semestre correspondiente para mantener la vinculación con la universidad.
+
+Toda la información relativa al reconocimiento y transferencia de créditos está disponible [aquí](https://www.upm.es/Estudiantes/OrdenacionAcademica/Reconocimiento).
+
+La **Comisión Académica del Máster en Inteligencia Artificial (CAMIA)** analizará las peticiones y elaborará los correspondientes informes, que remitirá a la **Comisión de Ordenación Académica** de la Escuela Técnica Superior de Ingenieros Informáticos, la cual a su vez emitirá informe y dará traslado al **Vicerrectorado de Alumnos**. La resolución concediendo o denegando los reconocimientos de créditos será adoptada por el Presidente de la Comisión de Reconocimiento y Transferencia de Créditos conforme a lo establecido en el art. 5 d) de la normativa.
+
+Si un alumno ha agotado tres cursos académicos sin finalizar el máster pero desea continuar sus estudios, debe presentar una solicitud a la Comisión Académica del Máster Universitario en Inteligencia Artificial (CAMIA), que analizará la situación del alumno y elevará su solicitud a la Comisión de Ordenación Académica de la Escuela Técnica Superior de Ingenieros Informáticos.
+
+Se incluye también la exigencia de que el alumno supere al menos 15 ECTS el primer año, y al menos 45 ECTS en los dos primeros años de matriculación.
+
+En todo caso, las normas de permanencia del MUIA se atendrán a la normativa establecida por la Universidad Politécnica de Madrid para el régimen de permanencia en las titulaciones, disponible [aquí](http://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Alumnos/Informacion/Normativa/Permanencia_2011_2012.pdf).
+
+### FAQs sobre admisión en el MUIA
+
+Puedes acceder a más preguntas frecuentes generales o específicas en los siguientes enlaces:
+
+*   ### [Sobre el Máster en general](https://muia.dia.fi.upm.es/#faq_generales)
+    
+    Encontrarás respuestas a las preguntas más comunes que los futuros estudiantes suelen tener sobre el programa en sí, dándote una visión general completa y precisa de lo que puedes esperar al unirte al máster.
+    
+*   ### [Sobre la estructura del Máster](https://muia.dia.fi.upm.es/es/estructura/#faq_estructura)
+    
+    Conocerás todo lo que necesitas sobre la estructura del máster, sus asignaturas y seminarios, el desarrollo del TFM y cómo se realiza la defensa del mismo.
+    
+*   ### Para alumnos de fuera de Madrid
+    
+    Si eres un alumno que proviene de fuera de la ciudad de Madrid, encontrarás información sobre dónde encontrar alojamiento o sobre la documentación para tu visado.
+    
+
+### ¿Existe un número limitado de plazas de nuevo ingreso?
+
+El número de plazas para alumnos de nuevo ingreso será de 60 (dato de 2023-2024) ([web UPM](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Master/Programas?id=10.9&fmt=detail))
+
+### ¿Cuál es el periodo de preinscripción del MUIA?
+
+### ¿Se puede ingresar en el máster en Febrero?
+
+No se permite el ingreso de nuevos alumnos en el MUIA en el segundo semestre (febrero).
+
+### ¿Qué titulación se necesita para poder cursar el MUIA?
+
+Para aquellos estudiantes que quieran comenzar sus estudios en la titulación de Máster Universitario en Inteligencia Artificial, se recomienda el **perfil de ingreso** siguiente. Se requiere que el título que ostente el candidato sea de **Informática o equivalente**:
+
+– Grado en Ingeniería Informática,  
+– Grado en Informática y Matemáticas,  
+– Grado en Ingeniería del Software,  
+– Grado en Sistemas de Información  
+– Grado en Ingeniería de Computadores,  
+– Grado en Ciencia de Datos e Inteligencia Artificial  
+…  
+o afín:
+
+– Cualquier grado desarrollado en el ámbito de la ingeniería con un perfil tecnológico predominante (telecomunicaciones, informática biomédica, etc.)  
+– Grados en Matemáticas o Físicas con especialidad en Computación
+
+Para aquellas titulaciones anteriores a la implantación del EEES se requerirá la titulación académica de licenciado, ingeniero técnico o ingeniero superior que equivalga a los títulos mencionados anteriormente.
+
+### ¿Qué criterios se utilizan para la selección y admisión de alumnos en el MUIA?
+
+Los elementos de referencia que considerará la Comisión Académica del Máster Universitario en Inteligencia Artificial (CAMIA) en el proceso de selección de los alumnos serán: la universidad de procedencia, la titulación cursada, el curriculum vitae y el expediente académico.
+
+### Si necesito una carta de preadmisión para solicitar una beca para cursar el MUIA, ¿a quién debo dirigirme?
+
+Para solicitar una carta de preadmisión en el MUIA, el alumno deberá dirigirse a la Secretaría Administrativa del MUIA ([masteria.dia@fi.upm.es](mailto:masteria.dia@fi.upm.es)). Una vez que se verifique que el alumno cumple los requisitos de acceso y que la documentación aportada en la preinscripción es correcta y completa, se remitirá la carta de preadmisión al alumno vía correo ordinario y electrónico.
+
+Dicha carta no asegura la admisión del alumno, el cual deberá superar un proceso de selección en el caso de que la demanda supere el número de plazas ofertadas de nuevo ingreso en el curso académico correspondiente.
+
+### ¿Qué son los complementos formativos?
+
+Los alumnos de nuevo ingreso con una titulación que no sea de informática sino afín (Ingeniero Técnico Superior en Telecomunicaciones, Ingeniero Técnico en Telecomunicaciones, Ingeniero Técnico Superior en Industriales, Ingeniero Técnico Industrial, Licenciado en Matemáticas, en Físicas o en alguna especialidad en computación) deberán cursar hasta 12 ECTS de complementos formativos.  
+La Comisión Académica del máster establecerá qué asignaturas debe cursar el alumno como complementos formativos dentro de la titulación de Grado en Ingeniería Informática y/o Grado en Matemáticas e Informática, impartida en la ETS de Ingenieros Informáticos de la Universidad Politécnica de Madrid.
+
+Los complementos formativos pueden cursarse al mismo tiempo que las asignaturas del MUIA.
