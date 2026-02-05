@@ -45,7 +45,9 @@ async def run_crawler_agent():
         ALLOWED_GSFS_URLS,
         JINA_FETCH_TIMEOUT,
         CHUNK_OVERLAP,
-        REUSE_IF_SAME_YEAR,
+        REUSE_CRAWL,
+        REUSE_CRAWL_PAST_CURRENT_YEAR,
+        REUSE_TIMESTAMP,
         FILE_START,
         RAW_PATH,
         MANUALLY_CLEANED_PATH,
@@ -57,7 +59,7 @@ async def run_crawler_agent():
         LM_Q_AND_A_CHUNKS_PATH
     )
 
-    # worker function to processing single URL
+    # worker function to process single URL
     # https://modal.com/docs/guide/async#async-functions
     async def process_single_url(url, content):
         local_results = {
@@ -115,7 +117,7 @@ async def run_crawler_agent():
         except Exception as e:
             print(f"run_crawler_agent: error splitting manually cleaned {url}: {e}")
 
-        # clean with lm and chunk
+        # clean with lm
         try:
             print(f"run_crawler_agent: decoder worker is data cleaning: {url}")
             # reset page history, last cleaned_text for new page (for context)
@@ -268,24 +270,70 @@ async def run_crawler_agent():
         tokenizer=lambda text: encoder_tokenizer.encode(text, add_special_tokens=False)
     )
 
-    # check if data of the same year as the current year exists
+    reuse_text_file = ""
+    reuse_q_and_a_file = ""
     current_year = datetime.datetime.now().year
-    existing_text_files = glob.glob(os.path.join(LM_CLEANED_TEXT_CHUNKS_PATH, f"{FILE_START}{current_year}*.jsonl"))
 
-    # if it exists (and we want to reuse data), load it (from the volume)
-    if existing_text_files and REUSE_IF_SAME_YEAR:
-        latest_text_file = max(existing_text_files, key=os.path.getctime)
-        with open(latest_text_file, "r", encoding="utf-8") as f:
-            # load the latest cleaned text chunks
+    if REUSE_CRAWL:
+        reuse_timestamp = str(REUSE_TIMESTAMP).strip() if REUSE_TIMESTAMP else ""
+
+        # if timestamp set:
+        if reuse_timestamp:
+            try:
+                timestamp_year = int(reuse_timestamp[:4])
+            except Exception as e:
+                # if the timestamp has the wrong format, error out and return
+                print(f"run_crawler_agent: invalid REUSE_TIMESTAMP '{reuse_timestamp}'. Valid example: '20260203_161009'")
+                return
+            candidate_text_file = os.path.join(LM_CLEANED_TEXT_CHUNKS_PATH, f"{FILE_START}{reuse_timestamp}.jsonl")
+            candidate_q_and_a_file = os.path.join(LM_Q_AND_A_CHUNKS_PATH, f"{FILE_START}{reuse_timestamp}.jsonl")
+
+            # if the timestamp is correct but the file does not exist, error out and return
+            if not os.path.exists(candidate_text_file):
+                print(f"run_crawler_agent: '{candidate_text_file}' not found. Are you sure it exists on Modal?")
+                return
+
+            # if the files exist and we are fine reusing them even past >1 year, or they are <1 year old, use the files
+            if REUSE_CRAWL_PAST_CURRENT_YEAR or timestamp_year == current_year:
+                reuse_text_file = candidate_text_file
+                if os.path.exists(candidate_q_and_a_file):
+                    reuse_q_and_a_file = candidate_q_and_a_file
+                # unless not all files are available (then error out and return)
+                else:
+                    print(f"run_crawler_agent: '{candidate_q_and_a_file}' not found. Are you sure it exists on Modal?")
+                    return
+                print(f"run_crawler_agent: reusing crawl {os.path.basename(candidate_text_file)}")
+            # else, discard, crawl and use a new version
+            else:
+                print(f"run_crawler_agent: REUSE_TIMESTAMP '{reuse_timestamp}' is outside current year ({current_year}): crawling fresh data")
+
+        # else (we want to reuse but no timestamp is set):
+        else:
+            year_filter = "*" if REUSE_CRAWL_PAST_CURRENT_YEAR else f"{current_year}*"
+            existing_text_files = glob.glob(os.path.join(LM_CLEANED_TEXT_CHUNKS_PATH, f"{FILE_START}{year_filter}.jsonl"))
+            # if no file exists (or no file within the current year), error out and return
+            if not existing_text_files:
+                print(f"run_crawler_agent: REUSE_CRAWL is enabled but no lm_cleaned file was found. Are you sure it exists on Modal?")
+                return
+
+            # if they exist, use them
+            reuse_text_file = max(existing_text_files, key=os.path.getctime)
+            matching_q_and_a_file = os.path.join(LM_Q_AND_A_CHUNKS_PATH, os.path.basename(reuse_text_file))
+            if os.path.exists(matching_q_and_a_file):
+                reuse_q_and_a_file = matching_q_and_a_file
+            # unless not all files are available (then error out and return)
+            else:
+                print(f"run_crawler_agent: '{matching_q_and_a_file}' not found. Are you sure it exists on Modal?")
+                return
+            print(f"run_crawler_agent: reusing latest eligible crawl: {os.path.basename(reuse_text_file)}")
+
+    # if a reusable crawl is available, load it (from the volume)
+    if reuse_text_file:
+        with open(reuse_text_file, "r", encoding="utf-8") as f:
             lm_cleaned_text_chunks = [json.loads(line) for line in f]
-
-            # and the latest q&a pairs
-            q_and_a_files = glob.glob(os.path.join(LM_Q_AND_A_CHUNKS_PATH, f"{FILE_START}{current_year}*.jsonl"))
-            if q_and_a_files:
-                latest_qa_file = max(q_and_a_files, key=os.path.getctime)
-                with open(latest_qa_file, "r", encoding="utf-8") as f:
-                    lm_q_and_a_chunks = [json.loads(line) for line in f]
-
+        with open(reuse_q_and_a_file, "r", encoding="utf-8") as f:
+            lm_q_and_a_chunks = [json.loads(line) for line in f]
+    
     # else, fetch, clean up, and store the data on the volume
     else:
         try:
@@ -527,5 +575,6 @@ async def run_crawler_agent():
             print(f"run_crawler_agent: error saving files: {e}")
 
     # encode
+    print("run_crawler_agent: encode to begin shortly")
 
     return

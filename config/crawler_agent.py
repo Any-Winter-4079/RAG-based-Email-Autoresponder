@@ -41,7 +41,9 @@ CRAWL_HOUR = 9
 CRAWL_DAY = 10
 CRAWL_MONTH = 9
 
-REUSE_IF_SAME_YEAR = True
+REUSE_CRAWL = True
+REUSE_CRAWL_PAST_CURRENT_YEAR = False
+REUSE_TIMESTAMP = "20260203_161009" # reuse this within the same year if REUSE_CRAWL, forever if REUSE_CRAWL_PAST_CURRENT_YEAR
 
 VOLUME_NAME = "muia-rag-volume"
 VOLUME_PATH = "/root/volume"
