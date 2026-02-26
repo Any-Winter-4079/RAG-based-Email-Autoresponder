@@ -21,14 +21,14 @@ from helpers.data import (
     normalize_email_body,
     plot_distribution,
     get_and_print_folder_uri_counts,
-    assign_thread_ids_by_subject_blocks,
+    assign_thread_ids_by_subject_blocks_for_dataset,
     save_dataset,
     get_unquoted_text,
     has_template_in_unquoted
 )
 
 load_dotenv()
-director_email_addresses = transform_env_csv_into_list(os.getenv("DIRECTOR_EMAIL_ADDRESSES", ""))
+my_email_addresses = transform_env_csv_into_list(os.getenv("MY_EMAIL_ADDRESSES", ""))
 
 custom_colors = [
     "#FFAF00", "#F46920", "#F53255", "#F857C1",
@@ -53,13 +53,13 @@ def main():
         for row in rows[1:]:
             author = row[5].lower()
             recipients = row[6].lower()
-            is_outbound = any(email in author for email in director_email_addresses)
-            is_inbound_to_director = any(email in recipients for email in director_email_addresses)
+            is_outbound = any(email in author for email in my_email_addresses)
+            is_inbound_to_director = any(email in recipients for email in my_email_addresses)
             if is_outbound:
                 outbound_count += 1
             if is_inbound_to_director:
                 inbound_to_director_count += 1
-        print(f"\nUsing director emails: {director_email_addresses}")
+        print(f"\nUsing director emails: {my_email_addresses}")
         print("Author distribution:")
         print(f"\tOutbound (author is director): {outbound_count} messages")
         print(f"\tInbound to director (recipient includes director): {inbound_to_director_count} messages")
@@ -248,7 +248,7 @@ def main():
         print("Step 7: grouping emails by thread")
         print("="*50)
 
-        dedup_filtered_rows_with_threads = assign_thread_ids_by_subject_blocks(dedup_filtered_rows)
+        dedup_filtered_rows_with_threads = assign_thread_ids_by_subject_blocks_for_dataset(dedup_filtered_rows)
         thread_ids = {row[-1] for row in dedup_filtered_rows_with_threads[1:]}
         print(f"\nThread count: {len(thread_ids)} (rows: {len(dedup_filtered_rows_with_threads) - 1})")
 
@@ -283,7 +283,7 @@ def main():
         )
         count = sum(
             1 for row in dedup_filtered_rows_with_threads[1:] # skip the header
-            if any(email in row[3] for email in director_email_addresses) # c3author
+            if any(email in row[3] for email in my_email_addresses) # c3author
         )
         plot_distribution(
             ["Authored by director", "Authored by another"],
