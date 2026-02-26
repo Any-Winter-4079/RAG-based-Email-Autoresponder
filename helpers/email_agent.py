@@ -50,11 +50,53 @@ def format_response_quoting_original_body(proposed_reply, original_body):
 
 {quoted_text}"""
 
+############################################
+# Helper 5: Compact email body for decoder #
+############################################
+def compact_email_body_for_decoder(
+        tokenizer,
+        body,
+        max_unquoted_tokens,
+        max_quoted_tokens,
+        missing_body_placeholder,
+        unquoted_fail_placeholder=None,
+        quoted_fail_placeholder=None,
+        log_prefix=""
+        ):
+    from helpers.data import get_unquoted_text
+    from helpers.decoder import truncate_to_tokens
+
+    if not body:
+        body = missing_body_placeholder
+
+    unquoted_body, quoted_body = get_unquoted_text(body, return_quoted=True)
+    if unquoted_body:
+        if max_unquoted_tokens >= 0:
+            unquoted_body = truncate_to_tokens(tokenizer, unquoted_body, max_unquoted_tokens)
+            if unquoted_body is None:
+                if log_prefix:
+                    print(f"{log_prefix} unquoted_body tokenization in truncate_to_tokens failed")
+                if unquoted_fail_placeholder is None:
+                    return None
+                unquoted_body = unquoted_fail_placeholder
+    if quoted_body:
+        if max_quoted_tokens == 0:
+            quoted_body = ""
+        elif max_quoted_tokens > 0:
+            quoted_body = truncate_to_tokens(tokenizer, quoted_body, max_quoted_tokens)
+            if quoted_body is None:
+                if log_prefix:
+                    print(f"{log_prefix} quoted_body tokenization in truncate_to_tokens failed")
+                quoted_body = quoted_fail_placeholder if quoted_fail_placeholder is not None else ""
+
+    return f"{unquoted_body}\n\n{quoted_body}".strip()
+
 ################################
-# Helper 5: Read latest emails #
+# Helper 6: Read latest emails #
 ################################
 def read_latest_emails(
         max_emails,
+        folder,
         last_n_days,
         imap_email,
         password,
@@ -64,6 +106,7 @@ def read_latest_emails(
         blacklisted_emails,
         blacklisted_domains
         ):
+    from config.email_agent import INBOX_FOLDER, SENT_FOLDER
     # https://docs.python.org/3/library/imaplib.html
     import email
     from imaplib import IMAP4_SSL
@@ -76,11 +119,12 @@ def read_latest_emails(
             # log in
             imap.login(imap_email, password)
 
-            # select inbox
-            imap.select("INBOX")
+            # select folder
+            imap.select(folder)
 
             # search for either unseen or seen and unseen emails
-            search_criteria = "(UNSEEN)" if unread_only else "ALL"
+            use_unread_filter = unread_only and folder == INBOX_FOLDER
+            search_criteria = "(UNSEEN)" if use_unread_filter else "ALL"
 
             # get all messages that fit the (above) criteria
             retcode, messages = imap.search(None, search_criteria)
@@ -122,9 +166,11 @@ def read_latest_emails(
                     # get sender
                     raw_from = decode_email_header(message.get("From", ""))
                     _, from_ = parseaddr(raw_from)
+                    # get recipients
+                    to_ = decode_email_header(message.get("To", ""))
 
-                    # ignore if sender is blacklisted
-                    if is_blacklisted(from_, blacklisted_emails, blacklisted_domains):
+                    # ignore if sender is blacklisted (skip for sent folder)
+                    if folder != SENT_FOLDER and is_blacklisted(from_, blacklisted_emails, blacklisted_domains):
                         print(f"read_latest_emails: email '{from_}' is blacklisted: skipping")
                         continue
 
@@ -161,7 +207,9 @@ def read_latest_emails(
 
                     # append email id, sender, date, subject and message body
                     if not ignore_message:
-                        emails_contents.append({"id": email_id, "from": from_, "date": email_date, "subject": subject, "message_body": body})
+                        emails_contents.append({"id": email_id, "from": from_, "to": to_, "date": email_date, "subject": subject, "message_body": body})
+                        if len(emails_contents) == 1:
+                            print(f"read_latest_emails: sample email format: {emails_contents[0]}")
                     ignore_message = False
                     
                     # break upon reaching max_emails
@@ -181,7 +229,7 @@ def read_latest_emails(
         return []
     
 #########################
-# Helper 6: Save drafts #
+# Helper 7: Save drafts #
 #########################
 def save_drafts(
         reply_bodies,
@@ -244,7 +292,7 @@ def save_drafts(
         return False, str(e)
 
 #########################
-# Helper 7: Send emails #
+# Helper 8: Send emails #
 #########################
 def send_emails(
         reply_bodies,
@@ -301,7 +349,7 @@ def send_emails(
         return False, str(e)
 
 #################################
-# Helper 8: Mark emails as read #
+# Helper 9: Mark emails as read #
 #################################
 def mark_emails_as_read(
         email_ids,
