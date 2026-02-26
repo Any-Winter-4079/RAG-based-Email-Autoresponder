@@ -43,11 +43,46 @@ QUESTION_CLOSING_TAG = "</question>"
 ANSWER_OPENING_TAG = "<answer>"
 ANSWER_CLOSING_TAG = "</answer>"
 
+THREAD_OPENING_TAG = "<thread>"
+THREAD_CLOSING_TAG = "</thread>"
+THREAD_MESSAGE_OPENING_TAG = "<message>"
+THREAD_MESSAGE_CLOSING_TAG = "</message>"
+THREAD_FROM_OPENING_TAG = "<from>"
+THREAD_FROM_CLOSING_TAG = "</from>"
+THREAD_TO_OPENING_TAG = "<to>"
+THREAD_TO_CLOSING_TAG = "</to>"
+THREAD_SUBJECT_OPENING_TAG = "<subject>"
+THREAD_SUBJECT_CLOSING_TAG = "</subject>"
+THREAD_BODY_OPENING_TAG = "<body>"
+THREAD_BODY_CLOSING_TAG = "</body>"
+
+THREAD_GROUPER_MAX_EMAILS = 20
+EMAIL_WRITER_PROFILE = "email_writer"
+THREAD_GROUPER_PROFILE = "thread_grouper"
+DATA_CLEANER_PROFILE = "data_cleaner"
+
+DIRECTOR_EMAIL = "masteria.dia@fi.upm.es"
+DIRECTOR_NAME = "Damiano Zanardini"
+DEPARTMENT_PHONE = "+34 910672909"
+
+# anonymized
+EXAMPLE_STUDENT_NAME = "Marco Conti"
+EXAMPLE_STUDENT_EMAIL = "marco.conti@uxg.edu"
+EXAMPLE_STAFF_NAME = "Laura Medina"
+EXAMPLE_STAFF_EMAIL = "laura.medina@fi.upm.es"
+EXAMPLE_COLLEAGUE_NAME = "Alex Perez"
+EXAMPLE_COLLEAGUE_EMAIL = "alex.perez@fi.upm.es"
+EXAMPLE_STUDENT_REP_NAME = "Javier Ruiz"
+EXAMPLE_STUDENT_REP_EMAIL = "javier.ruiz@alumnos.upm.es"
+EXAMPLE_DIRECTOR_PEER_NAME = "Elena Torres"
+EXAMPLE_DIRECTOR_PEER_EMAIL = "elena.torres@fi.upm.es"
+EXAMPLE_PROF1_EMAIL = "carmen.santos@fi.upm.es"
+EXAMPLE_PROF2_EMAIL = "luis.martin@fi.upm.es"
+
 MODEL_PROFILES = {
-    "email_writer": {
+    EMAIL_WRITER_PROFILE: {
         "model_path": "Qwen/Qwen3-8B-FP8",
         "is_vision_model": False,
-        "current_turn_image_in_bytes": None,
         "system_prompt": "You are a concise, professional corporate email assistant.",
         "prompt_template": (
             "You are taking the role of {my_name}, {my_description}. You are reading an email sent to you.\n"
@@ -58,11 +93,19 @@ MODEL_PROFILES = {
             f"2. If you lack context or cannot reply, output {NO_MESSAGE_OPENING_TAG}I cannot reply because...{NO_MESSAGE_CLOSING_TAG}.\n"
             "3. Do not include subject lines or greetings/signatures outside the tags.\n\n"
             "### SAMPLE RESPONSE:\n"
-            "Sender: john.doe@example.com\n"
-            "Body: Can we meet at 3 PM?\n"
             "Context from knowledge base:\n"
             "---\n"
             "Calendar available at 3 PM.\n"
+            "---\n"
+            "Conversation so far (oldest to newest):\n"
+            "---\n"
+            "(no prior messages)\n"
+            "---\n"
+            "Current email to answer:\n"
+            "---\n"
+            "Subject: Meeting request\n"
+            "From: john.doe@example.com\n"
+            "Body: Can we meet at 3 PM?\n"
             "---\n"
             "Output:\n"
             f"{MESSAGE_OPENING_TAG}\n"
@@ -72,19 +115,26 @@ MODEL_PROFILES = {
             "{my_name}\n"
             f"{MESSAGE_CLOSING_TAG}\n\n"
             "### ACTUAL TASK:\n"
-            "Sender:\n"
-            "---\n"
-            "{sender}\n\n"
-            "Original Email:\n"
-            "---\n"
-            "{body}\n\n"
             "Context from knowledge base:\n"
             "---\n"
             "{rag_context}\n"
             "---\n"
+            "Conversation so far (oldest to newest):\n"
+            "---\n"
+            "{thread_context}\n"
+            "---\n"
+            "Current email to answer:\n"
+            "---\n"
+            "Subject:\n"
+            "{subject}\n"
+            "From:\n"
+            "{sender}\n"
+            "Body:\n"
+            "{body}\n"
+            "---\n"
             "Output:\n"
         ),
-        "max_new_tokens": 8192,
+        "max_context_tokens": 32768,
         "temperature": 0.7,
         "top_p": 0.8,
         "top_k": 20,
@@ -92,10 +142,137 @@ MODEL_PROFILES = {
         "enable_thinking": True,
         "return_prompt_text": True
     },
-    "data_cleaner": {
+    THREAD_GROUPER_PROFILE: {
         "model_path": "Qwen/Qwen3-8B-FP8",
         "is_vision_model": False,
-        "current_turn_image_in_bytes": None,
+        "system_prompt": (
+            "You are an expert email thread reconstruction assistant."
+        ),
+        "max_context_tokens": 32768,
+        "production_task_description_start": (
+            "You have received {inbox_count} inbox emails and {sent_count} sent emails "
+            "from {my_name} ({my_description}) INBOX and SENT folders. "
+            "Your task is to group all emails into threads and remove quoted text carefully. "
+            f"All email addresses that belong to {{my_name}} are: {{my_email_addresses}}. "
+            "Each email includes: 'id', 'threadID', 'from', 'to', 'date', 'subject', 'body'. "
+            "'id' is the email server id and is not the thread id. "
+            "'threadID' is not part of the original communication (and must not be written in the output XML). "
+            "It is a weak hint produced by an automated subject-based grouping and can be wrong. "
+            "Your task is to output XML, reconstructing the threads and removing quoted text when it is already part of another email."
+        ),
+        "production_example": (
+            "Input emails:\n"
+            "Inbox:\n"
+            f"{{'id': b'440', 'threadID': 1, 'from': '{EXAMPLE_STUDENT_NAME} <{EXAMPLE_STUDENT_EMAIL}> undefined', 'to': '{EXAMPLE_PROF1_EMAIL}, \"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined, {EXAMPLE_PROF2_EMAIL} undefined undefined undefined', 'date': datetime.datetime(2020, 5, 4, 9, 8, 59, tzinfo=datetime.timezone.utc), 'subject': 'Erasmus', 'body': \"Good morning. I am a student from Italy currently studying at my university. I would like to join the Erasmus program at Universidad Politécnica de Madrid. Would it be possible to take courses from both the MSc in Artificial Intelligence and the Máster Universitario en Automática y Robótica, or should I choose just one? Thank you\"}}\n"
+            f"{{'id': b'448', 'threadID': 3, 'from': '{EXAMPLE_STAFF_NAME} <{EXAMPLE_STAFF_EMAIL}>', 'to': '\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined', 'date': datetime.datetime(2020, 6, 11, 13, 32, 15, tzinfo=datetime.timezone.utc), 'subject': 'Fwd: Fichero egresados', 'body': \"Hola, {DIRECTOR_NAME}. Te reenvío aquí lo último que hice yo. Es de mayo de 2020. No sé si {EXAMPLE_COLLEAGUE_NAME} hizo alguno posterior. ¿Te sirve? {EXAMPLE_STAFF_NAME}\"}}\n"
+            f"{{'id': b'432', 'threadID': 4, 'from': '{EXAMPLE_STUDENT_REP_NAME} <{EXAMPLE_STUDENT_REP_EMAIL}>', 'to': '\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined', 'date': datetime.datetime(2020, 6, 12, 8, 55, 27, tzinfo=datetime.timezone.utc), 'subject': 'Orla/graduación de alumnos del máster en IA', 'body': \"Hola {DIRECTOR_NAME}, como delegado del máster en Inteligencia Artificial, me gustaría trasladarte la consulta de varios alumnos acerca de si se va a hacer orla / acto de graduación para los estudiantes del máster, o por si el contrario corre bajo nuestra cuenta hacerlo. ¡Un saludo! {EXAMPLE_STUDENT_REP_NAME} Máster Universitario en Inteligencia Artificial\"}}\n"
+            "Sent:\n"
+            f"{{'id': b'441', 'threadID': 1, 'from': '\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined', 'to': '{EXAMPLE_STUDENT_NAME} <{EXAMPLE_STUDENT_EMAIL}> undefined', 'date': datetime.datetime(2020, 5, 4, 11, 16, 0, tzinfo=datetime.timezone.utc), 'subject': 'Erasmus', 'body': \"I don't know about the other Degree; it is probably taught in another School, so that it can be tricky for you to attend both. Besides, I'm not sure you can follow courses from different School at the same time during your Erasmus. Please ask orex@fi.upm.es: they are in charge of the Erasmus Programme at Escuela Técnica Superior de Ingenieros Informáticos. regards -- {DIRECTOR_NAME} Coordinador del Máster Universitario en Inteligencia Artificial Universidad Politécnica de Madrid Escuela Técnica Superior de Ingenieros Informáticos Campus de Montegancedo S/N, 28660, Boadilla del Monte, Madrid SPAIN Departamento de Inteligencia Artificial {DEPARTMENT_PHONE} {DIRECTOR_EMAIL}\"}}\n"
+            f"{{'id': b'3278', 'threadID': 2, 'from': '\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined', 'to': '{EXAMPLE_STAFF_EMAIL}', 'date': datetime.datetime(2020, 6, 10, 10, 39, 0, tzinfo=datetime.timezone.utc), 'subject': 'Estudio de egresados', 'body': \"Hola {EXAMPLE_STAFF_NAME}. Estoy con el informe de titulación. Cuál es el último informe de egresados que tenemos? Hay unos cuantos datos que estaría bien actualizar, como los ex-alumnos que están en el extranjero, los que están realizando un doctorado, etc. Además, dice aquí: El último estudio sobre empleabilidad realizado por el Observatorio Académico sobre titulaciones de postgrado de la ETSIINF es una encuesta fue realizada en el curso 2019/20. Tenemos uno más reciente? Gracias! -- {DIRECTOR_NAME} Coordinador del Máster Universitario en Inteligencia Artificial Universidad Politécnica de Madrid Escuela Técnica Superior de Ingenieros Informáticos Campus de Montegancedo S/N, 28660, Boadilla del Monte, Madrid SPAIN Departamento de Inteligencia Artificial {DEPARTMENT_PHONE} {DIRECTOR_EMAIL}\"}}\n"
+            f"{{'id': b'3279', 'threadID': 3, 'from': '\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined', 'to': '{EXAMPLE_STAFF_EMAIL}', 'date': datetime.datetime(2020, 6, 11, 15, 0, 0, tzinfo=datetime.timezone.utc), 'subject': 'Fwd: Fichero egresados', 'body': \"Gracias {EXAMPLE_STAFF_NAME}. A ver lo que puedo sacar de aquí. Un saludo -- {DIRECTOR_NAME} Coordinador del Máster Universitario en Inteligencia Artificial Universidad Politécnica de Madrid Escuela Técnica Superior de Ingenieros Informáticos Campus de Montegancedo S/N, 28660, Boadilla del Monte, Madrid SPAIN Departamento de Inteligencia Artificial {DEPARTMENT_PHONE} {DIRECTOR_EMAIL}\"}}\n"
+            f"{{'id': b'433', 'threadID': 4, 'from': '\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined', 'to': '{EXAMPLE_DIRECTOR_PEER_EMAIL}', 'date': datetime.datetime(2020, 6, 12, 9, 10, 0, tzinfo=datetime.timezone.utc), 'subject': 'Fwd: Orla/graduación de alumnos del máster en IA', 'body': \"Hola {EXAMPLE_DIRECTOR_PEER_NAME}. Este mensaje me pilla tan de sorpresa que no sé ni cómo empezar a contestar. No se supone que acabamos de estar en el Wanda? A ver si tú lo sabes interpretar...\"}}\n"
+            "Output:\n"
+            f"{THREAD_OPENING_TAG}\n"
+            f"{THREAD_MESSAGE_OPENING_TAG}\n"
+            f"{THREAD_FROM_OPENING_TAG}{EXAMPLE_STUDENT_NAME} <{EXAMPLE_STUDENT_EMAIL}> undefined{THREAD_FROM_CLOSING_TAG}\n"
+            f"{THREAD_TO_OPENING_TAG}{EXAMPLE_PROF1_EMAIL}, \"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined, {EXAMPLE_PROF2_EMAIL} undefined undefined undefined{THREAD_TO_CLOSING_TAG}\n"
+            f"{THREAD_SUBJECT_OPENING_TAG}Erasmus{THREAD_SUBJECT_CLOSING_TAG}\n"
+            f"{THREAD_BODY_OPENING_TAG}Good morning. I am a student from Italy currently studying at my university. I would like to join the Erasmus program at Universidad Politécnica de Madrid. Would it be possible to take courses from both the MSc in Artificial Intelligence and the Máster Universitario en Automática y Robótica, or should I choose just one? Thank you{THREAD_BODY_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_OPENING_TAG}\n"
+            f"{THREAD_FROM_OPENING_TAG}\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined{THREAD_FROM_CLOSING_TAG}\n"
+            f"{THREAD_TO_OPENING_TAG}{EXAMPLE_STUDENT_NAME} <{EXAMPLE_STUDENT_EMAIL}> undefined{THREAD_TO_CLOSING_TAG}\n"
+            f"{THREAD_SUBJECT_OPENING_TAG}Erasmus{THREAD_SUBJECT_CLOSING_TAG}\n"
+            f"{THREAD_BODY_OPENING_TAG}I don't know about the other Degree; it is probably taught in another School, so that it can be tricky for you to attend both. Besides, I'm not sure you can follow courses from different School at the same time during your Erasmus. Please ask orex@fi.upm.es: they are in charge of the Erasmus Programme at Escuela Técnica Superior de Ingenieros Informáticos. regards -- {DIRECTOR_NAME} Coordinador del Máster Universitario en Inteligencia Artificial Universidad Politécnica de Madrid Escuela Técnica Superior de Ingenieros Informáticos Campus de Montegancedo S/N, 28660, Boadilla del Monte, Madrid SPAIN Departamento de Inteligencia Artificial {DEPARTMENT_PHONE} {DIRECTOR_EMAIL}{THREAD_BODY_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_CLOSING_TAG}\n"
+            f"{THREAD_CLOSING_TAG}\n"
+            f"{THREAD_OPENING_TAG}\n"
+            f"{THREAD_MESSAGE_OPENING_TAG}\n"
+            f"{THREAD_FROM_OPENING_TAG}\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined{THREAD_FROM_CLOSING_TAG}\n"
+            f"{THREAD_TO_OPENING_TAG}{EXAMPLE_STAFF_EMAIL}{THREAD_TO_CLOSING_TAG}\n"
+            f"{THREAD_SUBJECT_OPENING_TAG}Estudio de egresados{THREAD_SUBJECT_CLOSING_TAG}\n"
+            f"{THREAD_BODY_OPENING_TAG}Hola {EXAMPLE_STAFF_NAME}. Estoy con el informe de titulación. Cuál es el último informe de egresados que tenemos? Hay unos cuantos datos que estaría bien actualizar, como los ex-alumnos que están en el extranjero, los que están realizando un doctorado, etc. Además, dice aquí: El último estudio sobre empleabilidad realizado por el Observatorio Académico sobre titulaciones de postgrado de la ETSIINF es una encuesta fue realizada en el curso 2019/20. Tenemos uno más reciente? Gracias! -- {DIRECTOR_NAME} Coordinador del Máster Universitario en Inteligencia Artificial Universidad Politécnica de Madrid Escuela Técnica Superior de Ingenieros Informáticos Campus de Montegancedo S/N, 28660, Boadilla del Monte, Madrid SPAIN Departamento de Inteligencia Artificial {DEPARTMENT_PHONE} {DIRECTOR_EMAIL}{THREAD_BODY_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_OPENING_TAG}\n"
+            f"{THREAD_FROM_OPENING_TAG}{EXAMPLE_STAFF_NAME} <{EXAMPLE_STAFF_EMAIL}>{THREAD_FROM_CLOSING_TAG}\n"
+            f"{THREAD_TO_OPENING_TAG}\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined{THREAD_TO_CLOSING_TAG}\n"
+            f"{THREAD_SUBJECT_OPENING_TAG}Fwd: Fichero egresados{THREAD_SUBJECT_CLOSING_TAG}\n"
+            f"{THREAD_BODY_OPENING_TAG}Hola, {DIRECTOR_NAME}. Te reenvío aquí lo último que hice yo. Es de mayo de 2020. No sé si {EXAMPLE_COLLEAGUE_NAME} hizo alguno posterior. ¿Te sirve? {EXAMPLE_STAFF_NAME}{THREAD_BODY_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_OPENING_TAG}\n"
+            f"{THREAD_FROM_OPENING_TAG}\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined{THREAD_FROM_CLOSING_TAG}\n"
+            f"{THREAD_TO_OPENING_TAG}{EXAMPLE_STAFF_EMAIL}{THREAD_TO_CLOSING_TAG}\n"
+            f"{THREAD_SUBJECT_OPENING_TAG}Fwd: Fichero egresados{THREAD_SUBJECT_CLOSING_TAG}\n"
+            f"{THREAD_BODY_OPENING_TAG}Gracias {EXAMPLE_STAFF_NAME}. A ver lo que puedo sacar de aquí. Un saludo -- {DIRECTOR_NAME} Coordinador del Máster Universitario en Inteligencia Artificial Universidad Politécnica de Madrid Escuela Técnica Superior de Ingenieros Informáticos Campus de Montegancedo S/N, 28660, Boadilla del Monte, Madrid SPAIN Departamento de Inteligencia Artificial {DEPARTMENT_PHONE} {DIRECTOR_EMAIL}{THREAD_BODY_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_CLOSING_TAG}\n"
+            f"{THREAD_CLOSING_TAG}\n"
+            f"{THREAD_OPENING_TAG}\n"
+            f"{THREAD_MESSAGE_OPENING_TAG}\n"
+            f"{THREAD_FROM_OPENING_TAG}{EXAMPLE_STUDENT_REP_NAME} <{EXAMPLE_STUDENT_REP_EMAIL}>{THREAD_FROM_CLOSING_TAG}\n"
+            f"{THREAD_TO_OPENING_TAG}\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined{THREAD_TO_CLOSING_TAG}\n"
+            f"{THREAD_SUBJECT_OPENING_TAG}Orla/graduación de alumnos del máster en IA{THREAD_SUBJECT_CLOSING_TAG}\n"
+            f"{THREAD_BODY_OPENING_TAG}Hola {DIRECTOR_NAME}, como delegado del máster en Inteligencia Artificial, me gustaría trasladarte la consulta de varios alumnos acerca de si se va a hacer orla / acto de graduación para los estudiantes del máster, o por si el contrario corre bajo nuestra cuenta hacerlo. ¡Un saludo! {EXAMPLE_STUDENT_REP_NAME} Máster Universitario en Inteligencia Artificial{THREAD_BODY_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_OPENING_TAG}\n"
+            f"{THREAD_FROM_OPENING_TAG}\"[MUIA] {DIRECTOR_NAME}\" <{DIRECTOR_EMAIL}> undefined{THREAD_FROM_CLOSING_TAG}\n"
+            f"{THREAD_TO_OPENING_TAG}{EXAMPLE_DIRECTOR_PEER_EMAIL}{THREAD_TO_CLOSING_TAG}\n"
+            f"{THREAD_SUBJECT_OPENING_TAG}Fwd: Orla/graduación de alumnos del máster en IA{THREAD_SUBJECT_CLOSING_TAG}\n"
+            f"{THREAD_BODY_OPENING_TAG}Hola {EXAMPLE_DIRECTOR_PEER_NAME}. Este mensaje me pilla tan de sorpresa que no sé ni cómo empezar a contestar. No se supone que acabamos de estar en el Wanda? A ver si tú lo sabes interpretar...{THREAD_BODY_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_CLOSING_TAG}\n"
+            f"{THREAD_CLOSING_TAG}"
+        ),
+        "prompt_template": (
+            "{task_description_start}\n\n"
+            "### RULES:\n"
+            "1. Preserve chronological order within each thread.\n"
+            "2. Remove quoted text only when the quoted content appears elsewhere in the input as the same text "
+            "with fewer or no quote markers. Keep the least-quoted instance.\n"
+            "   - Example: if B contains \"> A\" and A appears elsewhere unquoted, remove \"> A\" from B.\n"
+            "   - Example: if B contains only \"> A\" and A does not appear elsewhere, keep it.\n"
+            "   - Example: if B has \"> A\" and C has \"> B\\n> A\", keep \"> A\" in B and remove the quoted part from C.\n"
+            "   Reply headers such as 'En ... escribió:', 'On ... wrote:', 'De/Enviado/Para/Asunto' are a few indicators of quoted blocks.\n"
+            f"3. Keep only the cleaned body inside {THREAD_BODY_OPENING_TAG}...{THREAD_BODY_CLOSING_TAG} tags.\n"
+            "4. Do not hallucinate or add new messages.\n"
+            "5. Output ONLY the thread XML, nothing else.\n\n"
+            "### OUTPUT FORMAT:\n"
+            f"{THREAD_OPENING_TAG}\n"
+            f"{THREAD_MESSAGE_OPENING_TAG}\n"
+            f"{THREAD_FROM_OPENING_TAG}...{THREAD_FROM_CLOSING_TAG}\n"
+            f"{THREAD_TO_OPENING_TAG}...{THREAD_TO_CLOSING_TAG}\n"
+            f"{THREAD_SUBJECT_OPENING_TAG}...{THREAD_SUBJECT_CLOSING_TAG}\n"
+            f"{THREAD_BODY_OPENING_TAG}...{THREAD_BODY_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_CLOSING_TAG}\n"
+            f"{THREAD_MESSAGE_OPENING_TAG}\n"
+            "...\n"
+            f"{THREAD_MESSAGE_CLOSING_TAG}\n"
+            f"{THREAD_CLOSING_TAG}\n"
+            f"{THREAD_OPENING_TAG}\n"
+            "...\n"
+            f"{THREAD_CLOSING_TAG}\n\n"
+            "### SAMPLE RESPONSE:\n"
+            "---\n"
+            "{example_message}\n"
+            "---\n\n"
+            "### ACTUAL TASK:\n"
+            "---\n"
+            "Input emails:\n"
+            "Inbox:\n"
+            "{inbox_emails}\n"
+            "Sent:\n"
+            "{sent_emails}\n"
+            "Output:\n"
+        ),
+        "max_new_tokens": 8192,
+        "temperature": 0.3,
+        "top_p": 0.8,
+        "top_k": 20,
+        "use_flash_attention_2": USE_FLASH_ATTENTION_IMAGE,
+        "enable_thinking": True,
+        "return_prompt_text": True
+    },
+    DATA_CLEANER_PROFILE: {
+        "model_path": "Qwen/Qwen3-8B-FP8",
+        "is_vision_model": False,
         "system_prompt": (
             "You are an expert Knowledge Curator for a RAG system. Your task is to transform the following raw text into a high-quality, English-language knowledge base entry.\n\n"
             "### CONTEXTUAL INFORMATION & RULES:\n"
