@@ -1,14 +1,12 @@
 import modal
-from config.general import modal_secret
+from config.general import modal_secret, rag_volume, VOLUME_PATH
 from config.crawler_agent import (
     image,
     MODAL_TIMEOUT,
     CRAWL_MINUTES,
     CRAWL_HOUR,
     CRAWL_DAY,
-    CRAWL_MONTH,
-    VOLUME_PATH,
-    rag_volume
+    CRAWL_MONTH
 )
 
 # Modal
@@ -33,8 +31,8 @@ async def run_crawler_agent():
     from helpers.crawler_agent import crawl
     from helpers.decoder import count_tokens
     from llama_index.core.node_parser import SentenceSplitter
-    from config.decoder import MODEL_PROFILES as DECODER_MODEL_PROFILES
-    from config.encoder import EMBEDDING_MODEL, MODEL_PROFILES as ENCODER_MODEL_PROFILES
+    from config.decoder import MODEL_PROFILES as DECODER_MODEL_PROFILES, DATA_CLEANER_PROFILE, EMAIL_WRITER_PROFILE
+    from config.encoder import ENCODERS
     from config.crawler_agent import (
         START_URL,
         ADDITIONAL_URLS,
@@ -48,6 +46,7 @@ async def run_crawler_agent():
         REUSE_CRAWL,
         REUSE_CRAWL_PAST_CURRENT_YEAR,
         REUSE_TIMESTAMP,
+        RECREATE_QDRANT_COLLECTIONS,
         FILE_START,
         RAW_PATH,
         MANUALLY_CLEANED_PATH,
@@ -56,7 +55,12 @@ async def run_crawler_agent():
         LM_CLEANED_TEXT_CHUNKS_PATH,
         LM_ABSTRACT_CHUNKS_PATH,
         LM_SUMMARY_CHUNKS_PATH,
-        LM_Q_AND_A_CHUNKS_PATH
+        LM_Q_AND_A_CHUNKS_PATH,
+        LM_CLEANED_TEXT_SUBCHUNKS_PATH,
+        LM_SUMMARY_SUBCHUNKS_PATH,
+        LM_Q_AND_A_VALID_CHUNKS_PATH,
+        LM_Q_AND_A_FOR_Q_ONLY_VALID_CHUNKS_PATH,
+        ENCODE_VARIANTS
     )
 
     # worker function to process single URL
@@ -132,7 +136,7 @@ async def run_crawler_agent():
                 current_date_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") # e.g., "2026-02-02 09:00:00"
 
                 # select decoder configuration for data cleaning
-                model_config = DECODER_MODEL_PROFILES["data_cleaner"].copy()
+                model_config = DECODER_MODEL_PROFILES[DATA_CLEANER_PROFILE].copy()
 
                 # pop (and save) "prompt_template" (run_qwen3_lm_or_vlm would not expect it as model_config)
                 prompt_template = model_config.pop("prompt_template")
@@ -171,14 +175,15 @@ async def run_crawler_agent():
                     lm_cleaned_content, prompt_text = await run_qwen3_lm_or_vlm.remote.aio(
                         context=[],
                         current_turn_input_text=prompt,
+                        current_turn_image_in_bytes=None,
                         **model_config,
-                        is_email_writer=False
+                        decoder_profile=DATA_CLEANER_PROFILE
                     )
                 except Exception as e:
                     print(f"run_crawler_agent: decoder generation failed: {e}")
                     continue
 
-                if DECODER_MODEL_PROFILES["data_cleaner"]["return_prompt_text"]:
+                if DECODER_MODEL_PROFILES[DATA_CLEANER_PROFILE]["return_prompt_text"]:
                     print(f"{prompt_text}\n\n")
 
                 if lm_cleaned_content and len(lm_cleaned_content) == 5:
@@ -258,21 +263,80 @@ async def run_crawler_agent():
         
         return local_results
 
-    # load encoder tokenizer to count page tokens (for embedding)
-    encoder_path = ENCODER_MODEL_PROFILES[EMBEDDING_MODEL]["model_path"]
+    # load encoder tokenizer of the model with the smallest max recommended input size
+    encoder_sizes = {
+        name: config["max_recommended_input_size"]
+        for name, config in ENCODERS.items()
+        if "max_recommended_input_size" in config
+    }
+    if not encoder_sizes:
+        print("run_crawler_agent: no encoder max_recommended_input_size found")
+        return
+    chunking_encoder = min(encoder_sizes, key=encoder_sizes.get)
+    encoder_path = ENCODERS[chunking_encoder]["model_name"]
+    decoder_path = DECODER_MODEL_PROFILES[EMAIL_WRITER_PROFILE]["model_path"]
     encoder_tokenizer = AutoTokenizer.from_pretrained(encoder_path, trust_remote_code=True)
+    decoder_tokenizer = AutoTokenizer.from_pretrained(decoder_path, trust_remote_code=True)
 
-    # create text splitter using the encoder tokenizer and recommended max size
-    embedding_chunk_size = ENCODER_MODEL_PROFILES[EMBEDDING_MODEL]["max_recommended_input_size"] 
+    embedding_chunk_size = encoder_sizes[chunking_encoder]
     embedding_splitter = SentenceSplitter(
         chunk_size=embedding_chunk_size,
         chunk_overlap=CHUNK_OVERLAP,
         tokenizer=lambda text: encoder_tokenizer.encode(text, add_special_tokens=False)
     )
 
-    reuse_text_file = ""
-    reuse_q_and_a_file = ""
+    # save chunk-level data helper
+    def save_chunks(chunk_list, json_path, txt_path, label):
+        with open(json_path, "w", encoding="utf-8") as f_json, open(txt_path, "w", encoding="utf-8") as f_txt:
+            for i, chunk in enumerate(chunk_list):
+                separator = "=" * 150
+                f_json.write(json.dumps(chunk) + "\n")
+
+                if "text" in chunk:
+                    content = chunk["text"]
+                    token_info = f"Tokens {decoder_path}: {chunk['decoder_token_count']:,} | Tokens {encoder_path}: {chunk['encoder_token_count']:,}"
+                elif "pairs" in chunk:
+                    content = "\n".join([f"Q: {pair['question']}\nA: {pair['answer']}" for pair in chunk["pairs"]])
+                    max_decoder_tokens = max((pair["decoder_token_count"] for pair in chunk["pairs"]))
+                    max_encoder_tokens = max((pair["encoder_token_count"] for pair in chunk["pairs"]))
+                    token_info = f"Pairs: {len(chunk['pairs'])} | Tokens (max) {decoder_path}: {max_decoder_tokens:,} | Tokens (max) {encoder_path}: {max_encoder_tokens:,}"
+                else:
+                    content = ""
+                    token_info = ""
+
+                if "subchunk_index" in chunk:
+                    chunk_label = f"{chunk['chunk_index']}.{chunk['subchunk_index']}"
+                else:
+                    chunk_label = str(i + 1)
+                header = f"{label} CHUNK {chunk_label} [Source: {chunk['url']}] | {token_info}"
+                f_txt.write(f"\n{separator}\n{header}\n{separator}\n{content}\n")
+
+    variant_file_paths = {}
+    variants_to_encode = {}
+    encode_timestamp = None
     current_year = datetime.datetime.now().year
+    if not ENCODE_VARIANTS:
+        print("run_crawler_agent: ENCODE_VARIANTS is empty")
+        return
+    variant_paths = {}
+    for variant in ENCODE_VARIANTS.keys():
+        if variant == "raw_chunks":
+            variant_paths[variant] = RAW_CHUNKS_PATH
+        elif variant == "manually_cleaned_chunks":
+            variant_paths[variant] = MANUALLY_CLEANED_CHUNKS_PATH
+        elif variant == "lm_cleaned_text_chunks":
+            variant_paths[variant] = LM_CLEANED_TEXT_CHUNKS_PATH
+        elif variant == "lm_abstract_chunks":
+            variant_paths[variant] = LM_ABSTRACT_CHUNKS_PATH
+        elif variant == "lm_summary_chunks":
+            variant_paths[variant] = LM_SUMMARY_CHUNKS_PATH
+        elif variant == "lm_q_and_a_chunks":
+            variant_paths[variant] = LM_Q_AND_A_CHUNKS_PATH
+        elif variant == "lm_q_and_a_for_q_only_chunks":
+            variant_paths[variant] = LM_Q_AND_A_CHUNKS_PATH
+        else:
+            print(f"run_crawler_agent: invalid ENCODE_VARIANTS entry '{variant}'")
+            return
 
     if REUSE_CRAWL:
         reuse_timestamp = str(REUSE_TIMESTAMP).strip() if REUSE_TIMESTAMP else ""
@@ -285,24 +349,20 @@ async def run_crawler_agent():
                 # if the timestamp has the wrong format, error out and return
                 print(f"run_crawler_agent: invalid REUSE_TIMESTAMP '{reuse_timestamp}'. Valid example: '20260203_161009'")
                 return
-            candidate_text_file = os.path.join(LM_CLEANED_TEXT_CHUNKS_PATH, f"{FILE_START}{reuse_timestamp}.jsonl")
-            candidate_q_and_a_file = os.path.join(LM_Q_AND_A_CHUNKS_PATH, f"{FILE_START}{reuse_timestamp}.jsonl")
-
-            # if the timestamp is correct but the file does not exist, error out and return
-            if not os.path.exists(candidate_text_file):
-                print(f"run_crawler_agent: '{candidate_text_file}' not found. Are you sure it exists on Modal?")
-                return
-
             # if the files exist and we are fine reusing them even past >1 year, or they are <1 year old, use the files
             if REUSE_CRAWL_PAST_CURRENT_YEAR or timestamp_year == current_year:
-                reuse_text_file = candidate_text_file
-                if os.path.exists(candidate_q_and_a_file):
-                    reuse_q_and_a_file = candidate_q_and_a_file
-                # unless not all files are available (then error out and return)
-                else:
-                    print(f"run_crawler_agent: '{candidate_q_and_a_file}' not found. Are you sure it exists on Modal?")
-                    return
-                print(f"run_crawler_agent: reusing crawl {os.path.basename(candidate_text_file)}")
+                for variant in ENCODE_VARIANTS.keys():
+                    candidate_file = os.path.join(
+                        variant_paths[variant],
+                        f"{FILE_START}{reuse_timestamp}.jsonl"
+                    )
+                    if not os.path.exists(candidate_file):
+                        print(f"run_crawler_agent: '{candidate_file}' not found. Are you sure it exists on Modal?")
+                        return
+                    variant_file_paths[variant] = candidate_file
+                encode_timestamp = reuse_timestamp
+                anchor_variant = next(iter(ENCODE_VARIANTS))
+                print(f"run_crawler_agent: reusing crawl {os.path.basename(variant_file_paths[anchor_variant])}")
             # else, discard, crawl and use a new version
             else:
                 print(f"run_crawler_agent: REUSE_TIMESTAMP '{reuse_timestamp}' is outside current year ({current_year}): crawling fresh data")
@@ -310,39 +370,38 @@ async def run_crawler_agent():
         # else (we want to reuse but no timestamp is set):
         else:
             year_filter = "*" if REUSE_CRAWL_PAST_CURRENT_YEAR else f"{current_year}*"
-            existing_text_files = glob.glob(os.path.join(LM_CLEANED_TEXT_CHUNKS_PATH, f"{FILE_START}{year_filter}.jsonl"))
+            anchor_variant = next(iter(ENCODE_VARIANTS))
+            existing_text_files = glob.glob(
+                os.path.join(variant_paths[anchor_variant], f"{FILE_START}{year_filter}.jsonl")
+            )
             # if no file exists (or no file within the current year), error out and return
             if not existing_text_files:
-                print(f"run_crawler_agent: REUSE_CRAWL is enabled but no lm_cleaned file was found. Are you sure it exists on Modal?")
+                print(f"run_crawler_agent: REUSE_CRAWL is enabled but no '{anchor_variant}' file was found. Are you sure it exists on Modal?")
                 return
 
             # if they exist, use them
-            reuse_text_file = max(existing_text_files, key=os.path.getctime)
-            matching_q_and_a_file = os.path.join(LM_Q_AND_A_CHUNKS_PATH, os.path.basename(reuse_text_file))
-            if os.path.exists(matching_q_and_a_file):
-                reuse_q_and_a_file = matching_q_and_a_file
-            # unless not all files are available (then error out and return)
-            else:
-                print(f"run_crawler_agent: '{matching_q_and_a_file}' not found. Are you sure it exists on Modal?")
-                return
-            print(f"run_crawler_agent: reusing latest eligible crawl: {os.path.basename(reuse_text_file)}")
+            anchor_file = max(existing_text_files, key=os.path.getctime)
+            anchor_basename = os.path.basename(anchor_file)
+            encode_timestamp = anchor_basename[len(FILE_START):-len(".jsonl")]
+            for variant in ENCODE_VARIANTS.keys():
+                candidate_file = os.path.join(variant_paths[variant], os.path.basename(anchor_file))
+                if not os.path.exists(candidate_file):
+                    print(f"run_crawler_agent: '{candidate_file}' not found. Are you sure it exists on Modal?")
+                    return
+                variant_file_paths[variant] = candidate_file
+            print(f"run_crawler_agent: reusing latest eligible crawl: {os.path.basename(anchor_file)}")
 
     # if a reusable crawl is available, load it (from the volume)
-    if reuse_text_file:
-        with open(reuse_text_file, "r", encoding="utf-8") as f:
-            lm_cleaned_text_chunks = [json.loads(line) for line in f]
-        with open(reuse_q_and_a_file, "r", encoding="utf-8") as f:
-            lm_q_and_a_chunks = [json.loads(line) for line in f]
+    if variant_file_paths:
+        for variant, file_path in variant_file_paths.items():
+            with open(file_path, "r", encoding="utf-8") as f:
+                variants_to_encode[variant] = [json.loads(line) for line in f]
     
     # else, fetch, clean up, and store the data on the volume
     else:
         try:
-            # load decoder tokenizer to count page tokens (for generation)
-            decoder_path = DECODER_MODEL_PROFILES["email_writer"]["model_path"]
-            decoder_tokenizer = AutoTokenizer.from_pretrained(decoder_path, trust_remote_code=True)
-
             # create text splitter using the decoder tokenizer and a max chunk size
-            lm_chunk_size = DECODER_MODEL_PROFILES["data_cleaner"]["max_chunk_size"] 
+            lm_chunk_size = DECODER_MODEL_PROFILES[DATA_CLEANER_PROFILE]["max_chunk_size"]
             lm_splitter = SentenceSplitter(
                 chunk_size=lm_chunk_size,
                 chunk_overlap=CHUNK_OVERLAP,
@@ -478,6 +537,7 @@ async def run_crawler_agent():
 
         now = datetime.datetime.now()
         timestamp = now.strftime("%Y%m%d_%H%M%S")
+        encode_timestamp = timestamp
 
         files = {
             "raw": {
@@ -536,29 +596,6 @@ async def run_crawler_agent():
                     header_manually_cleaned = f"MANUALLY CLEANED PAGE {i+1}: {url} | Tokens {decoder_path}: {manually_cleaned_data['decoder_token_count']:,} | Tokens {encoder_path}: {manually_cleaned_data['encoder_token_count']:,}"
                     f_manually_cleaned_txt.write(f"\n{separator}\n{header_manually_cleaned}\n{separator}\n{manually_cleaned_data['text']}\n")
 
-            # save chunk-level data helper
-            def save_chunks(chunk_list, json_path, txt_path, label):
-                with open(json_path, "w", encoding="utf-8") as f_json, open(txt_path, "w", encoding="utf-8") as f_txt:
-                    
-                    for i, chunk in enumerate(chunk_list):
-                        separator = "=" * 150
-                        f_json.write(json.dumps(chunk) + "\n")
-
-                        if "text" in chunk:
-                            content = chunk["text"]
-                            token_info = f"Tokens {decoder_path}: {chunk['decoder_token_count']:,} | Tokens {encoder_path}: {chunk['encoder_token_count']:,}"
-                        elif "pairs" in chunk:
-                            content = "\n".join([f"Q: {pair['question']}\nA: {pair['answer']}" for pair in chunk["pairs"]])
-                            max_decoder_tokens = max((pair["decoder_token_count"] for pair in chunk["pairs"]))
-                            max_encoder_tokens = max((pair["encoder_token_count"] for pair in chunk["pairs"]))
-                            token_info = f"Pairs: {len(chunk['pairs'])} | Tokens (max) {decoder_path}: {max_decoder_tokens:,} | Tokens (max) {encoder_path}: {max_encoder_tokens:,}"
-                        else:
-                            content = ""
-                            token_info = ""
-
-                        header = f"{label} CHUNK {i+1} [Source: {chunk['url']}] | {token_info}"
-                        f_txt.write(f"\n{separator}\n{header}\n{separator}\n{content}\n")
-
             # save all chunk types
             save_chunks(raw_chunks, files["raw_chunks"]["json"], files["raw_chunks"]["txt"], "RAW")
             save_chunks(manually_cleaned_chunks, files["manually_cleaned_chunks"]["json"], files["manually_cleaned_chunks"]["txt"], "MANUALLY CLEANED")
@@ -574,7 +611,198 @@ async def run_crawler_agent():
         except Exception as e:
             print(f"run_crawler_agent: error saving files: {e}")
 
-    # encode
-    print("run_crawler_agent: encode to begin shortly")
+        # select variants to encode
+        if "raw_chunks" in ENCODE_VARIANTS:
+            variants_to_encode["raw_chunks"] = raw_chunks
+        if "manually_cleaned_chunks" in ENCODE_VARIANTS:
+            variants_to_encode["manually_cleaned_chunks"] = manually_cleaned_chunks
+        if "lm_cleaned_text_chunks" in ENCODE_VARIANTS:
+            variants_to_encode["lm_cleaned_text_chunks"] = lm_cleaned_text_chunks
+        if "lm_abstract_chunks" in ENCODE_VARIANTS:
+            variants_to_encode["lm_abstract_chunks"] = lm_abstract_chunks
+        if "lm_summary_chunks" in ENCODE_VARIANTS:
+            variants_to_encode["lm_summary_chunks"] = lm_summary_chunks
+        if "lm_q_and_a_chunks" in ENCODE_VARIANTS:
+            variants_to_encode["lm_q_and_a_chunks"] = lm_q_and_a_chunks
+        if "lm_q_and_a_for_q_only_chunks" in ENCODE_VARIANTS:
+            variants_to_encode["lm_q_and_a_for_q_only_chunks"] = lm_q_and_a_chunks
+
+    if not variants_to_encode:
+        print("run_crawler_agent: no variants selected to encode")
+        return
+
+    # process data before encoding:
+    # if raw data is selected:              keep raw data as is
+    # if manually cleaned data is selected: keep manually cleaned data as is
+    # if lm cleaned data is selected:       subchunk LM cleaned data
+    # if lm summaries is selected:          subchunk LM summaries
+    # if lm Q&A is selected:                remove Q&A pairs over max size
+    # write any data to encode (that isn't already in a file) to file
+    encode_stats = []
+    for variant, chunks in variants_to_encode.items():
+        items_to_encode = 0
+
+        if variant in ["lm_q_and_a_chunks", "lm_q_and_a_for_q_only_chunks"]:
+            skip_label = "Q&A pairs" if variant == "lm_q_and_a_chunks" else "questions"
+            print(f"run_crawler_agent: processing {variant}; skipping overlength {skip_label}")
+            skipped_example = None
+            pair_count = 0
+            valid_chunks = []
+            for chunk in chunks:
+                valid_pairs = []
+                for pair in chunk["pairs"]:
+                    question = pair["question"].strip()
+                    answer = pair["answer"].strip()
+                    if variant == "lm_q_and_a_chunks":
+                        text = f"Q: {question}\nA: {answer}".strip()
+                    else:
+                        text = question
+                    pair_count += 1
+                    # for Q&A, splitting probably does not make sense, so if we surpass
+                    # the max_recommended_input_size, we simply skip the Q&A pair
+                    token_ids = encoder_tokenizer.encode(text, add_special_tokens=False)
+                    if len(token_ids) > embedding_chunk_size:
+                        if skipped_example is None:
+                            preview_limit = embedding_chunk_size * 3
+                            skipped_example = text[:preview_limit] + "..." if len(text) > preview_limit else text
+                        continue
+                    q_decoder_tokens = count_tokens(decoder_tokenizer, question)
+                    a_decoder_tokens = count_tokens(decoder_tokenizer, answer)
+                    q_encoder_tokens = count_tokens(encoder_tokenizer, question)
+                    a_encoder_tokens = count_tokens(encoder_tokenizer, answer)
+                    pair["decoder_token_count"] = max(q_decoder_tokens, a_decoder_tokens)
+                    pair["encoder_token_count"] = max(q_encoder_tokens, a_encoder_tokens)
+                    valid_pairs.append(pair)
+                    items_to_encode += 1
+                if valid_pairs:
+                    valid_chunks.append({
+                        "url": chunk["url"],
+                        "chunk_index": chunk["chunk_index"],
+                        "pairs": valid_pairs
+                    })
+            if variant == "lm_q_and_a_chunks":
+                os.makedirs(LM_Q_AND_A_VALID_CHUNKS_PATH, exist_ok=True)
+                lm_q_and_a_json = os.path.join(LM_Q_AND_A_VALID_CHUNKS_PATH, f"{FILE_START}{encode_timestamp}.jsonl")
+                lm_q_and_a_txt = os.path.join(LM_Q_AND_A_VALID_CHUNKS_PATH, f"{FILE_START}{encode_timestamp}.txt")
+                save_chunks(valid_chunks, lm_q_and_a_json, lm_q_and_a_txt, "LM Q&A")
+            else:
+                os.makedirs(LM_Q_AND_A_FOR_Q_ONLY_VALID_CHUNKS_PATH, exist_ok=True)
+                lm_q_only_json = os.path.join(LM_Q_AND_A_FOR_Q_ONLY_VALID_CHUNKS_PATH, f"{FILE_START}{encode_timestamp}.jsonl")
+                lm_q_only_txt = os.path.join(LM_Q_AND_A_FOR_Q_ONLY_VALID_CHUNKS_PATH, f"{FILE_START}{encode_timestamp}.txt")
+                save_chunks(valid_chunks, lm_q_only_json, lm_q_only_txt, "LM Q&A for Q only")
+        else:
+            if variant in ["raw_chunks", "manually_cleaned_chunks"]:
+                print(f"run_crawler_agent: skipping re-splitting for {variant} (already chunked)")
+                items_to_encode = len(chunks)
+            else:
+                print(f"run_crawler_agent: splitting for {variant}")
+                prepared_chunks = []
+                for chunk_index, chunk in enumerate(chunks, start=1):
+                    text = chunk["text"].strip()
+                    # for summaries, etc., we can split and keep meaning
+                    split_texts = embedding_splitter.split_text(text)
+                    for split_index, split_text in enumerate(split_texts):
+                        items_to_encode += 1
+                        prepared_chunks.append({
+                            "url": chunk["url"],
+                            "chunk_index": chunk_index,
+                            "subchunk_index": split_index + 1,
+                            "text": split_text,
+                            "decoder_token_count": count_tokens(decoder_tokenizer, split_text),
+                            "encoder_token_count": count_tokens(encoder_tokenizer, split_text)
+                        })
+                if variant == "lm_cleaned_text_chunks":
+                    os.makedirs(LM_CLEANED_TEXT_SUBCHUNKS_PATH, exist_ok=True)
+                    lm_cleaned_json = os.path.join(LM_CLEANED_TEXT_SUBCHUNKS_PATH, f"{FILE_START}{encode_timestamp}.jsonl")
+                    lm_cleaned_txt = os.path.join(LM_CLEANED_TEXT_SUBCHUNKS_PATH, f"{FILE_START}{encode_timestamp}.txt")
+                    save_chunks(prepared_chunks, lm_cleaned_json, lm_cleaned_txt, "LM CLEANED TEXT")
+                if variant == "lm_summary_chunks":
+                    os.makedirs(LM_SUMMARY_SUBCHUNKS_PATH, exist_ok=True)
+                    lm_summary_json = os.path.join(LM_SUMMARY_SUBCHUNKS_PATH, f"{FILE_START}{encode_timestamp}.jsonl")
+                    lm_summary_txt = os.path.join(LM_SUMMARY_SUBCHUNKS_PATH, f"{FILE_START}{encode_timestamp}.txt")
+                    save_chunks(prepared_chunks, lm_summary_json, lm_summary_txt, "LM SUMMARY")
+
+        encode_stats.append({
+            "variant": variant,
+            "chunk_count": len(chunks),
+            "items_to_encode": items_to_encode,
+            "q_and_a_pair_count": pair_count if variant in ["lm_q_and_a_chunks", "lm_q_and_a_for_q_only_chunks"] else None,
+            "skipped_example": skipped_example if variant in ["lm_q_and_a_chunks", "lm_q_and_a_for_q_only_chunks"] else None
+        })
+
+    print("run_crawler_agent: summary:")
+    for stats in encode_stats:
+        variant = stats["variant"]
+        chunk_count = stats["chunk_count"]
+        items_to_encode = stats["items_to_encode"]
+        if variant in ["lm_q_and_a_chunks", "lm_q_and_a_for_q_only_chunks"]:
+            pair_count = stats["q_and_a_pair_count"]
+            skipped_pairs = pair_count - items_to_encode
+            print(f"run_crawler_agent: {variant}: ({chunk_count} chunks) {pair_count} pairs: {items_to_encode} items to encode")
+            if skipped_pairs:
+                skipped_label = "questions" if variant == "lm_q_and_a_for_q_only_chunks" else "Q&A pairs"
+                print(f"run_crawler_agent: skipped {skipped_pairs} {skipped_label} due to exceeding embedding chunk size")
+                if stats["skipped_example"]:
+                    print(f"run_crawler_agent: skipped {skipped_label} example: {stats['skipped_example']}")
+        else:
+            print(f"run_crawler_agent: {variant}: {chunk_count} chunks: {items_to_encode} items to encode")
+
+    if any(variant in variants_to_encode for variant in ["lm_cleaned_text_chunks", "lm_summary_chunks", "lm_q_and_a_chunks", "lm_q_and_a_for_q_only_chunks"]):
+        rag_volume.commit()
+        print("run_crawler_agent: volume committed")
+
+    encode_file_paths = {
+        "raw_chunks": RAW_CHUNKS_PATH,
+        "manually_cleaned_chunks": MANUALLY_CLEANED_CHUNKS_PATH,
+        "lm_cleaned_text_chunks": LM_CLEANED_TEXT_SUBCHUNKS_PATH,
+        "lm_summary_chunks": LM_SUMMARY_SUBCHUNKS_PATH,
+        "lm_q_and_a_chunks": LM_Q_AND_A_VALID_CHUNKS_PATH,
+        "lm_q_and_a_for_q_only_chunks": LM_Q_AND_A_FOR_Q_ONLY_VALID_CHUNKS_PATH,
+    }
+
+    # create collection
+    encoder_functions = {}
+    try:
+        create_collections = modal.Function.from_name("collection-handler", "create_collections")
+    except Exception as e:
+        print(f"run_crawler_agent: failed to find collection-handler.create_collections. Is it deployed? Error: {e}")
+        return
+    await create_collections.remote.aio(list(variants_to_encode.keys()), RECREATE_QDRANT_COLLECTIONS)
+
+    for variant in variants_to_encode.keys():
+        variant_config = ENCODE_VARIANTS[variant]
+        encoder_variant_config = variant_config["encoders"]
+        file_path = os.path.join(encode_file_paths[variant], f"{FILE_START}{encode_timestamp}.jsonl")
+        if not os.path.exists(file_path):
+            print(f"run_crawler_agent: missing encode file '{file_path}'")
+            return
+        with open(file_path, "r", encoding="utf-8") as f:
+            total_records = sum(1 for _ in f)
+        for encoder_name, encoder_config_for_variant in encoder_variant_config.items():
+            encoder_config = ENCODERS[encoder_name]
+            service_name = encoder_config["service"]
+            function_name = encoder_config["function"]
+            batch_size = encoder_config_for_variant["batch_size"]
+            service_key = (service_name, function_name)
+            if service_key not in encoder_functions:
+                try:
+                    encoder_functions[service_key] = modal.Function.from_name(service_name, function_name)
+                except Exception as e:
+                    print(f"run_crawler_agent: failed to find {service_name}.{function_name}. Is it deployed? Error: {e}")
+                    return
+            run_encoder = encoder_functions[service_key]
+            tasks = [
+                run_encoder.remote.aio(
+                    variant,
+                    encode_timestamp,
+                    start,
+                    batch_size,
+                    encoder_name
+                )
+                for start in range(0, total_records, batch_size)
+            ]
+            await asyncio.gather(*tasks)
+
+    print("run_crawler_agent: encoder dispatch complete")
 
     return
