@@ -6,7 +6,10 @@ from config.decoder import (
     GPU,
     TIMEOUT,
     SCALEDOWN_WINDOW,
-    MIN_CONTAINERS
+    MIN_CONTAINERS,
+    EMAIL_WRITER_PROFILE,
+    THREAD_GROUPER_PROFILE,
+    DATA_CLEANER_PROFILE
 )
 
 # Modal
@@ -34,14 +37,14 @@ def run_qwen3_lm_or_vlm(
     use_flash_attention_2,
     enable_thinking,
     return_prompt_text=False,
-    is_email_writer=True
+    decoder_profile=EMAIL_WRITER_PROFILE
     ):
     import io
     import torch
     from PIL import Image
     from peft import AutoPeftModelForCausalLM
-    from helpers.decoder import remove_think_tokens, extract_message_content, extract_lm_cleaned_content
     from transformers import AutoTokenizer, AutoModelForCausalLM, AutoProcessor, Qwen3VLForConditionalGeneration
+    from helpers.decoder import remove_think_tokens, extract_message_content, extract_lm_cleaned_content, extract_thread_content
     from config.decoder import (
         NO_MESSAGE_OPENING_TAG,
         NO_MESSAGE_CLOSING_TAG,
@@ -53,6 +56,18 @@ def run_qwen3_lm_or_vlm(
         SUMMARY_CLOSING_TAG,
         CLEANED_TEXT_OPENING_TAG,
         CLEANED_TEXT_CLOSING_TAG,
+        THREAD_OPENING_TAG,
+        THREAD_CLOSING_TAG,
+        THREAD_MESSAGE_OPENING_TAG,
+        THREAD_MESSAGE_CLOSING_TAG,
+        THREAD_FROM_OPENING_TAG,
+        THREAD_FROM_CLOSING_TAG,
+        THREAD_TO_OPENING_TAG,
+        THREAD_TO_CLOSING_TAG,
+        THREAD_SUBJECT_OPENING_TAG,
+        THREAD_SUBJECT_CLOSING_TAG,
+        THREAD_BODY_OPENING_TAG,
+        THREAD_BODY_CLOSING_TAG,
         QUESTION_OPENING_TAG,
         QUESTION_CLOSING_TAG,
         ANSWER_OPENING_TAG,
@@ -228,24 +243,46 @@ def run_qwen3_lm_or_vlm(
     ##########################################################
     # Extract reply if LM think it has enough info to answer #
     ##########################################################
-    output_text = extract_message_content(
-        output_text,
-        NO_MESSAGE_OPENING_TAG,
-        NO_MESSAGE_CLOSING_TAG,
-        MESSAGE_OPENING_TAG,
-        MESSAGE_CLOSING_TAG
-        ) if is_email_writer else extract_lm_cleaned_content(
-        output_text,
-        ABSTRACT_OPENING_TAG,
-        ABSTRACT_CLOSING_TAG,
-        SUMMARY_OPENING_TAG,
-        SUMMARY_CLOSING_TAG,
-        CLEANED_TEXT_OPENING_TAG,
-        CLEANED_TEXT_CLOSING_TAG,
-        QUESTION_OPENING_TAG,
-        QUESTION_CLOSING_TAG,
-        ANSWER_OPENING_TAG,
-        ANSWER_CLOSING_TAG
+    if decoder_profile == EMAIL_WRITER_PROFILE:
+        output_text = extract_message_content(
+            output_text,
+            NO_MESSAGE_OPENING_TAG,
+            NO_MESSAGE_CLOSING_TAG,
+            MESSAGE_OPENING_TAG,
+            MESSAGE_CLOSING_TAG
         )
+    elif decoder_profile == THREAD_GROUPER_PROFILE:
+        output_text = extract_thread_content(
+            output_text,
+            THREAD_OPENING_TAG,
+            THREAD_CLOSING_TAG,
+            THREAD_MESSAGE_OPENING_TAG,
+            THREAD_MESSAGE_CLOSING_TAG,
+            THREAD_FROM_OPENING_TAG,
+            THREAD_FROM_CLOSING_TAG,
+            THREAD_TO_OPENING_TAG,
+            THREAD_TO_CLOSING_TAG,
+            THREAD_SUBJECT_OPENING_TAG,
+            THREAD_SUBJECT_CLOSING_TAG,
+            THREAD_BODY_OPENING_TAG,
+            THREAD_BODY_CLOSING_TAG
+        )
+    elif decoder_profile == DATA_CLEANER_PROFILE:
+        output_text = extract_lm_cleaned_content(
+            output_text,
+            ABSTRACT_OPENING_TAG,
+            ABSTRACT_CLOSING_TAG,
+            SUMMARY_OPENING_TAG,
+            SUMMARY_CLOSING_TAG,
+            CLEANED_TEXT_OPENING_TAG,
+            CLEANED_TEXT_CLOSING_TAG,
+            QUESTION_OPENING_TAG,
+            QUESTION_CLOSING_TAG,
+            ANSWER_OPENING_TAG,
+            ANSWER_CLOSING_TAG
+        )
+    else:
+        print(f"run_qwen3_lm_or_vlm: unknown decoder_profile '{decoder_profile}'")
+        output_text = None
     
     return (output_text, prompt_text) if return_prompt_text else (output_text, None)
