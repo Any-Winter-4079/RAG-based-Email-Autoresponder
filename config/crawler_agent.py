@@ -1,4 +1,5 @@
 import modal
+from config.general import VOLUME_PATH
 
 START_URL = "https://muia.dia.fi.upm.es/es/"
 MAX_DEPTH = 3
@@ -44,10 +45,7 @@ CRAWL_MONTH = 9
 REUSE_CRAWL = True
 REUSE_CRAWL_PAST_CURRENT_YEAR = False
 REUSE_TIMESTAMP = "20260203_161009" # reuse this within the same year if REUSE_CRAWL, forever if REUSE_CRAWL_PAST_CURRENT_YEAR
-
-VOLUME_NAME = "muia-rag-volume"
-VOLUME_PATH = "/root/volume"
-QDRANT_PATH = f"{VOLUME_PATH}/qdrant"
+RECREATE_QDRANT_COLLECTIONS = True
 
 FILE_START = "crawl_"
 RAW_PATH = f"{VOLUME_PATH}/raw"
@@ -61,15 +59,72 @@ LM_ABSTRACT_CHUNKS_PATH = f"{VOLUME_PATH}/lm_abstract_chunks"
 LM_SUMMARY_CHUNKS_PATH = f"{VOLUME_PATH}/lm_summary_chunks"
 LM_Q_AND_A_CHUNKS_PATH = f"{VOLUME_PATH}/lm_q_and_a_chunks"
 
-PYTHON_VERSION = "3.11"
+LM_CLEANED_TEXT_SUBCHUNKS_PATH = f"{VOLUME_PATH}/lm_cleaned_text_subchunks"
+LM_SUMMARY_SUBCHUNKS_PATH = f"{VOLUME_PATH}/lm_summary_subchunks"
+LM_Q_AND_A_VALID_CHUNKS_PATH = f"{VOLUME_PATH}/lm_q_and_a_valid_chunks"
+LM_Q_AND_A_FOR_Q_ONLY_VALID_CHUNKS_PATH = f"{VOLUME_PATH}/lm_q_and_a_for_q_only_valid_chunks"
 
-image = (modal.Image.debian_slim(python_version=PYTHON_VERSION)
-         .pip_install(
-             "requests",
-             "transformers",
-             "torch",
-             "llama-index-core"
-         )
-         .add_local_python_source("config", "helpers")
+ENCODE_VARIANTS = {
+    "raw_chunks": {
+        "encoders": {
+            "bm25": {"batch_size": 1024},
+            "splade": {"batch_size": 1024},
+            "colbert": {"batch_size": 1024},
+            "bge_small": {"batch_size": 1024},
+        },
+    },
+    "manually_cleaned_chunks": {
+        "encoders": {
+            "bm25": {"batch_size": 384},
+            "splade": {"batch_size": 384},
+            "colbert": {"batch_size": 384},
+            "bge_small": {"batch_size": 384},
+        },
+    },
+    "lm_cleaned_text_chunks": {
+        "encoders": {
+            "bm25": {"batch_size": 384},
+            "splade": {"batch_size": 384},
+            "colbert": {"batch_size": 384},
+            "bge_small": {"batch_size": 384},
+        },
+    },
+    "lm_summary_chunks": {
+        "encoders": {
+            "bm25": {"batch_size": 256},
+            "splade": {"batch_size": 256},
+            "colbert": {"batch_size": 256},
+            "bge_small": {"batch_size": 256},
+        },
+    },
+    "lm_q_and_a_chunks": {
+        "encoders": {
+            "bm25": {"batch_size": 64},
+            "splade": {"batch_size": 64},
+            "colbert": {"batch_size": 64},
+            "bge_small": {"batch_size": 64},
+        },
+    },
+    "lm_q_and_a_for_q_only_chunks": {
+        "encoders": {
+            "bm25": {"batch_size": 64},
+            "splade": {"batch_size": 64},
+            "colbert": {"batch_size": 64},
+            "bge_small": {"batch_size": 64},
+        },
+    },
+}
+
+PYTHON_VERSION = "3.11"
+PACKAGES = [
+    "requests",
+    "transformers",
+    "torch",
+    "llama-index-core"
+]
+
+image = (
+    modal.Image.debian_slim(python_version=PYTHON_VERSION)
+    .pip_install(*PACKAGES)
+    .add_local_python_source("config", "helpers")
 )
-rag_volume = modal.Volume.from_name(VOLUME_NAME, create_if_missing=True)
